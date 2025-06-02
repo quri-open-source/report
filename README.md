@@ -3187,3 +3187,13 @@ Este diagrama describe el contexto de "Catálogo de Productos" (Product Catalog)
 ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXelB1UT1Jm7ju7kXmS8i9vRgWnQExyTIirqccY2wVJ557epiLdxfs18YZBudgQmWy-Ke2ixIGGyK4P1fHw4afNYUBv-_pUCXPUopz1XRX66PXm0wm0XuOHA19_9KJST2eSsYmEL8w?key=wLsuErVgqDz-qczrBI4kMctR)
 
 Este diagrama ilustra el contexto de "Pasarela de Pago" (**Payment Gateway**) con las capas de **Interfaces, Aplicación y Dominio**. El **PaymentController** (**Interfaces**) maneja las solicitudes para iniciar pagos, obtener estados y procesar reembolsos. El **PaymentGatewayService** (**Aplicación**) coordina estas operaciones usando un repositorio (**ITransactionRepository**) y un adaptador para un servicio externo (**StripePaymentAdapter**). El Dominio se centra en el agregado Transaction, que representa una transacción de pago con su estado, monto, divisiones de ingresos (**RevenueSplit**) y recibo (Receipt), definiendo también las interfaces para persistencia y el servicio de pago externo.
+
+**User Management:**
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdSZCDAxNQtIqxP4C1xIycBXq5iigtGIIqm4rBUaheptteDbGZ5R4rhnDkFceXGW7JejinOQL69OAh2QikkyZByREK9MSNxWeCORNKb4NBq_7StvwrzJ___9lpG2VLX7vnB_tPj?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Este diagrama muestra el contexto de "Gestión de Usuarios" (**User Management**) con las capas de **Interfaces, Aplicación y Dominio**. El **UserController (Interfaces)** procesa las solicitudes de registro, inicio de sesión, actualización de perfil y roles. El **UserManagementService (Aplicación)** orquesta estas operaciones, utilizando un repositorio **(IUserRepository)** y un adaptador de autenticación **(SupabaseAuthAdapter).** La capa de Dominio se centra en el agregado **User** (que contiene perfil, roles, tokens de sesión) y define las interfaces para el repositorio y el servicio de autenticación externo **(Supabase).**
+
+Repositorio con los diagramas de clase: https://github.com/quri-open-source/docs 
+
+Se ubica dentro de la carpeta de class-diagrams
