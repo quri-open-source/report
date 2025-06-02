@@ -3342,3 +3342,8 @@ Este diagrama de base de datos para la **"Pasarela de Pago"** se enfoca en la ta
 
 ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcebSs1AqL9MHRzmHhkdSi4dX5myrYYr_wrEigj1aI0O0iaTfkVNekbsl4tLzBOjAnyN4V3KHuaFBXL7GdWwBCsOu1Pc0UPV9Md6dybhMaOB1smVNLjR67Rl4r7Q8FEW1oCJRhmBw?key=wLsuErVgqDz-qczrBI4kMctR)Este diagrama de base de datos para el **"Catálogo de Productos"** muestra la tabla central **Product** con los detalles principales del producto. Se relaciona mediante tablas de unión **(ProductCategory, ProductTag)** con las tablas **Category** y **Tag** para manejar relaciones de muchos a muchos (un producto puede tener varias categorías/etiquetas y viceversa). Además, un producto se relaciona con múltiples registros en las tablas **Rating** (calificaciones de usuarios), **ProductImage** (URLs de imágenes) y **ProductSize** (tallas disponibles), estableciendo relaciones uno a muchos mediante claves foráneas.
 
+1. User Management
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfqX8lmH--tkL6FKtHoLD_URJ7f5H-p36-pCuQXZa9GDWBQcITGce0rNngtaK9u570aEdYL-UK9o9khf3xAVArpzIkoaKNykZsBJhCZsx7vpHDf2_vOQbb3Yh0UYDBTmwvb4pwN?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Este diagrama de base de datos para **"Gestión de Usuarios"** tiene la tabla **User** como entidad central, almacenando credenciales básicas **(email, hash de contraseña)**, estado y proveedor de autenticación. Un **User** tiene asociado un único **UserProfile (con datos como nombre, imagen, bio)** mediante una llave foránea. Además, un usuario puede tener múltiples **UserRole** (roles asignados) y gestiona múltiples **SessionToken** (tokens de sesión activos con su fecha de expiración y validez), ambas tablas vinculadas también a través de la userId.
