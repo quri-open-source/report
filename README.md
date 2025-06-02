@@ -2095,3 +2095,61 @@ Los wireframes desarrollados para la plataforma Quri permite visualizar anticipa
 ### 4.3.2. Landing Page Mock-up
 
 Los mockups son representaciones visuales de alta fidelidad del diseño de una interfaz, que muestran con detalle el estilo gráfico, la disposición definitiva de los elementos y el lenguaje visual de la marca. En Quri, se desarrollaron mockups completos para las vistas principales del sitio en sus versiones desktop y mobile, manteniendo coherencia visual, accesibilidad y diseño responsivo. Las vistas consideradas son: Home, About, FAQ y Team, ya que representan las secciones clave para comunicar la identidad, propósito y funcionalidad de la plataforma.
+
+Home Page
+
+- Desktop Version
+
+El mockup desktop de la página principal destaca por una estética minimalista y moderna. La parte superior incluye un header con logo y enlaces a About, FAQ, Team, Join y Login. El foco visual está en el hero section, que presenta un título atractivo y un botón CTA (“Start Designing Now”) con fondo azul, además de un mensaje motivacional. A continuación, se despliega contenido visual por bloques con imágenes, tipografía clara y secciones como “Design It. Rock It.” y “Support real artists”. El footer contiene enlaces organizados (Home Page, Community, Legal, Company) con íconos sociales y mensaje de marca.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdFaYkgRp2WQMnNPP1kCcsR8uUKBGSgof6OemD4xfB_RMhqbbGVAVchSz-3H8dfSlpiQRnAcwQFA5lUXVgT7WZPMIByg9DFFF8NNTR74Zp3QWLRXlsRvONpUaIawXan_Dro8vH8tw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile Version
+
+La versión mobile adapta los elementos a una estructura scroll vertical fluido. El header se transforma en un menú hamburguesa accesible y los botones Join y Login se posicionan de forma visible. El botón “Start Designing Now” permanece en el centro del hero section, seguido por bloques con imágenes y textos alternados. Se mantiene una buena proporción entre tipografía, márgenes y altura de botones, asegurando usabilidad táctil.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd7YvA1Wj5fioc4mf8kDa2GYZhYqS-j9t-7m535NK3JnBoQDgMVJFJfgnvjHZwq6Q9utBsIuEw4TopbanD7S8IP4FUxI1XTkNxSwcJpHgoSw4ybUBvA6bQvSVmDEGxhkVsB21A5?key=wLsuErVgqDz-qczrBI4kMctR)
+
+FAQ Page
+
+- Desktop Version
+
+El mockup de FAQ presenta una estructura de acordeón con preguntas frecuentes. Cada entrada muestra una respuesta clara al expandirse. Se conserva el branding visual de la plataforma y se incluye una sección adicional con canales de contacto (email, teléfono, Instagram). La interfaz es simple, legible y centrada en resolver dudas con eficiencia.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfGlFVg2nntmVpZ5rDOOAu5-G1y_m7TtnYTb4b6FVAMoxhGiDm1muARS3QYW5LwZ5e_fDYkuy4iCsfBfRZgQV2Tv4ujibU5DBJE3lVanXrIyQf4TUqDAxSPfl_cB19pNoAdeRPC?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile Version
+
+Cada pregunta se muestra como un bloque expandible individual. El diseño evita saturación visual mediante el uso de mucho blanco y un diseño “tap-friendly”. La sección de contacto se muestra al final como alternativa si las respuestas no son suficientes.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdiTqCpQ9yuRQDtTdb_taOHouFDJA3ozYMnvH-OTmGlKKNp6h1L2OjJ6VzvGJVZSG-EFDSySnrra9Pj_1mopIYDtDdAvgug4U0cW6lzaIPClR1Ud0hIxU83cDDvnpIJjqae9O2V?key=wLsuErVgqDz-qczrBI4kMctR)
+
+About Page
+
+- Desktop Version
+
+Esta pantalla está estructurada con una introducción sobre la misión de Quri, seguida por “Our Story”, “What We Offer” y “Why It Matters”. Los textos están acompañados de imágenes representativas y llamadas a la acción como “Learn More” o “Learn Pricing”. Predomina el uso de fondos claros, espaciado amplio y jerarquía tipográfica bien definida.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfNcYdK4B7T_e_QV_L0K6WukSIjwyUcJtI37FYS7BSbx-Mdwmagk7UY1Xx4ywNDwrD1Bbk_MkcIFWt8d-zcI8OAJJj1JN1CZGzQO3TTGgf0HhvgLPiDZAobT8nAiY3ww8w5284Eqw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile Version
+
+El contenido se organiza en bloques verticales, iniciando por la misión y luego pasando a la historia y beneficios. Se prioriza el espaciado, con texto de cuerpo ampliado y títulos destacados, manteniendo un alto nivel de legibilidad. Las llamadas a la acción se presentan centradas, con botones de borde redondeado.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdCk2oar0vlQkiSMrmjBLjAMrED1SQVL84q0Et9gbCWFiwyfTLVY6t1-Wx3H9KH0bbrFB4XJluOtbudTjgBgO_Z23xg23RutPsoVV8HOS0nMY40ZLmyUqLtJImORZ5GJFtCwg_E?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Team Page:
+
+- Desktop Version
+
+La sección del equipo muestra una grilla con cinco perfiles, cada uno con nombre, foto y descripción biográfica. El diseño mantiene una presentación limpia y profesional, transmitiendo cercanía y transparencia sobre quiénes están detrás de Quri. El fondo neutro y la alineación central refuerzan la lectura amigable.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdQWuJd9u5inRok32ISOPZJl7kmLdtj10OHwMv4KvakpYYK3J58oSZwBwvOyqigLZv2oXlxNeGux5N4uvfqr_2_jcicJO-K9YNG7gqMHtJLoTzaOESXJodsJmjtqb4D32B98hy7yA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile Version
+
+Los perfiles del equipo se presentan en forma de lista vertical, uno debajo del otro, con imagen en la parte superior y descripción centrada. El diseño es responsivo, enfocado en claridad y lectura rápida desde dispositivos móviles.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfNp97CbvjJ91R687tq8V7VHfmnPq_vHL664f0gEj4rLfJjTVeDm-yMcLsZ9ZNmXbVWQUReimMmSdbftMYhLQ5nzRH4icKT4zD3deQZS3zRwhl0PbkIfbBNkCXTnvkCG_Rl4b1TMA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Los mockups de Quri representan una etapa avanzada del diseño visual, donde se consolidan las decisiones tomadas durante el wireframing y se aplican los lineamientos estéticos definidos en las guías de estilo. Tanto en desktop como en mobile, se evidencia una interfaz limpia, accesible y alineada con los principios de diseño centrado en el usuario. La coherencia gráfica, el uso de tipografía sans-serif, el sistema de colores funcionales y la correcta jerarquía visual fortalecen la identidad de marca y garantizan una experiencia intuitiva en todos los dispositivos. Estos mockups constituyen la base visual para la implementación técnica de la plataforma.
