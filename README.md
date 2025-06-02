@@ -3164,3 +3164,8 @@ En términos estratégicos, este componente permite personalizar profundamente l
 
 
 Este diagrama muestra la arquitectura en capas (**Interfaces, Aplicación, Dominio**) de un "Design Lab". La capa de Interfaces (**DesignLabController**) recibe las peticiones. La capa de Aplicación (**DesignLabService**) coordina la lógica y utiliza repositorios y servicios. El núcleo es la capa de Dominio, centrada en el agregado **Blueprint**, que representa un diseño y contiene objetos como **DesignLayer** y **GarmentCanvas**. El Dominio también define interfaces para la persistencia (**IBlueprintRepository**) y servicios externos. Las dependencias apuntan hacia el Dominio.
+
+**Order Processing:****
+****![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe33dzEcEQcW9vwGD0GdzWmgj8Lc67DASHooypM6q8WrpRydRU0uRgnXrLTYIHXuK1jutjnzJnsv5wFYdfFLn1VAPNR8EfFzRTgmMTh-WVg2O4ZJpouicAC8rrWytVRYJ7t1mppJw?key=wLsuErVgqDz-qczrBI4kMctR)**
+
+Este diagrama ilustra un sistema de "Procesamiento de Pedidos" con una arquitectura de tres capas: Interfaces, Aplicación y Dominio. La capa de Interfaces (**OrderController**) maneja las solicitudes entrantes para crear pedidos, aplicar cupones y recibir confirmaciones de pago. La capa de Aplicación (**OrderProcessingService**) orquesta estas operaciones, interactuando con un repositorio de pedidos (**IOrderRepository**) y un servicio de pago (**IPaymentInitiator**). El núcleo es la capa de Dominio, donde el agregado **Order** gestiona su ciclo de vida y contiene **OrderItem** (artículos del pedido) y **Address** (direcciones). El dominio también incluye servicios como **OrderValidationService** y políticas como **DiscountPolicy**.
