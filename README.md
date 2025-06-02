@@ -1551,3 +1551,246 @@ Este mapa fue desarrollado en UX Pressia herramienta visual colaborativa y sirvi
 | 209    | US209       | Validate payment status before initiating new charge         | As a Developer, I want to check if the order has already been paid before allowing a new transaction to be submitted. | 2                |
 | 210    | US210       | Store transaction metadata for auditing                      | As a Platform Administrator, I want to access payment metadata for each transaction so that I can audit or resolve disputes. | 2                |
 | 211    | US211       | Save payment method, status, and timestamps per transaction  | As a Developer, I want to store fields like payment method, transaction ID, timestamp, amount, and status in the database. | 5                |
+
+# 4. Capítulo IV: Product Design
+
+## 4.1. Style Guidelines
+
+### 4.1.1. General Style Guidelines
+
+La sección General Style Guidelines establece los lineamientos visuales fundamentales que rigen la interfaz de usuario de la plataforma Quri. Su propósito es garantizar una experiencia consistente, coherente y accesible en todos los puntos de interacción.
+
+Este apartado define los principios de estilo que permiten mantener uniformidad visual a lo largo del sistema, facilitando la comprensión del contenido, la navegación intuitiva y el reconocimiento de elementos interactivos. A través de la estandarización de aspectos como la tipografía, la paleta cromática, el uso de íconos y los patrones de espaciado, se busca fortalecer la identidad visual de la plataforma y optimizar la usabilidad.
+
+En las siguientes subsecciones se detallan los elementos clave del diseño gráfico general: tipografías utilizadas, códigos de color, estilos de botones, distribución espacial, y consideraciones de accesibilidad que guían el desarrollo visual de la interfaz.
+
+1. Tipografia
+
+La familia tipográfica oficial del sistema es Istok Web, una fuente sans-serif pensada para interfaces limpias y modernas. Se ha definido la siguiente jerarquía:
+
+- Encabezados (H1, H2, H3): estilo bold, con tamaños de 24px, 32px y 40px según nivel.
+- Texto principal: estilo regular, tamaño base de 16px para garantizar legibilidad.
+- Elementos interactivos (botones, menús): estilo semi-bold, con espaciado adecuado y alineación centrada.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXewrC3E3yueU7RpwHF7zKFKgL2MyuY2-w_VZ8U8Prov8V98v3LJ859cP25vMeUN5eQevsJkKmEWwlVluCfmYpNuji-X6Men5Hr1v1PhTTeJ8LIG6meyB9d5d79lH82dG5SmnVut?key=wLsuErVgqDz-qczrBI4kMctR)
+
+1. Paleta de Colores
+
+La paleta cromática de la plataforma se basa en combinaciones de alto contraste y colores vibrantes para reforzar jerarquía visual, accesibilidad y marca:
+
+| **Color**                 | **Uso Principal**                                            |
+| ------------------------- | ------------------------------------------------------------ |
+| #FFFFFF (blanco)          | Fondo base de pantallas y secciones principales.             |
+| #000000 (negro)           | Texto principal y alto contraste en fondos claros.           |
+| #D8D9DA (gris claro)      | Bordes, separadores y fondos secundarios.                    |
+| #1689F4 (azul cielo)      | Botones primarios, íconos activos y enlaces.                 |
+| #0061EC (azul oscuro)     | Estados hover o énfasis visual en CTA importantes.           |
+| #444444 (gris medio, 50%) | Texto secundario, placeholders y etiquetas.                  |
+| #9345B7 (morado)          | Acentos visuales, íconos decorativos o destacados especiales. |
+
+Todos los colores cumplen con los niveles AA/AAA de contraste según las Web Content Accessibility Guidelines (WCAG 2.1), garantizando legibilidad y uso inclusivo.
+
+1. Estilo Visual e Iconografía
+
+El sistema utiliza íconos planos (flat design), sin sombras ni degradados, alineados a los principios de claridad visual. Los íconos se utilizan con un tamaño estándar de 24px y color azul (#1689F4) o morado (#9345B7) según el contexto de acción o decoración.
+
+1. Botones y estado 
+
+Los botones respetan consistencia visual y accesibilidad:
+
+- Primario: fondo #1689F4 con texto blanco.
+- Hover: cambia a #0061EC para feedback inmediato.
+- Desactivado: gris #D8D9DA con texto #444444 (50%).
+
+Todos los botones tienen esquinas redondeadas (radio: 8px), padding vertical de 12px y horizontal de 24px.
+
+1. Espaciado y Layout
+
+Se adopta una retícula de 12 columnas con márgenes flexibles (gutter 24px), asegurando adaptabilidad responsive. El espacio entre secciones mayores es de 48px. Se promueve el uso de espacios en blanco para mejorar el foco atencional y reducir carga cognitiva.
+
+1. Consistencia Multidispositivo
+
+El diseño se adapta bajo una filosofía mobile-first, garantizando experiencia óptima desde dispositivos móviles hasta escritorio, con ajuste dinámico de tipografías, tamaños de botones y layouts.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcJ392L4yEnXZCg5nFlEns5lz1xI5TIHkL5PTzq50OhAGbyCjqQ0gznqGlCenPq40JJmLNNdZGg_bt5EsULXkeBjoblBgXA5g3w9xQqMkmKLLh8pkKo2J48JTwLODpvrQko3ZSz?key=wLsuErVgqDz-qczrBI4kMctR)
+
+### 4.1.2. Web Style Guidelines
+
+Esta sección detalla los lineamientos visuales específicos aplicados a los componentes web interactivos de la plataforma Quri. El objetivo es asegurar coherencia estética, claridad funcional y accesibilidad, alineadas a la identidad visual de marca y los principios de diseño centrado en el usuario. Se abordan elementos clave como botones, enlaces, íconos, encabezado y pie de página, así como el tono comunicacional proyectado por cada uno.
+
+1. Botones Principales (CTA Buttons)
+
+Los botones de acción como "Start Designing Now" y "Start Creating" están diseñados para atraer la atención del usuario y guiarlo hacia acciones prioritarias:
+
+- Color de fondo: Azul vibrante (#0061EC) que comunica dinamismo y confianza.
+- Tipografía: Istok Web Bold, 14px, centrada, con formato tipo título.
+- Color del texto: Blanco puro (#FFFFFF), asegurando contraste y legibilidad.
+- Forma: Esquinas redondeadas al máximo (corner radius: 999px), lo que comunica amabilidad y modernidad.
+
+Tono comunicacional:
+
+- Serio pero cercano: profesional sin rigidez.
+- Casual con intención: directo, moderno y accesible.
+- Respetuoso y entusiasta: invita a la acción sin agresividad.
+
+Botones Informativos (FAQ, About, Team):
+
+- Color de fondo: Blanco puro (#FFFFFF).
+- Texto: Negro absoluto (#000000), Istok Web Regular, 16px.
+- Estilo: Diseño plano sin decoraciones. Se comportan como enlaces, con jerarquía secundaria.
+- Tono comunicacional:
+- Serio y sereno: priorizan la información.
+- Casual y accesible: por el lenguaje directo y limpio.
+- Respetuoso: sin distracciones visuales, favoreciendo la lectura.
+
+Botones de Usuario (Join y Login)
+
+- Join
+
+- Fondo: #FFFFFF
+- Texto: #000000
+
+- **Login**
+
+  - Fondo: #000000
+
+  - Texto: #FFFFFF
+
+    
+
+- **Tipografía:** Istok Web Regular, 14px.
+
+  
+
+- **Forma:** Esquinas completamente redondeadas (999px), formato cápsula.
+
+  
+
+- **Estilo:** Centrado, sin bordes, con fuerte contraste para jerarquía visual.
+
+  
+
+**Tono comunicacional:**
+
+- Serio, casual y directo.
+- Respetuoso: permite elegir acción sin presiones.
+- Entusiasta: el botón de Login destaca como acción principal.
+
+Enlaces de navegación
+
+- **Texto:** Blanco puro (#FFFFFF).
+
+- **Fondo:** Negro absoluto (#000000).
+
+  
+
+**Tipografía:**
+
+- **Home Page** – Istok Web, 16px (primaria).
+- **Community** – Istok Web, 12px (secundaria).
+- **Estilo visual:** Sin subrayado, alineación limpia, sin adornos.
+
+**Tono comunicacional:**
+
+- *Profesional y enfocado*, gracias al contraste.
+
+  
+
+- *Casual y moderno*, por el uso de sans serif.
+
+- *Respetuoso*, con jerarquía clara y navegación fluida.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeRrWXS_NY1US2gJbuzy94V4um0FtbZ7xJhYpzrafInhQwcgbRh3gqRvU2M6uXzPCsCdwJe1iB3ECVSaf3d3n8ctEnFlTD8qT2MaTIaPez0wvNINrXoFsXIW7UShfvBPYaySZns0w?key=wLsuErVgqDz-qczrBI4kMctR)
+
+**Header**
+
+El encabezado actúa como ancla visual y centro de navegación principal:
+
+- **Elementos:** Logotipo a la izquierda, enlaces a la derecha (FAQ, About, Team, Login, Join).
+- **Estilo:** Barra superior fija con distribución horizontal y espaciado uniforme.
+- **Tipografía y colores:** Coherentes con los botones y enlaces anteriores.
+
+**Tono comunicacional:**
+
+- *Serio*: estructura informativa.
+- *Casual y respetuoso*: lenguaje accesible, sin recargar visualmente.
+- *Sereno*: equilibrio entre sobriedad y claridad.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfeVwmL3g4F_4ahxD_rBTwOsLgC_se1oWuWvj31nWMesf5J3PfFoLoraq-PPKfDigP89ORdR5FcEGuTaBGh2tsV9sL0UkV7t1-4NR72_TTuVsBUu8c0Ort-dJm7CVB5kDfjRERy?key=wLsuErVgqDz-qczrBI4kMctR)
+
+
+
+**Footer**
+
+- El pie de página refuerza la identidad de marca y organiza accesos secundarios:
+
+**Secciones:**
+
+- Navegación (Home Page, Community)
+- Información corporativa (About Us, Contact Us)
+- Redes sociales
+- Mensaje de marca y enlaces legales.
+
+**Colores:**
+
+- Texto en blanco (#FFFFFF) sobre fondo negro (#000000) para secciones principales.
+
+- Íconos o enlaces adicionales pueden adoptar el morado (#9345B7) para diferenciación sutil.
+
+  
+
+**Tono comunicacional:**
+
+- *Respetuoso y confiable*, ofreciendo un cierre visual ordenado.
+
+- *Sereno*, sin sobresaltos visuales.
+
+  
+
+**Iconografía**
+
+- **Estilo:** Íconos lineales, delgados, estilo minimalista y flat.
+- **Tamaño estándar:** 24px.
+
+**Aplicación:**
+
+- Header: íconos de navegación (camiseta, brújula, usuario).
+- Cuerpo: íconos funcionales (editar, añadir).
+- Footer: redes sociales y secciones legales.
+
+**Colores:** Predominan #1689F4 y #9345B7 según contexto.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcF4k1-EOpFDmqXwZuujXx5olE4k-4O7Qu64d63f8gKiVDHgsf11cCY6Yu71OWUgZzwHmlnF4M22TQ3K2_7bk59J0XMiJ3D94qDA63U-4H4w1cGId2Jm_q_ODK-PVqj3RWJNzgvww?key=wLsuErVgqDz-qczrBI4kMctR)
+
+**Tono comunicacional:**
+
+- Claro, directo y funcional, nunca decorativo sin propósito.
+- Coherente con el diseño general.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfw9XoPBddZcAinhRlKfw4nuWi2eDO4WjHJay8bvDjoIozEa8s1pTxu3NdYCp6IGCUzrrKcuco6Fp-bmeUIn8BU1EL-uy62LCftEj_euN8jcOuVMZctFjHVDRMX4DaBcGIK1hei1A?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Como parte de las buenas prácticas de desarrollo web inclusivo, se han incorporado atributos WAI-ARIA (Accessible Rich Internet Applications) en los componentes interactivos del sistema Quri. Estos atributos permiten mejorar la experiencia de usuarios que utilizan tecnologías asistivas como lectores de pantalla, garantizando que los elementos visuales sin contenido textual explícito sean igualmente comprensibles y navegables. A continuación, se detalla el uso específico de aria-label en los distintos componentes de la plataforma.
+
+Función: Indica explícitamente que el bloque <nav> corresponde a la navegación primaria del sitio, facilitando su reconocimiento por tecnologías de asistencia.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXePnmEOHeLLfrrDQ6FxwuD8B1IikoVelzmxB-fgSOuGffwFkJE_SKUGJfDw8JzOqsQXyp6ITyF8DiCyw30Cx8LWk0udXVwB-YJ1DVdCMqydn4qdmLFo6gTNe9Srg5sa7wTLA2Pw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Función: Proporciona un nombre funcional al botón de menú representado solo con un ícono SVG (hamburguesa), permitiendo que el lector de pantalla anuncie correctamente su propósito.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeTScMIuNW_ErJcHv16RA4tH5VIU6FmpETWRgnk8B7ci3Zx67agt1hEDU-HTg06iDBcWwzMOUp1pxDVsfGFr8keYbMQJhmEyJGZCJuOUkbdQD_KMmN4T54U-EScyWMj190oCGJT?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Función: Describe la acción de cambiar el idioma de la interfaz, clarificando su función más allá del texto visible.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeYf_IqAvcoWRf2PM7JMBc3wbhFXcXaD2-DgG2EFbUxlQbHcch67kAIPCh59v70L7sllhw5VTndMjusKFzcVVwaTQm_vapYS8K1x54rPmi5LxTWHZawp4C5GwFd56F0gFdMf3NOBA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Función: Permite que el lector de pantalla anuncie correctamente a qué red social se accede, ya que el contenido visual se representa únicamente mediante un <svg>.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdkLRj3OBa5uImfaouF-5bGDjKn4n78E9GT40-i_I71ldr6nlVpoV97M51KFcLkz3QEaYb7xQxVbY2LvANzgmIi-MFf-4B6x3ggCoGEmMD1p6Eg33Wz3VSFl_ySNMLmgGaFt_8FGA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Función: Proporciona contexto sobre el propósito del carrusel, que contiene imágenes de diseños de camisetas. Se combina con role="region" para que el lector lo identifique como una sección relevante.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf3t3-i1FK_SaZ8JgSkOtglcTih7flL8g6iINFCK0_sfzZEfgJah7m-GeIKtO5dR3QQt6fwWACV_dJs_M2ICwl2e5Sm2TJ9CSxgefwO2C4RHVxspjEyr06LGdnZRaoSpn1qfNsthw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Función: Describe la acción de cada botón de control que permite navegar entre las diferentes imágenes. Esto es esencial ya que visualmente son círculos sin texto.
+
+El uso de aria-label en Quri cumple una doble función: mantener una interfaz limpia y minimalista visualmente, mientras se garantiza la accesibilidad para usuarios con discapacidades visuales. La implementación de estos atributos asegura que todos los elementos interactivos puedan ser comprendidos y utilizados mediante tecnologías de asistencia, contribuyendo a una experiencia de usuario más inclusiva y alineada con las directrices WCAG 2.1 (Web Content Accessibility Guidelines). Esta práctica se extiende como estándar en toda la interfaz tanto en la landing page como en los módulos de la aplicación web, reforzando el compromiso del proyecto con la accesibilidad digital.
