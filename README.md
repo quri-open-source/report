@@ -2027,3 +2027,67 @@ La navegación de Quri cumple con los principios fundamentales de una buena expe
 - Consistencia: la barra de navegación es idéntica en todas las vistas, evitando disonancias cognitivas.
 - Jerarquía: las acciones más importantes (Join, Login) están destacadas y ubicadas estratégicamente.
 - Retroalimentación visual: se proveen efectos hover y focus para mejorar la percepción de interacción.
+
+## 4.3. Landing Page UI Design
+
+La sección de Landing Page UI Design tiene como objetivo definir, implementar y validar la interfaz visual de la página principal del sitio web, asegurando una experiencia clara, accesible y orientada a los distintos perfiles de usuario. En esta fase se diseñaron las primeras versiones de los wireframes para desktop y mobile, que permitieron estructurar los contenidos clave como la presentación del proyecto, beneficios, preguntas frecuentes, equipo, y el footer con enlaces a redes sociales. Posteriormente, se desarrollaron los mockups de alta fidelidad, aplicando el sistema de diseño basado en Material Design, garantizando coherencia visual, jerarquía informativa, y consistencia entre dispositivos. El diseño considera principios de accesibilidad como el uso de etiquetas semánticas, atributos ARIA y contraste adecuado. A futuro, se continuará con la validación de esta interfaz a través de entrevistas de usabilidad y pruebas heurísticas, y se implementará la lógica de navegación entre secciones internas y hacia la aplicación web, buscando que los usuarios puedan explorar, comprender y conectar con la plataforma desde el primer contacto.
+
+### 4.3.1. Landing Page Wireframe
+
+Como parte del proceso de diseño centrado en el usuario, se elaboraron wireframes de baja fidelidad para las vistas principales del sitio Quri, tanto en su versión escritorio (desktop) como en dispositivos móviles (mobile). Estos wireframes sirven como representación preliminar de la estructura de contenidos, jerarquía visual y distribución funcional de cada página, permitiendo validar decisiones tempranas de interfaz antes de avanzar al diseño visual detallado. Las pantallas diseñadas incluyen: Home, About, FAQ y Team, que conforman el núcleo informativo y narrativo de la plataforma.
+
+1. Home Page
+
+Versión Desktop
+
+La versión desktop presenta una estructura clásica en Z, iniciando con un header fijo que incluye el logo y accesos rápidos a secciones clave como FAQ, About, Team, Join y Login. La hero section utiliza un título atractivo, subtítulo explicativo y un CTA primario (“Start Designing Now”) centrado. Las siguientes secciones están organizadas en bloques de valor diferenciados: propósito de la plataforma, beneficios funcionales, y vínculo con artistas. La página culmina en un footer informativo con enlaces estructurados (Company, Legal, Social), localización y mensaje de marca.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc1tGLUH0p_MaeBSC-kYIr3BKIOjcC5jidmhwppx4eOcd2xSidtYYQJDm_MGCstm2x88z3lg4xMNAwWDqsbd9z0wH0qTAPsvcp4ncDwbBqelKfIS8AwpAutHvtQEl7zAyt3rP9KHw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Versión Mobile
+
+La versión móvil adapta el contenido en una estructura vertical optimizada. El header se simplifica en un menú hamburguesa que despliega los enlaces a FAQ, About, Team, Join y Login. El CTA principal se mantiene centrado pero a mayor altura visual. Las secciones informativas se apilan con imágenes y textos alternados. El footer se convierte en un bloque compacto de navegación secundaria con accesos agrupados por tema.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfhA-iiFzY95Q0tXHGoNwik2bz9jXL_UEry9TbF5Q3SBmnaA_yKRGkC3pbTRV0amptbwx3G8OItVRv4jt_huo4cjah39k52Ko7Jz2XbbpU6p5p2llnoLCpEqbq3Bf72v_kkyMbMeA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+1. About us
+
+Versión Desktop
+
+El wireframe de About presenta una narrativa en columnas: lado izquierdo con imagen y lado derecho con texto, incluyendo las subsecciones “Who Are We?”, “Our Story” y “What We Offer”. Cada sección está jerarquizada con títulos claros y párrafos explicativos. Se mantiene la navegación principal arriba y el footer completo abajo.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf9WQJ1ugWzZUwHXPpYuNo7EMyk8GBa_uSudyM-ZOWVsXc0kqba2Ajljh1SpwZ4kVGcQCho3-b7autgG67tDWMKF_1qWYuN6iojQkQp1NubJUfFVFvCZJ9n6FMmBdlRMb8L67EOgg?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Version Mobile
+
+El diseño adapta los bloques en un solo flujo vertical: primero imagen, luego título y texto. La narrativa es secuencial para facilitar la lectura desde pantallas pequeñas. Se minimiza el uso de columnas y se prioriza espaciado vertical amplio.
+
+1. FAQ
+
+Versión Desktop
+
+La estructura sigue un patrón de acordeón vertical donde cada pregunta se expande al hacer clic. Se incluyen preguntas frecuentes sobre precios, diseño, edición, ventas y alianzas con fabricantes. El CTA “Not What You Were Looking For?” enlaza con la página de contacto. El diseño prioriza legibilidad y espacio negativo para evitar sobrecarga visual.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfbkEKjfBtUoAXVnawa99PEraFvuBDPfAt-3Itdi-vaPJSueKsQxV_qXjsCzoD-dWonBIE-o38vSQ5ZXgqDAAxAQWELE_4T1yrrrOPQJGUi_TJtFfoGg4kXL2XaXGizdu7iWCMDjg?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Version Mobile
+
+Las preguntas se muestran como botones expandibles tipo acordeón, con un solo bloque visible por vez. Esto evita saturación visual y mejora la interacción táctil. El botón de contacto se muestra centrado al final.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdXNNN5WYEziHBjEKzx_BPw6LnZbOJ4_gW47pReDPWCJMrp-IFauPUm3RMEZQoCx5Vu_ete8EzMc1VmB7kkkd5aiqCaB0qlPv45f_nCS40JlWOctYQyoB4Wxh4eIdawvpjvkW-B?key=wLsuErVgqDz-qczrBI4kMctR)
+
+1. Team
+
+Version Desktop
+
+Presenta una cuadrícula con perfiles individuales del equipo, cada uno compuesto por imagen de avatar, nombre y breve biografía. El objetivo es humanizar la marca y mostrar transparencia. Los perfiles están organizados horizontalmente con distribución uniforme.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdrL7NFSsAWj6ZetvyIKDhm4Bky2qugOAP0dY84tE1IUCFAdzAM8Z7aH114PXAqQV9Qgi1kTRvoQk4VoLJbluYNPcsOK3RxFx-6ORsrbUVs-dsaMFFdS__n-iXiMNk99qBfovwhww?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Versión Mobile
+
+Los perfiles se disponen uno debajo del otro, centrados, con imagen circular en la parte superior y texto en la inferior. Se privilegia legibilidad y escaneabilidad.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfesjcq-wN40ecKuD1w0wl3e0d5XtwuuvZ5jFV11xyDHSeFhPswcgGXK-f8yJ7I1PcDK4OnTz60YmcXc1_E3UfxGJjGbdPdP_JN2VHLoDV_l-2A2bclxaBO5kCKJ1OJAyJSJq_fdw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Los wireframes desarrollados para la plataforma Quri permite visualizar anticipadamente la lógica de organización, navegación y disposición de los contenidos en diferentes dispositivos. La versión desktop aprovecha el espacio horizontal para distribuir la información de forma jerárquica y modular, mientras que la versión mobile reestructura estos bloques en un flujo vertical optimizado para pantallas reducidas. Esta dualidad garantiza una experiencia responsiva y accesible, alineada con buenas prácticas de diseño UX/UI. Los wireframes sientan así la base para el desarrollo visual y funcional del producto final, facilitando decisiones informadas durante las siguientes etapas de prototipado y validación.
