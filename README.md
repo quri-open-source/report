@@ -3956,3 +3956,60 @@ Durante el Sprint 2 pusimos en marcha todo el proceso de **Deployment** para la 
 
 Captura de la Landing Page en producción, accesible en:
 https://open-source-web-app.vercel.app/home
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 2 no se trabajó en el desarrollo de Web Services ni en la creación de endpoints funcionales, ya que el enfoque del sprint se limitó exclusivamente al diseño, construcción y publicación de la Landing Page. En consecuencia, no se elaboró documentación técnica de APIs REST ni se empleó OpenAPI.
+
+Estado actual:
+
+No se han implementado controladores (controllers) ni servicios de aplicación (application services).
+
+No se han definido endpoints HTTP ni documentación Swagger u OpenAPI.
+
+No se han activado microservicios ni lógica de negocio en la capa backend.
+
+El proyecto se encuentra en etapa de diseño visual, internacionalización y diseño responsivo.
+
+Justificación:
+
+El enfoque del Sprint 1 responde a las épicas EP04 - Landing page y visibilidad de productos, EP06 - Internacionalización (i18n), EP10 - Responsive UI, y EP07 - Accesibilidad (a11y), las cuales no requieren integración con lógica de negocio. La implementación de servicios comenzará a partir del Sprint 2, con la activación del Create Module y el diseño de los primeros flujos funcionales del dominio (Design, Projects, Orders).
+
+Próximos pasos:
+
+A partir del siguiente Sprint, se documentarán:
+
+Interfaces REST y contratos de servicios (DesignService, TemplateService, etc.).
+
+Especificaciones OpenAPI (Swagger) para endpoints públicos y protegidos.
+
+Diagrama de Componentes (C4 level 3) mostrando la relación entre servicios.
+
+Integración de pruebas Postman o herramientas similares para validación.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2 pusimos en marcha todo el proceso de **Deployment** para la Landing Page (y sentamos las bases para las Web Applications y futuros Web Services) usando Netlify como proveedor de hosting continuo.
+
+
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeVxEnHysNjT66M11iqBNYOax23NOdoQNrG_2Xj3C9tp_Zszk0rtM2CYgP3Z1oBZd894sQJymiHB2lDBLJKC0XD0l47A7LaAry9NXd3SB07mAF-XjBIgiGtyioah3gzC84-ocv1?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeTIzKYB344blI3OQVnv3ZErIoPAVBitAB5Me2S_s7RuwMVPOGoSRhtddp6G7_0hg83GeNFatbomOYV-Tc2i_FaO3B0TMt0iq1OwFJ-UI2biNLQXg5JD6F6sGEfbpk0b7RV12PR?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Captura de la Landing Page en producción, accesible en:
+https://open-source-web-app.vercel.app/home
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, el equipo mantuvo un nivel de colaboración constante y equilibrado en todas las capas de la solución (Landing Page, Web App y Web Services). A continuación se describen las principales prácticas y métricas de colaboración:
+
+**Navegación y Layout de la Plataforma:** Se trabajó en la estructura de navegación a través del sidebar, implementando un componente responsive y basado en roles. También se abordaron acciones desde la toolbar, el enrutamiento dinámico en el cuerpo principal, la visualización del enrutamiento activo, estilos para el estado activo, la capacidad de colapsar el sidebar en pantallas pequeñas y la manipulación del layout en diferentes breakpoints. Se buscó mejorar la usabilidad con un toolbar fijo y el manejo del scroll vertical, así como aplicar un posicionamiento sticky y layering al toolbar.
+
+**Visualización y Permisos de Navegación:** Se implementó la visualización de los ítems de navegación basados en el rol del usuario y el filtrado de la visibilidad de las rutas según los permisos del usuario. También se configuraron redirecciones a rutas por defecto y el manejo de escenarios de fallback en el enrutamiento.
+
+**Login y Registro:** Se dedicó esfuerzo a la creación de un layout apropiado para el login y el registro, así como a la implementación de las pantallas correspondientes para ambas funcionalidades.
+
+**Diseño del Garment:** Se realizaron diversas tareas relacionadas con la manipulación y visualización del diseño de la prenda. Esto incluyó la adición de texto al "Garment Designed", la capacidad de renderizar texto arrastrable en el "Garment Canvas", cambiar la fuente y aplicar estilos al texto en el canvas, cambiar el color del texto, integrar un selector de color para rellenar el estilo del texto, permitir la carga y posicionamiento de imágenes, renderizar imágenes cargadas como capas con controles, establecer el color base del "Garment Designed" y del background, manipular el orden de las capas, implementar funciones para traer/enviar capas al frente/fondo y ofrecer una vista previa completa del "Garment Designed".
+
+**Funcionalidades Avanzadas de Diseño:** Se habilitó una vista previa en alta resolución sin interfaz de usuario, se permitió asignar un nombre y escribir una descripción para el "Garment Designed", se integraron campos para enlazar el nombre y la descripción al modelo del producto, y un campo multilínea para metadatos. También se trabajó en la selección del target (género) y la configuración del género para la prenda, la selección de tallas disponibles y la entrada multi-talla para el array de tallas.
