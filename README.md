@@ -2091,3 +2091,172 @@ Los perfiles se disponen uno debajo del otro, centrados, con imagen circular en 
 ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfesjcq-wN40ecKuD1w0wl3e0d5XtwuuvZ5jFV11xyDHSeFhPswcgGXK-f8yJ7I1PcDK4OnTz60YmcXc1_E3UfxGJjGbdPdP_JN2VHLoDV_l-2A2bclxaBO5kCKJ1OJAyJSJq_fdw?key=wLsuErVgqDz-qczrBI4kMctR)
 
 Los wireframes desarrollados para la plataforma Quri permite visualizar anticipadamente la lógica de organización, navegación y disposición de los contenidos en diferentes dispositivos. La versión desktop aprovecha el espacio horizontal para distribuir la información de forma jerárquica y modular, mientras que la versión mobile reestructura estos bloques en un flujo vertical optimizado para pantallas reducidas. Esta dualidad garantiza una experiencia responsiva y accesible, alineada con buenas prácticas de diseño UX/UI. Los wireframes sientan así la base para el desarrollo visual y funcional del producto final, facilitando decisiones informadas durante las siguientes etapas de prototipado y validación.
+
+### 4.3.2. Landing Page Mock-up
+
+Los mockups son representaciones visuales de alta fidelidad del diseño de una interfaz, que muestran con detalle el estilo gráfico, la disposición definitiva de los elementos y el lenguaje visual de la marca. En Quri, se desarrollaron mockups completos para las vistas principales del sitio en sus versiones desktop y mobile, manteniendo coherencia visual, accesibilidad y diseño responsivo. Las vistas consideradas son: Home, About, FAQ y Team, ya que representan las secciones clave para comunicar la identidad, propósito y funcionalidad de la plataforma.
+
+Home Page
+
+- Desktop Version
+
+El mockup desktop de la página principal destaca por una estética minimalista y moderna. La parte superior incluye un header con logo y enlaces a About, FAQ, Team, Join y Login. El foco visual está en el hero section, que presenta un título atractivo y un botón CTA (“Start Designing Now”) con fondo azul, además de un mensaje motivacional. A continuación, se despliega contenido visual por bloques con imágenes, tipografía clara y secciones como “Design It. Rock It.” y “Support real artists”. El footer contiene enlaces organizados (Home Page, Community, Legal, Company) con íconos sociales y mensaje de marca.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdFaYkgRp2WQMnNPP1kCcsR8uUKBGSgof6OemD4xfB_RMhqbbGVAVchSz-3H8dfSlpiQRnAcwQFA5lUXVgT7WZPMIByg9DFFF8NNTR74Zp3QWLRXlsRvONpUaIawXan_Dro8vH8tw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile Version
+
+La versión mobile adapta los elementos a una estructura scroll vertical fluido. El header se transforma en un menú hamburguesa accesible y los botones Join y Login se posicionan de forma visible. El botón “Start Designing Now” permanece en el centro del hero section, seguido por bloques con imágenes y textos alternados. Se mantiene una buena proporción entre tipografía, márgenes y altura de botones, asegurando usabilidad táctil.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd7YvA1Wj5fioc4mf8kDa2GYZhYqS-j9t-7m535NK3JnBoQDgMVJFJfgnvjHZwq6Q9utBsIuEw4TopbanD7S8IP4FUxI1XTkNxSwcJpHgoSw4ybUBvA6bQvSVmDEGxhkVsB21A5?key=wLsuErVgqDz-qczrBI4kMctR)
+
+FAQ Page
+
+- Desktop Version
+
+El mockup de FAQ presenta una estructura de acordeón con preguntas frecuentes. Cada entrada muestra una respuesta clara al expandirse. Se conserva el branding visual de la plataforma y se incluye una sección adicional con canales de contacto (email, teléfono, Instagram). La interfaz es simple, legible y centrada en resolver dudas con eficiencia.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfGlFVg2nntmVpZ5rDOOAu5-G1y_m7TtnYTb4b6FVAMoxhGiDm1muARS3QYW5LwZ5e_fDYkuy4iCsfBfRZgQV2Tv4ujibU5DBJE3lVanXrIyQf4TUqDAxSPfl_cB19pNoAdeRPC?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile Version
+
+Cada pregunta se muestra como un bloque expandible individual. El diseño evita saturación visual mediante el uso de mucho blanco y un diseño “tap-friendly”. La sección de contacto se muestra al final como alternativa si las respuestas no son suficientes.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdiTqCpQ9yuRQDtTdb_taOHouFDJA3ozYMnvH-OTmGlKKNp6h1L2OjJ6VzvGJVZSG-EFDSySnrra9Pj_1mopIYDtDdAvgug4U0cW6lzaIPClR1Ud0hIxU83cDDvnpIJjqae9O2V?key=wLsuErVgqDz-qczrBI4kMctR)
+
+About Page
+
+- Desktop Version
+
+Esta pantalla está estructurada con una introducción sobre la misión de Quri, seguida por “Our Story”, “What We Offer” y “Why It Matters”. Los textos están acompañados de imágenes representativas y llamadas a la acción como “Learn More” o “Learn Pricing”. Predomina el uso de fondos claros, espaciado amplio y jerarquía tipográfica bien definida.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfNcYdK4B7T_e_QV_L0K6WukSIjwyUcJtI37FYS7BSbx-Mdwmagk7UY1Xx4ywNDwrD1Bbk_MkcIFWt8d-zcI8OAJJj1JN1CZGzQO3TTGgf0HhvgLPiDZAobT8nAiY3ww8w5284Eqw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile Version
+
+El contenido se organiza en bloques verticales, iniciando por la misión y luego pasando a la historia y beneficios. Se prioriza el espaciado, con texto de cuerpo ampliado y títulos destacados, manteniendo un alto nivel de legibilidad. Las llamadas a la acción se presentan centradas, con botones de borde redondeado.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdCk2oar0vlQkiSMrmjBLjAMrED1SQVL84q0Et9gbCWFiwyfTLVY6t1-Wx3H9KH0bbrFB4XJluOtbudTjgBgO_Z23xg23RutPsoVV8HOS0nMY40ZLmyUqLtJImORZ5GJFtCwg_E?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Team Page:
+
+- Desktop Version
+
+La sección del equipo muestra una grilla con cinco perfiles, cada uno con nombre, foto y descripción biográfica. El diseño mantiene una presentación limpia y profesional, transmitiendo cercanía y transparencia sobre quiénes están detrás de Quri. El fondo neutro y la alineación central refuerzan la lectura amigable.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdQWuJd9u5inRok32ISOPZJl7kmLdtj10OHwMv4KvakpYYK3J58oSZwBwvOyqigLZv2oXlxNeGux5N4uvfqr_2_jcicJO-K9YNG7gqMHtJLoTzaOESXJodsJmjtqb4D32B98hy7yA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile Version
+
+Los perfiles del equipo se presentan en forma de lista vertical, uno debajo del otro, con imagen en la parte superior y descripción centrada. El diseño es responsivo, enfocado en claridad y lectura rápida desde dispositivos móviles.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfNp97CbvjJ91R687tq8V7VHfmnPq_vHL664f0gEj4rLfJjTVeDm-yMcLsZ9ZNmXbVWQUReimMmSdbftMYhLQ5nzRH4icKT4zD3deQZS3zRwhl0PbkIfbBNkCXTnvkCG_Rl4b1TMA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Los mockups de Quri representan una etapa avanzada del diseño visual, donde se consolidan las decisiones tomadas durante el wireframing y se aplican los lineamientos estéticos definidos en las guías de estilo. Tanto en desktop como en mobile, se evidencia una interfaz limpia, accesible y alineada con los principios de diseño centrado en el usuario. La coherencia gráfica, el uso de tipografía sans-serif, el sistema de colores funcionales y la correcta jerarquía visual fortalecen la identidad de marca y garantizan una experiencia intuitiva en todos los dispositivos. Estos mockups constituyen la base visual para la implementación técnica de la plataforma.
+
+## 4.4. Web Applications UX/UI Design
+
+La sección de Web Applications UX/UI Design se centra en el diseño de la interfaz y la experiencia de usuario de las aplicaciones web que forman parte de la solución digital, incluyendo tanto vistas funcionales como flujos de interacción completos. En esta etapa se elaboraron wireframes para desktop y mobile que definen la disposición de elementos en pantallas clave como creación de productos, exploración de catálogos, gestión de pedidos y personalización de camisetas. A partir de estos esquemas se diseñaron los mockups de alta fidelidad, alineados al sistema visual adoptado para la plataforma, respetando principios de consistencia, simplicidad y orientación a la tarea. Los componentes fueron organizados siguiendo flujos de usuario validados previamente mediante escenarios To-Be y mapas de empatía, asegurando que cada acción tenga un propósito claro dentro del recorrido del usuario. La estructura y navegación han sido pensadas para ofrecer una experiencia inclusiva, aplicando criterios de accesibilidad (a11y) y soporte multilenguaje (i18n). En los siguientes sprints se realizará el desarrollo progresivo de las vistas, integrando servicios RESTful y prototipos navegables que permitan validar funcionalmente las interacciones más importantes del sistema.
+
+### 4.4.1. Web Applications Wireframes
+
+Los wireframes de la Web Application constituyen el primer paso en el desarrollo visual de la plataforma digital, definiendo la disposición estructural y jerárquica de los elementos en pantalla. Esta documentación permite anticipar cómo los usuarios interactuarán con el sistema, identificando componentes funcionales, zonas de navegación, y acciones clave. Se han diseñado versiones adaptadas tanto para desktop como para mobile, siguiendo principios de diseño centrado en el usuario y buenas prácticas de experiencia de usuario.
+
+Login
+
+- Desktop: Disposición centrada con campos de ingreso, opción de recuperación de contraseña y enlaces de autenticación complementaria. La estructura es limpia y directa, diseñada para minimizar fricción en el acceso.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdbYpksyCZbLD8wXogwFROBs5My1fs8Ag7c6ZtkPe7-PCi2V8Ro4wsEiVwHEbZ19NQSpwrfH-swbgYWR_BDxNmsWy4-exyahejPjxqVHUnsmDlR18f1S8GVtDjjgq4uGdWx1gJggQ?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile: Layout simplificado con campos alineados verticalmente, botones ampliados para interacción táctil y jerarquía visual que guía al usuario paso a paso.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfti-Rj7JeWK3_EWR0CfGZLsSTBRp2QMEJT3vr4zZd8rqy-HODZJGTMFpbbo0NlGUqYWc7L1N9OPDqkiLJeiL7kXUrawMhLBf_9HyDi7kPufbPIWeYsNbU_19kKBtW5mD2PqiS0?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Orders
+
+- Desktop: Visualización tipo tabla con detalle de cada pedido: ID, productos, método de pago, estados del envío y resumen total. Se utiliza una progresión lineal para el seguimiento del pedido.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfOm9hThQvJR9b4CH9WNwdbDxCjqR2KJRbWCb6WyRMUZNym7Q_GD8Bd6oR_MFPPPaPxTPfiDvHPN6583TfwSp6XQSQkRij8_zwJ8sFyUsZV2LRIiJw3YUf6c95fQu1SfXELXV-M7Q?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile: Reorganización del contenido en tarjetas verticales que contienen información resumida del pedido. Se mantiene la secuencia de estados en formato compacto para facilitar el seguimiento desde el celular.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdPZxNr2amtIqeme9gsWLTd0K6hm8gAzpJRyVEDQCShV8JPs1X586aMe52oAW7ClEKBgq3KE5DYfN9PTySTEIML1Aqx6vnlw0DQ4e6fdRH70H6lby1BTx1AhgoJXf-h2NL6YSA_?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Home 
+
+- Desktop: Distribución en grillas con productos destacados, secciones como “Popular Now” y “New”, y navegación lateral o superior. Se prioriza la exploración simultánea de múltiples categorías.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdOD0g4da8PS_VHOvHLTMch8wakTfGXwPRR5coDkYtGUduHkmBnHZ2vOM8mKbY-tXMbR5ZDN3tbqT7pVPdk_kJ-hFJr_ZqpnGYg_ouZ4RhSMN02SOerZQyjKuYxlZ6GNH0oguGMOw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile: Interfaz en scroll vertical con bloques de contenido apilados, carruseles horizontales para productos, y navegación simplificada para minimizar el esfuerzo cognitivo.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdV9_-yev_6uXpGneGvhvYSRItieo2VD3zg8fk1_3HcoyCD7L3hvIgm6rfI2_9PnX7VlH5tYKDr1cDhAFsth0DyBWzRbXFI9VkE16DX7a7DTmiQybeIvRwZhVWXbM1XUeMbKVtK?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Cart
+
+- Desktop: Tabla de productos seleccionados con controles para modificar cantidades, eliminar ítems y resumen detallado del costo. El botón de checkout se presenta fijo o cercano al resumen.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe1hDZX-_ADw_ZF5EhZyhbvfqgC4-jih7S6OMn8thZbb64TqdVli_aRfl4PgLIz_lNN2kDGz05-i2XT4v_yMbquLaKk7Mptba43h66jcTKbxfzomI90f9gpEQ4EGTBLgXNGb3HCog?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile: Estructura en bloques con cada producto representado individualmente. Se optimiza el flujo de compra con un resumen total al final de la pantalla y acceso rápido al proceso de pago.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdmGFSOH4Ge8Rhy3Li7dhWYB48U-c5Ul2iqJQCUg8Y63YlOmp5DIwdtRonyCrBjTnytkleq5HyyNWBXwliY9g9q2a-75u81DeHCoV-mLoW4A5FTcHpQilPlGsLG4DuPlddLkVu8?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Template
+
+- Desktop: Vista en galería con miniaturas de plantillas prediseñadas. Permite selección rápida y acceso directo al editor.
+- Mobile: Lista vertical con una plantilla por fila, imágenes ampliadas y selección por toque, respetando el espacio disponible en pantallas pequeñas.
+
+Design Studio
+
+- Desktop: Interfaz avanzada de diseño con área central para la prenda, herramientas laterales para edición de texto, color y capas. Espacio optimizado para precisión en el diseño.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcqsrYlqcgD7JeUuM-p8wVGhPCeIy1T54y-Yz97dv_4r1RbO4PDgwgr8KvrwI4_kjeAnZpe9WBwBPOUVPIh3685dSre9L5SJa0MBB6ANRQdI0wz4CwjXOyFQ4HefMdCivgCPbHCvg?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Favorites
+
+- Desktop: Galería de productos guardados organizada en tarjetas con acciones como eliminar o agregar al carrito.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeKVoeyw3NPHakX9OHVgLn-Bnodx1ep27HykPD5fcG9_CKAMaV6q7783mJDHnsL29H42fbyNWC1R72_ozHrgx2mm0oqZcM7qEhXO05a0UwgfhnDwyvEqdx2r4yK44dikaFOqbfX?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile: Lista de productos en formato vertical con acciones rápidas. Adaptación para navegación por toque.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfpqLY0Bs13ZcKS82FwFo9QHcr60EXnm58Twy7gICZUgkvmSvHqFx_KMIv1Tv2VCbeTd6zda_26FUgELwKFcAruJC1FdJ5n1lfVLrH4AYcykaE5ALYblpHQkX7wpPixjMssl9IK?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Explore
+
+- Desktop: Exploración de productos por categoría, con filtros laterales y visualización simultánea de múltiples opciones.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfO7aUYtiJ42a8zU8YWLn7NaOZhu9ysSN6ohR45nu-98gmvsUFhk78ugF9TpWCxy9XN9oXIonAiOwp9LXoyg1Ca3ErllAK2hOjqQfTgRHS52xsvgfi81hwSNqnB0XkP-QntnHzy?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile: Navegación vertical con filtros desplegables. Interfaz orientada al descubrimiento secuencial de contenido.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfWc5MFMEwF4p236zS6ipbHtbadqWBMaeGe_uDqCFqYU-fcQKpcdPbkAIiLtddMMiEzflkdXu7bOHo1ZwSy9LXUcLWDrZ2hoOVCFaaW6V9r5Ieczeyh7XuYHkgrfKLqPJTMUjhg5Q?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Design Lab
+
+- Desktop: Espacio para pruebas visuales avanzadas o diseño experimental. Herramientas extendidas y estructura similar al Design Studio.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfjM_NL-klOgU1WBR4TyrYwYcWSaNkdepUOxNqq0GxxfyfFhaBeizvBeP3IoOlj6lz4_StWfHKsEzvZfaMQoiiVXa8dielUFAqD71CCuiYJgeoNx_yJvQswPwyFbm3RjmEkJGEywA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Profile
+
+- Desktop: Panel dividido con secciones para datos del usuario, configuración de cuenta y seguridad. Estructura tipo dashboard.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXciOXyBe3PwSWpPClTZbTqCaoMQnxptq5UKwTT_UAWdrrWTYwtGQAW_PqJmD722lhta_Qelz5TTb61DzrSHqLUajB7Y64HpyXUnCxdsUGYhEWHs_yjIA3jB-I2Ic1uf_X9U_GLHDA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile: Menú en formato lista con secciones colapsables para mayor claridad y accesibilidad.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfLBLYoIXet8iSfVgbB7d5t9CeHMEvEMnl8R5UifqMBAMS9XoeXkt6jBkdR1KfhCBGVUFLEJzH-PMA5nugpNVzNg2UYLMvyJWBCWvtMUQFUXznZn1WQIrImKKRjoMdVWTmKYco4Hg?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Your Designs
+
+- Desktop: Visualización en grilla de diseños previos con opciones de edición, duplicado o eliminación.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXctEGKMfzoOj7REvu2aGhuZOWaz9yDWjeogp38wITMHKNnEg6zo_0wZaQtK7uC-gM_KdBrJgaEOnYn4J0eTH6nPR84XfuQMqKkFiJuZlI9Fo2YLcc0e_o9e7PW_P5HAyRM5QWPqww?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile: Vista tipo lista con miniaturas de diseños, botón de acción principal y organización cronológica.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd6sZ4VE2vJTREVj47kZ-TdxhAUw6t-kNNZYX6hioQp1TELW7FihBLl07aEJi4UJ3oMWWvbpbwTH1k8qe_QBddeO_mGRL96dGsrwZskvJX9Dg-jth1aAzAp8a8lkVgYU1D5yis1YQ?key=wLsuErVgqDz-qczrBI4kMctR)
+
+La estructura de los wireframes para la Web Application refleja una planificación basada en principios de usabilidad, accesibilidad y eficiencia. La segmentación entre versiones desktop y mobile permite optimizar la experiencia del usuario en distintos dispositivos, adaptando los flujos de navegación, el tamaño de los elementos y la jerarquía visual a las particularidades de cada entorno. Esta documentación será la base para las fases de prototipado, pruebas de usuario y posterior implementación funcional en código.
