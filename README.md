@@ -3181,3 +3181,9 @@ Este diagrama representa el contexto de "Cumplimiento de Pedidos" (Order Fulfill
 ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdact0HbAFY3PkdMzmClVLhaH_xDFlUV4G1Q1ffC8f9x9AWjLXqSNQdjMWAPUgivey-ul8zzXr_Zy_nmu3NhSZ12TO6sYfKzLBKRTSBMDtw9lR6Qd99UmJKqN-KJPvjeWuRK8OC?key=wLsuErVgqDz-qczrBI4kMctR)
 
 Este diagrama describe el contexto de "Catálogo de Productos" (Product Catalog) usando las capas de Interfaces, Aplicación y Dominio. El **ProductCatalogController** (Interfaces) gestiona las solicitudes de productos, filtros y categorías. El **ProductCatalogService** (Aplicación) coordina la obtención y manejo de datos del catálogo, usando repositorios (**IProductRepository**) y servicios (**ProductSearchAndFilterService, CloudinaryAdapter**). La capa de Dominio se enfoca en el agregado **Product** (con detalles, categorías, etiquetas, perfil de diseñador y rating) y define interfaces para la búsqueda/filtrado, persistencia y servicios externos como el de imágenes (**CloudinaryAdapter**).
+
+**Payment Gateway:**
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXelB1UT1Jm7ju7kXmS8i9vRgWnQExyTIirqccY2wVJ557epiLdxfs18YZBudgQmWy-Ke2ixIGGyK4P1fHw4afNYUBv-_pUCXPUopz1XRX66PXm0wm0XuOHA19_9KJST2eSsYmEL8w?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Este diagrama ilustra el contexto de "Pasarela de Pago" (**Payment Gateway**) con las capas de **Interfaces, Aplicación y Dominio**. El **PaymentController** (**Interfaces**) maneja las solicitudes para iniciar pagos, obtener estados y procesar reembolsos. El **PaymentGatewayService** (**Aplicación**) coordina estas operaciones usando un repositorio (**ITransactionRepository**) y un adaptador para un servicio externo (**StripePaymentAdapter**). El Dominio se centra en el agregado Transaction, que representa una transacción de pago con su estado, monto, divisiones de ingresos (**RevenueSplit**) y recibo (Receipt), definiendo también las interfaces para persistencia y el servicio de pago externo.
