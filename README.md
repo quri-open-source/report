@@ -3154,3 +3154,13 @@ Uno de los aspectos más importantes de este componente es su capacidad de inter
 Desde el punto de vista de escalabilidad y seguridad, User Management está preparado para crecer en funcionalidades avanzadas como autenticación multifactor (MFA), OAuth con redes sociales, integración con wallets digitales, y mecanismos de verificación de identidad para diseñadores o fabricantes. Asimismo, se considera su expansión hacia una arquitectura basada en tokens JWT para sesiones distribuidas, lo que permitirá a TeeLab escalar horizontalmente sin comprometer la experiencia del usuario.
 
 En términos estratégicos, este componente permite personalizar profundamente la experiencia de la plataforma, adaptando los flujos, interfaces y notificaciones según el tipo de usuario. Además, la segmentación de roles garantiza que los procesos críticos del sistema (como la creación de diseños o la aprobación de producción) solo estén disponibles para quienes poseen los permisos correspondientes. Esta separación de responsabilidades reduce riesgos, facilita la auditoría, y permite mantener una gobernanza clara sobre el comportamiento de cada actor dentro del ecosistema.
+
+### 4.7.1. Class Diagrams
+
+**Design Studio:**
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf4EWCH25XgOC9pMSxhh2ilfTqtX56GL0yFf9QHYNsp3RcmsFvmgNBb_HRbD7Tq34hspXe3TGGQNllRSCL1PIp9nQhymus2mJvDUlLG689pJy8AExtoF6yUvYI1jNVtHWOnKOwv?key=wLsuErVgqDz-qczrBI4kMctR)
+
+
+
+Este diagrama muestra la arquitectura en capas (**Interfaces, Aplicación, Dominio**) de un "Design Lab". La capa de Interfaces (**DesignLabController**) recibe las peticiones. La capa de Aplicación (**DesignLabService**) coordina la lógica y utiliza repositorios y servicios. El núcleo es la capa de Dominio, centrada en el agregado **Blueprint**, que representa un diseño y contiene objetos como **DesignLayer** y **GarmentCanvas**. El Dominio también define interfaces para la persistencia (**IBlueprintRepository**) y servicios externos. Las dependencias apuntan hacia el Dominio.
