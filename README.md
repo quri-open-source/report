@@ -359,3 +359,199 @@ Más que facilitar la creación de camisetas, en Teelab by Quri impulsamos que c
 | Soy Renzo Luque, estudiante de Ingeniería de Software en la UPC y tengo 20 años. Actualmente cursando la mitad de la carrera. Me gustaría aprender más sobre ciberseguridad. | ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfnMnQRbPqkP7ViiSiq2W_tdJxY95KKKyBT4Z8OBYzFz3FGQZOOsbVO7Mko9g-WjiBlKbvoHQNQHN7dOkL2WnlxGymC46a3I_7W1odpzA8AZJUMtJPaXXpEZhNmBjQVewLrNioi?key=wLsuErVgqDz-qczrBI4kMctR) |
 | Alumno: Curipaco Huayllani, Neil Aldrin Wilhelm Código: u20231b866Carrera: Ingeniería de Software |                                                              |
 | Soy Neil Curipaco Huayllani. Estoy cursando el 4to ciclo de la carrera de Ingeniería de Software en la UPC. Me gusta jugar videojuegos, aprender cosas nuevas, escuchar música y mejorar mis habilidades para ser de ayuda en el equipo de trabajo del que formo parte. | ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXetcuu3XtpLr2o8hPixF4A9CuRxnx43xTBZJo2MKYxTSvIXxbP1B-pl3UyVZt0RMTq3KYx7RGlQ9lZt_ssV3EGNq_wRgvUXIAykmyoZwhH2phVJgViQpELv_L_qhitMWuFAJc9f9w?key=wLsuErVgqDz-qczrBI4kMctR) |
+
+## 1.2. Solution Profile
+
+### 1.2.1. Antecedentes y problemática
+
+Como parte del proceso de definición de la problemática, se aplicó la técnica The 5 W’s and 2 H’s (Who, What, Where, When, Why, How, How Much), permitiendo estructurar de manera preliminar la descripción de los antecedentes y el planteamiento del problema.
+
+1. Who (Quién)
+
+  Los principales stakeholders identificados son tres grupos: consumidores que desean expresar su identidad a través de camisetas personalizadas, diseñadores independientes que buscan monetizar sus creaciones, y pequeñas marcas o emprendimientos que necesitan desarrollar productos únicos para diferenciarse en el mercado.
+
+1. What (Qué)
+
+  Actualmente, el mercado enfrenta una fragmentación en el proceso de personalización de prendas. Los usuarios encuentran plataformas que permiten diseñar camisetas, pero que no integran producción ni logística de entrega. Del mismo modo, los diseñadores y emprendedores carecen de herramientas accesibles que conecten la creación, producción y venta de productos personalizados en un solo flujo de trabajo.
+
+1. Where (Dónde)
+
+  El problema se manifiesta en el entorno digital de América Latina, donde las soluciones existentes suelen ser extranjeras, enfocadas en otros mercados, o presentan limitaciones de acceso, usabilidad o costos elevados para el público local.
+
+1. When (Cuándo)
+
+  La necesidad se intensifica en la última década, en el contexto de una tendencia creciente hacia la autoexpresión individual, el consumo responsable, la producción bajo demanda, y la preferencia de los consumidores por productos únicos frente a la estandarización de la moda masiva.
+
+1. Why (Por qué)
+
+  La ausencia de plataformas integrales impide que usuarios, diseñadores y fabricantes colaboren de forma eficiente, limitando la creatividad, incrementando costos de producción, y generando barreras de entrada para nuevos actores en el sector de la moda personalizada. Esta problemática impacta negativamente tanto en el potencial de ingresos de los diseñadores como en la experiencia de personalización de los usuarios.
+
+1. How (Cómo)
+
+  Actualmente, los procesos están desarticulados: un usuario diseña en una plataforma, debe contratar producción en otra, y gestionar la logística de manera independiente, lo que genera fricciones, demoras, errores de manufactura y costos adicionales.
+
+1. How Much (Cuánto)
+
+  El impacto económico incluye desde sobrecostos de hasta un 40% por externalización de procesos dispersos, hasta limitaciones para producir pequeñas cantidades rentables, lo cual afecta especialmente a microemprendedores y diseñadores independientes.
+
+Con base en este análisis preliminar, se identifica como problemática principal la falta de un ecosistema digital unificado que permita diseñar, visualizar en tiempo real, producir y adquirir camisetas personalizadas de manera eficiente, accesible y sostenible.
+
+TeeLab se propone como respuesta a esta brecha, diseñando una plataforma que integre en un solo flujo las necesidades de diseño creativo, producción bajo demanda y entrega de productos personalizados, enfocándose inicialmente en el mercado latinoamericano de habla hispana.
+
+\- Delimitación del alcance del proyecto:
+
+Este proyecto contempla el diseño y desarrollo de una plataforma web enfocada exclusivamente en camisetas personalizadas, dirigida a usuarios residentes en zonas urbanas de América Latina, con prioridad inicial en Perú. La solución incluirá módulos de diseño, visualización, generación de pedidos y gestión de producción, dejando fuera de alcance la expansión a otros tipos de prendas, canales de atención presencial, y operaciones en mercados de habla no hispana en esta fase inicial.
+
+### 1.2.2. Lean UX Process
+
+#### 1.2.2.1. Lean UX Problem Statement
+
+TeeLab es una plataforma web que permite a usuarios de América Latina diseñar, personalizar y solicitar camisetas únicas, fomentando la autoexpresión y la producción bajo demanda. 
+
+**Contexto:** Nuestro servicio/producto ofrece a usuarios creativos una herramienta accesible de personalización de prendas, con el objetivo de facilitar la creación de productos únicos sin necesidad de conocimientos técnicos avanzados.
+
+**Observación del problema:** Sin embargo, hemos identificado que una proporción considerable de usuarios abandona el proceso antes de completar su pedido. Esta observación se basa en entrevistas de usuario, análisis de embudos de conversión y feedback recogido en pruebas de usabilidad, donde los participantes señalaron dificultades para visualizar de manera realista cómo quedaría su diseño en el producto final.
+
+**Impacto:** Esta situación genera una disminución en la tasa de conversión de diseños a pedidos, afecta negativamente la confianza del usuario en el proceso de personalización y limita el crecimiento previsto de la plataforma en el segmento de consumidores de moda personalizada en Latinoamérica.
+
+**Necesidad insatisfecha:** Actualmente, los usuarios de TeeLab necesitan una experiencia de diseño que les permita visualizar sus camisetas de manera más precisa, interactiva y representativa, para sentirse seguros de que su producto final cumplirá sus expectativas de calidad y estilo.
+
+**Pregunta de mejora:** ¿Cómo podríamos optimizar la experiencia de visualización de diseños en TeeLab para aumentar la confianza del usuario y mejorar significativamente la conversión de diseños personalizados en pedidos efectivos?
+
+#### 1.2.2.2. Lean UX Assumptions
+
+En el desarrollo de la plataforma Quri – TeeLab, se identificaron y formalizaron un conjunto de supuestos (assumptions) fundamentales siguiendo la metodología de Lean UX. Estos assumptions representan nuestras creencias iniciales sobre los usuarios, los resultados esperados, el impacto en el negocio, las funcionalidades críticas y la capacidad de los sistemas de información para soportar la solución propuesta. Declararlos explícitamente permite orientar el diseño del producto hacia un enfoque basado en evidencias, minimizar riesgos y validar tempranamente las decisiones estratégicas. Para estructurarlos, se han considerado cinco categorías principales:
+
+**Categorías de Supuestos:**
+
+- **User Assumptions:** Necesidades y comportamientos esperados de los usuarios.
+- **User Outcome Assumptions:** Beneficios que los usuarios deberían obtener.
+- **Business Assumptions:** Modelo de negocio y el entorno de mercado.
+- **Business Outcome Assumptions:** Impactos positivos esperados en el negocio.
+- **Feature Assumptions:** Funcionalidades específicas y resolución de necesidades.
+
+Estos supuestos guiarán el diseño, minimizarán riesgos y permitirán una validación temprana.
+
+- **User Assumptions**
+  - Creemos que **el 60 % de los diseñadores gráficos** desean monetizar sus diseños sin encargarse de la logística de producción, porque enfrentan barreras económicas y operativas para comercializar productos físicos.
+  - Creemos que **el 85 % de los diseñadores gráficos** valoran plataformas intuitivas donde puedan crear diseños personalizados rápidamente, porque su flujo creativo requiere herramientas ágiles y sin fricciones.
+  - Creemos que **el 90 % de los clientes individuales** buscan camisetas únicas que reflejen su identidad, porque hoy los consumidores priorizan la autoexpresión en sus decisiones de compra.
+  - Creemos que **el 85 % de los clientes individuales** valoran poder personalizar productos sin conocimientos técnicos, porque desean una experiencia accesible y sin complicaciones.
+  - Creemos que **el 70 % de los clientes individuales** prefieren plataformas accesibles desde dispositivos móviles, porque diseñan y compran en momentos espontáneos durante su día a día.
+  - Creemos que **el 60 % de las marcas emergentes** desean vender productos personalizados sin asumir altos costos de inventario, porque necesitan validar su mercado antes de invertir en producción masiva.
+  - Creemos que **el 75 % de las marcas** valoran herramientas que integren diseño, visualización y envío a producción en un solo flujo, porque esto reduce su tiempo de lanzamiento al mercado.
+
+- **User Outcome Assumptions**
+  - Creemos que si los usuarios pueden personalizar productos de manera intuitiva y ver los cambios en tiempo real, entonces el 85 % de ellos calificará su satisfacción como alta (≥4 de 5) en encuestas post-compra.
+  - Creemos que si los usuarios encuentran fácilmente productos que se alinean con sus preferencias y valores, entonces el 75 % de ellos localizará el artículo deseado en menos de tres clics.
+  - Creemos que si los usuarios tienen una experiencia de compra positiva y personalizada, entonces el 60 % regresará a comprar en los 30 días siguientes y el 50 % recomendará la plataforma a al menos un conocido.
+- **Business Assumptions**
+  - Creemos que **el 80 % de los ingresos** de Teelab provendrá de ventas directas a consumidores individuales (B2C) y el **20 % restante** de pedidos corporativos y por volumen (B2B) durante el primer año, ya que el público general adoptará rápidamente la personalización on-demand.
+  - Creemos que **el 70 % de los usuarios** pagará por camisetas individuales a precio estándar y el **30 % restante** optará por packs o suscripciones (por ejemplo, “3 camisetas a precio reducido”), diversificando así nuestro flujo de caja y mejorando la previsibilidad de ingresos.
+  - Creemos que mantendremos un **margen bruto ≥ 50 %** tras costes de impresión, materiales y logística directa, gracias a la economía de escala y al modelo de producción bajo demanda que elimina inventarios sobrantes.
+  - Creemos que **el 25 % de los diseñadores registrados** utilizará Teelab como canal de venta de sus propios diseños en el primer año, generando comisiones de plataforma equivalentes al **10 % de sus ventas**.
+  - Creemos que enfatizar en la plataforma una política de “cero inventario sobrante” y la cifra de “40 % menos de desperdicio textil” atraerá a un **15 % adicional** de clientes conscientes, incrementando la tasa de conversión global.
+  - Creemos que incorporar un selector de idiomas y localización de contenido resultará en que **el 25 % de los nuevos registros** en seis meses provenga de usuarios no hispanohablantes, ampliando nuestra base internacional.
+  - Creemos que cerraremos **al menos 15 alianzas** con marcas emergentes, universidades y organizadores de eventos durante el primer año, aportando un **10 % extra** de ingresos por proyectos especiales y merchandising corporativo.
+
+- **Business Outcome Assumptions**
+  - Creemos que si los usuarios personalizan y compran camisetas de manera fácil, entonces incrementaremos la tasa de conversión de visitantes en compradores en un 20 % durante los tres primeros meses, aumentando así los ingresos por ventas directas.
+  - Creemos que si las marcas pequeñas utilizan nuestra plataforma para lanzar productos sin preocuparse por la fabricación, entonces cerraremos al menos 15 alianzas estratégicas con emprendedores en el primer año, fortaleciendo nuestra presencia en el mercado de personalización de ropa.
+  - Creemos que si ofrecemos una experiencia de usuario intuitiva y fluida, entonces reduciremos los costos de soporte y atención al cliente en un 30 % durante los primeros seis meses, mejorando la rentabilidad operativa del negocio.
+
+- **Feature Assumptions**
+  - Creemos que la funcionalidad de arrastrar y soltar (drag & drop) permitirá a los usuarios diseñar camisetas sin necesidad de conocimientos técnicos avanzados, de modo que el 60 % de ellos la use en su primera sesión de diseño.
+  - Creemos que el simulador en tiempo real de maquetas permitirá que los usuarios validen visualmente sus diseños antes de ordenar, de manera que el 90 % lo utilice al menos una vez antes de añadir el producto al carrito.
+  - Creemos que el editor multicapas permitirá crear diseños más complejos y personalizados, consiguiendo que el 70 % de los diseñadores habiliten al menos tres capas en sus proyectos.
+  - Creemos que el selector de idiomas permitirá a usuarios de diferentes países interactuar cómodamente, logrando que el 25 % del tráfico total provenga de regiones no hispanohablantes en los seis primeros meses.
+  - Creemos que la integración directa con fabricantes permitirá reducir tiempos de producción y mejorar la satisfacción del cliente, disminuyendo el lead time en un 30 % frente al proceso manual actual.
+  - Creemos que ofrecer múltiples métodos de pago en el checkout aumentará la tasa de conversión de usuarios que terminan su compra, reduciendo el abandono del carrito en al menos un 15 %.
+  - Creemos que tener un historial de pedidos permitirá a los usuarios repetir diseños anteriores, de forma que el 40 % de los pedidos en los primeros tres meses sean reórdenes de proyectos pasados.
+  - Creemos que el acceso responsive desde dispositivos móviles permitirá que los usuarios diseñen y compren camisetas desde cualquier lugar, alcanzando que el 70 % de las sesiones de diseño completas se realicen en móvil o tablet.
+  - Creemos que implementar un sistema de ratings y comentarios sobre los diseños incrementará la confianza en la plataforma, con el 50 % de los proyectos recibiendo al menos una valoración o comentario antes de la compra.
+  - Creemos que integrar una sección de FAQs interactiva reducirá la carga sobre el soporte al cliente, logrando una disminución del 20 % en tickets de ayuda relacionados con el proceso de diseño y compra.
+
+#### 1.2.2.3. Lean UX Hypothesis Statements 
+
+- Editor Drag & Drop:
+  **Creemos** que implementar un editor de camisetas con funcionalidad de arrastrar y soltar para usuarios diseñadores permitirá una creación más rápida y fluida de diseños. **Sabremos que estamos** en lo correcto **cuando veamos los siguientes comentarios del mercado**: al menos el 60% de los usuarios utilizan el editor completo en su primer intento.
+
+- Personalización intuitiva y satisfacción:
+  **Creemos** que ofrecer personalización visual en tiempo real para los usuarios permitirá aumentar su satisfacción general con la experiencia de compra. **Sabremos que estamos** en lo correcto **cuando veamos los siguientes comentarios del mercado**: el índice de satisfacción post-compra supere el 85% en encuestas de feedback.
+
+- Aumento de la tasa de conversión
+  **Creemos** que facilitar la personalización y compra de camisetas incrementará la conversión de visitantes en compradores. **Sabremos que estamos** en lo correcto **cuando veamos los siguientes comentarios del mercado**: la tasa de conversión aumente en un 20% en los tres primeros meses.
+
+- Confianza gracias al simulador en tiempo real
+  **Creemos** que el simulador en tiempo real de diseños permitirá que los usuarios se sientan más seguros respecto a sus creaciones. **Sabremos que estamos** en lo correcto **cuando veamos los siguientes comentarios del mercado**: más del 90% de los pedidos no requieren modificaciones posteriores.
+
+- Preferencia por acceso móvil
+  **Creemos** que los clientes individuales prefieren diseñar y comprar desde dispositivos móviles debido a su estilo de vida dinámico. **Sabremos que estamos** en lo correcto **cuando veamos los siguientes comentarios del mercado**: más del 70% del tráfico proviene de dispositivos móviles.
+
+- Métodos de pago para reducción de abandono
+  **Creemos** que ofrecer métodos de pago en el checkout reducirá el abandono del carrito. **Sabremos que estamos** en lo correcto **cuando veamos los siguientes comentarios del mercado**: la tasa de abandono disminuya al menos un 15%.
+
+- Rendimiento de renderizado de vistas previas
+  **Creemos** que el sistema podrá renderizar vistas previas de camisetas en menos de 2 segundos asegurando una experiencia de usuario fluida. **Sabremos que estamos** en lo correcto **cuando veamos los siguientes comentarios del mercado**: 95% de las renderizaciones se completan en menos de 2 segundos.
+
+- Crecimiento internacional mediante selector de idiomas
+  **Creemos** que incluir un selector de idioma permitirá captar usuarios de diferentes regiones y culturas. **Sabremos que estamos** en lo correcto **cuando veamos los siguientes comentarios del mercado**: crecimiento del 25% en usuarios no hispanohablantes en seis meses.
+
+- Alianzas estratégicas con marcas emergentes
+  **Creemos** que permitir que marcas emergentes vendan productos sin preocuparse por fabricación impulsará nuevas alianzas. **Sabremos que estamos** en lo correcto **cuando veamos los siguientes comentarios del mercado**: cierre de al menos 15 alianzas con emprendedores en el primer año.
+
+- Estabilidad de sesiones en dispositivos
+  **Creemos** que el sistema de gestión de sesiones mantendrá la estabilidad y seguridad en móviles y desktop. **Sabremos que estamos** en lo correcto **cuando veamos los siguientes comentarios del mercado**: desconexiones involuntarias menores al 3% en tres meses.
+
+#### 1.2.2.4. Lean UX Canvas
+
+En el apartado de Lean UX Canvas se desarrolló una estructuración completa y académica de las principales hipótesis estratégicas que sustentan la propuesta de valor y la arquitectura de la plataforma TeeLab.
+
+Cada hipótesis fue traducida en un Lean UX Canvas formal, siguiendo un enfoque científico-experimental que articula: el problema de negocio detectado (Business Problem), las soluciones propuestas a nivel funcional y técnico (Solutions), los resultados esperados a nivel organizacional (Business Outcomes), la caracterización de los usuarios objetivos (Users), los beneficios esperados para estos usuarios (User Outcomes & Benefits), la formulación de hipótesis de aprendizaje (Hypotheses), y el diseño de experimentos estratégicos para validar o refutar dichas hipótesis (What's the most important thing we need to learn first? y What's the least amount of work we need to do to learn the next most important thing?).
+
+Este trabajo metodológico permitió no solo establecer un marco claro de experimentación y validación temprana de las decisiones de diseño y tecnología, sino también alinear todos los esfuerzos de desarrollo a métricas de éxito específicas y medibles. Así, el apartado de Lean UX Canvas representa una pieza fundamental dentro del enfoque de construcción iterativa, ágil y centrada en el usuario de TeeLab, asegurando que cada funcionalidad propuesta responde a necesidades reales, riesgos priorizados y oportunidades de negocio tangibles.
+
+
+"Anexo: Diagrama de Lean UX Canvas" [https://drive.google.com/drive/folders/1ctYIYsZtXYcRKoBjgA4hCUx4Xmwf66EZ?usp=sharing
+
+](https://drive.google.com/drive/folders/1ctYIYsZtXYcRKoBjgA4hCUx4Xmwf66EZ?usp=sharing)
+
+- Implementación del Editor de Camisetas Drag & Drop
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe76Tf7yUAwEUPL-rUCHwLy5PFeEo-Ml7VMMYc6Xj2hnlQEwEqiFcwL0MqImanzTYAzzlustFv4uZ5KYMcS1vwqHPpNYutkcWofRkYpc5rQdvZzli-Lm-M1ioYffoQqG_k7wU6Rqw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Personalización Visual en Tiempo Real para Aumentar la Satisfacción de Compra
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdSVtcdmp4SG-caBJRft-pFLIZCTDdeQWwTiVpkRCrjj2RvFGaf-qsn0lanOLBLFHmundV4NS2OQQ6isDCEsgQ7QE8wHzFW1hqQlL14QdS9JhZSEUuPIYrR9uJ-n_zzVLo2ARcu?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Facilitación de la Personalización y Compra para Incrementar la Tasa de Conversión
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe0UNq_nB7c3sJmeOSiWSIoObKb4lDsnQ8KPr7rj3NsTxcNyyfyoBveueDSr4KlRhnE21c0zMF1njUgVOKZOuXNeqMr1dDqDNYTaFLI-p1GAwYg_CDStWTma67DIgKFeuT-ShZ9oA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Incremento de la Confianza mediante Simulador de Diseño en Tiempo Real
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfFqkDzqDmhnb6Od8VMIE3LlS5XhKJssqhXnzB-aBVPEfvMzK4NL9YcIQZQij883yvjduAODAAWg38SeWuoQLQ-RLo8RoqqIffx5TAw7qvXuABu_nY6OZ9O17COOWZy6J36wZSH?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Preferencia de los Clientes por Acceder y Comprar desde Dispositivos Móviles
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc-VdZnMaP_UHG488kws-fIj9cF0bjMnqUO3zGmGC5bnbQqZwywb0jtsWT1TTvUMGmn8ZBgVPWecqh0R2lTaRtImC2YGlWmSMYuzv5PytjQR3ATSvU_7SAY5x1PB0FRIRMnxpMJsg?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Reducción del Abandono del Carrito mediante Diversificación de Métodos de Pago
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeWHljLK_FIiAZ70lRi97Kxzsyp8FII079AcWws5PJ8C3ky3j08-QPXo8VuiBk0qu2ncMiF3311pIeWCyd7bF2lcGKn4fr6TUI8OG2SlK8wcW1vwa6G0JKViOArza8EJInjkbZwhA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Optimización del Rendimiento en la Renderización de Vistas Previas de Camisetas
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcDgdGf1hWz3_IbwMl0HrXh52PZYMzL2JdunTXaFF1jE--lqV0kLAgBjgyQ81umIF3b-iNpMyc07TATptZ0s6sjrMhokPSZT8N67OR1GcvadcdffkDu95MPu45DnBkOcV565PGusA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Expansión Internacional mediante Implementación de Selector de Idioma
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdqyryXcwqN_qz5Wye1o3Bjww4LSuk5UAS5T_Z8xrANEfyOFH_BSyhqBpC0XL7IFba9rx6KSyKEFrxC56zJJd9r6G7d7O5IRc2t7lez7wslCPkxIuMokZt6knXF6K3-6hjosZc8iw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Impulso de Alianzas Estratégicas con Marcas Emergentes mediante Eliminación de Barreras de Producción
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcROQe14bgpdcIRKdgWxJqRuL7Po0pG7uWZhizRFkKVUzUphxrtVzBdQTf6w2lPbw7Ev9jZQtaA5QJ5YmB2AcdC8vduUGud-TPCnkyxlWqvQGd9AmT-W2tCJ0qmKWl1TpTkhJ6aHw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Garantizar Estabilidad y Seguridad de Sesiones en Móviles y Desktop
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeGpqJP439Xsp4nbUZMJQqOZHgsLoL22shAySCFDO9iVESDRd64_dsaE5Of0sFlNGqb32IPgZbGXzT-r_fAJCUfscyhWQKoyDg-elhl9alHuittlD2KMRI9MU9fMViBY4MOCiAiyw?key=wLsuErVgqDz-qczrBI4kMctR)
