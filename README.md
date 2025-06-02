@@ -3309,3 +3309,12 @@ Class Dictionary
 **UserManagementService:** Application service coordinating user management use cases.
 
 **UserController:** Handles incoming requests related to user management.
+
+## 4.8. Database Design
+
+#### 4.8.1. Database Diagram
+
+Design lab
+			![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXetaS-wKSKot7dAEy2VgE-D_hQXHyeFPUkQsQDl6dXnAnrZMRE7iwRSJ5kgL458DY0YnsvBGJ4-udr8YrQJ8hoepssKwUnG2M90C4Vat_M5e0If4nsABSqagTo6mijKaO22K91VQA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Este diagrama representa la estructura de la base de datos para un "Design Lab". La tabla principal es **Blueprint**, que almacena información general del diseño como nombre, descripción, estado y una referencia al diseñador. Cada **Blueprint** está asociado con múltiples registros en la tabla **DesignLayer**, que detallan cada capa del diseño (tipo, contenido, posición, tamaño, color). Además, cada **Blueprint** utiliza una entrada en **GarmentCanvas** para especificar detalles de la prenda base (tipo, color, tallas disponibles), la cual puede hacer referencia a una plantilla predefinida en **TemplatePreset**. Las relaciones se establecen mediante llaves foráneas (**FK**) que apuntan a las llaves primarias (**PK**) correspondientes.
