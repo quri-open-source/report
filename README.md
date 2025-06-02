@@ -2260,3 +2260,171 @@ Your Designs
 ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd6sZ4VE2vJTREVj47kZ-TdxhAUw6t-kNNZYX6hioQp1TELW7FihBLl07aEJi4UJ3oMWWvbpbwTH1k8qe_QBddeO_mGRL96dGsrwZskvJX9Dg-jth1aAzAp8a8lkVgYU1D5yis1YQ?key=wLsuErVgqDz-qczrBI4kMctR)
 
 La estructura de los wireframes para la Web Application refleja una planificación basada en principios de usabilidad, accesibilidad y eficiencia. La segmentación entre versiones desktop y mobile permite optimizar la experiencia del usuario en distintos dispositivos, adaptando los flujos de navegación, el tamaño de los elementos y la jerarquía visual a las particularidades de cada entorno. Esta documentación será la base para las fases de prototipado, pruebas de usuario y posterior implementación funcional en código.
+
+### 4.4.2. Web Applications Wireflow Diagrams
+
+- **Segmento Objetivo #1: Diseñadores Gráficos Independientes**
+  El Diseñador Gráfico Independiente busca una plataforma intuitiva para crear, guardar, reutilizar y potencialmente vender diseños de polos personalizados, además de explorar diseños existentes para inspiración y gestionar sus pedidos y perfil.
+
+  **Login / Registro:****
+
+  **
+
+- **Login:** Introduce sus credenciales (username y password) y hace clic en “Login” para acceder a su cuenta.
+- **Registro:** Si es un usuario nuevo, completa el formulario de registro con sus datos y crea una nueva cuenta para acceder a la plataforma.
+- **Acción esperada:** Autenticarse exitosamente en la plataforma.
+
+**Home:**
+
+- Visualiza un panel principal con posibles accesos directos a secciones clave.
+- Puede ver proyectos recientes (propios o de otros), blueprints populares o destacados.
+- Observa el menú lateral o superior con opciones de navegación a diferentes secciones como "Design Studio", "Blueprints", "Projects", "Explore", "Favorites", "My Orders", "Profile", etc.
+- **Acción esperada:** Familiarizarse con la interfaz principal y decidir a qué sección dirigirse.
+
+**My Orders:**
+
+- Accede a un listado de sus órdenes realizadas previamente.
+- Cada orden muestra información básica como fecha, resumen de productos y precio total.
+- **Acción esperada:** Revisar su historial de compras.
+
+**Order Details:**
+
+- Selecciona una orden específica de la lista en "My Orders".
+- Visualiza la información detallada de esa orden, incluyendo número de orden, productos adquiridos, estado del pedido, método de pago y dirección de envío.
+- **Acción esperada:** Consultar los detalles de una compra en particular.
+
+**Profile:**
+
+- Accede a la sección de su perfil personal.
+- Puede ver información de su cuenta y un listado visual de sus propios diseños creados (Designed Garments o Design Blueprints).
+- **Acción esperada:** Acceder a la información de su cuenta y a sus creaciones.
+
+**Detalles del diseño (desde Profile):**
+
+- Selecciona uno de sus diseños listados en su perfil.
+- Visualiza los detalles de ese diseño, como la imagen principal, nombre, métricas (favoritos, vistas) y posibles recomendaciones de diseños similares.
+- **Acción esperada:** Revisar los detalles de un diseño específico que ha creado.
+
+**Favorites:**
+
+- Accede a una galería de Designed Garments que ha marcado como favoritas.
+- Cada elemento puede ser revisado nuevamente, añadido al carrito o removido de la lista de favoritos.
+- **Acción esperada:** Revisar y gestionar su lista de diseños favoritos.
+
+**Blueprints:**
+
+- Accede a una lista de Design Blueprints disponibles (públicos o propios).
+- Cada blueprint puede mostrar un título y una vista previa.
+- **Acción esperada:** Explorar blueprints existentes para inspiración o para usar como base.
+
+**Vista de Blueprint:**
+
+- Selecciona un blueprint de la lista.
+- Visualiza detalles del diseño, incluyendo nombre, autor, vistas, descripción y elementos visuales incluidos.
+- **Acción esperada:** Obtener más información sobre un blueprint específico.
+
+**Use Blueprint:**
+
+- Hace clic en el botón "Use Blueprint" en la vista de detalles de un blueprint.
+- El sistema genera una copia editable del blueprint y lo abre automáticamente en el Design Studio.
+- **Acción esperada:** Comenzar a personalizar un diseño basado en un blueprint existente.
+
+**Design Studio / Design Lab:**
+
+- Se carga la interfaz del editor de diseño (Design Lab).
+- Visualiza el Garment Canvas donde puede interactuar con elementos de diseño.
+- Utiliza herramientas para personalizar el diseño: cambiar colores (Garment Color), agregar texto (Add Text), agregar imágenes (Add Image), editar elementos seleccionados (Edit Select, Delete Selected, Move Selected), gestionar capas (Bring Front, Send Back, Move Front, Move Back), y guardar su trabajo (Save Design Blueprint).
+- **Acción esperada:** Crear o modificar un diseño de polo.
+
+**Garment Canvas (Inicial):**
+
+- Se carga un lienzo en blanco o una plantilla básica de prenda.
+- **Acción:** Visualiza el área de diseño.
+
+**Utilizar Herramientas de Diseño:**
+
+- El diseñador construye su diseño usando herramientas como "Add Text", "Add Image", "Edit Select", "Move Selected", "Delete Selected", "Garment Color" y gestiona capas con "Bring Front" y "Send Back".
+- **Acción:** Manipula elementos visuales.
+
+**Save Design (Implícito: Designed Garment):**
+
+- Hace clic en el botón "Save" y asigna un nombre al diseño.
+- **Acción:** Guarda el diseño personalizado.
+
+**Explore:**
+
+- Accede a una vista donde puede navegar entre diferentes Designed Garments disponibles para la compra.
+- Puede haber opciones para aplicar filtros o buscar por nombre, categoría o autor.
+- **Acción esperada:** Descubrir diseños de polos disponibles para comprar.
+
+**Detalles del Designed Garment (desde Explore):**
+
+- Selecciona una camiseta de la lista en "Explore".
+- Visualiza una vista detallada con el nombre del diseño y del Garment Designer, precio (Designed Garment Price), información sobre materiales, vistas previas y recomendaciones.
+- **Acción esperada:** Obtener información detallada sobre un diseño específico que le interesa.
+
+**Add to Cart:**
+
+- Hace clic en el botón "Add to Cart" en la vista de detalles del Designed Garment.
+- El diseño seleccionado se añade a su carrito de compras.
+- **Acción esperada:** Añadir un diseño al carrito para su compra.
+
+**Cart:**
+
+- Es redirigido al carrito de compras.
+- Revisa el contenido del carrito, puede ajustar cantidades y confirmar su selección.
+- Visualiza el subtotal y la opción para proceder al "Checkout".
+- **Acción esperada:** Revisar su selección antes de la compra.
+
+**Checkout:**
+
+- Inicia el proceso de compra.
+- Introduce su información de envío, selecciona un método de pago y completa la transacción.
+- **Acción esperada:** Finalizar la compra del diseño seleccionado.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe-2ZBzyUmSbbslyGmxHR7oq2aHkFeHCNV-Zcs7LP59XLXeP8xtRG-p1VCWGhyCyvc__MBB9tWnKojUOdkM03q7PZ-LpqiIWwO1ngPGs_Y3rpUvr5wPQvRl8ZMdJsdSCp8M9XJDrQ?key=wLsuErVgqDz-qczrBI4kMctR)
+
+El Diseñador Gráfico Independiente, utilizando la plataforma móvil, busca una manera rápida y eficiente de acceder a su cuenta, revisar sus pedidos y explorar diseños para inspirarse mientras se encuentra en movimiento. Valora la capacidad de consultar los detalles de sus compras y visualizar la información esencial de los diseños directamente desde su dispositivo móvil.
+**Login:**
+
+- El Diseñador Gráfico Independiente introduce su nombre de usuario y contraseña en los campos correspondientes.
+- Luego, pulsa el botón "Login".
+- **Acción esperada:** Autenticación exitosa en la plataforma móvil.
+
+**Home:**
+
+- El Diseñador Gráfico Independiente accede a la pantalla principal.
+- Visualiza una lista de diseños (posiblemente "Popular Now").
+- Observa iconos de navegación en la parte inferior o superior (Home, Explore, Profile, Cart, etc.).
+- **Acción esperada:** Exploración inicial de la interfaz móvil.
+
+**Profile:**
+
+- El Diseñador Gráfico Independiente pulsa el icono de "Profile" en la barra de navegación.
+- Accede a la sección de su perfil, donde puede ver información de usuario y accesos a otras secciones como "Designs".
+- **Acción esperada:** Acceso a la información de la cuenta y a sus diseños.
+
+**Acceso a "My Orders":**
+
+- Desde el perfil o desde un icono en la navegación, el Diseñador Gráfico Independiente accede a la sección de sus órdenes. (La pantalla muestra "My Orders" en la parte superior).
+- Visualiza una lista de sus pedidos.
+- **Acción esperada:** Revisión del historial de compras.
+
+**Detalles de Orden:**
+
+- El Diseñador Gráfico Independiente selecciona una orden de la lista.
+- Visualiza la pantalla de "Order Details" con información como el número de orden, productos, cantidad, precio unitario, precio total, método de pago, dirección de envío y estado del pedido.
+- **Acción esperada:** Consulta de la información detallada de una orden específica.
+
+**Selección de Diseño:**
+
+- De vuelta en la pantalla "Home", el Diseñador Gráfico Independiente selecciona uno de los diseños mostrados en la lista.
+- **Acción esperada:** Selección de un diseño para ver más detalles.
+
+**Detalles del Diseño:**
+
+- Tras seleccionar un diseño en el Home, el Diseñador Gráfico Independiente visualiza la pantalla con los detalles del diseño.
+- Esta pantalla muestra información como el nombre del diseño ("Bocanada"), el creador, el precio, una descripción, imágenes del diseño y posiblemente una sección de diseños similares.
+- **Acción esperada:** Obtención de información detallada sobre el diseño seleccionado.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfUzetst9PwuBi2fT0UEor_1eAVKxbBU5YN-u5rjF1WamcarTYdRdJmRqPNDhkmLlUDQbYAzFlMwMx8hBUJmCb0SSdYi0k5uC7uDs1stidlbd4iQUL7lY50nn0wI37BJpIe1-4Etg?key=wLsuErVgqDz-qczrBI4kMctR)
