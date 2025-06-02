@@ -3309,3 +3309,41 @@ Class Dictionary
 **UserManagementService:** Application service coordinating user management use cases.
 
 **UserController:** Handles incoming requests related to user management.
+
+## 4.8. Database Design
+
+#### 4.8.1. Database Diagram
+
+Design lab
+			![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXetaS-wKSKot7dAEy2VgE-D_hQXHyeFPUkQsQDl6dXnAnrZMRE7iwRSJ5kgL458DY0YnsvBGJ4-udr8YrQJ8hoepssKwUnG2M90C4Vat_M5e0If4nsABSqagTo6mijKaO22K91VQA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Este diagrama representa la estructura de la base de datos para un "Design Lab". La tabla principal es **Blueprint**, que almacena información general del diseño como nombre, descripción, estado y una referencia al diseñador. Cada **Blueprint** está asociado con múltiples registros en la tabla **DesignLayer**, que detallan cada capa del diseño (tipo, contenido, posición, tamaño, color). Además, cada **Blueprint** utiliza una entrada en **GarmentCanvas** para especificar detalles de la prenda base (tipo, color, tallas disponibles), la cual puede hacer referencia a una plantilla predefinida en **TemplatePreset**. Las relaciones se establecen mediante llaves foráneas (**FK**) que apuntan a las llaves primarias (**PK**) correspondientes.
+
+
+1. Order Fulfillment
+
+ ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdlz7BU-DQK4nUlLwdpe-n4S7Em9oyarD9fEalP2kh3SMEfl_yEEXG45He-Xcv2bDe8IeRQBhKFNTZBdkEiDaTiyUSSUNu6rArYj0ZC7-MlRu4APlVTTzzV8PMJiDQZbbHZfcDupw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Este diagrama muestra la base de datos para el cumplimiento de pedidos. La tabla **ProductionBatch** agrupa órdenes por lotes de producción asignados a un fabricante. Cada lote contiene múltiples **FulfillmentOrder**, que registran el estado del cumplimiento de un pedido específico, cantidad, número de seguimiento y referencias a pedido, producto, blueprint y fabricante. Cada **FulfillmentOrder** a su vez contiene múltiples **DeliveryCheckpoint** (registros de seguimiento) y tiene asociadas unidades de empaquetado (**PackagingUnit**) con detalles de tipo, dimensiones y peso. Las claves primarias y foráneas definen las relaciones entre tablas.
+
+1. Order Processing
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXft4KoqB4HakW36xTq7qWB8eVUfuaaR0VaUeJvoKnpp8GbXrqsbUVhIOfsKJq9bDIG_Hf3LoJITnbu_fKJcwGZXAs4IBwb1b_ASqUrFZXpPAsx-F7_MEkYZdYM7Fx66pXabzNyapg?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Este diagrama de base de datos para **"Procesamiento de Pedidos"** se centra en la tabla **Order**, que almacena detalles del pedido como usuario, fecha, estado, monto total y direcciones. Cada **Order** contiene múltiples **OrderItem** (artículos del pedido con producto, cantidad y precio). Opcionalmente, a una **Order** se le aplica una **DiscountPolicy** (política de descuento con sus reglas y validez). Finalmente, cada **Order** está asociada a registros en **PaymentTransaction** que detallan las transacciones de pago (estado, monto, método, fechas). Las claves foráneas (FK) conectan estas tablas entre sí.
+
+1. Payment Gateway
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXem_qBijm09ULButnu4o0wBcGSXNAKng8qxaPG8suWBzaY-qF1WGsXyQiyEoV8JU2gp9fauPOGzukbNoPw5nDDqvg0PUF6CPlcNHZUK27GHQmY4dJqBrz6q059b4_TIlNc9MLDC9w?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Este diagrama de base de datos para la **"Pasarela de Pago"** se enfoca en la tabla **Transaction**, que almacena los detalles de cada transacción **(estado, monto, moneda, fecha, ID de cargo externo).** Cada **Transaction** puede contener múltiples registros en **RevenueSplit**, que especifican cómo se divide el ingreso entre diferentes beneficiarios. Además, cada **Transaction** tiene asociado un único **Receipt** (recibo) que almacena la URL del recibo y la fecha de emisión. Las claves foráneas en **RevenueSplit** y **Receipt** las vinculan a la tabla **Transaction**.
+
+1. Product Catalog
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcebSs1AqL9MHRzmHhkdSi4dX5myrYYr_wrEigj1aI0O0iaTfkVNekbsl4tLzBOjAnyN4V3KHuaFBXL7GdWwBCsOu1Pc0UPV9Md6dybhMaOB1smVNLjR67Rl4r7Q8FEW1oCJRhmBw?key=wLsuErVgqDz-qczrBI4kMctR)Este diagrama de base de datos para el **"Catálogo de Productos"** muestra la tabla central **Product** con los detalles principales del producto. Se relaciona mediante tablas de unión **(ProductCategory, ProductTag)** con las tablas **Category** y **Tag** para manejar relaciones de muchos a muchos (un producto puede tener varias categorías/etiquetas y viceversa). Además, un producto se relaciona con múltiples registros en las tablas **Rating** (calificaciones de usuarios), **ProductImage** (URLs de imágenes) y **ProductSize** (tallas disponibles), estableciendo relaciones uno a muchos mediante claves foráneas.
+
+1. User Management
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfqX8lmH--tkL6FKtHoLD_URJ7f5H-p36-pCuQXZa9GDWBQcITGce0rNngtaK9u570aEdYL-UK9o9khf3xAVArpzIkoaKNykZsBJhCZsx7vpHDf2_vOQbb3Yh0UYDBTmwvb4pwN?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Este diagrama de base de datos para **"Gestión de Usuarios"** tiene la tabla **User** como entidad central, almacenando credenciales básicas **(email, hash de contraseña)**, estado y proveedor de autenticación. Un **User** tiene asociado un único **UserProfile (con datos como nombre, imagen, bio)** mediante una llave foránea. Además, un usuario puede tener múltiples **UserRole** (roles asignados) y gestiona múltiples **SessionToken** (tokens de sesión activos con su fecha de expiración y validez), ambas tablas vinculadas también a través de la userId.
