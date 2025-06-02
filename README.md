@@ -555,3 +555,77 @@ Este trabajo metodológico permitió no solo establecer un marco claro de experi
 - Garantizar Estabilidad y Seguridad de Sesiones en Móviles y Desktop
 
 ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeGpqJP439Xsp4nbUZMJQqOZHgsLoL22shAySCFDO9iVESDRd64_dsaE5Of0sFlNGqb32IPgZbGXzT-r_fAJCUfscyhWQKoyDg-elhl9alHuittlD2KMRI9MU9fMViBY4MOCiAiyw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+## 1.3. Segmentos objetivo
+
+Segmento Objetivo #1: Diseñadores Gráficos Independientes
+
+- Aspectos demográficos
+- **Sexo:** Sin distinción de género.
+- **Edad:** De 18 a 45 años.
+- **Nivel socioeconómico:** Medio a medio-alto.
+
+- Aspectos geográficos
+  - **Nacionalidad:** Sin restricciones, con foco inicial en diseñadores de habla hispana.
+  - **Zona geográfica:** Principalmente áreas urbanas con acceso a internet y dispositivos digitales.
+  - **Departamento:** No aplica (orientación digital).
+
+- Aspectos psicográficos
+  - Personas creativas que buscan plataformas que les permitan transformar ideas en productos tangibles.
+  - Valoran herramientas intuitivas que agilicen el proceso de diseño y venta.
+  - Tienen conocimientos básicos o avanzados en diseño gráfico digital.
+  - Buscan monetizar su talento sin encargarse de la producción o logística.
+  - Son usuarios activos de redes sociales donde promueven sus diseños, buscan visibilidad y conexión.
+
+- Aspectos conductuales
+  - Buscan rapidez y facilidad para convertir sus diseños en productos vendibles.
+  - Prefieren interfaces visuales, intuitivas y flujos de venta simplificados.
+  - Valoran la personalización, autonomía y control creativo en su experiencia de usuario.
+
+Segmento Objetivo #2: Clientes Individuales Creativos
+
+- Aspectos demográficos
+  - **Sexo:** Sin distinción de género.
+  - **Edad:** De 18 a 40 años.
+  - **Nivel socioeconómico:** Medio a medio-alto.
+
+- Aspectos geográficos
+  - **Nacionalidad:** Sin restricciones, con foco en mercados hispanohablantes y expansión internacional.
+  - **Zona geográfica:** Principalmente residentes de áreas urbanas y suburbanas con acceso a internet móvil.
+  - **Departamento:** No aplica (orientación global digital).
+
+- Aspectos psicográficos
+  - Personas que valoran la autoexpresión y la originalidad en sus productos personales.
+  - Buscan diferenciarse a través de ropa personalizada que refleje su identidad y estilo de vida.
+  - Están familiarizados con plataformas de e-commerce y personalización online.
+  - Valoran experiencias de compra simples, rápidas y visualmente atractivas.
+  - Suelen compartir sus gustos y compras a través de redes sociales.
+
+- Aspectos conductuales
+  - Buscan plataformas donde puedan diseñar sus propios productos sin necesidad de conocimientos técnicos.
+  - Prefieren interfaces responsivas y accesibles desde dispositivos móviles.
+  - Se sienten motivados por la posibilidad de co-crear productos únicos y recibirlos en tiempos de entrega razonables.
+
+Segmento Objetivo #3: Marcas Emergentes y Emprendedores
+
+- Aspectos demográficos
+  - **Sexo:** Sin distinción de género.
+  - **Edad:** De 22 a 45 años.
+  - **Nivel socioeconómico:** Medio-alto a alto.
+
+- Aspectos geográficos
+  - **Nacionalidad:** Sin restricciones, con enfoque inicial en Latinoamérica y expansión global.
+  - **Zona geográfica:** Áreas urbanas y ciudades medianas con acceso a servicios de e-commerce y logística.
+  - **Departamento:** No aplica (orientación nacional e internacional).
+
+- Aspectos psicográficos
+  - Emprendedores y propietarios de pequeñas marcas que buscan posicionar productos personalizados en el mercado.
+  - Valoran soluciones tecnológicas que les permitan reducir costos de producción, tiempos de salida al mercado y complejidad operativa.
+  - Están altamente motivados por la oportunidad de construir una identidad de marca única a través de productos personalizados.
+  - Buscan plataformas que ofrezcan escalabilidad, confiabilidad y facilidad de integración con sus estrategias de marketing digital.
+  - Son proactivos en el uso de redes sociales, publicidad digital y estrategias de branding para impulsar su negocio.
+
+- Aspectos conductuales
+  - Prefieren soluciones que eliminen la necesidad de gestionar inventarios o producción física.
+  - Buscan herramientas que automaticen procesos de diseño, compra y conexión con proveedores.
+  - Valoran experiencias B2B simples, flexibles y que permitan control total del diseño y venta de productos personalizados.
