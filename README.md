@@ -3197,3 +3197,115 @@ Este diagrama muestra el contexto de "Gestión de Usuarios" (**User Management**
 Repositorio con los diagramas de clase: https://github.com/quri-open-source/docs 
 
 Se ubica dentro de la carpeta de class-diagrams
+
+### 4.7.2. Class Dictionary
+
+Class Dictionary
+
+**Blueprint:** Represents a design blueprint, including layers, status, and associated images.
+
+**DesignLayer:** Represents a single layer within a design blueprint (e.g., text, image).
+
+**GarmentCanvas:** Defines the dimensions and base color of the design canvas.
+
+**DesignStatus:** Encapsulates the status of a design.
+
+**BlueprintComposer:** Domain service for composing or rendering blueprints.
+
+**BlueprintRepository:** Defines the contract for storing and retrieving blueprints.
+
+**BlueprintService:** Application service coordinating blueprint-related use cases.
+
+**DesignLabController:** Handles incoming requests related to designs.
+
+**Order:** Represents a customer order, containing items, status, amounts, and addresses.
+
+**OrderItem:** Represents a single item within an order.
+
+**OrderHistory:** (Details minimal, likely tracks order changes).
+
+**OrderState:** Encapsulates the current state of an order.
+
+**OrderValidationService:** Domain service for validating orders.
+
+**OrderRepository:** Defines the contract for storing and retrieving orders.
+
+**PaymentInitiator:** External service interface for initiating payments.
+
+**DiscountPolicy**: Represents a discount policy applied to an order.
+
+**OrderProcessingService:** Application service coordinating order processing use cases.
+
+**OrderController:** Handles incoming requests related to orders.
+
+**FulfillmentOrder:** Represents the fulfillment process for an order.
+
+**FulfillmentStatus:** Encapsulates the status of a fulfillment order.
+
+**PackagingUnit:** Details about the packaging for fulfillment.
+
+**DeliveryCheckpoint:** Represents a step in the delivery process.
+
+**ProductionBatch:** Represents a batch of fulfillment orders assigned for production.
+
+**FulfillmentOrchestrator:** Domain service orchestrating the fulfillment process.
+
+**FulfillmentRepository:** Defines the contract for storing and retrieving fulfillment orders and production batches.
+
+**FulfillmentService:** Application service coordinating fulfillment use cases.
+
+**FulfillmentController:** Handles incoming requests related to fulfillment.
+
+**Product:** Represents a product in the catalog with details like price, description, and images.
+
+**Category:** Represents a category for products.
+
+**Tag:** Represents a tag associated with a product.
+
+**DesignerProfile:** Represents the profile of a product's designer.
+
+**Rating:** Represents a rating given to a product.
+
+**ProductSearchAndFilterService:** Domain service for searching and filtering products.
+
+**ProductRepository:** Defines the contract for storing and retrieving products.
+
+**CloudinaryAdapter:** Adapter for interacting with the Cloudinary image service.
+
+**ProductCatalogService:** Application service coordinating product catalog use cases.
+
+**ProductCatalogController:** Handles incoming requests related to the product catalog.
+
+**Transaction:** Represents a payment transaction.
+
+**PaymentStatus:** Encapsulates the status of a payment transaction.
+
+**RevenueSplit:** Represents how transaction amounts are split.
+
+**Receipt:** Contains details of a payment receipt.
+
+**TransactionRepository:** Defines the contract for storing and retrieving transactions.
+
+**StripePaymentAdapter:** Adapter for interacting with the Stripe payment gateway.
+
+**PaymentGatewayService:** Application service coordinating payment gateway use cases.
+
+**PaymentController:** Handles incoming requests related to payments.
+
+**User:** Represents a user of the system.
+
+**UserProfile:** Contains profile details for a user.
+
+**UserStatus:** Encapsulates the status of a user.
+
+**SessionToken:** Represents a user's authentication session token.
+
+**AuthProvider:** Represents the authentication provider used for a user.
+
+**UserRepository:** Defines the contract for storing and retrieving users.
+
+**SupabaseAuthAdapter:** Adapter for interacting with the Supabase authentication service.
+
+**UserManagementService:** Application service coordinating user management use cases.
+
+**UserController:** Handles incoming requests related to user management.
