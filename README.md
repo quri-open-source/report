@@ -360,6 +360,7 @@ Más que facilitar la creación de camisetas, en Teelab by Quri impulsamos que c
 | Alumno: Curipaco Huayllani, Neil Aldrin Wilhelm Código: u20231b866Carrera: Ingeniería de Software |                                                              |
 | Soy Neil Curipaco Huayllani. Estoy cursando el 4to ciclo de la carrera de Ingeniería de Software en la UPC. Me gusta jugar videojuegos, aprender cosas nuevas, escuchar música y mejorar mis habilidades para ser de ayuda en el equipo de trabajo del que formo parte. | ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXetcuu3XtpLr2o8hPixF4A9CuRxnx43xTBZJo2MKYxTSvIXxbP1B-pl3UyVZt0RMTq3KYx7RGlQ9lZt_ssV3EGNq_wRgvUXIAykmyoZwhH2phVJgViQpELv_L_qhitMWuFAJc9f9w?key=wLsuErVgqDz-qczrBI4kMctR) |
 
+
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
@@ -1795,6 +1796,170 @@ Función: Describe la acción de cada botón de control que permite navegar entr
 
 El uso de aria-label en Quri cumple una doble función: mantener una interfaz limpia y minimalista visualmente, mientras se garantiza la accesibilidad para usuarios con discapacidades visuales. La implementación de estos atributos asegura que todos los elementos interactivos puedan ser comprendidos y utilizados mediante tecnologías de asistencia, contribuyendo a una experiencia de usuario más inclusiva y alineada con las directrices WCAG 2.1 (Web Content Accessibility Guidelines). Esta práctica se extiende como estándar en toda la interfaz tanto en la landing page como en los módulos de la aplicación web, reforzando el compromiso del proyecto con la accesibilidad digital.
 
+## 4.2. Information Architecture
+
+UX Heuristics & Principles Evaluation
+
+Usability – Inclusive Design – Information Architecture
+
+CARRERA 		: Ingeniería de Software
+
+CURSO 		: Desarrollo de Aplicaciones Open Source 
+
+SECCIÓN 		: 4350
+
+PROFESORES 	: Todos 
+
+AUDITOR 		: Nombre del Grupo que ejecuta la Sesión de evaluación
+
+CLIENTE(S) 		: Grecia Curipaco Huayllani, Giuliana Nisbeth y Orianka Buitrón
+
+SITE o APP A EVALUAR: 
+
+Quri
+
+TAREAS A EVALUAR: 
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas: 
+
+Segmento Objetivo #1: Diseñadores Gráficos Independientes
+
+- Personalizar camisetas: Variedad y profundidad de opciones de personalización.
+- Acceder a guías: Disponibilidad y claridad de guías de diseño.
+- Ver ejemplos: Presencia y calidad de ejemplos inspiradores.
+
+Segmento Objetivo #2: Clientes Individuales Creativos
+
+- Iniciar diseño: Claridad del llamado a la acción para diseñar.
+- Inspirarse: Disponibilidad de ejemplos de diseños.
+
+Segmento Objetivo #3: Marcas Emergentes y Emprendedores
+
+- Información mayorista: Facilidad para encontrar información de pedidos al por mayor.
+- Acceso a sección B2B: Claridad y accesibilidad de la sección "Para Empresas".
+- Contacto comercial: Facilidad para encontrar información de contacto comercial.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas: 
+
+Segmento Objetivo #1: Diseñadores Gráficos Independientes
+
+- Diseño de otras prendas además de camisetas
+- Proceso de registro de usuario
+- Soporte técnico detallado
+
+Segmento Objetivo #2: Clientes Individuales Creativos
+
+- Opciones de pago
+- Detalles de envío
+- Calidad de la atención al cliente
+
+ESCALA DE SEVERIDAD:
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripción                                                  |
+| ----- | ------------------------------------------------------------ |
+| 1     | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+TABLA RESUMEN:
+
+| #    | Problema                                                     | Escala de severidad | Heurística/Principio violada(o)                            |
+| ---- | ------------------------------------------------------------ | ------------------- | ---------------------------------------------------------- |
+| 1    | Limitadas opciones de personalización de camisetas (solo colores básicos, sin opciones de texturas de tela) | 2                   | Usabilidad: Flexibilidad y eficiencia de uso.              |
+| 2    | Guías de diseño poco visibles y con información incompleta (falta información sobre tipos de archivo) | 3                   | Usabilidad: Ayuda y documentación.                         |
+| 3    | El llamado a la acción "Diseña Ahora" no es lo suficientemente visible en la página de inicio. | 3                   | Usabilidad: Visibilidad del estado del sistema.            |
+| 4    | No hay un enlace claro a información sobre pedidos al por mayor en el menú principal. | 3                   | Usabilidad: Coincidencia entre el sistema y el mundo real. |
+| 5    | La información de contacto comercial no es fácilmente accesible (solo un formulario genérico). | 2                   | Usabilidad: Ayuda y documentación.                         |
+
+DESCRIPCIÓN DE PROBLEMAS:
+
+SEGMENTO: CLIENTES
+
+- Severidad: 2
+   Heurística violada: Reconocimiento antes que recuerdo
+   Segmento: Clientes
+   Problema: Solo se visualiza la parte frontal del polo en la tienda. El cliente no puede ver la espalda, las mangas u otras zonas, lo que limita su comprensión del producto final.
+   Recomendación: Incluir vistas adicionales del producto desde múltiples ángulos o una vista 360° que permita inspeccionar la prenda completa.
+
+- Severidad: 2
+   Heurística violada: Coincidencia entre el sistema y el mundo real
+   Segmento: Clientes
+   Problema: No se muestran ejemplos visuales del tipo de impresión ni de la textura de la tela. Esto genera incertidumbre sobre el resultado final.
+   Recomendación: Añadir imágenes reales o simuladas que ilustren cómo lucen diferentes técnicas de impresión y tipos de tela como algodón o dry-fit.
+
+- Severidad: 2
+   Heurística violada: Ayuda y documentación
+   Segmento: Clientes
+   Problema: No se muestra información del fabricante al momento de comprar un producto, lo que reduce la transparencia y confianza.
+   Recomendación: Mostrar el perfil del fabricante (nombre, ubicación, reputación, tiempo estimado de entrega) en la ficha del producto.
+
+SEGMENTO: DISEÑADORES
+
+- Severidad: 3
+   Heurística violada: Flexibilidad y eficiencia de uso
+   Segmento: Diseñadores
+   Problema: Solo se puede diseñar la parte delantera del polo. Esto limita la creatividad y la funcionalidad del diseño.
+   Recomendación: Habilitar edición en otras zonas como espalda, mangas y cuello, con navegación clara entre vistas.
+
+- Severidad: 3
+   Heurística violada: Flexibilidad y eficiencia de uso
+   Segmento: Diseñadores
+   Problema: El editor solo permite subir texto e imágenes planas, sin acceso a herramientas vectoriales, formas o recursos avanzados.
+   Recomendación: Ampliar el editor con opciones de formas, vectores, capas y bibliotecas externas para mejorar la calidad profesional de los diseños.
+
+- Severidad: 2
+   Heurística violada: Flexibilidad y eficiencia de uso
+   Segmento: Diseñadores
+   Problema: El sistema solo ofrece un conjunto limitado de fuentes tipográficas, restringiendo la variedad estilística.
+   Recomendación: Integrar una biblioteca más extensa de fuentes categorizadas por estilo, e incluir opción de carga de fuentes personalizadas bajo condiciones de licencia.
+
+- Severidad: 3
+   Heurística violada: Flexibilidad y eficiencia de uso
+   Segmento: Diseñadores
+   Problema: Solo hay un tipo de prenda disponible (polo clásico), lo que reduce la diversidad de productos que los diseñadores pueden ofrecer.
+   Recomendación: Incluir distintos tipos de prendas como hoodies, polos sin mangas o crop tops, con adaptación del editor y vistas previas.
+
+SEGMENTO: MANUFACTURERS (Fabricantes / Vendedores)
+
+- Severidad: 3
+   Heurística violada: Coincidencia entre el sistema y el mundo real
+   Segmento: Manufacturers
+   Problema: No hay una sección clara que explique cómo ser fabricante, aceptar diseños, establecer márgenes, y gestionar producción.
+   Recomendación: Crear una sección “Produce en Quri” con onboarding paso a paso, reglas operativas, políticas de ingresos y ejemplos ilustrativos.
+
+- Severidad: 2
+   Heurística violada: Visibilidad del estado del sistema
+   Segmento: Manufacturers
+   Problema: No existe un panel centralizado que permita ver de forma unificada los diseños aceptados, los pedidos en curso y los ya enviados.
+   Recomendación: Diseñar un “Panel del Fabricante” con secciones específicas, filtros por estado, fechas y acceso directo a cada pedido.
+
+- Severidad: 3
+   Heurística violada: Ayuda y documentación
+   Segmento: Manufacturers
+   Problema: No hay forma de comunicarse directamente con el cliente para resolver dudas sobre pedidos, archivos o entregas.
+   Recomendación: Implementar un sistema de mensajería interna por pedido, que respete privacidad pero facilite la coordinación directa.
+
+- Severidad: 2
+   Heurística violada: Ayuda y documentación
+   Segmento: Manufacturers
+   Problema: El fabricante no tiene acceso a información mínima del cliente (ni siquiera nombre o contacto controlado), dificultando la resolución de incidentes.
+   Recomendación: Mostrar datos limitados y controlados como nombre y canal interno de mensajería autenticada.
+
+- Severidad: 3
+   Heurística violada: Ayuda y documentación
+   Segmento: Manufacturers
+   Problema: No existe una sección de soporte técnico especializada para fabricantes, y el único canal disponible es un formulario genérico.
+   Recomendación: Crear un centro de soporte exclusivo con artículos técnicos, chat y tickets clasificados por tipo de problema.
+
+- Severidad: 2
+   Heurística violada: Flexibilidad y eficiencia de uso
+   Segmento: Manufacturers
+   Problema: Los fabricantes no pueden personalizar su perfil público, lo que impide construir una marca visible dentro de la plataforma.
+   Recomendación: Permitir crear perfiles personalizados con nombre comercial, logo, descripción, catálogo activo y sistema de calificaciones.
+
 ### 4.2.1. Organization Systems
 
 En el contexto del diseño de interfaces digitales centradas en el usuario, el Organization System es el componente de la arquitectura de información encargado de definir cómo se agrupan, clasifican y presentan los contenidos dentro de una plataforma. Su propósito principal es facilitar la exploración, comprensión y acceso eficiente a la información, permitiendo que los usuarios encuentren lo que buscan de manera intuitiva. Este sistema cumple un rol clave en la estructuración lógica del sitio, ayudando a reducir la carga cognitiva, mejorar la usabilidad y apoyar los flujos de interacción con el producto.
@@ -2431,7 +2596,6 @@ El Diseñador Gráfico Independiente, utilizando la plataforma móvil, busca una
 
 
 
-
 - **Segmento Objetivo #2: Clientes Individuales Creativos**
 
 
@@ -2662,3 +2826,200 @@ La Marca Emergente o Emprendedor, utilizando su dispositivo móvil, busca una ma
 - **Acción esperada:** Obtención de información detallada sobre el diseño seleccionado.
 
 ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfndsOKekx70gTfwa8zrXzd1n6IHcWieubXnG34l2bCg0IcPJ_tjTk-TwIdIS6EghWkXThqtsjNRx08Hihu9zFQQWziz7f67rVjQvLhtZaGaVu2YNU3bEMRPMWPGqXtqMxngZMDYQ?key=wLsuErVgqDz-qczrBI4kMctR)
+
+### 4.4.3. Web Applications Mock-ups
+
+Los mockups de alta fidelidad de la Web Application representan una consolidación visual de las decisiones tomadas durante el diseño de wireframes. Aquí se incorporan aspectos gráficos clave como la tipografía, paleta de colores, estilo de botones, íconos, espacios en blanco y jerarquía visual. Su objetivo es ofrecer una representación cercana al producto final, sirviendo como referencia directa para los desarrolladores frontend. En este análisis se evalúa tanto la versión desktop como mobile, considerando criterios de accesibilidad, eficiencia en la navegación y consistencia visual.
+
+Login
+
+- Desktop: El diseño presenta una interfaz centrada, minimalista, con buena proporción de espacios en blanco. Se destacan los campos de usuario y contraseña, acompañados por elementos secundarios como “¿Olvidaste tu contraseña?” o login con terceros. El llamado a la acción (CTA) es claro, con un botón primario diferenciado por color. Se mantiene un equilibrio entre formalidad y calidez visual, transmitiendo confianza al usuario.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcT6gc1aAH3tXvifrC5uU_UHMJfPVa2yZ2obgPbCqRnKSuYyVzbjekiO39QqgWgkESCadzxr60U2ojO0u0uQemRcS_0pgzOt8vjKuhdt79siYHAeQ7lZnn2_Uy_gviaOpjsQwJLrw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile: La estructura se adapta verticalmente con espaciado generoso entre campos, ideal para interacción táctil. Los botones son accesibles con el pulgar, y la tipografía conserva buena legibilidad. Se reduce el contenido visual no esencial, priorizando el inicio rápido de sesión.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfbLcb000oRZUN9iJhWfNoiSAoL8bYTr2ytGnNiTiO5M0Gr9SzkmHN6fpUABk7bn7lhP7UKClD8x1kpsg_xCgoD76LqyOgP-RaP3vWII4RQEWtNrmo-9pyuhFyXMUXnDRk8JFjwFw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Orders
+
+- Desktop: Los mockups muestran un historial de pedidos con layout de columnas, jerarquía clara entre ID de pedido, producto, estado y resumen de pago. Se emplea una línea de progreso visual (tracker) para mostrar el estado de envío, lo que refuerza la transparencia en la experiencia post-compra.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfd_MsPtMQ-f8_uCCu2tE2sUGmhup6rCZMvdk2AdKdh9CAkvtpzdscim8KIoE3ozAcxsLLP6fyA6zPD9qK6u443U2tiYUgEQghe6weRKN3xE8WVBv6w3HdfxwxBLWbbbgI7n2BeEA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile: El layout se reorganiza en tarjetas con bloques de información y estados del pedido en formato lineal. Esto facilita el seguimiento desde dispositivos pequeños sin comprometer la comprensión del estado de cada orden.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeY1g0F8c-0hDsILMqKii6tkYFKcAPiu8St8Ih3jQG8mxW1b8m0LCoTrtrJKKiIXN1snTjUfq-dg9u5laimSd4OlISayeYcVDWVvR0UmtTRbfdZ4-9M7EXFQxZid0UvBrLxqJp4UA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Home
+
+- Desktop: Se presenta un diseño editorial con banners, secciones visuales (“Popular Now”, “New”) y productos destacados en grillas. La navegación es clara, con menú superior y acceso rápido al perfil y carrito. Se logra un balance entre promoción de productos y navegación funcional.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfF0qYcCInea9VlmZn_MKuXF6ekmDXPMjdBy6VZD_1nsDR8kXnqOcoiNRJZ6TD1pQMvc4fSKk62e9WidJoBYDD0lV4WzePMt8tZjkQkC1qppMBbBATFnBFNtER6qMYvqk2XlvV7WQ?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile: El diseño optimiza el desplazamiento vertical con secciones apiladas. Se utilizan carruseles horizontales para categorías, favoreciendo la exploración con el pulgar. Los elementos visuales están adaptados al espacio limitado sin sacrificar identidad visual.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcD1YW_iBa0zfDFi6eAGSBdbpBM6dKI-dlbD5rcYHMQziDQCcvSYZLtnJq4qMYqSMZudy919jOnw358sqPBLE_ez0H9-Dyi1LD5yAShuAfjIG5lWhvVgIGCqAFt9o_x1OFfs7omYg?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Cart
+
+- Desktop: El carrito muestra productos listados con imagen, cantidad, precio y opción de eliminar. El resumen de compra está fijo o bien ubicado a la derecha para facilitar la conversión. El botón de checkout es prominente y claro.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfGZ2wvWPmGFmklEh7ywWDGAAda84gi3UpggQEGdf8PLWbKqOe6rXHr8b8PxbDKWj0U0Rb9crtVVRgKxoXlDhWEbS5JZf97j1e0a5KwfViD0mEDjg5WCO0mDNAAi0m6yQcsEEniTA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+
+
+
+
+- Mobile: Los elementos se agrupan por producto con botones grandes para editar o eliminar. El resumen de totales está al final de la vista, con CTA fijo para facilitar el paso hacia el pago. El enfoque es claro: evitar fricción en la conversión.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcvp33YKoyda-JSrd2cd9LZeXZWuvwuP72CX1moE44pbVwiT361jHdV5PfSTG2jfAT9Tt-J-smq1ka9pGGCzP9UMv79IvaHBndln_pvGEg6_PEl0o5SccV2Ejfb_1Ou3GtTQyTfGw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Template
+
+- Desktop: Vista de galería con plantillas de camisetas predefinidas. Se muestra una cuadrícula uniforme con imágenes atractivas, nombres y CTA para editar. Se prioriza la estética, invitando al usuario a inspirarse y crear.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeGEZCXTb5wdUhJVQbSxD_LZZtM98V62NtmnDdRp5ZR4jwGM5X3sy7EP_Om1gBrWiFpWX7-2ZG1pvxJ_AF__k4rxwfsr-bGEMskoiS2CZVasqpPgPgB_xq2QMetfg0mfHZ1ox9m5Q?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Design Studio: Interfaz compleja con áreas definidas para edición: previsualización central, herramientas laterales (colores, capas, tipografía), y navegación secundaria. La UI se asemeja a herramientas profesionales de diseño gráfico, con controles de precisión. Se integra lógica de capas y acciones contextuales, aportando una experiencia de personalización completa.
+
+- Desktop
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXflwRYKESqhn6xIlI_I3syT_ntEdubYCJgJ6oFri0vzm7j4lZyN7n7kpBGMYBOAVHwtWj2SbLusjbA06cE144gLPsxpwwTMppFlvpW1_w9qKE55Or79ldw9QWS87n56w8QZDEUilA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Favorites
+
+- Desktop: Galería de productos favoritos organizados en tarjetas. Cada tarjeta muestra el diseño, nombre, y accesos rápidos para editar o eliminar. El enfoque es visual y emocional, buscando motivar la acción de volver a comprar o editar.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeNSePUPOBeF4Xwj_DR6yw7eHcTLmVd9iNFu7gJyYjulA-p06YiCrxZqMcqXHLFZAjPU06ZrjgLaMMKq2xpo4FqHMxAMxFO1c7cZTnQzNqH97J8GBST8TiPSLrzwLOgA7MZZnJZ5A?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile: Formato lista con miniaturas grandes y acciones prioritarias visibles. Se adapta a la navegación rápida sin comprometer el valor visual de los productos guardados.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXciYExvdhdE1aFSqA-yX8zHP3aGIGaGnEfYmUSdtZ7ny-T1ukm3t8Xl6ByLc82ZKSW8hgQ8okk8teU8en63btizzVLGeFF1anDupjC0HFDuYVkfDSBTgEGrnX2fYSMcf8rddXKUJw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Explore
+
+- Desktop
+
+Pantalla centrada en descubrimiento de productos, con filtros en la parte lateral o superior. Se destacan etiquetas, categorías y tendencias. El diseño fomenta la curiosidad, guiando al usuario a través de un flujo de exploración libre.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfnqU2BWzSuoKt0eu7sxXkKiY_aqF2GcWkionOEoLTQxKnSAbdAK-xjKWTqf8syN33_v-XvtUf-I0FwfCt30w2X-0FdbPxPMvMI0rP-pffxhg9HNSlPokWBcWZqWP6QzfEWTs8R3Q?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile
+
+Filtros adaptados en formato desplegable, con navegación vertical continua. Las categorías son accesibles con un toque y se priorizan contenidos visuales por encima del texto.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfddMJeyRR72-XHb14dMHJoZcbluEDVS6krPmJ1NpfdDFwxTvc73_ZTnDAOCtp_n-p7n5HNweyQ9cgzULkF9KOrCHKl9jRNNK2RYdFLR74HS8MQuNrKQLbOvSH7vyWmWR_8vUOq?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Design Lab
+
+- Desktop: Área experimental para diseñadores. Se incluye carga de imágenes, vista previa avanzada y pruebas A/B visuales. Este entorno permite testear creatividades antes de publicarlas o producirlas. El diseño está orientado a productividad y control creativo.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfozKitrotb0bUhOr6qVGUmY-d9ZaPms2BFtyilFIqLMQmAWwUq_hdZBdfr92BL8tuOSWaQ9HklnbYo7dvtjWQH0d_DRDKbfH4TR7EhBLpOQ8V2xRxUbicDjP6Bj29MfqkUAa-bGA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Profile
+
+- Desktop: Vista tipo panel con opciones de configuración, datos del usuario, seguridad y métodos de pago. Interfaz organizada por pestañas o columnas, que facilita la modificación rápida de información personal.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeQJ3b9M2UKw-AF2uLLPSn_yLgRzpxqION3ooyvLW18Ksom1ZkPy2wDy3lnn3m0b0DI0OgXITCyDMjZCMscPVHNDV75Jp_ObgXJXQDvrlokI0IptHCvNs2TZJSfd8toEZckDvRmLg?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile: Diseño en forma de lista expandible, con accesos simplificados. Se asegura que todas las funciones sean accesibles con una sola mano y se mantenga la claridad en los formularios.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdIDepi2OjSnnIMEXOhSuOuaKKyQpfniPDsFA2ml0TBoAbaZmZiB6e1JxKMcZC3ImkaCsRACMAbPAoqI_DufnA1kUeS1i29d1Xm5rYctjAKPeKUBdcD9UBcmn08VM73EQFAhCvWBA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Your Designs
+
+- Desktop: Galería con los diseños creados por el usuario. Se presenta una grilla editable con herramientas de duplicación, eliminación o exportación. El objetivo es reforzar el sentido de propiedad y motivar la iteración.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcz5yd5mbEOZbU6gemmv6SeMpjQXLZvHWyVcBDw5sloLptqqQCsQ8-cixC3VfkHVy2yXufZXy6ty_MER2ARMVDCMuR9cv1sWeurqfQW-miP1ysmyE-Iaw4ew2kvzABt_zy9bfJrfg?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile: Interfaz con tarjetas apiladas y botones principales visibles. Se conserva la estética original del diseño y se permite acceder a la edición con un solo toque.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeJr7llxNxMin5-FuA4S7BFLQZyZclubftWdhbvviEYpvmEKr1hEiFhCfWcsZdoZXu0c-_TvrRxNf7uG8_3RnWB-hveEAC_D6tFGTcrX0w8-121M423TqNe8MRKZHw6HyJ9mm7Z?key=wLsuErVgqDz-qczrBI4kMctR)
+
+### 4.4.4. Web Applications User Flow Diagrams
+
+La presente sección reúne y describe los flujos de usuario (User Flows) diseñados para los tres segmentos principales de la plataforma: Diseñadores Gráficos Independientes, Clientes Individuales Creativos y Marcas Emergentes y Emprendedores. Cada uno de estos perfiles responde a motivaciones y objetivos distintos dentro del ecosistema digital, por lo que sus recorridos funcionales fueron modelados tanto desde el happy path que representa el flujo ideal esperado sin fricciones como desde el unhappy path, que contempla errores, validaciones fallidas y escenarios de desviación. A través de los diagramas presentados en la galería https://imgur.com/a/H7DD9iP, se puede visualizar de forma clara y estructurada cómo cada tipo de usuario interactúa con la plataforma: desde el acceso inicial y la navegación por rutas clave como Home, Design Lab, Explore, Orders o Profile, hasta la ejecución de acciones críticas como publicar, aprobar, personalizar o comprar un diseño. Estos flujos reflejan no sólo la lógica funcional del sistema, sino también las necesidades específicas de cada usuario, y permiten asegurar que la experiencia esté optimizada para cada segmento dentro del proceso de diseño, validación y venta de productos personalizados.
+
+**Segmento Objetivo #1: Diseñadores Gráficos Independientes**
+
+Un grupo de usuarios expertos en herramientas de diseño visual que utilizan la plataforma con el objetivo principal de crear, editar, publicar y vender sus propios diseños personalizados. Estos diseñadores tienen como propósito profesional consolidar un portafolio comercial dentro del ecosistema digital de la plataforma, administrando su catálogo y facilitando el acceso de sus productos a posibles compradores. Para ello, requieren una experiencia fluida, potente y con rutas específicas que se alineen a sus flujos de trabajo creativo y comercial.
+
+En el diagrama correspondiente al Happy Path, se modeló el flujo ideal que sigue este tipo de usuario desde el inicio de sesión o registro hasta la publicación exitosa de un diseño y la validación de su venta mediante una compra simulada. El recorrido parte desde la pantalla de Login/Register (en versión Desktop o Mobile) y continúa hacia la pantalla Home, la cual funciona como centro de operaciones desde donde el diseñador puede acceder directamente a rutas clave como Explore, Favorites, Blueprints, Projects y Design Lab. Desde esta interfaz central, el diseñador ingresa a Design Lab para comenzar el proceso de creación gráfica. Allí puede diseñar desde cero o editar trabajos existentes, y tiene la posibilidad de borrar versiones previas. Tras finalizar el diseño, el usuario accede a la función de previsualización y luego a la interfaz de publicación donde debe asignar nombre, precio y categoría al producto.
+
+La validación en este flujo incluye controles para asegurar que todos los campos necesarios estén completos y correctamente formateados antes de proceder a publicar. Una vez publicado, el sistema muestra una confirmación de éxito y redirige al usuario a su sección de Blueprints o Projects, donde podrá visualizar su diseño como activo y disponible. Para comprobar la experiencia de compra desde el punto de vista del consumidor, el diseñador navega nuevamente a Explore, selecciona su propio diseño, lo agrega al carrito, realiza el pago y confirma que el pedido se refleja correctamente tanto en la sección Orders como en su perfil personal. Este recorrido demuestra la integridad del flujo creativo-comercial y permite al diseñador verificar que su producto cumple con todo el ciclo funcional dentro de la plataforma.
+
+- Happy Path
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXds9B8zUWJMWeG011gqCNt2MtyuSmk-GM0fhbq4hzMuVmI539EOh6ogKpBcQ75p4Mf2qiZvcxASEsXpIqGRxumoiD_xFR1TIIKSx3-EQuh-qTcaPXGaQkxHDK7tmoPNX7cmh_Zy6g?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Unhappy Path
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdgh1n14DqfNUaSdpmVg4st5pmNSNHLXR9XZdoqGeYw3sPDjg5kI3egJtj821abQpUILKJafJ0QLN8A39lvaTCQiaikb9GSBPM2XJyR_AR4RL6_7fbait1t3zTeu8vHwJJPoFK0Xg?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Por otro lado, en el diagrama correspondiente al **Unhappy Path**, se modelaron diversas situaciones de error o desviación que pueden afectar negativamente la experiencia del diseñador. Estos escenarios comienzan con fallos en la autenticación como credenciales inválidas, campos vacíos o usuarios no registrados. Luego, se contemplan problemas dentro de Design Lab como la pérdida de datos por no guardar correctamente, cierres inesperados del navegador o errores en la carga del entorno de diseño. También se consideraron fallos durante la publicación, como la omisión de campos obligatorios (nombre, precio, categoría), intentos de publicación duplicada, o interrupciones por fallos del servidor.
+
+A nivel comercial, se incluyeron errores en el proceso de compra como fallos al agregar productos al carrito, problemas con la pasarela de pago o transacciones rechazadas. Finalmente, se evaluaron inconsistencias en la actualización de la sección Orders o en la visualización del perfil del diseñador, como pedidos no registrados o ventas no reflejadas por problemas de sincronización del backend. En todos estos casos, el sistema debe mostrar mensajes de error claros, sugerencias de corrección y, de ser posible, permitir reintentos sin pérdida de datos.
+
+Ambos flujos, el ideal (Happy Path) y el de desviaciones (Unhappy Path), han sido desarrollados con una arquitectura modular, respetando las rutas visibles en la interfaz de usuario y manteniendo la coherencia con las necesidades funcionales de los diseñadores. Las rutas como Design Lab, Blueprints y Projects se alinean directamente con los objetivos del segmento, mientras que las secciones Explore, Cart y Orders permiten al diseñador interactuar con la plataforma como si fuera también un comprador, completando así la validación end-to-end del diseño publicado. Gracias a este enfoque, se logra una experiencia rica, controlada y profesional, adecuada para un usuario que trabaja de manera autónoma y exige robustez tanto en la etapa creativa como en la de venta digital.
+
+**Segmento Objetivo #2: Clientes Individuales Creativos**
+
+Usuarios que, si bien no necesariamente son diseñadores profesionales, sí tienen un interés activo en la personalización y creación visual. Estos usuarios acceden a la plataforma con la motivación de diseñar productos personalizados (como camisetas, polos u otros artículos) para uso personal, como regalo, para eventos o para autoexpresión. Su comportamiento combina exploración visual, personalización asistida y procesos sencillos de compra digital.
+
+En el diagrama correspondiente al Happy Path, se modeló el flujo ideal que estos usuarios seguirían desde el acceso inicial a la plataforma hasta la compra final de un producto personalizado. El recorrido comienza con el login o registro del usuario, accediendo luego a la pantalla Home, donde se presentan las rutas principales como Explore, Favorites, Blueprints, Projects y Design Lab. A diferencia de los diseñadores, este segmento suele iniciar su experiencia desde Explore, donde puede ver modelos prediseñados o inspiración. Desde allí, el cliente selecciona un diseño base o plantilla (Blueprint), lo guarda en sus favoritos si desea evaluarlo luego, y lo edita directamente en Design Lab. En este entorno, puede modificar textos, colores y elementos gráficos de forma asistida, sin requerir conocimientos avanzados de diseño.
+
+Tras completar la personalización, el usuario previsualiza su producto, accede a la interfaz de publicación para asociarlo a su perfil como un diseño privado o público, y lo agrega directamente al carrito de compras. Posteriormente, continúa hacia la pantalla Cart, revisa el pedido, realiza el pago mediante una pasarela integrada y recibe una confirmación de pedido exitoso. La información del pedido queda registrada en la sección Orders y también se refleja en su perfil personal, donde puede hacer seguimiento a sus compras o volver a personalizar productos similares en el futuro.
+
+- Happy Path
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdnO-oDckyB_hfDDn91u9yQKZc6PMPT5lFMy6cHSzcUIOXYI7vbs5AOZ52vzi86wagg5K8s-UTbhDoZl8JWqDekps8yJ5Jo-8h_6a8raypXohveSBXNP9WlVWfA1tsHv9LHxbmizw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+El diagrama correspondiente al Unhappy Path contempla los errores más comunes que este tipo de usuario puede experimentar a lo largo de su proceso. Entre ellos se incluyen problemas al iniciar sesión, olvidos de contraseña o datos incompletos al registrarse. Una vez dentro del sistema, puede enfrentarse a errores en la carga de contenido desde Explore, fallos de conexión, plantillas no disponibles o errores al intentar editar diseños desde Design Lab. Durante la etapa de personalización, es posible que el usuario omita guardar los cambios o que el sistema no valide correctamente ciertos campos obligatorios como textos mínimos o áreas de impresión válidas. También se contemplan fallos en la adición de productos al carrito, errores de facturación o rechazos en el procesamiento del pago.
+
+En todos estos casos, el sistema debe ofrecer mensajes de error comprensibles, validaciones oportunas y, sobre todo, permitir al usuario continuar sin perder su progreso. Para este tipo de cliente, la facilidad de uso, la claridad en las acciones y la simplicidad en la experiencia de compra son fundamentales. Por esta razón, las rutas como Explore, Favorites, Blueprints, Cart y Orders están diseñadas para ser intuitivas, mientras que Design Lab se adapta con herramientas guiadas y opciones visuales amigables para usuarios no técnicos.
+
+- Unhappy Path
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf20ZCcm1-xQ2tXXf3pU52btQ3qaiCnMm053vJJb63yRDWm0K8f4TPMFaJdTTrxZcpQAF7fEjkA4ejdC_wi95WqEfztNxwrECDNNSYLt7jMV6hbPrHCsnCZQ_YkVSxvh1mjO11b0A?key=wLsuErVgqDz-qczrBI4kMctR)
+
+En síntesis, aunque este segmento comparte algunas rutas con los Diseñadores Gráficos Independientes, su experiencia está orientada hacia la autoexpresión simplificada y la compra directa de productos personalizados. Las validaciones aplicadas en cada etapa garantizan una experiencia coherente, predecible y libre de frustraciones, asegurando que cualquier usuario creativo pueda completar su objetivo sin requerir habilidades especializadas. La estructura modular de los flujos, sumada al enfoque UX centrado en el cliente casual, posiciona a este segmento como un componente clave del éxito de la plataforma.
+
+**Segmento Objetivo #3: Marcas Emergentes y Emprendedores**
+
+Usuarios que utilizan la plataforma no solo para diseñar, sino también para construir un negocio alrededor de sus productos personalizados. Este segmento tiene una naturaleza dual: por un lado actúa como diseñador (User-Designer), y por otro como vendedor con capacidad de producción o delegación de fabricación (Manufacturer). Su objetivo principal es consolidar una línea de productos bajo su marca personal o comercial, publicarlos, gestionarlos y ofrecerlos a un público comprador a través del ecosistema digital.
+
+En el diagrama correspondiente al Happy Path, se representa el flujo ideal que sigue una marca desde el registro hasta la venta efectiva de un diseño. El recorrido inicia con el login o registro, que da acceso al dashboard principal (Home), donde la marca puede dirigirse a rutas esenciales como Design Lab para la creación, Blueprints para gestionar sus diseños, Projects para visualizar los activos, Orders para administrar ventas y Profile para controlar su identidad comercial. En Design Lab, la marca puede crear nuevos diseños, editar los existentes y eliminar versiones no deseadas. Luego de previsualizar el diseño, asigna nombre, categoría y precio, y procede a publicarlo. A diferencia de un usuario común, este diseño no se publica automáticamente: pasa a una fase de revisión por parte del Manufacturer, quien evalúa su viabilidad técnica para producción.
+
+- Happy Path
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdKFnpEiAl-5fu-tpHFc-enqKJ3sQOPSfY94muSLbZZ2KodjUsNWjY75MD7vWKI1SMPDHLE6jIa9tUUO4xa7zXK6URKYFcrjSq4WRHu6939ONVykRrrVDBz8GpJEEwjFNpZdLOQ?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Una vez enviado a revisión, el diseño aparece en la sección Blueprints con el estado “pendiente”. Desde su propio panel, el Manufacturer —que puede ser la misma marca o un tercero dentro de la plataforma— revisa los diseños enviados, verificando aspectos como complejidad, materiales, disponibilidad y logística de producción. Si el diseño cumple con los requisitos, se aprueba y se activa para su publicación en el catálogo. En caso contrario, se rechaza con retroalimentación clara para su corrección. Posteriormente, un cliente puede comprar el producto desde la sección Explore, realizar el pago, y el pedido queda registrado en la sección Orders, donde la marca puede gestionar la producción, seguimiento y facturación. Finalmente, en Profile, la marca observa estadísticas de ventas, reputación, comentarios y productos activos.
+
+- Unhappy Path
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcfxJH4WIXKSHwQxGcsPvO-BGcbdRRT9gV0juc5zOuS7OeH66xC2JAz4aawZcwgFX9Z1tKtllyj5RSmfoMhGOibSKF3sdRjxf11SLviv28RxPqnUA8tN8p8kQJveMV9CCxw4vfjZw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Por otro lado, el diagrama del Unhappy Path detalla los escenarios de error o fricción a lo largo del mismo flujo. En la fase inicial, puede haber errores de login como credenciales inválidas o cuentas no reconocidas. En el Design Lab, es posible que se pierda información por cierre inesperado, errores de guardado o formatos inválidos. Durante la publicación, el sistema puede rechazar el diseño por omisión de campos obligatorios o fallos de conexión. En la revisión del Manufacturer, puede haber rechazos sin retroalimentación útil o incluso aprobaciones erróneas que terminan en quejas de los clientes. En la etapa de compra, un producto puede estar visible pero no disponible, o la pasarela de pago puede fallar, impidiendo la conversión. Finalmente, errores de sincronización en Orders o en el Profile pueden provocar desactualización de estadísticas, métricas o reputación comercial.
+
+Este flujo dual (User-Designer y Manufacturer) permite a las marcas emergentes tener control total sobre el ciclo de vida de sus productos. A diferencia de un cliente individual o un diseñador freelance, este segmento integra diseño, gestión de aprobación, administración comercial y visión de negocio. Las rutas como Blueprints, Orders y Profile cobran especial relevancia, ya que son las que conectan directamente la creación con la venta efectiva. Las validaciones implementadas en cada paso buscan reducir errores operativos y garantizar que solo productos viables lleguen al mercado. Así, la plataforma no solo se convierte en un espacio de creatividad, sino también en un canal sólido para el emprendimiento digital.
+
+## 4.5. Web Applications Prototyping
+
+Esta sección presenta los prototipos de interfaz de usuario (UI) para la aplicación web, diseñados específicamente para navegadores de escritorio. Dado que no se cuenta con una versión móvil en esta fase, todo el enfoque se ha puesto en optimizar la experiencia para pantallas de mayor tamaño. Estos prototipos simulan la interacción y la navegación de la aplicación, siguiendo de cerca los flujos de usuario propuestos en los diagramas de flujo.
+
+Las decisiones de interacción se han tomado en estrecha colaboración con la arquitectura de información definida para el proyecto. Es fundamental destacar cómo el sistema de navegación y los tipos de interacciones seleccionadas se relacionan directamente con la organización y el acceso a la información dentro de la aplicación.
+
+**Criterios Principales para las Decisiones de Interacción:**
+
+1. **Navegación Principal Consistente:** Se ha implementado una barra de navegación lateral izquierda persistente que incluye las secciones principales: Home, Dashboard, Templates, Favorites, Explore, Design Lab y Settings. Esta elección garantiza que el usuario tenga siempre a la vista y al alcance todas las áreas clave de la aplicación, facilitando una navegación intuitiva y reduciendo la necesidad de recordar la ubicación de cada función. Esta estructura se alinea con una arquitectura de información que prioriza la accesibilidad y la organización lógica de las funcionalidades.
+2. **Interacción en el "Design Lab":** El "Design Lab" ha sido diseñado para ofrecer una experiencia de usuario altamente interactiva y visual. Las interacciones clave incluyen:
+   - **Selección de Detalles del Proyecto:** Campos de entrada claros para el nombre del proyecto, y menús desplegables para seleccionar el género y la talla. Estos elementos de formulario estándar aseguran una entrada de datos familiar y eficiente.
+   - **Selección de Color de Camiseta:** Se ha implementado un selector de colores visual que permite al usuario elegir el color de la camiseta. La interacción es directa, con la vista previa de la camiseta actualizándose instantáneamente al seleccionar un nuevo color. Esta retroalimentación visual inmediata mejora la usabilidad y la sensación de control del usuario sobre el proceso de diseño.
+3. **Retroalimentación Visual Inmediata:** En el "Design Lab", cualquier cambio realizado en los detalles del proyecto o en el color de la camiseta se refleja en tiempo real en el panel de "Vista Previa". Esta inmediatez en la retroalimentación es crucial para que el usuario pueda visualizar el impacto de sus decisiones de diseño al instante.
+4. **Simulación de Flujos de Navegación:** El prototipo permite la simulación de la navegación entre las diferentes páginas principales (Home, Dashboard, Templates, Favorites, Explore, Design Lab, Settings) mediante la carga dinámica del contenido. Esto evidencia cómo los usuarios se moverán a través de los "paths de User Flow Diagrams" definidos, demostrando la fluidez y coherencia del sistema de navegación.
+
+
+
+Link del video: [upc-pre-202510-1asi0729-4350-prototype-quri-navigation-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b995_upc_edu_pe/EQZU-Q4BjRRNqfGO24owWvwBlrbsmtPjC5dvxGnrvG-EpA?e=FwfEZ2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
