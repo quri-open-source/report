@@ -3318,3 +3318,10 @@ Design lab
 			![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXetaS-wKSKot7dAEy2VgE-D_hQXHyeFPUkQsQDl6dXnAnrZMRE7iwRSJ5kgL458DY0YnsvBGJ4-udr8YrQJ8hoepssKwUnG2M90C4Vat_M5e0If4nsABSqagTo6mijKaO22K91VQA?key=wLsuErVgqDz-qczrBI4kMctR)
 
 Este diagrama representa la estructura de la base de datos para un "Design Lab". La tabla principal es **Blueprint**, que almacena información general del diseño como nombre, descripción, estado y una referencia al diseñador. Cada **Blueprint** está asociado con múltiples registros en la tabla **DesignLayer**, que detallan cada capa del diseño (tipo, contenido, posición, tamaño, color). Además, cada **Blueprint** utiliza una entrada en **GarmentCanvas** para especificar detalles de la prenda base (tipo, color, tallas disponibles), la cual puede hacer referencia a una plantilla predefinida en **TemplatePreset**. Las relaciones se establecen mediante llaves foráneas (**FK**) que apuntan a las llaves primarias (**PK**) correspondientes.
+
+
+1. Order Fulfillment
+
+ ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdlz7BU-DQK4nUlLwdpe-n4S7Em9oyarD9fEalP2kh3SMEfl_yEEXG45He-Xcv2bDe8IeRQBhKFNTZBdkEiDaTiyUSSUNu6rArYj0ZC7-MlRu4APlVTTzzV8PMJiDQZbbHZfcDupw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Este diagrama muestra la base de datos para el cumplimiento de pedidos. La tabla **ProductionBatch** agrupa órdenes por lotes de producción asignados a un fabricante. Cada lote contiene múltiples **FulfillmentOrder**, que registran el estado del cumplimiento de un pedido específico, cantidad, número de seguimiento y referencias a pedido, producto, blueprint y fabricante. Cada **FulfillmentOrder** a su vez contiene múltiples **DeliveryCheckpoint** (registros de seguimiento) y tiene asociadas unidades de empaquetado (**PackagingUnit**) con detalles de tipo, dimensiones y peso. Las claves primarias y foráneas definen las relaciones entre tablas.
