@@ -1794,3 +1794,167 @@ Función: Proporciona contexto sobre el propósito del carrusel, que contiene im
 Función: Describe la acción de cada botón de control que permite navegar entre las diferentes imágenes. Esto es esencial ya que visualmente son círculos sin texto.
 
 El uso de aria-label en Quri cumple una doble función: mantener una interfaz limpia y minimalista visualmente, mientras se garantiza la accesibilidad para usuarios con discapacidades visuales. La implementación de estos atributos asegura que todos los elementos interactivos puedan ser comprendidos y utilizados mediante tecnologías de asistencia, contribuyendo a una experiencia de usuario más inclusiva y alineada con las directrices WCAG 2.1 (Web Content Accessibility Guidelines). Esta práctica se extiende como estándar en toda la interfaz tanto en la landing page como en los módulos de la aplicación web, reforzando el compromiso del proyecto con la accesibilidad digital.
+
+## 4.2. Information Architecture
+
+UX Heuristics & Principles Evaluation
+
+Usability – Inclusive Design – Information Architecture
+
+CARRERA 		: Ingeniería de Software
+
+CURSO 		: Desarrollo de Aplicaciones Open Source 
+
+SECCIÓN 		: 4350
+
+PROFESORES 	: Todos 
+
+AUDITOR 		: Nombre del Grupo que ejecuta la Sesión de evaluación
+
+CLIENTE(S) 		: Grecia Curipaco Huayllani, Giuliana Nisbeth y Orianka Buitrón
+
+SITE o APP A EVALUAR: 
+
+Quri
+
+TAREAS A EVALUAR: 
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas: 
+
+Segmento Objetivo #1: Diseñadores Gráficos Independientes
+
+- Personalizar camisetas: Variedad y profundidad de opciones de personalización.
+- Acceder a guías: Disponibilidad y claridad de guías de diseño.
+- Ver ejemplos: Presencia y calidad de ejemplos inspiradores.
+
+Segmento Objetivo #2: Clientes Individuales Creativos
+
+- Iniciar diseño: Claridad del llamado a la acción para diseñar.
+- Inspirarse: Disponibilidad de ejemplos de diseños.
+
+Segmento Objetivo #3: Marcas Emergentes y Emprendedores
+
+- Información mayorista: Facilidad para encontrar información de pedidos al por mayor.
+- Acceso a sección B2B: Claridad y accesibilidad de la sección "Para Empresas".
+- Contacto comercial: Facilidad para encontrar información de contacto comercial.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas: 
+
+Segmento Objetivo #1: Diseñadores Gráficos Independientes
+
+- Diseño de otras prendas además de camisetas
+- Proceso de registro de usuario
+- Soporte técnico detallado
+
+Segmento Objetivo #2: Clientes Individuales Creativos
+
+- Opciones de pago
+- Detalles de envío
+- Calidad de la atención al cliente
+
+ESCALA DE SEVERIDAD:
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripción                                                  |
+| ----- | ------------------------------------------------------------ |
+| 1     | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+TABLA RESUMEN:
+
+| #    | Problema                                                     | Escala de severidad | Heurística/Principio violada(o)                            |
+| ---- | ------------------------------------------------------------ | ------------------- | ---------------------------------------------------------- |
+| 1    | Limitadas opciones de personalización de camisetas (solo colores básicos, sin opciones de texturas de tela) | 2                   | Usabilidad: Flexibilidad y eficiencia de uso.              |
+| 2    | Guías de diseño poco visibles y con información incompleta (falta información sobre tipos de archivo) | 3                   | Usabilidad: Ayuda y documentación.                         |
+| 3    | El llamado a la acción "Diseña Ahora" no es lo suficientemente visible en la página de inicio. | 3                   | Usabilidad: Visibilidad del estado del sistema.            |
+| 4    | No hay un enlace claro a información sobre pedidos al por mayor en el menú principal. | 3                   | Usabilidad: Coincidencia entre el sistema y el mundo real. |
+| 5    | La información de contacto comercial no es fácilmente accesible (solo un formulario genérico). | 2                   | Usabilidad: Ayuda y documentación.                         |
+
+DESCRIPCIÓN DE PROBLEMAS:
+
+SEGMENTO: CLIENTES
+
+- Severidad: 2
+   Heurística violada: Reconocimiento antes que recuerdo
+   Segmento: Clientes
+   Problema: Solo se visualiza la parte frontal del polo en la tienda. El cliente no puede ver la espalda, las mangas u otras zonas, lo que limita su comprensión del producto final.
+   Recomendación: Incluir vistas adicionales del producto desde múltiples ángulos o una vista 360° que permita inspeccionar la prenda completa.
+
+- Severidad: 2
+   Heurística violada: Coincidencia entre el sistema y el mundo real
+   Segmento: Clientes
+   Problema: No se muestran ejemplos visuales del tipo de impresión ni de la textura de la tela. Esto genera incertidumbre sobre el resultado final.
+   Recomendación: Añadir imágenes reales o simuladas que ilustren cómo lucen diferentes técnicas de impresión y tipos de tela como algodón o dry-fit.
+
+- Severidad: 2
+   Heurística violada: Ayuda y documentación
+   Segmento: Clientes
+   Problema: No se muestra información del fabricante al momento de comprar un producto, lo que reduce la transparencia y confianza.
+   Recomendación: Mostrar el perfil del fabricante (nombre, ubicación, reputación, tiempo estimado de entrega) en la ficha del producto.
+
+SEGMENTO: DISEÑADORES
+
+- Severidad: 3
+   Heurística violada: Flexibilidad y eficiencia de uso
+   Segmento: Diseñadores
+   Problema: Solo se puede diseñar la parte delantera del polo. Esto limita la creatividad y la funcionalidad del diseño.
+   Recomendación: Habilitar edición en otras zonas como espalda, mangas y cuello, con navegación clara entre vistas.
+
+- Severidad: 3
+   Heurística violada: Flexibilidad y eficiencia de uso
+   Segmento: Diseñadores
+   Problema: El editor solo permite subir texto e imágenes planas, sin acceso a herramientas vectoriales, formas o recursos avanzados.
+   Recomendación: Ampliar el editor con opciones de formas, vectores, capas y bibliotecas externas para mejorar la calidad profesional de los diseños.
+
+- Severidad: 2
+   Heurística violada: Flexibilidad y eficiencia de uso
+   Segmento: Diseñadores
+   Problema: El sistema solo ofrece un conjunto limitado de fuentes tipográficas, restringiendo la variedad estilística.
+   Recomendación: Integrar una biblioteca más extensa de fuentes categorizadas por estilo, e incluir opción de carga de fuentes personalizadas bajo condiciones de licencia.
+
+- Severidad: 3
+   Heurística violada: Flexibilidad y eficiencia de uso
+   Segmento: Diseñadores
+   Problema: Solo hay un tipo de prenda disponible (polo clásico), lo que reduce la diversidad de productos que los diseñadores pueden ofrecer.
+   Recomendación: Incluir distintos tipos de prendas como hoodies, polos sin mangas o crop tops, con adaptación del editor y vistas previas.
+
+SEGMENTO: MANUFACTURERS (Fabricantes / Vendedores)
+
+- Severidad: 3
+   Heurística violada: Coincidencia entre el sistema y el mundo real
+   Segmento: Manufacturers
+   Problema: No hay una sección clara que explique cómo ser fabricante, aceptar diseños, establecer márgenes, y gestionar producción.
+   Recomendación: Crear una sección “Produce en Quri” con onboarding paso a paso, reglas operativas, políticas de ingresos y ejemplos ilustrativos.
+
+- Severidad: 2
+   Heurística violada: Visibilidad del estado del sistema
+   Segmento: Manufacturers
+   Problema: No existe un panel centralizado que permita ver de forma unificada los diseños aceptados, los pedidos en curso y los ya enviados.
+   Recomendación: Diseñar un “Panel del Fabricante” con secciones específicas, filtros por estado, fechas y acceso directo a cada pedido.
+
+- Severidad: 3
+   Heurística violada: Ayuda y documentación
+   Segmento: Manufacturers
+   Problema: No hay forma de comunicarse directamente con el cliente para resolver dudas sobre pedidos, archivos o entregas.
+   Recomendación: Implementar un sistema de mensajería interna por pedido, que respete privacidad pero facilite la coordinación directa.
+
+- Severidad: 2
+   Heurística violada: Ayuda y documentación
+   Segmento: Manufacturers
+   Problema: El fabricante no tiene acceso a información mínima del cliente (ni siquiera nombre o contacto controlado), dificultando la resolución de incidentes.
+   Recomendación: Mostrar datos limitados y controlados como nombre y canal interno de mensajería autenticada.
+
+- Severidad: 3
+   Heurística violada: Ayuda y documentación
+   Segmento: Manufacturers
+   Problema: No existe una sección de soporte técnico especializada para fabricantes, y el único canal disponible es un formulario genérico.
+   Recomendación: Crear un centro de soporte exclusivo con artículos técnicos, chat y tickets clasificados por tipo de problema.
+
+- Severidad: 2
+   Heurística violada: Flexibilidad y eficiencia de uso
+   Segmento: Manufacturers
+   Problema: Los fabricantes no pueden personalizar su perfil público, lo que impide construir una marca visible dentro de la plataforma.
+   Recomendación: Permitir crear perfiles personalizados con nombre comercial, logo, descripción, catálogo activo y sistema de calificaciones.
