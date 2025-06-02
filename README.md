@@ -3777,3 +3777,17 @@ El 10 de mayo de 2025, el equipo de desarrollo de QURI se reunió de manera virt
 | Sprint 2 Goal                      | Our focus for Sprint 2 is to expand the core functionalities of the TeeLab web application by implementing the internal navigation structure, developing the initial product design tools, and enabling the management of design blueprints. We believe this will provide users with the foundational interactive experience for creating and managing their personalized designs. This will be confirmed when users can navigate key sections of the logged-in application, utilize basic design tools on a garment canvas, and save/load design blueprints. |
 | Sprint 2 Velocity                  | 113                                                          |
 | Sum of Story Points                | 307                                                          |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+En esta sección se elaborará la **Leadership-and-Collaboration Matrix (LACX)**, un artefacto que permite identificar claramente quién lidera (L) y quién colabora (C) en cada aspecto funcional del Sprint 2. Esta matriz facilita la asignación de responsabilidades, optimiza la comunicación interna y asegura que cada bloque de trabajo cuente con los recursos adecuados para cumplir con los objetivos del sprint.
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | Ng   | Ed   | Pr   | DL   | AP   |
+| --------------------------------------- | ------------------- | ---- | ---- | ---- | ---- | ---- |
+| Jonatan Ariel, Acuña Corahua            | JonatanFD           | C    |      |      |      | L    |
+| Luque Minaya, Renzo Andres              | renzoluquem         | C    | C    | L    | C    | C    |
+| Dante Mateo, Aleman Romano              | zGIKS               | L    | C    | C    | L    | C    |
+| Fabrizio Alessandro, Contreras Peralta  | Fabrizio Contreras  | C    |      | C    | C    |      |
+| Neil Aldrin Wilhelm, Curipaco Huayllani | Neilcuri            |      | L    |      |      | L    |
+
+**Nota.** Ng = Navigation, Ed = Editor, Pr = Projects, DL=Design Lab, AP=Auxiliary Page. C = Colaborador, L = Líder.
