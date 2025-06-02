@@ -3154,3 +3154,158 @@ Uno de los aspectos más importantes de este componente es su capacidad de inter
 Desde el punto de vista de escalabilidad y seguridad, User Management está preparado para crecer en funcionalidades avanzadas como autenticación multifactor (MFA), OAuth con redes sociales, integración con wallets digitales, y mecanismos de verificación de identidad para diseñadores o fabricantes. Asimismo, se considera su expansión hacia una arquitectura basada en tokens JWT para sesiones distribuidas, lo que permitirá a TeeLab escalar horizontalmente sin comprometer la experiencia del usuario.
 
 En términos estratégicos, este componente permite personalizar profundamente la experiencia de la plataforma, adaptando los flujos, interfaces y notificaciones según el tipo de usuario. Además, la segmentación de roles garantiza que los procesos críticos del sistema (como la creación de diseños o la aprobación de producción) solo estén disponibles para quienes poseen los permisos correspondientes. Esta separación de responsabilidades reduce riesgos, facilita la auditoría, y permite mantener una gobernanza clara sobre el comportamiento de cada actor dentro del ecosistema.
+
+### 4.7.1. Class Diagrams
+
+**Design Studio:**
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf4EWCH25XgOC9pMSxhh2ilfTqtX56GL0yFf9QHYNsp3RcmsFvmgNBb_HRbD7Tq34hspXe3TGGQNllRSCL1PIp9nQhymus2mJvDUlLG689pJy8AExtoF6yUvYI1jNVtHWOnKOwv?key=wLsuErVgqDz-qczrBI4kMctR)
+
+
+
+Este diagrama muestra la arquitectura en capas (**Interfaces, Aplicación, Dominio**) de un "Design Lab". La capa de Interfaces (**DesignLabController**) recibe las peticiones. La capa de Aplicación (**DesignLabService**) coordina la lógica y utiliza repositorios y servicios. El núcleo es la capa de Dominio, centrada en el agregado **Blueprint**, que representa un diseño y contiene objetos como **DesignLayer** y **GarmentCanvas**. El Dominio también define interfaces para la persistencia (**IBlueprintRepository**) y servicios externos. Las dependencias apuntan hacia el Dominio.
+
+**Order Processing:****
+****![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe33dzEcEQcW9vwGD0GdzWmgj8Lc67DASHooypM6q8WrpRydRU0uRgnXrLTYIHXuK1jutjnzJnsv5wFYdfFLn1VAPNR8EfFzRTgmMTh-WVg2O4ZJpouicAC8rrWytVRYJ7t1mppJw?key=wLsuErVgqDz-qczrBI4kMctR)**
+
+Este diagrama ilustra un sistema de "Procesamiento de Pedidos" con una arquitectura de tres capas: Interfaces, Aplicación y Dominio. La capa de Interfaces (**OrderController**) maneja las solicitudes entrantes para crear pedidos, aplicar cupones y recibir confirmaciones de pago. La capa de Aplicación (**OrderProcessingService**) orquesta estas operaciones, interactuando con un repositorio de pedidos (**IOrderRepository**) y un servicio de pago (**IPaymentInitiator**). El núcleo es la capa de Dominio, donde el agregado **Order** gestiona su ciclo de vida y contiene **OrderItem** (artículos del pedido) y **Address** (direcciones). El dominio también incluye servicios como **OrderValidationService** y políticas como **DiscountPolicy**.
+
+**Order Fulfillment:**
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcXMIZw7UJytF8SY3IVGeZIJ1ZYdIRJ-s6jsqMjdo5vVseMHjKybMYQ09LOy6dZSn3Sx3tGL3bVckF56J63bQ2T5e-KDSBhLTbYVyHbO9eXMYEb2CZLShONDgsjvdkvDfvq-K1m0g?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Este diagrama representa el contexto de "Cumplimiento de Pedidos" (Order Fulfillment) usando tres capas: Interfaces, Aplicación y Dominio. El **FulfillmentController** (Interfaces) gestiona las interacciones externas como actualizaciones de estado y webhooks. El **OrderFulfillmentService** (Aplicación) coordina la lógica de cumplimiento, usando un repositorio (**IFulfillmentOrderRepository**) y respondiendo a eventos. El núcleo (Dominio) contiene el agregado **FulfillmentOrder** (que rastrea el estado de manufactura, empaquetado y puntos de entrega), la entidad **ProductionBatch** y un servicio **FulfillmentOrchestrator**. El repositorio gestiona la persistencia de las órdenes de cumplimiento y los lotes de producción.
+
+**Product Catalog:**
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdact0HbAFY3PkdMzmClVLhaH_xDFlUV4G1Q1ffC8f9x9AWjLXqSNQdjMWAPUgivey-ul8zzXr_Zy_nmu3NhSZ12TO6sYfKzLBKRTSBMDtw9lR6Qd99UmJKqN-KJPvjeWuRK8OC?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Este diagrama describe el contexto de "Catálogo de Productos" (Product Catalog) usando las capas de Interfaces, Aplicación y Dominio. El **ProductCatalogController** (Interfaces) gestiona las solicitudes de productos, filtros y categorías. El **ProductCatalogService** (Aplicación) coordina la obtención y manejo de datos del catálogo, usando repositorios (**IProductRepository**) y servicios (**ProductSearchAndFilterService, CloudinaryAdapter**). La capa de Dominio se enfoca en el agregado **Product** (con detalles, categorías, etiquetas, perfil de diseñador y rating) y define interfaces para la búsqueda/filtrado, persistencia y servicios externos como el de imágenes (**CloudinaryAdapter**).
+
+**Payment Gateway:**
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXelB1UT1Jm7ju7kXmS8i9vRgWnQExyTIirqccY2wVJ557epiLdxfs18YZBudgQmWy-Ke2ixIGGyK4P1fHw4afNYUBv-_pUCXPUopz1XRX66PXm0wm0XuOHA19_9KJST2eSsYmEL8w?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Este diagrama ilustra el contexto de "Pasarela de Pago" (**Payment Gateway**) con las capas de **Interfaces, Aplicación y Dominio**. El **PaymentController** (**Interfaces**) maneja las solicitudes para iniciar pagos, obtener estados y procesar reembolsos. El **PaymentGatewayService** (**Aplicación**) coordina estas operaciones usando un repositorio (**ITransactionRepository**) y un adaptador para un servicio externo (**StripePaymentAdapter**). El Dominio se centra en el agregado Transaction, que representa una transacción de pago con su estado, monto, divisiones de ingresos (**RevenueSplit**) y recibo (Receipt), definiendo también las interfaces para persistencia y el servicio de pago externo.
+
+**User Management:**
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdSZCDAxNQtIqxP4C1xIycBXq5iigtGIIqm4rBUaheptteDbGZ5R4rhnDkFceXGW7JejinOQL69OAh2QikkyZByREK9MSNxWeCORNKb4NBq_7StvwrzJ___9lpG2VLX7vnB_tPj?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Este diagrama muestra el contexto de "Gestión de Usuarios" (**User Management**) con las capas de **Interfaces, Aplicación y Dominio**. El **UserController (Interfaces)** procesa las solicitudes de registro, inicio de sesión, actualización de perfil y roles. El **UserManagementService (Aplicación)** orquesta estas operaciones, utilizando un repositorio **(IUserRepository)** y un adaptador de autenticación **(SupabaseAuthAdapter).** La capa de Dominio se centra en el agregado **User** (que contiene perfil, roles, tokens de sesión) y define las interfaces para el repositorio y el servicio de autenticación externo **(Supabase).**
+
+Repositorio con los diagramas de clase: https://github.com/quri-open-source/docs 
+
+Se ubica dentro de la carpeta de class-diagrams
+
+### 4.7.2. Class Dictionary
+
+Class Dictionary
+
+**Blueprint:** Represents a design blueprint, including layers, status, and associated images.
+
+**DesignLayer:** Represents a single layer within a design blueprint (e.g., text, image).
+
+**GarmentCanvas:** Defines the dimensions and base color of the design canvas.
+
+**DesignStatus:** Encapsulates the status of a design.
+
+**BlueprintComposer:** Domain service for composing or rendering blueprints.
+
+**BlueprintRepository:** Defines the contract for storing and retrieving blueprints.
+
+**BlueprintService:** Application service coordinating blueprint-related use cases.
+
+**DesignLabController:** Handles incoming requests related to designs.
+
+**Order:** Represents a customer order, containing items, status, amounts, and addresses.
+
+**OrderItem:** Represents a single item within an order.
+
+**OrderHistory:** (Details minimal, likely tracks order changes).
+
+**OrderState:** Encapsulates the current state of an order.
+
+**OrderValidationService:** Domain service for validating orders.
+
+**OrderRepository:** Defines the contract for storing and retrieving orders.
+
+**PaymentInitiator:** External service interface for initiating payments.
+
+**DiscountPolicy**: Represents a discount policy applied to an order.
+
+**OrderProcessingService:** Application service coordinating order processing use cases.
+
+**OrderController:** Handles incoming requests related to orders.
+
+**FulfillmentOrder:** Represents the fulfillment process for an order.
+
+**FulfillmentStatus:** Encapsulates the status of a fulfillment order.
+
+**PackagingUnit:** Details about the packaging for fulfillment.
+
+**DeliveryCheckpoint:** Represents a step in the delivery process.
+
+**ProductionBatch:** Represents a batch of fulfillment orders assigned for production.
+
+**FulfillmentOrchestrator:** Domain service orchestrating the fulfillment process.
+
+**FulfillmentRepository:** Defines the contract for storing and retrieving fulfillment orders and production batches.
+
+**FulfillmentService:** Application service coordinating fulfillment use cases.
+
+**FulfillmentController:** Handles incoming requests related to fulfillment.
+
+**Product:** Represents a product in the catalog with details like price, description, and images.
+
+**Category:** Represents a category for products.
+
+**Tag:** Represents a tag associated with a product.
+
+**DesignerProfile:** Represents the profile of a product's designer.
+
+**Rating:** Represents a rating given to a product.
+
+**ProductSearchAndFilterService:** Domain service for searching and filtering products.
+
+**ProductRepository:** Defines the contract for storing and retrieving products.
+
+**CloudinaryAdapter:** Adapter for interacting with the Cloudinary image service.
+
+**ProductCatalogService:** Application service coordinating product catalog use cases.
+
+**ProductCatalogController:** Handles incoming requests related to the product catalog.
+
+**Transaction:** Represents a payment transaction.
+
+**PaymentStatus:** Encapsulates the status of a payment transaction.
+
+**RevenueSplit:** Represents how transaction amounts are split.
+
+**Receipt:** Contains details of a payment receipt.
+
+**TransactionRepository:** Defines the contract for storing and retrieving transactions.
+
+**StripePaymentAdapter:** Adapter for interacting with the Stripe payment gateway.
+
+**PaymentGatewayService:** Application service coordinating payment gateway use cases.
+
+**PaymentController:** Handles incoming requests related to payments.
+
+**User:** Represents a user of the system.
+
+**UserProfile:** Contains profile details for a user.
+
+**UserStatus:** Encapsulates the status of a user.
+
+**SessionToken:** Represents a user's authentication session token.
+
+**AuthProvider:** Represents the authentication provider used for a user.
+
+**UserRepository:** Defines the contract for storing and retrieving users.
+
+**SupabaseAuthAdapter:** Adapter for interacting with the Supabase authentication service.
+
+**UserManagementService:** Application service coordinating user management use cases.
+
+**UserController:** Handles incoming requests related to user management.
