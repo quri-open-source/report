@@ -2222,3 +2222,41 @@ Favorites
 - Mobile: Lista de productos en formato vertical con acciones rápidas. Adaptación para navegación por toque.
 
 ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfpqLY0Bs13ZcKS82FwFo9QHcr60EXnm58Twy7gICZUgkvmSvHqFx_KMIv1Tv2VCbeTd6zda_26FUgELwKFcAruJC1FdJ5n1lfVLrH4AYcykaE5ALYblpHQkX7wpPixjMssl9IK?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Explore
+
+- Desktop: Exploración de productos por categoría, con filtros laterales y visualización simultánea de múltiples opciones.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfO7aUYtiJ42a8zU8YWLn7NaOZhu9ysSN6ohR45nu-98gmvsUFhk78ugF9TpWCxy9XN9oXIonAiOwp9LXoyg1Ca3ErllAK2hOjqQfTgRHS52xsvgfi81hwSNqnB0XkP-QntnHzy?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile: Navegación vertical con filtros desplegables. Interfaz orientada al descubrimiento secuencial de contenido.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfWc5MFMEwF4p236zS6ipbHtbadqWBMaeGe_uDqCFqYU-fcQKpcdPbkAIiLtddMMiEzflkdXu7bOHo1ZwSy9LXUcLWDrZ2hoOVCFaaW6V9r5Ieczeyh7XuYHkgrfKLqPJTMUjhg5Q?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Design Lab
+
+- Desktop: Espacio para pruebas visuales avanzadas o diseño experimental. Herramientas extendidas y estructura similar al Design Studio.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfjM_NL-klOgU1WBR4TyrYwYcWSaNkdepUOxNqq0GxxfyfFhaBeizvBeP3IoOlj6lz4_StWfHKsEzvZfaMQoiiVXa8dielUFAqD71CCuiYJgeoNx_yJvQswPwyFbm3RjmEkJGEywA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Profile
+
+- Desktop: Panel dividido con secciones para datos del usuario, configuración de cuenta y seguridad. Estructura tipo dashboard.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXciOXyBe3PwSWpPClTZbTqCaoMQnxptq5UKwTT_UAWdrrWTYwtGQAW_PqJmD722lhta_Qelz5TTb61DzrSHqLUajB7Y64HpyXUnCxdsUGYhEWHs_yjIA3jB-I2Ic1uf_X9U_GLHDA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile: Menú en formato lista con secciones colapsables para mayor claridad y accesibilidad.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfLBLYoIXet8iSfVgbB7d5t9CeHMEvEMnl8R5UifqMBAMS9XoeXkt6jBkdR1KfhCBGVUFLEJzH-PMA5nugpNVzNg2UYLMvyJWBCWvtMUQFUXznZn1WQIrImKKRjoMdVWTmKYco4Hg?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Your Designs
+
+- Desktop: Visualización en grilla de diseños previos con opciones de edición, duplicado o eliminación.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXctEGKMfzoOj7REvu2aGhuZOWaz9yDWjeogp38wITMHKNnEg6zo_0wZaQtK7uC-gM_KdBrJgaEOnYn4J0eTH6nPR84XfuQMqKkFiJuZlI9Fo2YLcc0e_o9e7PW_P5HAyRM5QWPqww?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile: Vista tipo lista con miniaturas de diseños, botón de acción principal y organización cronológica.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd6sZ4VE2vJTREVj47kZ-TdxhAUw6t-kNNZYX6hioQp1TELW7FihBLl07aEJi4UJ3oMWWvbpbwTH1k8qe_QBddeO_mGRL96dGsrwZskvJX9Dg-jth1aAzAp8a8lkVgYU1D5yis1YQ?key=wLsuErVgqDz-qczrBI4kMctR)
+
+La estructura de los wireframes para la Web Application refleja una planificación basada en principios de usabilidad, accesibilidad y eficiencia. La segmentación entre versiones desktop y mobile permite optimizar la experiencia del usuario en distintos dispositivos, adaptando los flujos de navegación, el tamaño de los elementos y la jerarquía visual a las particularidades de cada entorno. Esta documentación será la base para las fases de prototipado, pruebas de usuario y posterior implementación funcional en código.
