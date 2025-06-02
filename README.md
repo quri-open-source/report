@@ -980,3 +980,45 @@ Segmento Objetivo #2: Clientes Individuales Creativos
 Segmento Objetivo #3: Marcas Emergentes y Emprendedores
 
 ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdytDMC-0yhCRyiSE_SETF17wc_kUc90vuHFXoeG4eHIlCjNqG6LsZQzL_MyLQtYnCcl-i0otYdwekmfFXp_2_uutvEWUitG1BzKwB1BAfJ8TznGg5hfvOuA_b9agJbA0QebyhvOQ?key=wLsuErVgqDz-qczrBI4kMctR)
+
+## 2.4. Ubiquitous Language
+
+| Ubiquos Term               | Definition of Functional Domain                              |
+| -------------------------- | ------------------------------------------------------------ |
+| Blueprint Designer         | User responsible for creating visual compositions using the designlab and saving/publishing them as blueprints. |
+| Garment Designer           | User responsible for creating visual compositions using the designlab and saving/publishing them as garment that can be sold |
+| Customer                   | End user who browses, and purchases garmentsthrough the platform. |
+| Manufacturer               | Partner entity that produces garments based on finalized and approved blueprints. |
+| Platform Administrator     | System-level operator who manages roles, content approvals, and technical settings. |
+| Designed Garment           | Final customized product created by the designer, ready for purchase or preview. |
+| Designed Garment Price     | Calculated price of a customized garment, based on design complexity and material usage. |
+| Design Lab                 | Creative environment where blueprints are composed using canvas, layers, and design tools. |
+| Design Blueprint           | Reusable template that represents the structure, elements, and layout of a garment design. |
+| Garment Canvas             | Editable area where design elements like text and images are placed and arranged. |
+| Garment Color              | Color applied to the garment or its components during customization. |
+| Edit Select                | Action of selecting one or more design elements on the canvas. |
+| Delete Selected            | Action of removing the currently selected design element from the canvas. |
+| Move Selected              | Action of repositioning the selected design element within the canvas. |
+| Delete Selected            | Reverts the last performed change made to the blueprint in the design lab. |
+| Bring Front                | Move a layer to a higher priority position, making it the focus in the system's flow. |
+| Send Back                  | Move a layer to a lower priority position, reducing its influence. |
+| Move Front                 | Shift a layer to a more prominent position in the system.    |
+| Move Back                  | We move the Infrastructure Layer back to focus on implementation |
+| Revert Last Change         | Reapplies the most recently undone change to the current blueprint. |
+| Repeat Last Change         | Resets the current blueprint to its initial saved state, removing unsaved modifications. |
+| Reset Blueprint            | Adds a text element to the garment canvas.                   |
+| Add Text                   | Adds a text element to the garment canvas.                   |
+| Add Image                  | Adds an image or illustration to the garment canvas.         |
+| Text Element Font          | Font applied to a selected text element.                     |
+| Text Element Color         | Color applied to a selected text element.                    |
+| Text Element Size          | Size of a selected text element in design units.             |
+| Text Format                | Format attributes (bold, italic, underline, etc.) applied to text elements. |
+| Save Design Blueprint      | Stores the current state of the blueprint in the system for future editing or publishing. |
+| Designed Garment Stock     | Inventory count or availability of a specific designed garment in different sizes or variants. |
+| Publish Design Blueprint   | Makes a saved design blueprint publicly visible and available to customers. |
+| Delete Design Blueprint    | Removes a saved design blueprint from the system or from public access. |
+| Share Design Blueprint     | Allows a designer to distribute a blueprint with others for collaboration or duplication. |
+| Load Design Blueprint      | Retrieves and displays a saved blueprint for editing or reuse. |
+| Designed Garment Purchased | Event triggered when a customer successfully completes the purchase of a designed garment. |
+| Order State                | Defines the current lifecycle stage of the order, such as pending, in production, shipped,or delivered. |
+| Payment State              | Status representing the confirmation and completion of the payment process. |
