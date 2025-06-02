@@ -3169,3 +3169,15 @@ Este diagrama muestra la arquitectura en capas (**Interfaces, Aplicación, Domin
 ****![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe33dzEcEQcW9vwGD0GdzWmgj8Lc67DASHooypM6q8WrpRydRU0uRgnXrLTYIHXuK1jutjnzJnsv5wFYdfFLn1VAPNR8EfFzRTgmMTh-WVg2O4ZJpouicAC8rrWytVRYJ7t1mppJw?key=wLsuErVgqDz-qczrBI4kMctR)**
 
 Este diagrama ilustra un sistema de "Procesamiento de Pedidos" con una arquitectura de tres capas: Interfaces, Aplicación y Dominio. La capa de Interfaces (**OrderController**) maneja las solicitudes entrantes para crear pedidos, aplicar cupones y recibir confirmaciones de pago. La capa de Aplicación (**OrderProcessingService**) orquesta estas operaciones, interactuando con un repositorio de pedidos (**IOrderRepository**) y un servicio de pago (**IPaymentInitiator**). El núcleo es la capa de Dominio, donde el agregado **Order** gestiona su ciclo de vida y contiene **OrderItem** (artículos del pedido) y **Address** (direcciones). El dominio también incluye servicios como **OrderValidationService** y políticas como **DiscountPolicy**.
+
+**Order Fulfillment:**
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcXMIZw7UJytF8SY3IVGeZIJ1ZYdIRJ-s6jsqMjdo5vVseMHjKybMYQ09LOy6dZSn3Sx3tGL3bVckF56J63bQ2T5e-KDSBhLTbYVyHbO9eXMYEb2CZLShONDgsjvdkvDfvq-K1m0g?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Este diagrama representa el contexto de "Cumplimiento de Pedidos" (Order Fulfillment) usando tres capas: Interfaces, Aplicación y Dominio. El **FulfillmentController** (Interfaces) gestiona las interacciones externas como actualizaciones de estado y webhooks. El **OrderFulfillmentService** (Aplicación) coordina la lógica de cumplimiento, usando un repositorio (**IFulfillmentOrderRepository**) y respondiendo a eventos. El núcleo (Dominio) contiene el agregado **FulfillmentOrder** (que rastrea el estado de manufactura, empaquetado y puntos de entrega), la entidad **ProductionBatch** y un servicio **FulfillmentOrchestrator**. El repositorio gestiona la persistencia de las órdenes de cumplimiento y los lotes de producción.
+
+**Product Catalog:**
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdact0HbAFY3PkdMzmClVLhaH_xDFlUV4G1Q1ffC8f9x9AWjLXqSNQdjMWAPUgivey-ul8zzXr_Zy_nmu3NhSZ12TO6sYfKzLBKRTSBMDtw9lR6Qd99UmJKqN-KJPvjeWuRK8OC?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Este diagrama describe el contexto de "Catálogo de Productos" (Product Catalog) usando las capas de Interfaces, Aplicación y Dominio. El **ProductCatalogController** (Interfaces) gestiona las solicitudes de productos, filtros y categorías. El **ProductCatalogService** (Aplicación) coordina la obtención y manejo de datos del catálogo, usando repositorios (**IProductRepository**) y servicios (**ProductSearchAndFilterService, CloudinaryAdapter**). La capa de Dominio se enfoca en el agregado **Product** (con detalles, categorías, etiquetas, perfil de diseñador y rating) y define interfaces para la búsqueda/filtrado, persistencia y servicios externos como el de imágenes (**CloudinaryAdapter**).
