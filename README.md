@@ -2161,3 +2161,64 @@ La sección de Web Applications UX/UI Design se centra en el diseño de la inter
 ### 4.4.1. Web Applications Wireframes
 
 Los wireframes de la Web Application constituyen el primer paso en el desarrollo visual de la plataforma digital, definiendo la disposición estructural y jerárquica de los elementos en pantalla. Esta documentación permite anticipar cómo los usuarios interactuarán con el sistema, identificando componentes funcionales, zonas de navegación, y acciones clave. Se han diseñado versiones adaptadas tanto para desktop como para mobile, siguiendo principios de diseño centrado en el usuario y buenas prácticas de experiencia de usuario.
+
+Login
+
+- Desktop: Disposición centrada con campos de ingreso, opción de recuperación de contraseña y enlaces de autenticación complementaria. La estructura es limpia y directa, diseñada para minimizar fricción en el acceso.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdbYpksyCZbLD8wXogwFROBs5My1fs8Ag7c6ZtkPe7-PCi2V8Ro4wsEiVwHEbZ19NQSpwrfH-swbgYWR_BDxNmsWy4-exyahejPjxqVHUnsmDlR18f1S8GVtDjjgq4uGdWx1gJggQ?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile: Layout simplificado con campos alineados verticalmente, botones ampliados para interacción táctil y jerarquía visual que guía al usuario paso a paso.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfti-Rj7JeWK3_EWR0CfGZLsSTBRp2QMEJT3vr4zZd8rqy-HODZJGTMFpbbo0NlGUqYWc7L1N9OPDqkiLJeiL7kXUrawMhLBf_9HyDi7kPufbPIWeYsNbU_19kKBtW5mD2PqiS0?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Orders
+
+- Desktop: Visualización tipo tabla con detalle de cada pedido: ID, productos, método de pago, estados del envío y resumen total. Se utiliza una progresión lineal para el seguimiento del pedido.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfOm9hThQvJR9b4CH9WNwdbDxCjqR2KJRbWCb6WyRMUZNym7Q_GD8Bd6oR_MFPPPaPxTPfiDvHPN6583TfwSp6XQSQkRij8_zwJ8sFyUsZV2LRIiJw3YUf6c95fQu1SfXELXV-M7Q?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile: Reorganización del contenido en tarjetas verticales que contienen información resumida del pedido. Se mantiene la secuencia de estados en formato compacto para facilitar el seguimiento desde el celular.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdPZxNr2amtIqeme9gsWLTd0K6hm8gAzpJRyVEDQCShV8JPs1X586aMe52oAW7ClEKBgq3KE5DYfN9PTySTEIML1Aqx6vnlw0DQ4e6fdRH70H6lby1BTx1AhgoJXf-h2NL6YSA_?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Home 
+
+- Desktop: Distribución en grillas con productos destacados, secciones como “Popular Now” y “New”, y navegación lateral o superior. Se prioriza la exploración simultánea de múltiples categorías.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdOD0g4da8PS_VHOvHLTMch8wakTfGXwPRR5coDkYtGUduHkmBnHZ2vOM8mKbY-tXMbR5ZDN3tbqT7pVPdk_kJ-hFJr_ZqpnGYg_ouZ4RhSMN02SOerZQyjKuYxlZ6GNH0oguGMOw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile: Interfaz en scroll vertical con bloques de contenido apilados, carruseles horizontales para productos, y navegación simplificada para minimizar el esfuerzo cognitivo.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdV9_-yev_6uXpGneGvhvYSRItieo2VD3zg8fk1_3HcoyCD7L3hvIgm6rfI2_9PnX7VlH5tYKDr1cDhAFsth0DyBWzRbXFI9VkE16DX7a7DTmiQybeIvRwZhVWXbM1XUeMbKVtK?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Cart
+
+- Desktop: Tabla de productos seleccionados con controles para modificar cantidades, eliminar ítems y resumen detallado del costo. El botón de checkout se presenta fijo o cercano al resumen.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe1hDZX-_ADw_ZF5EhZyhbvfqgC4-jih7S6OMn8thZbb64TqdVli_aRfl4PgLIz_lNN2kDGz05-i2XT4v_yMbquLaKk7Mptba43h66jcTKbxfzomI90f9gpEQ4EGTBLgXNGb3HCog?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile: Estructura en bloques con cada producto representado individualmente. Se optimiza el flujo de compra con un resumen total al final de la pantalla y acceso rápido al proceso de pago.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdmGFSOH4Ge8Rhy3Li7dhWYB48U-c5Ul2iqJQCUg8Y63YlOmp5DIwdtRonyCrBjTnytkleq5HyyNWBXwliY9g9q2a-75u81DeHCoV-mLoW4A5FTcHpQilPlGsLG4DuPlddLkVu8?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Template
+
+- Desktop: Vista en galería con miniaturas de plantillas prediseñadas. Permite selección rápida y acceso directo al editor.
+- Mobile: Lista vertical con una plantilla por fila, imágenes ampliadas y selección por toque, respetando el espacio disponible en pantallas pequeñas.
+
+Design Studio
+
+- Desktop: Interfaz avanzada de diseño con área central para la prenda, herramientas laterales para edición de texto, color y capas. Espacio optimizado para precisión en el diseño.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcqsrYlqcgD7JeUuM-p8wVGhPCeIy1T54y-Yz97dv_4r1RbO4PDgwgr8KvrwI4_kjeAnZpe9WBwBPOUVPIh3685dSre9L5SJa0MBB6ANRQdI0wz4CwjXOyFQ4HefMdCivgCPbHCvg?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Favorites
+
+- Desktop: Galería de productos guardados organizada en tarjetas con acciones como eliminar o agregar al carrito.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeKVoeyw3NPHakX9OHVgLn-Bnodx1ep27HykPD5fcG9_CKAMaV6q7783mJDHnsL29H42fbyNWC1R72_ozHrgx2mm0oqZcM7qEhXO05a0UwgfhnDwyvEqdx2r4yK44dikaFOqbfX?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- Mobile: Lista de productos en formato vertical con acciones rápidas. Adaptación para navegación por toque.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfpqLY0Bs13ZcKS82FwFo9QHcr60EXnm58Twy7gICZUgkvmSvHqFx_KMIv1Tv2VCbeTd6zda_26FUgELwKFcAruJC1FdJ5n1lfVLrH4AYcykaE5ALYblpHQkX7wpPixjMssl9IK?key=wLsuErVgqDz-qczrBI4kMctR)
