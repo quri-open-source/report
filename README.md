@@ -3745,3 +3745,14 @@ Capturas de los commits
 
 ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeMzfgfqCdrQ4VveshcWESNKUNP2PsMqhKvShF03m8g9obLwQjq3qx5YlUuY_YUDBqMI0ksD1gcto3sGNZ54hFQzveWD2tCiQjRjpQOhPHpvoGfmtC29NhK8rqiTD80wzsc1-H9yw?key=wLsuErVgqDz-qczrBI4kMctR)
 
+Continuando con el desarrollo del proyecto TeeLab, el Sprint 2 se enfocó en expandir las funcionalidades de la aplicación web, introduciendo la estructura de navegación interna, las herramientas de diseño de productos y la gestión de plantillas de diseño (blueprints). Este ciclo iterativo avanzó sobre las bases sentadas en el sprint anterior, comenzando a dar forma a la experiencia interactiva del usuario dentro de la plataforma. A continuación, se detallan los componentes de este sprint.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdkRcl0XS5Uts9tDKqD6FhG4nUQsfY9vov4r49HM9s-GHR6hAhDnl96SuZUTEWMKm-T4b40Zw9hzn6wPhle9GUw3zKN5GHoODsFVII9DwzwAXNF7vrkKHL9t73lODAJyObb7GC2eA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeDN7dNRs0Yqhix-rGvdHjoSXPGkgcb0m6mbLN_rVUBfxfAeD8k5SxQkvv48pzANiSz-avXMDMR9ru0IuyypIHBrIFOtU23KBiSV8rgA9xlj2E5etGZCrgr9In3YkzGwp-SVVUCUQ?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc795HanGiSNzmr96bFTFV_JZY6pP703wYSUmJWf9fx1J3QEg5nXMXKGq-xv7Au4Olu0Rv4yBoBFg4NEg-CPFMp1rMsVfUNj0GlnkjfzZrtR0TASbjWzpnOzx5dZsSihzYCHYgZoQ?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf8CXnjEoR69fGaWzD4nKB0OXiC__Y922vv24qGAT6y9Z4bQ7f9bD-8jAkBk3novwU-VLfh-qfY333w1-4dfXzYPoGRaul4PJo7gB6v5sEB5A8cJUvgW8fferYUXoY4irvMG1h4DA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc7PhtSugs-KqvPzlv7WUPZz9IIYJ62Vtl1OA8s-09C2118ANpkFOfyb_49sQJua_GEpNNMu_-Wfly93HHVtOZsS4FnzNnHONa9p9HyXfD5ZzLIndiJio125vI-3nJS4_swJRjI?key=wLsuErVgqDz-qczrBI4kMctR)
