@@ -16,13 +16,13 @@ Docente: Angel Augusto Velasquez Nuñez
 
 Integrantes: Dante Mateo Aleman Romano, Jonatan Ariel Acuña Corahua, Fabrizio Alessandro Contreras Peralta, Renzo Andres Luque Minaya
 
-TB2
+TP
 
 Startup: Quri
 
 TeeLab
 
-Junio 2025
+Mayo 2025
 
 
 
@@ -3155,6 +3155,8 @@ Desde el punto de vista de escalabilidad y seguridad, User Management está prep
 
 En términos estratégicos, este componente permite personalizar profundamente la experiencia de la plataforma, adaptando los flujos, interfaces y notificaciones según el tipo de usuario. Además, la segmentación de roles garantiza que los procesos críticos del sistema (como la creación de diseños o la aprobación de producción) solo estén disponibles para quienes poseen los permisos correspondientes. Esta separación de responsabilidades reduce riesgos, facilita la auditoría, y permite mantener una gobernanza clara sobre el comportamiento de cada actor dentro del ecosistema.
 
+## 4.7. Software Object-Oriented Design
+
 ### 4.7.1. Class Diagrams
 
 **Design Studio:**
@@ -3318,7 +3320,6 @@ Design lab
 			![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXetaS-wKSKot7dAEy2VgE-D_hQXHyeFPUkQsQDl6dXnAnrZMRE7iwRSJ5kgL458DY0YnsvBGJ4-udr8YrQJ8hoepssKwUnG2M90C4Vat_M5e0If4nsABSqagTo6mijKaO22K91VQA?key=wLsuErVgqDz-qczrBI4kMctR)
 
 Este diagrama representa la estructura de la base de datos para un "Design Lab". La tabla principal es **Blueprint**, que almacena información general del diseño como nombre, descripción, estado y una referencia al diseñador. Cada **Blueprint** está asociado con múltiples registros en la tabla **DesignLayer**, que detallan cada capa del diseño (tipo, contenido, posición, tamaño, color). Además, cada **Blueprint** utiliza una entrada en **GarmentCanvas** para especificar detalles de la prenda base (tipo, color, tallas disponibles), la cual puede hacer referencia a una plantilla predefinida en **TemplatePreset**. Las relaciones se establecen mediante llaves foráneas (**FK**) que apuntan a las llaves primarias (**PK**) correspondientes.
-
 
 1. Order Fulfillment
 
@@ -3745,6 +3746,10 @@ Capturas de los commits
 
 ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeMzfgfqCdrQ4VveshcWESNKUNP2PsMqhKvShF03m8g9obLwQjq3qx5YlUuY_YUDBqMI0ksD1gcto3sGNZ54hFQzveWD2tCiQjRjpQOhPHpvoGfmtC29NhK8rqiTD80wzsc1-H9yw?key=wLsuErVgqDz-qczrBI4kMctR)
 
+
+
+### 5.2.2. Sprint 2
+
 Continuando con el desarrollo del proyecto TeeLab, el Sprint 2 se enfocó en expandir las funcionalidades de la aplicación web, introduciendo la estructura de navegación interna, las herramientas de diseño de productos y la gestión de plantillas de diseño (blueprints). Este ciclo iterativo avanzó sobre las bases sentadas en el sprint anterior, comenzando a dar forma a la experiencia interactiva del usuario dentro de la plataforma. A continuación, se detallan los componentes de este sprint.
 
 ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdkRcl0XS5Uts9tDKqD6FhG4nUQsfY9vov4r49HM9s-GHR6hAhDnl96SuZUTEWMKm-T4b40Zw9hzn6wPhle9GUw3zKN5GHoODsFVII9DwzwAXNF7vrkKHL9t73lODAJyObb7GC2eA?key=wLsuErVgqDz-qczrBI4kMctR)
@@ -3791,6 +3796,8 @@ En esta sección se elaborará la **Leadership-and-Collaboration Matrix (LACX)**
 | Neil Aldrin Wilhelm, Curipaco Huayllani | Neilcuri            |      | L    |      |      | L    |
 
 **Nota.** Ng = Navigation, Ed = Editor, Pr = Projects, DL=Design Lab, AP=Auxiliary Page. C = Colaborador, L = Líder.
+
+
 
 #### 5.2.2.3. Sprint Backlog 2
 
@@ -3957,49 +3964,6 @@ Durante el Sprint 2 pusimos en marcha todo el proceso de **Deployment** para la 
 Captura de la Landing Page en producción, accesible en:
 https://open-source-web-app.vercel.app/home
 
-#### 5.2.2.6. Services Documentation Evidence for Sprint Review
-
-Durante el Sprint 2 no se trabajó en el desarrollo de Web Services ni en la creación de endpoints funcionales, ya que el enfoque del sprint se limitó exclusivamente al diseño, construcción y publicación de la Landing Page. En consecuencia, no se elaboró documentación técnica de APIs REST ni se empleó OpenAPI.
-
-Estado actual:
-
-No se han implementado controladores (controllers) ni servicios de aplicación (application services).
-
-No se han definido endpoints HTTP ni documentación Swagger u OpenAPI.
-
-No se han activado microservicios ni lógica de negocio en la capa backend.
-
-El proyecto se encuentra en etapa de diseño visual, internacionalización y diseño responsivo.
-
-Justificación:
-
-El enfoque del Sprint 1 responde a las épicas EP04 - Landing page y visibilidad de productos, EP06 - Internacionalización (i18n), EP10 - Responsive UI, y EP07 - Accesibilidad (a11y), las cuales no requieren integración con lógica de negocio. La implementación de servicios comenzará a partir del Sprint 2, con la activación del Create Module y el diseño de los primeros flujos funcionales del dominio (Design, Projects, Orders).
-
-Próximos pasos:
-
-A partir del siguiente Sprint, se documentarán:
-
-Interfaces REST y contratos de servicios (DesignService, TemplateService, etc.).
-
-Especificaciones OpenAPI (Swagger) para endpoints públicos y protegidos.
-
-Diagrama de Componentes (C4 level 3) mostrando la relación entre servicios.
-
-Integración de pruebas Postman o herramientas similares para validación.
-
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review
-
-Durante el Sprint 2 pusimos en marcha todo el proceso de **Deployment** para la Landing Page (y sentamos las bases para las Web Applications y futuros Web Services) usando Netlify como proveedor de hosting continuo.
-
-
-
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeVxEnHysNjT66M11iqBNYOax23NOdoQNrG_2Xj3C9tp_Zszk0rtM2CYgP3Z1oBZd894sQJymiHB2lDBLJKC0XD0l47A7LaAry9NXd3SB07mAF-XjBIgiGtyioah3gzC84-ocv1?key=wLsuErVgqDz-qczrBI4kMctR)
-
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeTIzKYB344blI3OQVnv3ZErIoPAVBitAB5Me2S_s7RuwMVPOGoSRhtddp6G7_0hg83GeNFatbomOYV-Tc2i_FaO3B0TMt0iq1OwFJ-UI2biNLQXg5JD6F6sGEfbpk0b7RV12PR?key=wLsuErVgqDz-qczrBI4kMctR)
-
-Captura de la Landing Page en producción, accesible en:
-https://open-source-web-app.vercel.app/home
-
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
 Durante el Sprint 2, el equipo mantuvo un nivel de colaboración constante y equilibrado en todas las capas de la solución (Landing Page, Web App y Web Services). A continuación se describen las principales prácticas y métricas de colaboración:
@@ -4013,3 +3977,7 @@ Durante el Sprint 2, el equipo mantuvo un nivel de colaboración constante y equ
 **Diseño del Garment:** Se realizaron diversas tareas relacionadas con la manipulación y visualización del diseño de la prenda. Esto incluyó la adición de texto al "Garment Designed", la capacidad de renderizar texto arrastrable en el "Garment Canvas", cambiar la fuente y aplicar estilos al texto en el canvas, cambiar el color del texto, integrar un selector de color para rellenar el estilo del texto, permitir la carga y posicionamiento de imágenes, renderizar imágenes cargadas como capas con controles, establecer el color base del "Garment Designed" y del background, manipular el orden de las capas, implementar funciones para traer/enviar capas al frente/fondo y ofrecer una vista previa completa del "Garment Designed".
 
 **Funcionalidades Avanzadas de Diseño:** Se habilitó una vista previa en alta resolución sin interfaz de usuario, se permitió asignar un nombre y escribir una descripción para el "Garment Designed", se integraron campos para enlazar el nombre y la descripción al modelo del producto, y un campo multilínea para metadatos. También se trabajó en la selección del target (género) y la configuración del género para la prenda, la selección de tallas disponibles y la entrada multi-talla para el array de tallas.
+
+**Blueprints de Diseño:** Se implementaron funcionalidades para crear, instanciar (como un lienzo en blanco), guardar, cargar y eliminar "Design Blueprints", así como para serializar y persistir el estado del canvas. También se incluyeron tareas para recuperar e hidratar canvas desde blueprints almacenados, eliminar data y assets de blueprints, renombrar y duplicar blueprints, actualizar el título en la base de datos e interfaz, clonar blueprints asignando un nuevo ID, publicar blueprints y gestionar su visibilidad y compartición, incluyendo la generación de links compartibles con control de acceso.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcDxWQHkb0l2kBSeG4MryMroi8o5R_l-zQr703cqltN_L612J4-REncTgNS6D4mUagIbn4s5642Scy3QrG5rIRhjoFeulBe3YULU70K_FEbrjuq0ob3oBMNSYZx1BnlzI3wWUgS?key=wLsuErVgqDz-qczrBI4kMctR)
