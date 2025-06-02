@@ -3325,3 +3325,16 @@ Este diagrama representa la estructura de la base de datos para un "Design Lab".
  ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdlz7BU-DQK4nUlLwdpe-n4S7Em9oyarD9fEalP2kh3SMEfl_yEEXG45He-Xcv2bDe8IeRQBhKFNTZBdkEiDaTiyUSSUNu6rArYj0ZC7-MlRu4APlVTTzzV8PMJiDQZbbHZfcDupw?key=wLsuErVgqDz-qczrBI4kMctR)
 
 Este diagrama muestra la base de datos para el cumplimiento de pedidos. La tabla **ProductionBatch** agrupa órdenes por lotes de producción asignados a un fabricante. Cada lote contiene múltiples **FulfillmentOrder**, que registran el estado del cumplimiento de un pedido específico, cantidad, número de seguimiento y referencias a pedido, producto, blueprint y fabricante. Cada **FulfillmentOrder** a su vez contiene múltiples **DeliveryCheckpoint** (registros de seguimiento) y tiene asociadas unidades de empaquetado (**PackagingUnit**) con detalles de tipo, dimensiones y peso. Las claves primarias y foráneas definen las relaciones entre tablas.
+
+1. Order Processing
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXft4KoqB4HakW36xTq7qWB8eVUfuaaR0VaUeJvoKnpp8GbXrqsbUVhIOfsKJq9bDIG_Hf3LoJITnbu_fKJcwGZXAs4IBwb1b_ASqUrFZXpPAsx-F7_MEkYZdYM7Fx66pXabzNyapg?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Este diagrama de base de datos para **"Procesamiento de Pedidos"** se centra en la tabla **Order**, que almacena detalles del pedido como usuario, fecha, estado, monto total y direcciones. Cada **Order** contiene múltiples **OrderItem** (artículos del pedido con producto, cantidad y precio). Opcionalmente, a una **Order** se le aplica una **DiscountPolicy** (política de descuento con sus reglas y validez). Finalmente, cada **Order** está asociada a registros en **PaymentTransaction** que detallan las transacciones de pago (estado, monto, método, fechas). Las claves foráneas (FK) conectan estas tablas entre sí.
+
+1. Payment Gateway
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXem_qBijm09ULButnu4o0wBcGSXNAKng8qxaPG8suWBzaY-qF1WGsXyQiyEoV8JU2gp9fauPOGzukbNoPw5nDDqvg0PUF6CPlcNHZUK27GHQmY4dJqBrz6q059b4_TIlNc9MLDC9w?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Este diagrama de base de datos para la **"Pasarela de Pago"** se enfoca en la tabla **Transaction**, que almacena los detalles de cada transacción **(estado, monto, moneda, fecha, ID de cargo externo).** Cada **Transaction** puede contener múltiples registros en **RevenueSplit**, que especifican cómo se divide el ingreso entre diferentes beneficiarios. Además, cada **Transaction** tiene asociado un único **Receipt** (recibo) que almacena la URL del recibo y la fecha de emisión. Las claves foráneas en **RevenueSplit** y **Receipt** las vinculan a la tabla **Transaction**.
+
