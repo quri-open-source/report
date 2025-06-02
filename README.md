@@ -2428,3 +2428,237 @@ El Diseñador Gráfico Independiente, utilizando la plataforma móvil, busca una
 - **Acción esperada:** Obtención de información detallada sobre el diseño seleccionado.
 
 ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfUzetst9PwuBi2fT0UEor_1eAVKxbBU5YN-u5rjF1WamcarTYdRdJmRqPNDhkmLlUDQbYAzFlMwMx8hBUJmCb0SSdYi0k5uC7uDs1stidlbd4iQUL7lY50nn0wI37BJpIe1-4Etg?key=wLsuErVgqDz-qczrBI4kMctR)
+
+
+
+
+- **Segmento Objetivo #2: Clientes Individuales Creativos**
+
+
+El Cliente Individual Creativo busca una plataforma accesible y divertida para personalizar sus propias camisetas, ya sea partiendo de un lienzo en blanco o utilizando diseños preexistentes como inspiración. Valora la capacidad de expresar su individualidad a través de sus creaciones, así como la posibilidad de explorar y guardar sus diseños favoritos y gestionar sus compras de manera sencilla.
+
+
+
+**Login:**
+
+- El cliente introduce sus credenciales y hace clic en "Login".
+- **Acción esperada:** Autenticación exitosa.
+
+**Home:**
+
+- El cliente visualiza la página principal con accesos a diversas secciones.
+- **Acción esperada:** Exploración inicial y selección de una sección.
+
+**Profile:**
+
+- El cliente accede a su perfil para ver su información y diseños.
+- **Acción esperada:** Revisión del perfil y diseños propios.
+
+**Profile - Designs:**
+
+- Dentro del perfil, el cliente ve sus diseños guardados y puede seleccionarlos.
+- **Acción esperada:** Visualización de diseños propios.
+
+**My Orders:**
+
+- El cliente accede a su historial de órdenes.
+- **Acción esperada:** Revisión de órdenes pasadas.
+
+**Detalle de Orden:**
+
+- El cliente selecciona una orden para ver los detalles.
+- **Acción esperada:** Consulta de información detallada de una orden.
+
+**Explore:**
+
+- El cliente navega por los diseños de polos disponibles.
+- **Acción esperada:** Descubrimiento de diseños para comprar.
+
+**Detalles del Producto en Explore:**
+
+- El cliente selecciona un diseño para ver su información detallada.
+- **Acción esperada:** Obtención de detalles del producto.
+
+**Cart:**
+
+- El cliente revisa los artículos en su carrito de compras.
+- **Acción esperada:** Gestión del carrito y preparación para el pago.
+
+**Checkout:**
+
+- El cliente inicia y completa el proceso de pago.
+- **Acción esperada:** Finalización de la compra.
+
+**Favorites:**
+
+- El cliente accede a su lista de diseños favoritos.
+- **Acción esperada:** Revisión de diseños guardados como favoritos.
+
+**Blueprints:**
+
+- El cliente explora los blueprints disponibles.
+- **Acción esperada:** Descubrimiento de plantillas de diseño.
+
+**Design Studio:**
+
+- El cliente accede al estudio de diseño para crear desde cero o usar un blueprint.
+- **Acción esperada:** Creación o modificación de un diseño.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf959XHJCYGed7BMnomMfGWI6sMjsziNU77C5L1Z6Fbvy3L4340lguGyc0HWhDJGLx1bO-8ML2lEehCVZYyfRA3acb36t3Cm-Hccr8l4v9fcJ4moNfsfmepA_laGESq4cvFKztplQ?key=wLsuErVgqDz-qczrBI4kMctR)
+
+
+
+El Cliente Individual Creativo, utilizando su dispositivo móvil, busca una forma intuitiva y visualmente atractiva de explorar diseños de camisetas, revisar sus pedidos y acceder a su perfil de manera rápida y sencilla. Valora la capacidad de descubrir nuevos estilos y mantenerse al tanto de sus compras desde la comodidad de su teléfono.
+
+**Login:**
+
+- El cliente introduce su nombre de usuario y contraseña en los campos correspondientes.
+- Luego, pulsa el botón "Login".
+- **Acción esperada:** Autenticación exitosa en la plataforma móvil.
+
+**Home:**
+
+- El cliente accede a la pantalla principal.
+- Visualiza una lista de diseños (posiblemente "Popular Now").
+- Observa iconos de navegación en la parte inferior o superior (Home, Explore, Profile, Cart, etc.).
+- **Acción esperada:** Exploración inicial de la interfaz móvil.
+
+**Profile:**
+
+- El cliente pulsa el icono de "Profile" en la barra de navegación.
+- Accede a la sección de su perfil, donde puede ver información de usuario y accesos a otras secciones como "Designs".
+- **Acción esperada:** Acceso a la información de la cuenta y a sus diseños.
+
+**Acceso a "My Orders":**
+
+- Desde el perfil o desde un icono en la navegación, el cliente accede a la sección de sus órdenes. (La pantalla muestra "My Orders" en la parte superior).
+- Visualiza una lista de sus pedidos.
+- **Acción esperada:** Revisión del historial de compras.
+
+**Detalles de Orden:**
+
+- El cliente selecciona una orden de la lista.
+- Visualiza la pantalla de "Order Details" con información como el número de orden, productos, cantidad, precio unitario, precio total, método de pago, dirección de envío y estado del pedido.
+- **Acción esperada:** Consulta de la información detallada de una orden específica.
+
+**Selección de Diseño:**
+
+- De vuelta en la pantalla "Home", el cliente selecciona uno de los diseños mostrados en la lista.
+- **Acción esperada:** Selección de un diseño para ver más detalles.
+
+**Detalles del Diseño:**
+
+- Tras seleccionar un diseño en el Home, el cliente visualiza la pantalla con los detalles del diseño.
+- Esta pantalla muestra información como el nombre del diseño ("Bocanada"), el creador, el precio, una descripción, imágenes del diseño y posiblemente una sección de diseños similares.
+- **Acción esperada:** Obtención de información detallada sobre el diseño seleccionado.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdJSSpW4VSVg3xloU3mIlQkTvS3k_AEIHp6lyDoSIqSfRCqq4gxqhqSlLAMOIBoKm_NXambcopjWIr0mROJe2Wn8gr8CxbGBICtIhut9K2DHW04xn6hDQQ_D7_NRjCTZR-K9ljWhA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+- **Segmento Objetivo #3: Marcas Emergentes y Emprendedores**
+
+  La Marca Emergente o Emprendedor busca una plataforma integral para diseñar, prototipar y potencialmente producir sus líneas de camisetas personalizadas. Valora la capacidad de inspirarse en blueprints existentes, crear sus propios diseños únicos, gestionar sus proyectos en curso y facilitar el proceso de compra para sus futuros clientes, todo dentro de un entorno que respalde el crecimiento de su marca.
+
+**Login:**
+
+- El emprendedor introduce sus credenciales (username y password) y hace clic en “Login”.
+- **Acción esperada:** Autenticación exitosa en la plataforma.
+
+**Home:**
+
+- El emprendedor accede a la página principal, donde puede visualizar un resumen de la actividad, proyectos recientes y accesos directos a diversas secciones.
+- **Acción esperada:** Exploración inicial del panel principal.
+
+**Profile:**
+
+- El emprendedor navega al perfil para ver la información de su cuenta y posiblemente un resumen de sus proyectos.
+- **Acción esperada:** Acceso a la información de la cuenta y gestión de proyectos.
+
+**Ver sus Proyectos :**
+
+- El emprendedor localiza y accede a una sección donde se listan sus proyectos de diseño en curso.
+- **Acción esperada:** Revisión y selección de proyectos existentes.
+
+**Ver Blueprints:**
+
+- Desde el menú de navegación, el usuario accede a la sección de "Blueprints".
+- **Acción esperada:** Exploración de blueprints disponibles.
+
+**Detalles del Blueprint:**
+
+- El emprendedor selecciona un blueprint para ver información detallada como nombre, autor, descripción y elementos visuales.
+- **Acción esperada:** Obtención de información sobre un blueprint específico.
+
+**Use Blueprint:**
+
+- En la vista de detalles del blueprint, el usuario hace clic en "Use Blueprint".
+- **Acción esperada:** Creación de una copia editable del blueprint en el Design Studio.
+
+**Design Studio:**
+
+- El emprendedor es redirigido al entorno de diseño donde puede modificar el blueprint o crear un diseño desde cero.
+- **Acción esperada:** Personalización del diseño utilizando las herramientas disponibles.
+
+**Explorar:**
+
+- El emprendedor regresa al Home y selecciona la sección "Explore".
+- **Acción esperada:** Búsqueda de diseños de polos disponibles.
+
+**Add to Cart:**
+
+- El emprendedor selecciona un diseño de su agrado y lo añade al "Cart".
+- **Acción esperada:** Adición de un producto al carrito de compras.
+
+**Botón Checkout:**
+
+- El emprendedor accede al "Cart" y hace clic en el botón "Checkout" para iniciar el proceso de compra.
+- **Acción esperada:** Inicio del proceso de pago.
+
+**![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdKT1vE7Rnekfu4m1VSmpx3DtEmcng9TRqLpXdA4iKSJxutNyYIG73444lM67M3QIMdqR7Kh-RZgxOyqmmhHpQtwXThIfRZWFeYpItkmsCCe5xnYrCZ10ycYPVDNbHKvqE3mSqELg?key=wLsuErVgqDz-qczrBI4kMctR)****
+
+
+
+La Marca Emergente o Emprendedor, utilizando su dispositivo móvil, busca una manera práctica de mantenerse al tanto de sus pedidos y acceder rápidamente a la información de su perfil mientras gestiona su negocio en movimiento. Valora la capacidad de revisar los detalles de sus órdenes de producción y tener una visión general de su cuenta directamente desde su teléfono.
+
+**Login:**
+
+- El emprendedor introduce su nombre de usuario y contraseña en los campos correspondientes.
+- Luego, pulsa el botón "Login".
+- **Acción esperada:** Autenticación exitosa en la plataforma móvil.
+
+**Home:**
+
+- El emprendedor accede a la pantalla principal.
+- Visualiza una lista de diseños (posiblemente "Popular Now").
+- Observa iconos de navegación en la parte inferior o superior (Home, Explore, Profile, Cart, etc.).
+- **Acción esperada:** Exploración inicial de la interfaz móvil.
+
+**Profile:**
+
+- El emprendedor pulsa el icono de "Profile" en la barra de navegación.
+- Accede a la sección de su perfil, donde puede ver información de usuario y accesos a otras secciones como "Designs".
+- **Acción esperada:** Acceso a la información de la cuenta y a sus diseños.
+
+**Acceso a "My Orders":**
+
+- Desde el perfil o desde un icono en la navegación, el emprendedor accede a la sección de sus órdenes. (La pantalla muestra "My Orders" en la parte superior).
+- Visualiza una lista de sus pedidos.
+- **Acción esperada:** Revisión del historial de compras.
+
+**Detalles de Orden:**
+
+- El emprendedor selecciona una orden de la lista.
+- Visualiza la pantalla de "Order Details" con información como el número de orden, productos, cantidad, precio unitario, precio total, método de pago, dirección de envío y estado del pedido.
+- **Acción esperada:** Consulta de la información detallada de una orden específica.
+
+**Selección de Diseño:**
+
+- De vuelta en la pantalla "Home", el emprendedor selecciona uno de los diseños mostrados en la lista.
+- **Acción esperada:** Selección de un diseño para ver más detalles.
+
+**Detalles del Diseño:**
+
+- Tras seleccionar un diseño en el Home, el emprendedor visualiza la pantalla con los detalles del diseño.
+- Esta pantalla muestra información como el nombre del diseño ("Bocanada"), el creador ("Quri"), el precio, una descripción, imágenes del diseño y posiblemente una sección de diseños similares.
+- **Acción esperada:** Obtención de información detallada sobre el diseño seleccionado.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfndsOKekx70gTfwa8zrXzd1n6IHcWieubXnG34l2bCg0IcPJ_tjTk-TwIdIS6EghWkXThqtsjNRx08Hihu9zFQQWziz7f67rVjQvLhtZaGaVu2YNU3bEMRPMWPGqXtqMxngZMDYQ?key=wLsuErVgqDz-qczrBI4kMctR)
