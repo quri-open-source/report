@@ -3338,3 +3338,7 @@ Este diagrama de base de datos para **"Procesamiento de Pedidos"** se centra en 
 
 Este diagrama de base de datos para la **"Pasarela de Pago"** se enfoca en la tabla **Transaction**, que almacena los detalles de cada transacción **(estado, monto, moneda, fecha, ID de cargo externo).** Cada **Transaction** puede contener múltiples registros en **RevenueSplit**, que especifican cómo se divide el ingreso entre diferentes beneficiarios. Además, cada **Transaction** tiene asociado un único **Receipt** (recibo) que almacena la URL del recibo y la fecha de emisión. Las claves foráneas en **RevenueSplit** y **Receipt** las vinculan a la tabla **Transaction**.
 
+1. Product Catalog
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcebSs1AqL9MHRzmHhkdSi4dX5myrYYr_wrEigj1aI0O0iaTfkVNekbsl4tLzBOjAnyN4V3KHuaFBXL7GdWwBCsOu1Pc0UPV9Md6dybhMaOB1smVNLjR67Rl4r7Q8FEW1oCJRhmBw?key=wLsuErVgqDz-qczrBI4kMctR)Este diagrama de base de datos para el **"Catálogo de Productos"** muestra la tabla central **Product** con los detalles principales del producto. Se relaciona mediante tablas de unión **(ProductCategory, ProductTag)** con las tablas **Category** y **Tag** para manejar relaciones de muchos a muchos (un producto puede tener varias categorías/etiquetas y viceversa). Además, un producto se relaciona con múltiples registros en las tablas **Rating** (calificaciones de usuarios), **ProductImage** (URLs de imágenes) y **ProductSize** (tallas disponibles), estableciendo relaciones uno a muchos mediante claves foráneas.
+
