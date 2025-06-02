@@ -46,3 +46,282 @@ Junio 2025
 | 0.3.5   | 21/04      | Jonatan AcuñaRenzo LuqueCuripaco NeilFabrizio ContrerasMateo Alemán | Se desarrolló el diseño orientado a objetos del sistema, iniciando con la construcción de los Class Diagrams que modelan las entidades principales como Usuario, Producto, Diseño y Pedido, definiendo atributos, relaciones y herencias. Se corrigieron clases redundantes, se ajustaron asociaciones incorrectas y se añadieron clases faltantes según los requerimientos funcionales. Paralelamente, se elaboró el Class Dictionary detallando cada clase, sus atributos y métodos, con descripciones precisas y alineadas con el dominio. Este trabajo permitió formalizar la estructura interna del software y asegurar coherencia entre el modelado conceptual y la implementación. |
 | 0.3.6   | 22/04      | Curipaco Neil                                                | Se diseñó la base de datos del sistema, iniciando con la definición de entidades clave como usuarios, productos, diseños, pedidos y fabricantes. Se construyó el Database Diagram, estableciendo relaciones entre tablas mediante claves primarias y foráneas. Se corrigieron inconsistencias en la normalización y se eliminaron atributos redundantes. También se ajustaron los tipos de datos para optimizar el rendimiento y la integridad referencial. Este diseño estructuró la base de datos relacional que sustenta las operaciones centrales de la plataforma. |
 | 0.4.0   | 23/04      | Mateo Alemán                                                 | Se configuró el entorno de desarrollo unificado para el equipo, definiendo versiones estables de herramientas, frameworks y gestores de paquetes. Se estableció el control de versiones mediante Git, aplicando la estrategia GitFlow y convenciones de commits con formato semántico. Se documentaron las convenciones de estilo para el código fuente en frontend y backend, asegurando uniformidad en la escritura, estructura y nomenclatura. Además, se configuró el despliegue automático de la landing page y servicios en Vercel y Netlify, vinculando repositorios y variables de entorno. Estas acciones garantizaron una gestión eficiente, coherente y automatizada del ciclo de desarrollo y despliegue. |
+| 1.0.0   | 24/04      | Jonatan AcuñaRenzo LuqueCuripaco NeilFabrizio ContrerasMateo Alemán | Se ejecutó el Sprint 1 de implementación de la plataforma TeeLab. Se realizó la planificación inicial y se definieron los objetivos del sprint en conjunto. Se asignaron responsables por aspecto funcional en la matriz de Aspect Leaders and Collaborators. Se construyó el Sprint Backlog con historias priorizadas y distribuidas por épicas. Se implementaron las funcionalidades de la landing page y módulos base de la aplicación, generando evidencia de desarrollo, ejecución y despliegue continuo. Se documentaron los servicios y configuraciones utilizadas. Además, se registraron los aprendizajes y dinámicas de colaboración del equipo, destacando la comunicación efectiva y el cumplimiento de entregables. |
+| 1.0.1   | 28/04      | Mateo Alemán                                                 | Se revisaron y corrigieron los apartados de antecedentes y problemática para mejorar la redacción, precisión conceptual y coherencia con los hallazgos del usuario. Se reestructuró el Lean UX Process para hacerlo más claro y alineado con los principios metodológicos. Se ajustaron los Lean UX Problem Statements eliminando ambigüedades. Se refinaron los Lean UX Assumptions, consolidando supuestos repetidos y mejorando su formulación. También se actualizaron los Lean UX Hypothesis Statements para reflejar mejor los indicadores de validación. Finalmente, se reorganizó el Lean UX Canvas corrigiendo inconsistencias entre secciones y asegurando su alineación con las necesidades de negocio y usuario. |
+| 1.0.2   | 29/04      | Curipaco Neil                                                | Se realizaron correcciones en los formularios de entrevistas, ajustando preguntas para mejorar la recolección de datos específicos por segmento. Se actualizaron los registros audiovisuales, corrigiendo errores de formato y mejorando la presentación de los hallazgos. Se complementaron las respuestas con observaciones contextuales no registradas previamente. Además, se reorganizó el análisis de entrevistas para identificar con mayor claridad los patrones de comportamiento, frustraciones y motivaciones por segmento. Estas mejoras fortalecieron la calidad del insumo cualitativo para los artefactos centrados en el usuario. |
+| 1.0.3   | 29/04      | Fabrizio Contreras                                           | Needfinding, User Personas, [User Task Matrix](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.9996v4akkkqx), User Journey Mapping, Empathy Mapping, As-is Scenario Mapping |
+| 1.0.4   | 30/04      | Mateo Alemán                                                 | Se revisaron y actualizaron los hallazgos del needfinding para reflejar mejor los patrones comunes entre segmentos. Se ajustaron las User Personas, incorporando nuevos insights y corrigiendo descripciones inconsistentes. Se refinó el User Task Matrix, reorganizando tareas según frecuencia e impacto real. En el User Journey Mapping, se corrigieron fases mal secuenciadas y se agregaron emociones clave no registradas inicialmente. En los Empathy Maps, se mejoró la representación de pensamientos y sentimientos del usuario. Finalmente, se corrigió el As-is Scenario Mapping en Miro, ajustando acciones y emociones según los nuevos datos de entrevistas. Estas mejoras consolidaron una visión más precisa y empática del usuario. |
+| 1.0.5   | 1/05       | Jonatan AcuñaRenzo LuqueCuripaco NeilFabrizio ContrerasMateo Alemán | Se realizaron correcciones al Capítulo III, mejorando la redacción general y la consistencia entre artefactos. Se ajustó el To-Be Scenario Mapping corrigiendo fases mal definidas y alineándolo con nuevos hallazgos del usuario. Se reescribieron y reorganizaron User Stories para mejorar su trazabilidad, claridad y cumplimiento del formato Gherkin. Se actualizó el Impact Mapping, precisando relaciones entre actores, impactos esperados y entregables del sistema. Finalmente, se depuró y reestructuró el Product Backlog, consolidando historias redundantes, ajustando prioridades y reorganizando por épicas y capas funcionales. Estas correcciones optimizaron la base funcional para el Sprint 2. |
+| 1.0.6   | 2/05       | Fabrizio Contreras                                           | Se corrigieron y refinaron las Style Guidelines para garantizar mayor coherencia visual en la plataforma. En las General Style Guidelines se ajustaron tamaños de fuente, paleta de colores y espaciados para mejorar la legibilidad. En las Web Style Guidelines se unificaron estilos de botones, formularios y enlaces, y se aplicaron mejoras en accesibilidad y diseño responsivo. También se eliminaron duplicidades y se reorganizó la documentación para facilitar su uso por parte del equipo de desarrollo. Estas mejoras aseguraron una base visual sólida y consistente. |
+| 1.0.7   | 3/05       | Mateo Alemán                                                 | Se realizaron correcciones en la arquitectura de información para mejorar la estructura y accesibilidad del contenido. Se reorganizaron los Organization Systems, redefiniendo la jerarquía de secciones y módulos. Se ajustaron los Labeling Systems, corrigiendo etiquetas inconsistentes y alineándolas con el Ubiquitous Language. Se optimizaron los SEO Tags y Meta Tags para mejorar la indexación y relevancia en buscadores. En los Searching Systems, se mejoraron los filtros y criterios semánticos. Finalmente, se ajustaron los Navigation Systems para garantizar un flujo de navegación más intuitivo y funcional en todas las vistas de la plataforma. |
+| 1.0.8   | 5/05       | Fabrizio Contreras                                           | Se diseñó la interfaz de la landing page comenzando con la creación del wireframe, organizando visualmente secciones clave como el encabezado, propuesta de valor, beneficios y llamados a la acción. Luego, se desarrolló el mock-up aplicando las Style Guidelines, definiendo tipografías, colores y espaciados consistentes. Se ajustaron elementos visuales para asegurar buena jerarquía, legibilidad y diseño responsivo. El diseño final quedó alineado con los objetivos de comunicación y preparado para su implementación. |
+| 1.0.9   | 6/05/2025  | Jonatan AcuñaRenzo LuqueCuripaco NeilFabrizio ContrerasMateo Alemán | Se diseñó y documentó la interfaz de usuario de la landing page. Se elaboró el wireframe estructurando jerárquicamente los bloques informativos y de navegación. Posteriormente, se desarrolló el mock-up aplicando las Style Guidelines, integrando componentes visuales como encabezados, botones, secciones de valor y testimonios. Se corrigieron problemas de alineación, contraste y jerarquía visual, y se ajustó el diseño para garantizar compatibilidad responsiva. Este trabajo dejó lista la interfaz para su implementación. |
+| 1.0.10  | 7/05/2025  | Jonatan Acuña                                                | Web Applications Prototyping, Domain-Driven Software Architecture, Software Architecture Context Diagram, Software Architecture Container Diagram, Software Architecture Componentes Diagrams |
+| 1.0.11  | 9/05/2025  | Jonatan Acuña                                                | Se actualizaron los prototipos interactivos de la aplicación web, corrigiendo rutas y comportamientos no representados en versiones anteriores. Se revisó la arquitectura de software aplicando ajustes en la organización por dominios, mejorando la separación de responsabilidades. Se modificó el Context Diagram para reflejar nuevas interacciones con servicios externos. En el Container Diagram se actualizaron los componentes tecnológicos y flujos entre frontend, backend y base de datos. Finalmente, se reestructuraron los Componentes Diagrams, eliminando redundancias y detallando con mayor precisión las funciones internas de cada módulo. Estas mejoras fortalecieron la claridad y escalabilidad de la solución. |
+| 1.0.12  | 10/05/2025 | Jonatan Acuña                                                | Se actualizó el diseño de base de datos para reflejar cambios en el modelo de clases y nuevas funcionalidades. Se modificaron relaciones entre tablas para mejorar la integridad referencial y se ajustaron claves primarias y foráneas según el dominio. Se eliminaron columnas obsoletas, se normalizaron estructuras y se optimizaron tipos de datos. El Database Diagram fue reorganizado para mejorar su legibilidad y trazabilidad. Estas correcciones aseguraron un modelo de datos más eficiente, consistente y alineado con la lógica del sistema. |
+| 1.0.13  | 12/05/2025 | Mateo Alemán                                                 | Se realizaron ajustes en la configuración del entorno de desarrollo, actualizando versiones de herramientas y corrigiendo conflictos de dependencias. Se reorganizó el repositorio siguiendo la estructura definida por capas y se reforzó el uso de GitFlow para una gestión ordenada del código fuente. Se depuraron convenciones de estilo en el código, eliminando inconsistencias en nombres, indentación y estructura. Además, se reconfiguró el despliegue automático de la landing page y servicios, optimizando rutas y variables de entorno. Estas mejoras garantizaron un flujo de desarrollo más estable, mantenible y alineado con las buenas prácticas del proyecto. |
+| 2.1.0   | 13/05/2025 | Jonatan AcuñaRenzo LuqueCuripaco NeilFabrizio ContrerasMateo Alemán | Se planificó y ejecutó el Sprint 2 con base en las correcciones y entregables del Sprint 1. Se definieron objetivos específicos y se actualizó el Sprint Backlog 2 con nuevas historias priorizadas por epic y capa funcional. Se asignaron responsables por funcionalidad en la matriz de Aspect Leaders and Collaborators para mejorar la trazabilidad de tareas. Se desarrollaron e implementaron nuevas funcionalidades en la landing page, módulos de diseño y flujos de usuario, generando evidencia de desarrollo y ejecución. Se documentaron los servicios implementados y su integración en el sistema. Además, se desplegaron actualizaciones en entornos de prueba y producción, dejando evidencia técnica y operativa. Finalmente, se recopilaron insights sobre la colaboración del equipo, destacando mejoras en la coordinación, revisión cruzada de tareas y mayor autonomía en la resolución de incidencias. |
+
+# Project Report Collaboration Insights
+
+Url de la organización:https://github.com/quri-open-source 
+
+TB1: Desarrollo de la landing page de quri. 
+
+Durante el desarrollo hemos tenido problemas para organizar el flujo de gitflow. GitHub Desktop nos daba la idea de estar todos sincronizados pero al ver la sección del network entonces nos dábamos cuenta que no estaba correctamente ejecutado. Hemos logrado solucionar este problema de forma satisfactoria. El desarrollo se ha llevado con normalidad y siguiendo las buenas prácticas de gitflow con conventional commits.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeT-an_x6ZyCNB4htpQCOjCm5zHuGEq2-AF2JU5I_oL0jjIGaMx0-HbWgkJRleVAhAetoQNLQ7i7mUL2kAc3P6qZ9ULRyR9ilKnFa6iI4GeiMx-41vQpsbEnFqeSW_wmvc3P75l8A?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcsbim5IuCeE4QtITOQu_w5j76eoW8Mvr9y8tOFeACpgOPqsDrQZf7fTe663dlMgdhgCRvIh3PRTcONgIvqF8LtGDuBKybMUh9p-cs-7cCRCk_BLB5d5lpG_cbU_UlI9gjUt1uASQ?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Dado que hemos podido solucionar el problema del manejo de Gitflow se espera que para las próximas entregas se desarrolle sin este problema y con normalidad.
+
+
+**Neil Curipaco**
+
+- **Estructuración HTML:** Se encargó de la creación de las estructuras HTML base para la landing page, sentando las bases del contenido.
+- **Mejora de formularios y registros:** Realizó correcciones en los formularios de entrevistas para optimizar la recopilación de datos y actualizó los registros audiovisuales para una mejor presentación de los hallazgos.
+
+**Mateo Alemán**
+
+- **Estilos y diseño visual:** Desarrolló los estilos CSS que dieron vida a la interfaz de la landing page, asegurando una estética coherente y atractiva.
+- **Optimización de documentación:** Revisó y corrigió a fondo los antecedentes y la problemática del proyecto, mejorando la redacción y alineación con los hallazgos. Además, reestructuró y perfeccionó el Lean UX Process y sus componentes clave.
+- **Ajuste de arquitectura de información:** Realizó correcciones en la arquitectura de información para mejorar la estructura y la accesibilidad del contenido de la landing page.
+
+**Jonatan Acuña**
+
+- **Implementación de i18n:** Se encargó de la implementación de la internacionalización (i18n) para la landing page, facilitando su adaptación a diferentes idiomas y regiones.
+
+**Renzo Luque**
+
+- **Aseguramiento de accesibilidad:** Trabajó en garantizar que la landing page fuera accesible para todos los usuarios, cumpliendo con estándares de usabilidad importantes.
+
+**Fabrizio Contreras**
+
+- **SEO y Meta Tags:** Implementó estrategias de SEO y configuró los meta tags para optimizar la visibilidad de la landing page en los motores de búsqueda.
+- **Diseño de interfaz:** Lideró el diseño de la interfaz de la landing page, creando tanto el wireframe como el mock-up, definiendo su estructura y apariencia final.
+
+TP1: Desarrollo de la aplicación web en angular 
+
+En líneas generales seguimos con los procedimientos previamente hechos. Con la particularidad de que nos centramos en la funcionalidad core de nuestro aplicativo.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdI07JrpDHo42lz4AfmDus9hqexz3f6ePWdgvEuh6z0yiISViT05PgcebkITQfXXh4Wlqq-Y1oPQBGK5jesUgHGdC4GnbG8xobFEII3qN6hJgQIYgfHqUjlMV85yM2Btnn3Px41?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXetmLQ3pPyaeOXs0SoUPZ0n9NxWPUkoXaVrVlSkfiw7RRpcQ5NSH-463LT0-5tLF0LWiny-vI0XC6tXkDvZffhn8rhFq4Z0H9U3gs1_E5D4jH63pZaSiXVbobAm3D29KOjOs99Mfw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Dado al problema que tuvimos con el github desktop tuvimos que hacer los commits desde el inicio. Este problema se comentó en clase con el profesor, es por ello que damos esta aclaración del porqué de los commits que siguen este patrón. Este problema se solucionará para próximas entregas.
+
+**Neil Curipaco**
+
+- **Analíticas del Design Lab:** Implementó funcionalidades de analíticas específicas para el "bounded context" del Design Lab, lo que permitirá recopilar datos sobre su uso y rendimiento.
+
+**Mateo Alemán**
+
+- **Componentes de edición del Design Lab:** Desarrolló los componentes interactivos que permiten a los usuarios editar y personalizar diseños dentro del Design Lab, la herramienta central de la aplicación.
+
+**Jonatan Acuña**
+
+- **Organización y soporte general:** Se ocupó de la organización general de los componentes y vistas de la aplicación, gestionando también las variables de entorno. Su rol fue fundamental para brindar soporte a los demás integrantes del equipo durante todo el proceso de desarrollo.
+
+**Renzo Luque**
+
+- **Opciones de personalización avanzada:** Implementó las opciones de personalización avanzadas para la customización dentro del Design Lab, dando mayor flexibilidad a los usuarios.
+
+**Fabrizio Contreras**
+
+- **Modelo y servicios del Design Lab:** Desarrolló el modelo de datos y los servicios asociados al Design Lab, estableciendo la lógica y la estructura fundamental para su funcionamiento.
+
+TB2: Desarrollo de la web service y web app.
+
+Contenido
+
+[Registro de versiones	2](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.4815p6lswc3m)
+
+[Project Report Collaboration Insights	3](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.ekvg4z9kf1fc)
+
+[1. Introducción	10](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.xnfbi3pucdg0)
+
+[1.1. Startup Profile	10](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.d2a4mmj9q47t)
+
+[1.1.1. Descripción de la Startup	10](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.8sh0lqw84hcx)
+
+[1.1.2. Perfiles de integrantes del equipo	11](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.62giv558qiw1)
+
+[1.2. Solution Profile	13](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.9j31qicsbiy8)
+
+[1.2.1. Antecedentes y problemática	13](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.jl1k4f1xx3ac)
+
+[1.2.2. Lean UX Process	15](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.dgg8p73t1xb1)
+
+[1.2.2.1. Lean UX Problem Statement	15](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.3iid9nm3pxj6)
+
+[1.2.2.2. Lean UX Assumptions	16](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.t8tqofghbx7t)
+
+[1.2.2.3. Lean UX Hypothesis Statements	19](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.uxtjlqx1ohz)
+
+[1.2.2.4. Lean UX Canvas	21](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.up7bjm5hqgcu)
+
+[1.3. Segmentos objetivo	26](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.xi957033woip)
+
+[2. Capítulo II: Requirements Elicitation & Analysis	29](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.3bqg2zgwuxmd)
+
+[2.1. Competidores	29](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.t407ubq27av2)
+
+[2.1.1. Análisis competitivo	30](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.ezbejsh9ywk1)
+
+[2.1.2. Estrategias y tácticas frente a competidores	33](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.ycar5kjromd)
+
+[2.2. Entrevistas	34](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.aenwx6aeub10)
+
+[2.2.1. Diseño de Entrevistas	34](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.upagadcz41oj)
+
+[2.2.2. Registro de entrevistas	36](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.803c4gp3ucal)
+
+[2.2.3. Análisis de entrevistas	46](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.4gayhxo4m7cd)
+
+[2.3. Needfinding	47](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.xiix7i3jtkqm)
+
+[2.3.1. User Personas	47](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.r5zvw04l61nf)
+
+[2.3.2. User Task Matrix	52](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.9996v4akkkqx)
+
+[2.3.3. User Journey Mapping	53](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.4h61skb4bu3m)
+
+[2.3.4. Empathy Mapping	56](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.qqnnhna8f0g5)
+
+[2.3.5. As-is Scenario Mapping	61](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.vttznqt9igxy)
+
+[2.4. Ubiquitous Language	62](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.6ugf0t7iykq3)
+
+[3. Capítulo III: Requirements Specification	64](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.45ye2ui4dia4)
+
+[3.1. To-Be Scenario Mapping	64](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.87keqfbcnndl)
+
+[3.2. User Stories	67](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.9h8sf6l971cc)
+
+[3.3. Impact Mapping	150](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.9h5qkir0smbc)
+
+[3.4. Product Backlog	152](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.xnfkxx8pxpcz)
+
+[4. Capítulo IV: Product Design	185](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.rjsn70fjqdnw)
+
+[4.1. Style Guidelines	185](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.npx7hml4d852)
+
+[4.1.1. General Style Guidelines	185](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.57exsnn1t3mz)
+
+[4.1.2. Web Style Guidelines	187](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.g47602u1k351)
+
+[4.2. Information Architecture	195](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.o3rh5q4py2c5)
+
+[4.2.1. Organization Systems	200](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.g6at4yg9h1mv)
+
+[4.2.2. Labeling Systems	203](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.yszd28b4wyr3)
+
+[4.2.3. SEO Tags and Meta Tags	205](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.bfcmw37tttgu)
+
+[4.2.4. Searching Systems	209](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.6fk92hj3cbw5)
+
+[4.2.5. Navigation Systems	212](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.hu74cfymw7dd)
+
+[4.3. Landing Page UI Design	214](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.dcj023h3mg84)
+
+[4.3.1. Landing Page Wireframe	215](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.h6mg49oq4zi4)
+
+[4.3.2. Landing Page Mock-up	224](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.dd4epzwupi)
+
+[4.4. Web Applications UX/UI Design	235](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.icfczkyuxfc6)
+
+[4.4.1. Web Applications Wireframes	235](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.n6agmx8gbslg)
+
+[4.4.2. Web Applications Wireflow Diagrams	253](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.u7egy6r8c3jc)
+
+[4.4.3. Web Applications Mock-ups	267](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.5w6cgn9cqlxi)
+
+[4.4.4. Web Applications User Flow Diagrams	285](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.hlmwa57vi1bq)
+
+[4.5. Web Applications Prototyping	299](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.9e508mbapwtg)
+
+[4.6. Domain-Driven Software Architecture	299](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.ob4yw6fzcw3n)
+
+[4.6.1. Software Architecture Context Diagram	301](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.o5k6f9oonn2q)
+
+[4.6.2. Software Architecture Container Diagram	302](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.eo8wb3mrw2tc)
+
+[4.6.3. Software Architecture Componentes Diagrams	304](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.f6dbwgaxm3sw)
+
+[4.7. Software Object-Oriented Design	314](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.l87lff3fqlan)
+
+[4.7.1. Class Diagrams	314](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.hr6n6fczc1ne)
+
+[4.7.2. Class Dictionary	323](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.om2d1kk3m8qe)
+
+[4.8. Database Design	326](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.1k2rlvonbk1u)
+
+[4.8.1. Database Diagram	326](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.nh9xmv1lyf7c)
+
+[5. Capítulo V: Product Implementation, Validation & Deployment	331](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.6fgh6bxcal2n)
+
+[5.1. Software Configuration Management	331](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.rza6l1h0pmq8)
+
+[5.1.1. Software Development Environment Configuration	331](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.u02maq0t2p)
+
+[5.1.2. Source Code Management	334](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.inmurzwpitdq)
+
+[5.1.3. Source Code Style Guide & Conventions	336](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.1nbhkpgtyzwf)
+
+[5.1.4. Software Deployment Configuration	339](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.y4bg64pjlzbu)
+
+[5.2. Landing Page, Services & Applications Implementation	345](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.5hs5oh9rw5yb)
+
+[5.2.1. Sprint 1	345](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.9oj20oyhwzfp)
+
+[5.2.1.1. Sprint Planning 1	346](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.xyxgg5qcs5k5)
+
+[5.2.1.2. Aspect Leaders and Collaborators	348](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.dnup14g3mh0y)
+
+[5.2.1.3. Sprint Backlog 1	350](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.8611wed58li8)
+
+[5.2.1.4. Development Evidence for Sprint Review	355](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.kq7h7t667bbm)
+
+[5.2.1.5. Execution Evidence for Sprint Review	364](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.pguku1pzhjfg)
+
+[5.2.1.6. Services Documentation Evidence for Sprint Review	368](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.ip7frlismxlc)
+
+[5.2.1.7. Software Deployment Evidence for Sprint Review	370](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.j23h2pptn7gp)
+
+[5.2.1.8. Team Collaboration Insights during Sprint	370](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.qon8bs2qf5vz)
+
+[5.2.2. Sprint 2	372](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.jf4iji20cj7f)
+
+[5.2.2.1. Sprint Planning 2	374](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.jpakd8cwijtv)
+
+[5.2.2.2. Aspect Leaders and Collaborators	376](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.kv94q97wa8x2)
+
+[5.2.2.3. Sprint Backlog 2	378](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.zgk10ld5024w)
+
+[5.2.2.4. Development Evidence for Sprint Review	378](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.80pt64b6neci)
+
+[5.2.2.5. Execution Evidence for Sprint Review	378](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.q3yu1t6ggfpx)
+
+[5.2.2.6. Services Documentation Evidence for Sprint Review	378](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.x0mmff53cfqq)
+
+[5.2.2.7. Software Deployment Evidence for Sprint Review	378](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.e94n3jhvgn1)
+
+[5.2.2.8. Team Collaboration Insights during Sprint	378](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.v6sweyrc1pts)
+
+[Bibliografía:	385](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.tzy73y5o56wu)
+
+[Anexos	386](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.g2sx3nis9xs6)
+
+
+
+# Student Outcome
+
+ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias.
+
+| Criterio específico                                          | Acciones realizadas                                          | Conclusiones                                                 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia | Jonatan Acuña Corahua Acciones TB1:Durante TB1, Jonatan expuso con claridad el *Context Diagram* y el *Container Diagram*, explicando oralmente en sesiones grupales la lógica detrás de la estructura modular del sistema, los roles de los contenedores (frontend, backend, base de datos) y su relación con los actores externos como clientes, diseñadores y proveedores. También participó activamente en la reunión de planificación del Sprint 1, donde justificó la priorización de tareas y propuso la asignación de responsabilidades en función de las capacidades técnicas del equipo. **Acciones TB2:**En TB2, lideró la presentación oral de los *Component Diagrams*, detallando los ajustes realizados en las interfaces internas, responsabilidades de los servicios y flujos de comunicación entre módulos. Durante la Sprint Review, contextualizó los cambios en la arquitectura frente a nuevos requerimientos funcionales, y explicó con precisión la lógica detrás de la reconfiguración de servicios y puntos de integración. Renzo Alexander Luque Romero **Acciones TB1:**Durante TB1, Renzo participó activamente en sesiones de exposición del análisis competitivo, donde explicó oralmente la metodología empleada para comparar a TeeLab con plataformas como Custom Ink, Spreadshirt y Rafasshop. Presentó los resultados de la matriz competitiva y el análisis FODA, detallando cómo las estrategias actuales del mercado influencian la propuesta de valor de TeeLab. Su discurso integró conceptos de marketing digital, diferenciación y accesibilidad, facilitando la comprensión del contexto competitivo por parte del equipo y de los docentes. **Acciones TB2:**En TB2, Renzo participó como expositor en la Sprint Review 2, enfocándose en los cambios realizados en las historias de usuario y en el Impact Mapping. Explicó con precisión cómo se ajustaron las funcionalidades del sistema en función de las metas de negocio, actores involucrados y los impactos esperados. También argumentó de forma oral los criterios para priorizar ciertas funcionalidades en el Product Backlog, integrando perspectiva funcional, técnica y de usuario. Neil Aldrin Wilhelm Curipaco Huayllani **Acciones TB1:**Durante TB1, Renzo redactó el análisis competitivo de TeeLab, documentando detalladamente la propuesta de valor, canales de distribución, precios, herramientas de diseño y estrategias de marketing de cada competidor. También desarrolló un análisis FODA para cada uno, organizando los hallazgos en un formato claro y comparativo. Además, participó en la redacción de la sección de estrategias diferenciadoras, integrando lenguaje estratégico con justificaciones técnicas. **Acciones TB2:**En TB2, Renzo actualizó varias historias de usuario aplicando el formato Gherkin completo y aseguró que cada historia tuviera criterios de aceptación claros, coherentes y medibles. También participó en la actualización del Impact Mapping, organizando relaciones entre metas, actores y entregables. Su documentación permitió trazar fácilmente cómo cada funcionalidad contribuía al propósito general del sistema. Fabrizio Alessandro Contreras Peralta **Acciones TB1:**Durante TB1, Fabrizio presentó en sesiones de equipo los artefactos UX generados a partir del needfinding, como las User Personas, User Task Matrix y Empathy Maps. Explicó con claridad cómo cada herramienta ayudaba a representar las necesidades emocionales, cognitivas y operativas de los distintos segmentos de usuarios. Además, participó en la socialización del As-is Scenario Mapping, detallando puntos de fricción detectados y oportunidades de mejora. Su lenguaje fue accesible, con un balance entre términos técnicos y referencias prácticas, facilitando la comprensión entre diseñadores, desarrolladores y docentes. **Acciones TB2:**En TB2, presentó oralmente los ajustes realizados en los wireframes, mockups y style guidelines. Explicó cómo las correcciones respondían a principios de usabilidad, accesibilidad y consistencia visual, y argumentó decisiones sobre estructura, jerarquía y navegación. También participó en la exposición del diseño UI de la landing page y de los flujos de usuario, justificando cambios gráficos a partir de datos cualitativos y directrices técnicas. Mateo Dante Alemán Romano**Acciones TB1:**Durante TB1, Mateo expuso el marco conceptual del proyecto, incluyendo los antecedentes, la problemática y el enfoque Lean UX. En sesiones de revisión, explicó oralmente el Lean UX Canvas, detallando cómo los supuestos, hipótesis y problemas de negocio se alineaban con las funcionalidades propuestas. También participó en la discusión del Ubiquitous Language, justificando los términos normalizados y su relación con el dominio de la personalización de camisetas. Su presentación se centró en articular la lógica entre estrategia de producto, necesidades del usuario y decisiones de diseño. **Acciones TB2:**En TB2, Mateo presentó los cambios realizados en la arquitectura de información del sistema. Explicó los ajustes en Organization Systems, Labeling Systems, Navigation y SEO Tags, destacando cómo cada mejora contribuía a la usabilidad, accesibilidad y rendimiento de la plataforma. También intervino en la revisión del entorno de desarrollo, detallando configuraciones técnicas y flujos de despliegue continuo. Participó en la Sprint Review 2 como vocero técnico y metodológico. | Jonatan Acuña Corahua **Conclusión TB1:**Demostró una comunicación oral técnica y estructurada, adaptando su lenguaje para explicar conceptos complejos de arquitectura a compañeros y docentes. Su capacidad para argumentar decisiones técnicas en contextos colaborativos permitió facilitar el entendimiento general y la toma de decisiones grupales. **Conclusión TB2:**Consolidó su capacidad de comunicación oral técnica, articulando adecuadamente decisiones arquitectónicas ante una audiencia diversa. Su intervención permitió que tanto docentes como el equipo comprendieran la evolución del sistema y validaran su escalabilidad y coherencia estructural. Renzo Alexander Luque Romero **Conclusión TB1:**Demostró habilidades de comunicación oral al presentar con claridad y seguridad un análisis estratégico, adecuando su lenguaje técnico a una audiencia mixta. Su intervención aportó una visión de negocio clave para orientar las decisiones funcionales del equipo. **Conclusión TB2:**Mostró madurez en la comunicación estratégica, presentando oralmente las relaciones entre decisiones funcionales y objetivos de negocio. Su capacidad para justificar y contextualizar prioridades evidenció comprensión integral del producto y fortaleció la cohesión del equipo. Neil Aldrin Wilhelm Curipaco Huayllani **Conclusión TB1:**Su redacción fue estructurada y persuasiva, permitiendo comprender de forma clara las oportunidades y desafíos del proyecto. Su documentación fue útil tanto para el equipo técnico como para las decisiones de diseño estratégico. **Conclusión TB2:**Evidenció dominio en la documentación funcional, articulando adecuadamente requerimientos técnicos, criterios de validación y objetivos de negocio. Su redacción fortaleció la trazabilidad del backlog y facilitó la validación cruzada entre artefactos. Fabrizio Alessandro Contreras Peralta **Conclusión TB1:**Mostró dominio en la comunicación visual y conceptual de artefactos UX, adaptando su exposición a distintos perfiles del equipo. Su claridad y empatía comunicativa fortalecieron la alineación de la solución con las necesidades del usuario. **Conclusión TB2:**Consolidó su habilidad para comunicar decisiones visuales y de interfaz, conectando diseño estético con funcionalidad. Su capacidad para explicar con fundamentos técnicos las decisiones de UI/UX fortaleció la cohesión entre diseño y desarrollo. Mateo Dante Alemán Romano**Conclusión TB1:**Demostró una comunicación oral clara, argumentativa y estructurada, ideal para exponer ideas estratégicas ante un equipo técnico y docente. Facilitó la comprensión de decisiones metodológicas y conceptuales dentro del diseño de la solución. **Conclusión TB2:**Consolidó una comunicación técnica precisa y versátil, articulando de forma eficaz los vínculos entre decisiones de arquitectura, experiencia de usuario y configuración del entorno. Su intervención fortaleció la claridad del sistema desde una perspectiva estructural y funcional. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | Jonatan Acuña Corahua**Acciones TB1:**Durante TB1, redactó la documentación formal de los *Context* y *Container Diagrams* bajo el enfoque C4, describiendo funciones, interacciones y límites de cada componente. Además, contribuyó a la construcción del Sprint Backlog, redactando historias de usuario con lenguaje claro y técnico, vinculando funcionalidades con necesidades del dominio y facilitando su trazabilidad en el desarrollo. Su redacción fue precisa, coherente y adecuada al formato técnico del curso. **Acciones TB2:**Redactó la documentación completa del *Component Diagram*, describiendo módulos internos, responsabilidades, entradas y salidas. También escribió las evidencias técnicas para la Sprint Review 2, incluyendo registros de ejecución, documentación de servicios y configuración de despliegue. Organizó esta información con claridad, conectando cada elemento técnico con su objetivo funcional dentro del sistema. Renzo Alexander Luque Romero **Acciones TB1:**Durante TB1, Renzo redactó el análisis competitivo de TeeLab, documentando detalladamente la propuesta de valor, canales de distribución, precios, herramientas de diseño y estrategias de marketing de cada competidor. También desarrolló un análisis FODA para cada uno, organizando los hallazgos en un formato claro y comparativo. Además, participó en la redacción de la sección de estrategias diferenciadoras, integrando lenguaje estratégico con justificaciones técnicas. **Acciones TB2:**En TB2, Renzo actualizó varias historias de usuario aplicando el formato Gherkin completo y aseguró que cada historia tuviera criterios de aceptación claros, coherentes y medibles. También participó en la actualización del Impact Mapping, organizando relaciones entre metas, actores y entregables. Su documentación permitió trazar fácilmente cómo cada funcionalidad contribuía al propósito general del Neil Aldrin Wilhelm Curipaco Huayllani**Acciones TB1:**Neil redactó las secciones del informe relacionadas al diseño y ejecución de entrevistas, incluyendo la estructura de los formularios, los criterios de segmentación y el registro de resultados. También elaboró el análisis cualitativo de patrones de comportamiento y redactó parte de la sección de User Research dentro del capítulo de especificación de requisitos. Su documentación incluyó capturas, citas relevantes y observaciones contextuales. **Acciones TB2:**** ** En TB2, Neil actualizó y documentó los cambios realizados en el diseño de base de datos, reorganizando las entidades y relaciones según las nuevas necesidades funcionales. Redactó el diagrama entidad-relación corregido e incluyó explicaciones sobre claves primarias, foráneas y tipos de datos ajustados. También aportó en la sección escrita del Impact Mapping, organizando su estructura lógica y justificando conexiones. Fabrizio Alessandro Contreras Peralta **Acciones TB1:**Fabrizio redactó la documentación asociada al needfinding, incluyendo la sistematización de hallazgos y la descripción de los artefactos generados (User Personas, Task Matrix, Journey Maps, Empathy Maps). Su redacción destacó por ser clara, ordenada y alineada con los estándares de UX research. Además, documentó el As-is Scenario Mapping en Miro y lo complementó con descripciones por fase, pensamiento, emoción y oportunidades detectadas. **Acciones TB2:**En TB2, actualizó las Style Guidelines tanto generales como web, corrigiendo problemas de contraste, alineación y espaciado. Documentó los nuevos estándares gráficos con capturas, reglas y recomendaciones para los componentes. También desarrolló los mockups y wireframes de la landing page y los documentó con comentarios explicativos sobre cada sección visual. Mateo Dante Alemán Romano **Acciones TB1:**Redactó los apartados correspondientes a los antecedentes y la problemática, aplicando la técnica 5W2H para estructurar de forma clara y concisa el enfoque inicial del proyecto. También documentó el Lean UX Canvas, formulando hipótesis, supuestos y objetivos de aprendizaje con lenguaje formal y orientado a producto. Participó en la definición escrita del Ubiquitous Language, describiendo términos clave como “Blueprint Designer”, “Design Lab” y “Garment Canvas”, alineados al modelo de dominio. **Acciones TB2:**En TB2, revisó y corrigió los elementos del Ubiquitous Language para garantizar consistencia semántica en todo el proyecto. Redactó la documentación de configuración del entorno de desarrollo, incluyendo estructuras de carpetas, convenciones de commits, variables de entorno y automatización de despliegue. También participó en la documentación del capítulo de arquitectura de información, explicando decisiones sobre organización, etiquetas y buscabilidad del sistema. | Jonatan Acuña Corahua**Conclusión TB1:**Evidenció dominio en la comunicación escrita técnica, redactando con claridad y precisión documentos funcionales clave. Su documentación facilitó el trabajo colaborativo al servir como referencia estructurada para el diseño e implementación de los primeros módulos del sistema. **Conclusión TB2:**Mostró solidez en la documentación escrita avanzada, integrando precisión técnica y orden lógico en la presentación de los artefactos de arquitectura y despliegue. Su producción escrita reflejó una comprensión profunda del sistema y contribuyó directamente al seguimiento y validación del desarrollo en TB2. Renzo Alexander Luque Romero **Conclusión TB1:**Su redacción fue estructurada y persuasiva, permitiendo comprender de forma clara las oportunidades y desafíos del proyecto. Su documentación fue útil tanto para el equipo técnico como para las decisiones de diseño estratégico. **Conclusión TB2:**Evidenció dominio en la documentación funcional, articulando adecuadamente requerimientos técnicos, criterios de validación y objetivos de negocio. Su redacción fortaleció la trazabilidad del backlog y facilitó la validación cruzada entre artefactos. Neil Aldrin Wilhelm Curipaco Huayllani**Conclusión TB1:**Su comunicación escrita fue precisa, ordenada y detallada. Logró registrar de forma rigurosa tanto el proceso como los hallazgos de investigación, sirviendo como base confiable para la creación de artefactos UX. **Conclusión TB2:**Consolidó una redacción técnica clara y alineada con la arquitectura del sistema, facilitando la comprensión del modelo de datos y de la planificación funcional. Su documentación sirvió de guía tanto para desarrolladores como para validar la estructura relacional frente a los requerimientos definidos. Fabrizio Alessandro Contreras Peralta **Conclusión TB1:**Demostró capacidad para redactar documentación UX detallada y coherente, articulando datos cualitativos y diseño centrado en el usuario. Su producción escrita facilitó el diseño colaborativo y la identificación de mejoras funcionales. **Conclusión TB2:**Consolidó una redacción técnica y visual orientada al diseño, capaz de guiar la implementación de interfaces consistentes y accesibles. Su documentación fue clave para garantizar coherencia gráfica en toda la plataforma. Mateo Dante Alemán Romano**Conclusión TB1:**Produjo documentación estratégica con precisión conceptual, estructurando correctamente ideas complejas y articulando lenguaje funcional, técnico y de negocio en un mismo cuerpo de texto. **Conclusión TB2:**Mostró un nivel avanzado de redacción técnica y arquitectónica, logrando producir documentos robustos que sirvieron como guías tanto para el equipo de desarrollo como para docentes evaluadores. Su escritura contribuyó a la sostenibilidad y escalabilidad del proyecto. |
+
+# 1. Capítulo I: Introducción
