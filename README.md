@@ -3756,3 +3756,24 @@ Continuando con el desarrollo del proyecto TeeLab, el Sprint 2 se enfocó en exp
 ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf8CXnjEoR69fGaWzD4nKB0OXiC__Y922vv24qGAT6y9Z4bQ7f9bD-8jAkBk3novwU-VLfh-qfY333w1-4dfXzYPoGRaul4PJo7gB6v5sEB5A8cJUvgW8fferYUXoY4irvMG1h4DA?key=wLsuErVgqDz-qczrBI4kMctR)
 
 ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc7PhtSugs-KqvPzlv7WUPZz9IIYJ62Vtl1OA8s-09C2118ANpkFOfyb_49sQJua_GEpNNMu_-Wfly93HHVtOZsS4FnzNnHONa9p9HyXfD5ZzLIndiJio125vI-3nJS4_swJRjI?key=wLsuErVgqDz-qczrBI4kMctR)
+
+#### 5.2.2.1. Sprint Planning 2
+
+El 10 de mayo de 2025, el equipo de desarrollo de QURI se reunió de manera virtual a través de Google Meet para dar inicio al Sprint 2, correspondiente al periodo del 28 de abril al 22 de mayo. Bajo la coordinación de Jonatan Ariel Acuña Corahua y con la participación de Dante Mateo Alemán Romano, Fabrizio Contreras Peralta, Neil Curipaco Huayllani y Renzo Andrés Luque Minaya, en esta sesión de planificación revisamos los resultados y aprendizajes del Sprint 1, definimos el objetivo de este nuevo Sprint y seleccionamos las historias de usuario prioritarias. Con un enfoque claro en la estructura de navegación interna, las herramientas de diseño de productos y la gestión de “blueprints” de diseño, acordamos los criterios de éxito, validamos estimaciones por un total de 113 puntos de historia y establecimos las bases para una iteración eficiente y de alta calidad.
+
+
+
+| Sprint #                           | 2                                                            |
+| ---------------------------------- | ------------------------------------------------------------ |
+| Sprint Planning Background         |                                                              |
+| Date                               | May 10, 2025                                                 |
+| Time                               | 10:00 AM                                                     |
+| Location                           | Google Meet                                                  |
+| Prepared By                        | Jonatan Ariel Acuña Corahua                                  |
+| Attendees (to planning meeting)    | Jonatan Ariel Acuña Corahua, Dante Mateo Aleman Romano, Fabrizio Alessandro Contreras Peralta, Neil Aldrin Wilhelm Curipaco Huayllani, Renzo Andres Luque Minaya |
+| Sprint 2 – 1 Review Summary        | During Sprint 1 (31 Mar – 24 Apr), the team delivered a fully responsive landing page featuring accessible header and footer navigation, persistent language-switching (i18n) that retains the user’s choice across pages and sessions, clearly structured value-proposition and company-info sections, an interactive FAQ component, team profiles with social links, and a dynamic product carousel. All features passed QA, met acceptance criteria, and earned praise from the Product Owner for their clarity, usability, and compliance with accessibility standards across devices and assistive technologies. |
+| Sprint 2 – 1 Retrospective Summary | In our retrospective, we celebrated strong collaboration—marked by thorough pull-request reviews, effective daily stand-ups, and clear communication—but acknowledged that several stories (notably the sticky header behavior) were under-estimated, and that our end-to-end integration testing was insufficient. We also agreed to enrich our Web Service documentation with error-case examples. To address these learnings in Sprint 2, we will refine story point estimations during planning, introduce baseline E2E tests for key navigation flows, and expand API docs to include comprehensive error responses. |
+| Sprint Goal & User Stories         |                                                              |
+| Sprint 2 Goal                      | Our focus for Sprint 2 is to expand the core functionalities of the TeeLab web application by implementing the internal navigation structure, developing the initial product design tools, and enabling the management of design blueprints. We believe this will provide users with the foundational interactive experience for creating and managing their personalized designs. This will be confirmed when users can navigate key sections of the logged-in application, utilize basic design tools on a garment canvas, and save/load design blueprints. |
+| Sprint 2 Velocity                  | 113                                                          |
+| Sum of Story Points                | 307                                                          |
