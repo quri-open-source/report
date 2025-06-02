@@ -3995,3 +3995,68 @@ Desde la perspectiva del diseño visual y arquitectónico, se implementaron styl
 Durante el Sprint 1, se desarrollaron 22 historias de usuario correspondientes a las épicas de Landing Page, Responsive UI, Internacionalización y Accesibilidad, completándose el backlog planificado con éxito. El equipo demostró una alta capacidad de colaboración, distribución equitativa de responsabilidades y cumplimiento de estándares técnicos mediante el uso de herramientas como Jira, GitHub, Figma, PlantUML y Netlify. La landing page fue desplegada correctamente y validada funcionalmente bajo criterios de usabilidad, accesibilidad WCAG y diseño responsive, cumpliendo con los estándares establecidos para el ciclo inicial de desarrollo.
 
 Cabe destacar que, si bien este sprint se centró en la interfaz gráfica y la experiencia inicial del usuario, sentó las bases para la futura implementación de los servicios backend, APIs RESTful y microservicios modulares que articularán el núcleo transaccional de la plataforma en los siguientes sprints.
+
+# Bibliografía:
+
+Angular CLI. (n.d.). *Angular CLI*. Retrieved from[ https://angular.io/cli](https://angular.io/cli)
+
+Apache Software Foundation. (n.d.). *Apache Maven*. Retrieved from[ https://maven.apache.org/](https://maven.apache.org/)
+
+Google. (n.d.). *Firebase*. Retrieved from[ https://firebase.google.com/](https://firebase.google.com/)
+
+JetBrains. (n.d.). *WebStorm*. Retrieved from[ https://www.jetbrains.com/webstorm/](https://www.jetbrains.com/webstorm/)
+
+Lucid Software Inc. (n.d.). *Lucidchart*. Retrieved from[ https://www.lucidchart.com/](https://www.lucidchart.com/)
+
+OpenJDK. (n.d.). *OpenJDK*. Retrieved from[ https://jdk.java.net/](https://jdk.java.net/)
+
+Postman, Inc. (n.d.). *Postman*. Retrieved from[ https://www.postman.com/](https://www.postman.com/)
+
+Spring. (n.d.). *Spring Boot*. Retrieved from[ https://spring.io/projects/spring-boot](https://spring.io/projects/spring-boot)
+
+Structurizr Ltd. (n.d.). *Structurizr*. Retrieved from[ https://structurizr.com/](https://structurizr.com/)
+
+Supabase. (n.d.). *Supabase*. Retrieved from[ https://supabase.com/](https://supabase.com/)
+
+UXPressia. (n.d.). *UXPressia*. Retrieved from[ https://uxpressia.com/](https://uxpressia.com/)
+
+Adobe. (2022). *The future of creativity: Personalization trends in consumer behavior*. Adobe Creative Insights.
+
+Bahena, M. (2024). *Estrategias de personalización en experiencias digitales*. Editorial UX Latam.
+
+El Comercio. (2022). *Estudio de consumo responsable en Perú 2022*.[ https://elcomercio.pe/](https://elcomercio.pe/)
+
+Fowler, M. (n.d.). *GivenWhenThen*.[ https://martinfowler.com/bliki/GivenWhenThen.html](https://martinfowler.com/bliki/GivenWhenThen.html)
+
+IBM Design. (n.d.). *To-Be Scenario Mapping Toolkit*.[ https://www.ibm.com/design/thinking/page/toolkit/activity/to-be-scenario-map](https://www.ibm.com/design/thinking/page/toolkit/activity/to-be-scenario-map)
+
+Mountaingoat Software. (n.d.). *User Stories and Acceptance Criteria*.[ https://www.mountaingoatsoftware.com/](https://www.mountaingoatsoftware.com/)
+
+Shopify. (2023). *Print-on-demand: Market opportunities and business strategies*. Shopify Reports.
+
+Syndicode. (2018). *12 Software Architecture Quality Attributes*.[ https://syndicode.com/2018/05/03/12-software-architecture-quality-attributes/](https://syndicode.com/2018/05/03/12-software-architecture-quality-attributes/)
+
+Twilio. (2023). *Customer Engagement Report 2023*.[ https://www.twilio.com/](https://www.twilio.com/)
+
+UML Diagrams. (n.d.). *Use Case Diagrams Examples*.[ https://www.uml-diagrams.org/use-case-diagrams-examples.html](https://www.uml-diagrams.org/use-case-diagrams-examples.html)
+
+# Anexos
+
+Anexo 1.
+
+Repositorio de la organización: https://github.com/quri-open-source
+
+Figma: https://www.figma.com/design/4jA9mIRWDtvp0XZKwGMG6V/Entrega---quri?node-id=17-51&t=CZKh8lt5YEdp3AkG-1 
+
+"Anexo: Diagrama de Lean UX Canvas" [https://drive.google.com/drive/folders/1ctYIYsZtXYcRKoBjgA4hCUx4Xmwf66EZ?usp=sharing
+](https://drive.google.com/drive/folders/1ctYIYsZtXYcRKoBjgA4hCUx4Xmwf66EZ?usp=sharing)“Anexo: Diagrama User Persona” [https://drive.google.com/drive/folders/1R8iOqc0ieVcnw8Vr9TyI9FlygRtZmc4k?usp=sharing
+](https://drive.google.com/drive/folders/1R8iOqc0ieVcnw8Vr9TyI9FlygRtZmc4k?usp=sharing)“Anexo: Diagrama Journey Mapping” https://drive.google.com/drive/folders/1h3zjZW7i1lTedkyJnTJQeXw4Y27kYPOY?usp=sharing
+
+“Anexo: Diagrama Empathy Mapping”
+
+[https://drive.google.com/drive/folders/1SmotEHZv7R4b4g4NwnTeehjksSv_uQhR?usp=sharing
+](https://drive.google.com/drive/folders/1SmotEHZv7R4b4g4NwnTeehjksSv_uQhR?usp=sharing)“Anexo: Diagrama Scenario Mapping” 
+
+https://acortar.link/c0uFoZ
+
+“Anexo: Impact Mapping” https://drive.google.com/drive/folders/1SmotEHZv7R4b4g4NwnTeehjksSv_uQhR?usp=sharing
