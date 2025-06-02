@@ -1795,166 +1795,235 @@ Función: Describe la acción de cada botón de control que permite navegar entr
 
 El uso de aria-label en Quri cumple una doble función: mantener una interfaz limpia y minimalista visualmente, mientras se garantiza la accesibilidad para usuarios con discapacidades visuales. La implementación de estos atributos asegura que todos los elementos interactivos puedan ser comprendidos y utilizados mediante tecnologías de asistencia, contribuyendo a una experiencia de usuario más inclusiva y alineada con las directrices WCAG 2.1 (Web Content Accessibility Guidelines). Esta práctica se extiende como estándar en toda la interfaz tanto en la landing page como en los módulos de la aplicación web, reforzando el compromiso del proyecto con la accesibilidad digital.
 
-## 4.2. Information Architecture
+### 4.2.1. Organization Systems
 
-UX Heuristics & Principles Evaluation
+En el contexto del diseño de interfaces digitales centradas en el usuario, el Organization System es el componente de la arquitectura de información encargado de definir cómo se agrupan, clasifican y presentan los contenidos dentro de una plataforma. Su propósito principal es facilitar la exploración, comprensión y acceso eficiente a la información, permitiendo que los usuarios encuentren lo que buscan de manera intuitiva. Este sistema cumple un rol clave en la estructuración lógica del sitio, ayudando a reducir la carga cognitiva, mejorar la usabilidad y apoyar los flujos de interacción con el producto.
 
-Usability – Inclusive Design – Information Architecture
+En el caso de Quri, se ha implementado un sistema de organización híbrido, que combina una estructura jerárquica y temática en la Landing Page, y una estructura funcional secuencial en la Web App. En la Landing Page, el contenido se organiza en bloques informativos que siguen una lógica de prioridad: primero se presentan llamadas a la acción visibles (“Start Creating”), luego se desarrollan argumentos de valor para diseñadores y creativos, y finalmente se ofrecen enlaces hacia secciones informativas y de soporte como “FAQ”, “About” y “Contact”. El header y el footer refuerzan esta jerarquía al agrupar los accesos principales y secundarios de navegación. Esta disposición garantiza que el usuario pueda comprender de forma rápida qué ofrece la plataforma y hacia dónde dirigirse, incluso desde un dispositivo móvil, aplicando principios como el progressive disclosure y la adaptabilidad responsiva.
 
-CARRERA 		: Ingeniería de Software
+Por su parte, la Web App implementa un sistema organizativo centrado en las tareas del usuario. Cada sección (como Templates, Favorites, Projects, Design Lab, Cart, Profile) responde a una acción específica, permitiendo que los flujos como "crear diseño", "editar", "guardar" o "comprar" sigan una progresión lógica. Esta arquitectura funcional favorece la escalabilidad del sistema, ya que nuevas funcionalidades pueden integrarse sin romper la lógica ni generar fricción en la experiencia. En ambos casos, se respeta la buena práctica de mantener una profundidad de navegación no mayor a tres niveles, con rutas claras y predecibles, una jerarquía visual evidente y un etiquetado consistente, alineado con las necesidades del usuario final y los objetivos de negocio.
 
-CURSO 		: Desarrollo de Aplicaciones Open Source 
+**Landing Page – Organization System**
 
-SECCIÓN 		: 4350
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdnmZORAZB8CZHPZMeVI_R6sQCWZIm37YlcG7TWfuY4xmbBT7_g0qTBffgegmMOjP9aSmJF9S51qVzrAKw70GGBR4JDiE-vVJe1kd_QA1pFJVHB1ZL-gMWvZEUI_3ayRl1Eu8innQ?key=wLsuErVgqDz-qczrBI4kMctR)
 
-PROFESORES 	: Todos 
+Se utiliza un sistema jerárquico temático, con un nivel de profundidad mínimo para facilitar la comprensión. Las secciones se agrupan por intención comunicativa: navegación principal (header), propuesta de valor (hero y bloques informativos), credibilidad y soporte (About, Contact), y navegación secundaria (footer). Esta estructura:
 
-AUDITOR 		: Nombre del Grupo que ejecuta la Sesión de evaluación
+Favorece la exploración rápida.
 
-CLIENTE(S) 		: Grecia Curipaco Huayllani, Giuliana Nisbeth y Orianka Buitrón
+- Asegura acceso a funciones clave desde cualquier punto.
+- Aplica principios de progressive disclosure y scannability.
 
-SITE o APP A EVALUAR: 
+**Web App – Organization System**
 
-Quri
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdrXCYdZxqgm_JBSE1KXB3YVSCzpFe23dbvlTgixs02ubuLenLXkbSdYCtM3edMu2INF5BwSIPwNiyFLbrLoH4vdDdMtgzBzzgSbS8nR8MwADiqHYn2HpYyi-u97riD8nYmCfB9?key=wLsuErVgqDz-qczrBI4kMctR)
 
-TAREAS A EVALUAR: 
+Se utiliza una estructura funcional secuencial, centrada en el flujo de tareas del usuario. Cada módulo corresponde a una acción clara:
 
-El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas: 
+- Crear, explorar, editar, guardar y comprar diseños.
+- Separación clara entre navegación de contenido (templates, favoritos) y ejecución de tareas (design lab, checkout).
+- Se respeta el principio de mínima profundidad para no exceder 3 clics hasta la acción deseada.
 
-Segmento Objetivo #1: Diseñadores Gráficos Independientes
+Este sistema modular y extensible permite agregar futuras secciones como Dashboard o Analytics sin comprometer la usabilidad general.
 
-- Personalizar camisetas: Variedad y profundidad de opciones de personalización.
-- Acceder a guías: Disponibilidad y claridad de guías de diseño.
-- Ver ejemplos: Presencia y calidad de ejemplos inspiradores.
+El diseño del sistema de organización en *Quri* ha sido cuidadosamente estructurado para responder a los principios de usabilidad, claridad jerárquica y eficiencia en la navegación. La implementación de una organización jerárquica en la landing page permite que los usuarios accedan de manera inmediata a los contenidos más relevantes, como la propuesta de valor, preguntas frecuentes y acceso al registro o inicio de sesión. Esta jerarquía no solo prioriza las acciones clave del usuario, sino que también proporciona una estructura visual coherente y predecible.
 
-Segmento Objetivo #2: Clientes Individuales Creativos
+Por otro lado, la web app presenta una organización funcional centrada en tareas, donde cada módulo responde a un objetivo específico del usuario, como diseñar productos, gestionar proyectos o completar un checkout. Esta estructura modular facilita la escalabilidad del sistema y permite agregar nuevas funcionalidades sin comprometer la arquitectura existente. En conjunto, ambos sistemas de organización —jerárquico y funcional— garantizan una experiencia fluida, intuitiva y centrada en el usuario, alineada con las mejores prácticas en arquitectura de información y diseño de interacción.
 
-- Iniciar diseño: Claridad del llamado a la acción para diseñar.
-- Inspirarse: Disponibilidad de ejemplos de diseños.
+### 4.2.2. Labeling Systems
 
-Segmento Objetivo #3: Marcas Emergentes y Emprendedores
+En el marco del diseño de la arquitectura de información, los Labeling Systems cumplen la función de comunicar de forma clara, coherente y predecible los elementos de interacción presentes en la interfaz. En Quri, cada etiqueta textual empleada en botones, menús, enlaces y secciones tiene como objetivo guiar al usuario de forma intuitiva en su recorrido por la plataforma. Esta sección analiza el sistema de etiquetado implementado en la Landing Page, evaluando la pertinencia del lenguaje empleado según principios de UX y usabilidad.
 
-- Información mayorista: Facilidad para encontrar información de pedidos al por mayor.
-- Acceso a sección B2B: Claridad y accesibilidad de la sección "Para Empresas".
-- Contacto comercial: Facilidad para encontrar información de contacto comercial.
+| **Etiqueta**           | **Ubicación / Componente**    | **Función**                                                  |
+| ---------------------- | ----------------------------- | ------------------------------------------------------------ |
+| FAQ                    | Header                        | Acceso a preguntas frecuentes. Término estándar y reconocido por los usuarios. |
+| About                  | Header                        | Describe el propósito de la marca. Término universal en interfaces informativas. |
+| Team                   | Header                        | Presentación del equipo detrás del proyecto. Genera cercanía y confianza. |
+| Join                   | Header (botón)                | Registro de nuevos usuarios. Corto, amigable y contrastado con Login. |
+| Login                  | Header (botón)                | Inicio de sesión. Palabra ampliamente reconocida y funcional. |
+| Start Designing Now    | Hero Section (CTA principal)  | Llamada a la acción inmediata. Uso de imperativo motiva la interacción. |
+| Start Creating         | Hero Section (CTA secundaria) | Alternativa directa para iniciar diseño. Complementaria y coherente. |
+| Learn more             | Sección de valor              | Enlace hacia contenido explicativo. Conciso, neutral y orientado al usuario. |
+| Learn pricing          | Sección de precios            | Acceso a modelo de costos. Claro, directo, sin tecnicismos.  |
+| Home Page              | Footer / Navigation           | Enlace a página principal. Termino autoexplicativo.          |
+| Community              | Footer / Navigation           | Vínculo hacia el entorno colaborativo. Comunica interacción con otros. |
+| About us               | Footer / Company              | Repetición estructural del “About”, pero con variante contextual. |
+| Contact us             | Footer / Company              | Enlace de soporte. Directo y centrado en acción.             |
+| Privacy Policy         | Footer / Legal                | Obligatorio por normativa. Etiqueta reconocida a nivel internacional. |
+| Terms & Conditions     | Footer / Legal                | Complementa al anterior. Estándar legal indispensable.       |
+| Sign in                | Texto bajo marca              | Variante funcional de “Login”. Enlace textual breve y claro. |
+| Contact Us             | Texto suelto (abajo)          | Refuerzo visual del mismo enlace de contacto. Consistencia semántica. |
+| Learn Pricing          | Texto suelto (abajo)          | Refuerzo del CTA hacia precios. Coherente con versión en minúscula. |
+| Social Media           | Sección informativa           | Agrupa acceso a redes. Etiqueta convencional, reconocida globalmente. |
+| QURI                   | Marca                         | Nombre distintivo en mayúsculas. Funciona como ancla visual y semántica. |
+| Sign in to get started | Frase institucional           | Etiqueta motivacional combinada con acción directa. Claridad y tono humano. |
 
-No están incluidas en esta versión de la evaluación las siguientes tareas: 
+El sistema de etiquetado en la landing page de Quri demuestra una clara aplicación de buenas prácticas en arquitectura de información. Las etiquetas seleccionadas emplean un lenguaje simple, familiar y orientado a la acción, lo cual facilita la navegación y la comprensión inmediata del propósito de cada sección o componente. Se observa una adecuada consistencia semántica entre el header, el cuerpo de la página y el footer, así como un uso eficiente de frases imperativas y sustantivos comunes que optimizan la experiencia del usuario. Este Labeling System fortalece la accesibilidad cognitiva del sitio y sienta las bases para una experiencia web coherente, inclusiva y escalable.
 
-Segmento Objetivo #1: Diseñadores Gráficos Independientes
+### 4.2.3. SEO Tags and Meta Tags
 
-- Diseño de otras prendas además de camisetas
-- Proceso de registro de usuario
-- Soporte técnico detallado
+Los meta tags y etiquetas SEO son elementos fundamentales dentro de la sección <head> de cualquier página web, ya que permiten controlar cómo es interpretado, indexado y presentado el contenido de un sitio por parte de los motores de búsqueda (como Google) y las redes sociales (como Facebook o Twitter). Estas etiquetas no son visibles directamente por los usuarios, pero influyen de manera determinante en la forma en que una página se posiciona y aparece en los resultados de búsqueda, así como en la claridad con la que comunica su propósito al compartir enlaces.
 
-Segmento Objetivo #2: Clientes Individuales Creativos
+En el desarrollo de la plataforma Quri, se han implementado meta etiquetas específicas para cada archivo HTML clave de la landing page con el fin de garantizar una correcta indexación, visibilidad en buscadores, claridad semántica y una presentación visualmente coherente al momento de compartir los enlaces en redes sociales. Estas prácticas fortalecen la identidad de marca y optimizan la experiencia de descubrimiento para nuevos usuarios.
 
-- Opciones de pago
-- Detalles de envío
-- Calidad de la atención al cliente
+1. Index
 
-ESCALA DE SEVERIDAD:
+La página principal de Quri cuenta con un conjunto completo de etiquetas SEO que definen su título, resumen descriptivo, palabras clave relacionadas con camisetas personalizadas y emprendimientos creativos, así como la autoría del equipo. Además, se incluyen etiquetas Open Graph y Twitter Card para garantizar que al compartir el sitio en redes sociales se muestre un extracto visual atractivo, con imagen destacada y un mensaje claro sobre la propuesta de valor de la plataforma. También se especifica el idioma del contenido, el comportamiento del robot de búsqueda, y el color temático para navegadores móviles.
 
-Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXetnd6J7fbBsTPiLxpz7OjsNhVDCv8X9ZUvnwBANxJSEtkesR0FJUtOOeXUhk68q7xhc2qO3zdCQYBIop9gWyAlz2XGUqTQDa4on32xck0hhrpflsu9Hwzwx6ouE1tQUvPnx0wmrg?key=wLsuErVgqDz-qczrBI4kMctR)
 
-| Nivel | Descripción                                                  |
-| ----- | ------------------------------------------------------------ |
-| 1     | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
-| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
-| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
-| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+1. About
 
-TABLA RESUMEN:
+La página “About” utiliza meta etiquetas diseñadas para transmitir la misión y visión del proyecto. Se prioriza una narrativa centrada en la creatividad, el empoderamiento y la comunidad de creadores. Las etiquetas informan a los buscadores sobre el propósito de la página (descubrir la historia y los valores de Quri) y mejoran su presentación en plataformas sociales mediante el uso de imágenes y descripciones alineadas con la identidad visual y discursiva del sitio. Esta implementación refuerza la credibilidad de la marca y conecta con audiencias que valoran el propósito detrás de un producto digital.
 
-| #    | Problema                                                     | Escala de severidad | Heurística/Principio violada(o)                            |
-| ---- | ------------------------------------------------------------ | ------------------- | ---------------------------------------------------------- |
-| 1    | Limitadas opciones de personalización de camisetas (solo colores básicos, sin opciones de texturas de tela) | 2                   | Usabilidad: Flexibilidad y eficiencia de uso.              |
-| 2    | Guías de diseño poco visibles y con información incompleta (falta información sobre tipos de archivo) | 3                   | Usabilidad: Ayuda y documentación.                         |
-| 3    | El llamado a la acción "Diseña Ahora" no es lo suficientemente visible en la página de inicio. | 3                   | Usabilidad: Visibilidad del estado del sistema.            |
-| 4    | No hay un enlace claro a información sobre pedidos al por mayor en el menú principal. | 3                   | Usabilidad: Coincidencia entre el sistema y el mundo real. |
-| 5    | La información de contacto comercial no es fácilmente accesible (solo un formulario genérico). | 2                   | Usabilidad: Ayuda y documentación.                         |
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeE2_rQ_v-oD9BndXvtbvi4_I8YfEiNAZcvDmtL3lTZzgddhHi2facZ3qIMfRjcc2270gpCi5eG7OhsmSCgeDY2AdjD2mIn3mIfptQVPn2ywUeh_2EqC8PENcmlKxFVuf36reCykw?key=wLsuErVgqDz-qczrBI4kMctR)
 
-DESCRIPCIÓN DE PROBLEMAS:
+1. FAQ
 
-SEGMENTO: CLIENTES
+La página de preguntas frecuentes implementa meta etiquetas orientadas a posicionarse como fuente de ayuda y orientación. Las descripciones y keywords están alineadas con consultas comunes como "cómo vender camisetas" o "diseño sin experiencia", lo cual incrementa su relevancia en búsquedas específicas. Las propiedades sociales enriquecen la experiencia al compartir esta página como recurso útil, mostrando un título directo y una imagen de marca. Este enfoque refuerza la función de soporte y confianza del sitio.
 
-- Severidad: 2
-   Heurística violada: Reconocimiento antes que recuerdo
-   Segmento: Clientes
-   Problema: Solo se visualiza la parte frontal del polo en la tienda. El cliente no puede ver la espalda, las mangas u otras zonas, lo que limita su comprensión del producto final.
-   Recomendación: Incluir vistas adicionales del producto desde múltiples ángulos o una vista 360° que permita inspeccionar la prenda completa.
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcMnb_tDQBBMo1wxkDwIeEpZrZAHKnRIt0NcjsUTnKMZrk-of_KLC_k_WNP2t6V4fiSu8KMCitIw9_0teNZTZPqJrYTHJ4p-PWtLRRu07ic6NeY8yj2udIkr0rT8z0m30BLAvasiw?key=wLsuErVgqDz-qczrBI4kMctR)
 
-- Severidad: 2
-   Heurística violada: Coincidencia entre el sistema y el mundo real
-   Segmento: Clientes
-   Problema: No se muestran ejemplos visuales del tipo de impresión ni de la textura de la tela. Esto genera incertidumbre sobre el resultado final.
-   Recomendación: Añadir imágenes reales o simuladas que ilustren cómo lucen diferentes técnicas de impresión y tipos de tela como algodón o dry-fit.
+1. Team
 
-- Severidad: 2
-   Heurística violada: Ayuda y documentación
-   Segmento: Clientes
-   Problema: No se muestra información del fabricante al momento de comprar un producto, lo que reduce la transparencia y confianza.
-   Recomendación: Mostrar el perfil del fabricante (nombre, ubicación, reputación, tiempo estimado de entrega) en la ficha del producto.
+La sección del equipo incluye etiquetas meta que destacan la historia y la identidad del grupo humano detrás de *Quri*. Al presentar información sobre los fundadores, sus roles y origen académico, se fortalece la transparencia y cercanía con los usuarios. Las etiquetas SEO utilizadas posicionan esta página como una ventana hacia la cultura del proyecto, y al compartirla en redes, se muestra un contenido visual y textual alineado con el tono institucional. Esto no solo incrementa el engagement, sino que también apoya la construcción de marca desde una perspectiva auténtica.
 
-SEGMENTO: DISEÑADORES
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcLFbPQiwYtcwYWd0jmIgpAC5t10lyRW4ZliCQgaWo_7KfPha7JdM_J-4G2mEXRu0ldR8Cl-NXKP1zay1RlUwkEDmq4sRWiIGSQSyZlYta1vPBjJabpgV182FwsDw59PiK97sRVCA?key=wLsuErVgqDz-qczrBI4kMctR)
 
-- Severidad: 3
-   Heurística violada: Flexibilidad y eficiencia de uso
-   Segmento: Diseñadores
-   Problema: Solo se puede diseñar la parte delantera del polo. Esto limita la creatividad y la funcionalidad del diseño.
-   Recomendación: Habilitar edición en otras zonas como espalda, mangas y cuello, con navegación clara entre vistas.
+La implementación de SEO Tags y Meta Tags en Quri responde a una estrategia integral de accesibilidad, posicionamiento y comunicación visual coherente. Cada página clave del sitio ha sido optimizada para transmitir información precisa y persuasiva tanto a buscadores como a redes sociales, asegurando una experiencia de descubrimiento eficiente y alineada con los valores del proyecto. Estas etiquetas no solo fortalecen la estructura semántica del sitio, sino que también preparan la plataforma para su crecimiento orgánico y escalabilidad digital.
 
-- Severidad: 3
-   Heurística violada: Flexibilidad y eficiencia de uso
-   Segmento: Diseñadores
-   Problema: El editor solo permite subir texto e imágenes planas, sin acceso a herramientas vectoriales, formas o recursos avanzados.
-   Recomendación: Ampliar el editor con opciones de formas, vectores, capas y bibliotecas externas para mejorar la calidad profesional de los diseños.
+### 4.2.4. Searching Systems
 
-- Severidad: 2
-   Heurística violada: Flexibilidad y eficiencia de uso
-   Segmento: Diseñadores
-   Problema: El sistema solo ofrece un conjunto limitado de fuentes tipográficas, restringiendo la variedad estilística.
-   Recomendación: Integrar una biblioteca más extensa de fuentes categorizadas por estilo, e incluir opción de carga de fuentes personalizadas bajo condiciones de licencia.
+La pantalla Explore es el núcleo de la experiencia de descubrimiento dentro de Quri – TeeLab. Desde esta vista, los usuarios pueden navegar, visualizar y seleccionar camisetas diseñadas por la comunidad, ordenadas por popularidad y novedades. En esta interfaz, el sistema de búsqueda se presenta como una herramienta esencial para facilitar el acceso eficiente a contenidos relevantes, alineándose con buenas prácticas de diseño de sistemas de información y experiencia de usuario (UX).
 
-- Severidad: 3
-   Heurística violada: Flexibilidad y eficiencia de uso
-   Segmento: Diseñadores
-   Problema: Solo hay un tipo de prenda disponible (polo clásico), lo que reduce la diversidad de productos que los diseñadores pueden ofrecer.
-   Recomendación: Incluir distintos tipos de prendas como hoodies, polos sin mangas o crop tops, con adaptación del editor y vistas previas.
+El sistema de búsqueda tiene como objetivo ayudar a los usuarios a localizar camisetas personalizadas que se ajusten a sus intereses mediante el uso de palabras clave relacionadas con el nombre del diseño, autor o estilo visual. Esta funcionalidad complementa el sistema de navegación libre por categorías y tendencias.
 
-SEGMENTO: MANUFACTURERS (Fabricantes / Vendedores)
+La interfaz está organizada de la siguiente manera:
 
-- Severidad: 3
-   Heurística violada: Coincidencia entre el sistema y el mundo real
-   Segmento: Manufacturers
-   Problema: No hay una sección clara que explique cómo ser fabricante, aceptar diseños, establecer márgenes, y gestionar producción.
-   Recomendación: Crear una sección “Produce en Quri” con onboarding paso a paso, reglas operativas, políticas de ingresos y ejemplos ilustrativos.
+- Barra de búsqueda: ubicada en la parte superior de la vista Explore, presenta un campo de texto con placeholder “Hinted search text” y un botón en forma de lupa a su derecha, representando la acción de búsqueda. Este elemento es visualmente claro, accesible y está bien posicionado siguiendo la jerarquía visual del layout.
 
-- Severidad: 2
-   Heurística violada: Visibilidad del estado del sistema
-   Segmento: Manufacturers
-   Problema: No existe un panel centralizado que permita ver de forma unificada los diseños aceptados, los pedidos en curso y los ya enviados.
-   Recomendación: Diseñar un “Panel del Fabricante” con secciones específicas, filtros por estado, fechas y acceso directo a cada pedido.
+  
 
-- Severidad: 3
-   Heurística violada: Ayuda y documentación
-   Segmento: Manufacturers
-   Problema: No hay forma de comunicarse directamente con el cliente para resolver dudas sobre pedidos, archivos o entregas.
-   Recomendación: Implementar un sistema de mensajería interna por pedido, que respete privacidad pero facilite la coordinación directa.
+- Listados de productos:
 
-- Severidad: 2
-   Heurística violada: Ayuda y documentación
-   Segmento: Manufacturers
-   Problema: El fabricante no tiene acceso a información mínima del cliente (ni siquiera nombre o contacto controlado), dificultando la resolución de incidentes.
-   Recomendación: Mostrar datos limitados y controlados como nombre y canal interno de mensajería autenticada.
+  
 
-- Severidad: 3
-   Heurística violada: Ayuda y documentación
-   Segmento: Manufacturers
-   Problema: No existe una sección de soporte técnico especializada para fabricantes, y el único canal disponible es un formulario genérico.
-   Recomendación: Crear un centro de soporte exclusivo con artículos técnicos, chat y tickets clasificados por tipo de problema.
+  - Sección: You might want to check
+     Presenta camisetas destacadas, posiblemente por popularidad o historial de navegación.
 
-- Severidad: 2
-   Heurística violada: Flexibilidad y eficiencia de uso
-   Segmento: Manufacturers
-   Problema: Los fabricantes no pueden personalizar su perfil público, lo que impide construir una marca visible dentro de la plataforma.
-   Recomendación: Permitir crear perfiles personalizados con nombre comercial, logo, descripción, catálogo activo y sistema de calificaciones.
+    
+
+  - Sección: New in the market
+     Muestra los últimos productos añadidos a la plataforma, lo cual promueve la visibilidad de nuevos creadores y diseños emergentes.
+
+    
+
+Cada producto se visualiza mediante una tarjeta que contiene:
+
+- Preview de la camiseta
+
+  
+
+- Nombre del diseño
+
+  
+
+- Nombre del diseñador
+
+  
+
+- Precio en soles (S/)
+
+  
+
+- Número de likes o popularidad
+
+  
+
+Funcionalidades previstas
+
+Aunque la implementación actual corresponde principalmente al diseño de la interfaz, la arquitectura ya contempla la integración de la lógica de búsqueda. Se espera que la funcionalidad final incluya:
+
+- Búsqueda textual en tiempo real mediante keywords
+
+  
+
+- Filtrado por diseñador, precio, popularidad, colores o categoría temática
+
+  
+
+- Indexación de productos a través del ProductCatalogService
+
+  
+
+- Resultados dinámicos actualizados sin recargar la página
+
+  
+
+Principios de diseño aplicados
+
+- Accesibilidad: La barra de búsqueda es compatible con navegación por teclado y presenta contraste visual adecuado.
+
+  
+
+- Responsive Design: La disposición de los elementos se adapta a distintas resoluciones de pantalla, permitiendo una experiencia de búsqueda fluida tanto en desktop como en móviles.
+
+  
+
+- Minimalismo funcional: La interfaz es limpia, prioriza la visualización de productos y mantiene la atención del usuario centrada en el contenido.
+
+  
+
+- Internacionalización prevista: Aunque el placeholder aún está en desarrollo, se prevé su adaptación multilingüe en el Sprint 2.
+
+  
+
+El sistema de búsqueda dentro del módulo Explore ha sido diseñado con base en principios sólidos de usabilidad y experiencia de usuario, garantizando una navegación eficiente, clara y visualmente atractiva. Su despliegue completo, incluyendo conexión con servicios y filtrado dinámico, está planificado para fases posteriores del proyecto, reforzando su rol central dentro del flujo de descubrimiento de camisetas personalizadas en Quri – TeeLab.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf0xzuv3jRckaeD8XbSyK7Xm1IEQtWZqKWPi-CEp1wTewkOU3EtKcHI637vGWgWlUd0KY8m70eMIE7wZ0iQOLZ-8GvMBb440D3BLPs4vasm5A6xs6iGAP3ZGYu5Q9inwcVeuPL0Ng?key=wLsuErVgqDz-qczrBI4kMctR)
+
+### 4.2.5. Navigation Systems
+
+La navegación es uno de los componentes más críticos en el diseño de interfaces web, ya que estructura el recorrido del usuario y garantiza que pueda acceder a las funcionalidades clave de forma eficiente. En la plataforma Quri, el sistema de navegación se ha concebido bajo principios de jerarquía visual, simplicidad funcional y accesibilidad universal, permitiendo una experiencia de usuario fluida, tanto en escritorio como en dispositivos móviles.
+
+Quri implementa un sistema de navegación global, persistente y horizontal, ubicado en la parte superior de cada vista pública. Este sistema está compuesto actualmente por seis elementos esenciales, los cuales cumplen funciones específicas:
+
+Home: vinculado al logotipo de la plataforma (quri), permite retornar a la página principal desde cualquier sección.
+
+- Explore: redirige al catálogo de diseños o espacio de descubrimiento creativo.
+- About: brinda información institucional sobre la plataforma, su propósito y su equipo.
+- Pricing: informa sobre el modelo de costos, tarifas y condiciones comerciales.
+- Join: conduce al formulario de registro de nuevos usuarios, diseñadores o marcas.
+- Login: ofrece acceso a usuarios ya registrados para ingresar a su cuenta.
+
+Esta distribución responde al patrón de diseño conocido como “navegación centrada en tareas”, en el que cada enlace refleja una acción clara, esperada por el usuario objetivo, y contribuye a la conversión dentro del embudo de uso (descubrir, registrarse, comprar o crear).
+
+Diseño visual y funcional
+
+El header está implementado en un fondo claro con texto negro, generando alto contraste y buena legibilidad. Su diseño es minimalista, sin elementos decorativos innecesarios, permitiendo al usuario enfocar su atención en las decisiones de navegación. El logotipo ubicado a la izquierda actúa como enlace semántico hacia Home, práctica común en interfaces web contemporáneas.
+
+- La alineación del contenido sigue una estructura en tres zonas:
+- Izquierda: logotipo quri, vinculado a Home.
+- Centro: enlaces de navegación (Explore, About, Pricing).
+- Derecha: acciones de usuario (Join, Login).
+
+Este modelo favorece el reconocimiento visual inmediato y facilita la interacción tanto con el ratón como con dispositivos táctiles.
+
+Adaptabilidad responsive:
+
+El sistema de navegación ha sido diseñado siguiendo el principio mobile-first, adaptándose automáticamente a distintos tamaños de pantalla. En resoluciones reducidas, el menú horizontal es reemplazado por un menú tipo hamburguesa, que preserva los seis elementos clave de navegación y los agrupa en un panel desplegable para optimizar el uso del espacio.
+
+Además, se han aplicado buenas prácticas de accesibilidad (a11y), como la navegación por teclado, la detección de enfoque (focus-visible) y el uso de atributos aria-label en botones interactivos, asegurando que la navegación sea funcional para personas con discapacidad visual o motriz.
+
+Navegación secundaria:
+
+Complementando el header, el footer del sitio actúa como sistema de navegación secundaria, agrupando enlaces de soporte, políticas legales y redes sociales. Esta capa informativa no interfiere con la navegación principal y ofrece un espacio discreto para contenidos de menor jerarquía, pero igualmente necesarios.
+
+Evaluación de usabilidad:
+
+La navegación de Quri cumple con los principios fundamentales de una buena experiencia de usuario:
+
+- Claridad: los enlaces están claramente etiquetados y visualmente diferenciados.
+- Consistencia: la barra de navegación es idéntica en todas las vistas, evitando disonancias cognitivas.
+- Jerarquía: las acciones más importantes (Join, Login) están destacadas y ubicadas estratégicamente.
+- Retroalimentación visual: se proveen efectos hover y focus para mejorar la percepción de interacción.
