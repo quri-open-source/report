@@ -14,7 +14,7 @@ Sección: 4350
 
 Docente: Angel Augusto Velasquez Nuñez
 
-Integrantes: Dante Mateo Aleman Romano, Jonatan Ariel Acuña Corahua, Fabrizio Alessandro Contreras Peralta, Renzo Andres Luque Minaya
+Integrantes: Dante Mateo Aleman Romano, Jonatan Ariel Acuña Corahua, Fabrizio Alessandro Contreras Peralta, Renzo Andres Luque Minaya, Juan Carlos Alvarado De La Cruz, Brayan Ccarita Cruz, Neil Aldrin Curipaco Huayllani
 
 TP
 
@@ -66,252 +66,275 @@ Mayo 2025
 
 Url de la organización:https://github.com/quri-open-source 
 
+Mateo Aleman fue el encargado de crear todas las ramas debido a algunos problemas, pero como se evidencia en el network todos colaboraron en el reporte.
+
 TB1: Desarrollo de la landing page de quri. 
 
-Durante el desarrollo hemos tenido problemas para organizar el flujo de gitflow. GitHub Desktop nos daba la idea de estar todos sincronizados pero al ver la sección del network entonces nos dábamos cuenta que no estaba correctamente ejecutado. Hemos logrado solucionar este problema de forma satisfactoria. El desarrollo se ha llevado con normalidad y siguiendo las buenas prácticas de gitflow con conventional commits.
+Esta primera entrega del proyecto Quri se ha centrado en establecer las bases documentales y de diseño, abarcando desde la definición inicial de la startup y su solución, hasta el diseño detallado de la interfaz de usuario y la arquitectura de software. Se ha puesto un énfasis particular en la comprensión del usuario a través de diversas técnicas de elicitación y análisis de requisitos, así como en la especificación de los mismos para guiar el desarrollo.
 
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeT-an_x6ZyCNB4htpQCOjCm5zHuGEq2-AF2JU5I_oL0jjIGaMx0-HbWgkJRleVAhAetoQNLQ7i7mUL2kAc3P6qZ9ULRyR9ilKnFa6iI4GeiMx-41vQpsbEnFqeSW_wmvc3P75l8A?key=wLsuErVgqDz-qczrBI4kMctR)
+Se han documentado elementos cruciales como el perfil de la startup, la problemática que aborda la solución y el proceso Lean UX utilizado para su conceptualización. La investigación de mercado se ha complementado con un análisis exhaustivo de competidores y entrevistas con usuarios, lo que ha permitido la creación de user personas y el mapeo de sus journeys.
 
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcsbim5IuCeE4QtITOQu_w5j76eoW8Mvr9y8tOFeACpgOPqsDrQZf7fTe663dlMgdhgCRvIh3PRTcONgIvqF8LtGDuBKybMUh9p-cs-7cCRCk_BLB5d5lpG_cbU_UlI9gjUt1uASQ?key=wLsuErVgqDz-qczrBI4kMctR)
+En la fase de diseño, se han establecido guías de estilo para asegurar la coherencia visual y se ha avanzado en la arquitectura de información, incluyendo sistemas de organización, etiquetado y navegación. Se han diseñado wireframes y mockups detallados para la Landing Page y las aplicaciones web, junto con diagramas de flujo de usuario y wireflows para visualizar las interacciones.
 
-Dado que hemos podido solucionar el problema del manejo de Gitflow se espera que para las próximas entregas se desarrolle sin este problema y con normalidad.
+Además, se ha iniciado la conceptualización de la arquitectura de software con diagramas de contexto, contenedores y componentes, y se ha diseñado la estructura de la base de datos, sentando las bases para la implementación. Finalmente, se han realizado ajustes en el código para mejorar la funcionalidad y el rendimiento de la plataforma.
 
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe-Fzf81jWd-WAduttCiucM1EI4GKc83Jl99NKCfc_f-QUvy4TwDXDrGdZcNLsr-F96iKOpdgemwXIqi3EXe_4fzcyH31viigg-aGSKsCavr64rbQcZkz5y0iV7H5darRh8iWOibw?key=wLsuErVgqDz-qczrBI4kMctR)
 
-**Neil Curipaco**
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeED9FzmIqdokSOdZcGVlihy4R-IJ2Dfmspw_OagdJuC5BMvO43E3c793Wun56KDCUzN0JfvYtgztoB-3IABwYAiKO8NWIBVMTOg1IjvcTAs2pl7JUDcHUFZ98_JjPoKRKbmRkA?key=wLsuErVgqDz-qczrBI4kMctR)
 
-- **Estructuración HTML:** Se encargó de la creación de las estructuras HTML base para la landing page, sentando las bases del contenido.
-- **Mejora de formularios y registros:** Realizó correcciones en los formularios de entrevistas para optimizar la recopilación de datos y actualizó los registros audiovisuales para una mejor presentación de los hallazgos.
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeOGhMgG0gsmhA-n3vdiPxUF7hKFhco5-NztRHvyAoSVvHdbTdIQpyMtHup2fkUwHubJHQpx2GFNuFO5fW6MyfvfpGeIIMlywTe0KMI751ZZglRjc-JbvzdfdVUr1xAoO44NWTO?key=wLsuErVgqDz-qczrBI4kMctR)
 
-**Mateo Alemán**
+**Contribuciones por Integrante**
 
-- **Estilos y diseño visual:** Desarrolló los estilos CSS que dieron vida a la interfaz de la landing page, asegurando una estética coherente y atractiva.
-- **Optimización de documentación:** Revisó y corrigió a fondo los antecedentes y la problemática del proyecto, mejorando la redacción y alineación con los hallazgos. Además, reestructuró y perfeccionó el Lean UX Process y sus componentes clave.
-- **Ajuste de arquitectura de información:** Realizó correcciones en la arquitectura de información para mejorar la estructura y la accesibilidad del contenido de la landing page.
+A continuación, se detallan las contribuciones individuales de cada miembro del equipo en esta primera fase del proyecto:
 
-**Jonatan Acuña**
+**Neil Aldrin Curipaco Huayllani:**
 
-- **Implementación de i18n:** Se encargó de la implementación de la internacionalización (i18n) para la landing page, facilitando su adaptación a diferentes idiomas y regiones.
+- **Establecimiento de la Base del Proyecto.** Contribuyó con la descripción inicial de la startup y los perfiles de los miembros del equipo, sentando las bases para la comprensión del proyecto.
+- **Definición de la Gestión de Usuarios y Base de Datos.** Documentó la sección de gestión de usuarios, incluyendo el diseño del diagrama de la base de datos y su descripción, un paso fundamental para la estructura del sistema.
+- **Wireframes Detallados para Múltiples Secciones de Aplicaciones Web.** Proporcionó documentación detallada de wireframes para diversas secciones de las aplicaciones web como Login, Orders, Home, Cart, Template, Design Studio y Favorites, cubriendo gran parte de la funcionalidad.
+- **Identificación de Segmentos Clave.** Añadió los segmentos objetivo del mercado, especificando el público para diseñadores gráficos, individuos creativos y marcas emergentes, lo que orienta el alcance del proyecto.
 
-**Renzo Luque**
+**Mateo Alemán Romano:**
 
-- **Aseguramiento de accesibilidad:** Trabajó en garantizar que la landing page fuera accesible para todos los usuarios, cumpliendo con estándares de usabilidad importantes.
+- **Conceptualización de la Solución y Metodología UX.** Detalló el perfil de la solución propuesta y la aplicación del proceso Lean UX, un enfoque clave para el desarrollo centrado en el usuario.
+- **Definición del Lenguaje Ubicuo.** Estableció una sección dedicada al lenguaje ubicuo, proporcionando definiciones esenciales para roles y acciones de diseño, asegurando una comunicación clara en el equipo.
+- **Diseño de Interfaz de Usuario para Landing Page.** Documentó el diseño detallado de la interfaz de usuario para la página de aterrizaje y sus respectivos wireframes, crucial para la primera impresión del producto.
+- **Definición de la Arquitectura de Software.** Introdujo la sección de Diseño Orientado a Dominio y diagramas detallados de la arquitectura, proporcionando la estructura técnica fundamental del proyecto.
 
-**Fabrizio Contreras**
+**Jonatan Ariel Acuña Corahua:**
 
-- **SEO y Meta Tags:** Implementó estrategias de SEO y configuró los meta tags para optimizar la visibilidad de la landing page en los motores de búsqueda.
-- **Diseño de interfaz:** Lideró el diseño de la interfaz de la landing page, creando tanto el wireframe como el mock-up, definiendo su estructura y apariencia final.
+- **Especificación de Requisitos con Historias de Usuario y Backlog.** Integró las historias de usuario y el product backlog, elementos esenciales para la gestión de requisitos y la planificación del desarrollo.
+- **Establecimiento de Guías de Diseño.** Contribuyó con las guías de estilo y guías web para el diseño de la plataforma Quri, asegurando la cohesión visual y la experiencia de usuario.
+- **Visualización del Flujo de Usuario en Aplicaciones Web.** Añadió diagramas de wireflow detallados para las aplicaciones web, mejorando la comprensión del recorrido del usuario, especialmente para diseñadores gráficos.
+- **Expansión del User Journey para Diversos Usuarios.** Detalló los procesos de user journey para individuales creativos y marcas emergentes, abarcando login, home, profile y pedidos, enriqueciendo la comprensión de las interacciones.
+
+**Renzo Andrés Luque Minaya:**
+
+- **Análisis de Competencia y Entrevistas.** Integró las secciones de análisis competitivo y el diseño de entrevistas de usuario, proporcionando información valiosa sobre el mercado y las necesidades de los usuarios.
+- **Documentación de Diseño de Interfaz General.** Añadió la documentación de wireframes y mockups para la plataforma Quri, cubriendo el diseño general de la interfaz.
+- **Diseño de Mockups Detallados para Páginas Clave.** Aportó con mockups detallados para las páginas de Home, FAQ, About y Team, dando una visión concreta de estas secciones.
+- **Mejora de la Documentación UX/UI para Aplicaciones Web.** Contribuyó a la mejora de la documentación UX/UI para las aplicaciones web, incluyendo mockups y wireframes, lo que es vital para la usabilidad.
+
+**Fabrizio Alessandro Contreras Peralta:**
+
+- **Análisis de Entrevistas y Perfiles de Usuario.** Se encargó del análisis estructurado de las entrevistas y la creación de user personas, elementos cruciales para entender al público objetivo.
+- **Evaluación de Accesibilidad y Usabilidad.** Amplió la evaluación de accesibilidad y usabilidad para la plataforma Quri, asegurando que el producto sea inclusivo y fácil de usar.
+- **Diseño de Wireframes para Aplicaciones Web.** Documentó los wireframes detallados para secciones clave de la aplicación web como Explore, Design Lab, Profile y Your Designs, brindando una base visual para el desarrollo.
 
 TP1: Desarrollo de la aplicación web en angular 
 
-En líneas generales seguimos con los procedimientos previamente hechos. Con la particularidad de que nos centramos en la funcionalidad core de nuestro aplicativo.
+Esta segunda entrega del proyecto se ha centrado en la fase de implementación, validación y el cierre de la documentación fundamental del proyecto. Se ha puesto especial énfasis en la gestión de la configuración del software, la planificación y ejecución de sprints de desarrollo, y la consolidación final del informe del proyecto.
 
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdI07JrpDHo42lz4AfmDus9hqexz3f6ePWdgvEuh6z0yiISViT05PgcebkITQfXXh4Wlqq-Y1oPQBGK5jesUgHGdC4GnbG8xobFEII3qN6hJgQIYgfHqUjlMV85yM2Btnn3Px41?key=wLsuErVgqDz-qczrBI4kMctR)
+Se han detallado los pormenores del Sprint 2, incluyendo su planificación, los roles de liderazgo y colaboración del equipo, y el backlog de tareas. Asimismo, se ha provisto evidencia del desarrollo, ejecución, documentación de servicios y despliegue del software, demostrando el progreso y la funcionalidad implementada.
 
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXetmLQ3pPyaeOXs0SoUPZ0n9NxWPUkoXaVrVlSkfiw7RRpcQ5NSH-463LT0-5tLF0LWiny-vI0XC6tXkDvZffhn8rhFq4Z0H9U3gs1_E5D4jH63pZaSiXVbobAm3D29KOjOs99Mfw?key=wLsuErVgqDz-qczrBI4kMctR)
+Además de los avances técnicos, esta fase ha culminado con la adición de secciones esenciales para la formalización del proyecto, como la bibliografía y los anexos. También se han incorporado las conclusiones, resumiendo el desarrollo y las metodologías empleadas en el proyecto TeeLab.
 
-Dado al problema que tuvimos con el github desktop tuvimos que hacer los commits desde el inicio. Este problema se comentó en clase con el profesor, es por ello que damos esta aclaración del porqué de los commits que siguen este patrón. Este problema se solucionará para próximas entregas.
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeWu66NpbYJrRnhZZ05_GBZG3BTgg9z2QwinewNHDag9yZNI-EITNvVtEM52T0tvfv_Kgy14f8jG5LFSAksOGVJ-O0bDczAmyylEsJ-1cK0cuZK6hBg96DAj3So2ThbVf7R74FIEw?key=wLsuErVgqDz-qczrBI4kMctR)
 
-**Neil Curipaco**
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfv4IFjvsyhbLPBUDR-phymn2-becTeiERutHTFFlOUdQWzhK2SmLTOJ0FRVfBIFmDrP1ijwB0SDWQXHmFgsbA0Xs_zBL6HofMMICDL427N-vpas-YHe_O5Io2lExpTjfNuFj7e?key=wLsuErVgqDz-qczrBI4kMctR)
 
-- **Analíticas del Design Lab:** Implementó funcionalidades de analíticas específicas para el "bounded context" del Design Lab, lo que permitirá recopilar datos sobre su uso y rendimiento.
+**Contribuciones por Integrante**
 
-**Mateo Alemán**
+A continuación, se detallan las contribuciones individuales de cada miembro del equipo en esta segunda fase del proyecto:
 
-- **Componentes de edición del Design Lab:** Desarrolló los componentes interactivos que permiten a los usuarios editar y personalizar diseños dentro del Design Lab, la herramienta central de la aplicación.
+**Neil Aldrin Curipaco Huayllani:**
 
-**Jonatan Acuña**
+- **Detalles de Aplicaciones Web y Navegación del Sprint 2.** Añadió al README.md los detalles del Sprint 2, destacando las nuevas características de las aplicaciones web y la estructura de navegación, lo que indica un avance en la funcionalidad del producto.
+-  **Planificación del Sprint 2.** Contribuyó con los detalles de planificación del Sprint 2 al README.md, delineando los objetivos, roles del equipo e ideas retrospectivas, fundamentales para la gestión ágil del proyecto.
 
-- **Organización y soporte general:** Se ocupó de la organización general de los componentes y vistas de la aplicación, gestionando también las variables de entorno. Su rol fue fundamental para brindar soporte a los demás integrantes del equipo durante todo el proceso de desarrollo.
+**Mateo Alemán Romano:**
 
-**Renzo Luque**
+- **Secciones de Bibliografía y Anexos.** Añadió las secciones de bibliografía y anexos al README.md, lo cual es crucial para la documentación formal y completa del proyecto.
 
-- **Opciones de personalización avanzada:** Implementó las opciones de personalización avanzadas para la customización dentro del Design Lab, dando mayor flexibilidad a los usuarios.
+**Jonatan Ariel Acuña Corahua:**
 
-**Fabrizio Contreras**
+- **Matriz de Liderazgo y Colaboración del Sprint 2.** Añadió la Matriz de Liderazgo y Colaboración del Sprint 2 al README.md, detallando los roles y responsabilidades del equipo para mejorar la comunicación y la gestión de tareas.
+- **Detalles de Desarrollo del Sprint 1.** Actualizó el README.md para incluir los detalles de desarrollo del Sprint 1, resaltando las historias de usuario, la colaboración del equipo y los logros iniciales de despliegue.
 
-- **Modelo y servicios del Design Lab:** Desarrolló el modelo de datos y los servicios asociados al Design Lab, estableciendo la lógica y la estructura fundamental para su funcionamiento.
+**Renzo Andrés Luque Minaya:**
+
+- **Sección de Conclusiones.** Añadió la sección de conclusiones al README.md, resumiendo el desarrollo del proyecto Quri - TeeLab y las metodologías aplicadas, lo que proporciona un cierre formal al informe.
+
+**Fabrizio Alessandro Contreras Peralta:**
+
+- **Sprint Backlog 2 y Evidencia de Desarrollo.** Añadió el Sprint Backlog 2 y la evidencia de desarrollo para la revisión del Sprint al README.md, detallando las historias de usuario, tareas y progreso, lo que es vital para el seguimiento del proyecto.
+
+**Actualización de Información del Proyecto y Línea de Tiempo del Sprint 2.** Actualizó el README.md para corregir el tipo de proyecto y revisar la línea de tiempo del Sprint 2, añadiendo nuevas secciones para el diseño de software y la evidencia de despliegue.
 
 TB2: Desarrollo de la web service y web app.
 
 Contenido
 
-[Registro de versiones	2](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.4815p6lswc3m)
+[Registro de versiones	](#registro-de-versiones)
 
-[Project Report Collaboration Insights	3](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.ekvg4z9kf1fc)
+[Project Report Collaboration Insights	](#project-report-collaboration-insights)
 
-[1. Introducción	10](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.xnfbi3pucdg0)
+[1. Introducción](#1-capítulo-i-introducción)
 
-[1.1. Startup Profile	10](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.d2a4mmj9q47t)
+[1.1. Startup Profile](#11-startup-profile)
 
-[1.1.1. Descripción de la Startup	10](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.8sh0lqw84hcx)
+[1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
 
-[1.1.2. Perfiles de integrantes del equipo	11](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.62giv558qiw1)
+[1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
 
-[1.2. Solution Profile	13](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.9j31qicsbiy8)
+[1.2. Solution Profile](#12-solution-profile)
 
-[1.2.1. Antecedentes y problemática	13](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.jl1k4f1xx3ac)
+[1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
 
-[1.2.2. Lean UX Process	15](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.dgg8p73t1xb1)
+[1.2.2. Lean UX Process](#122-lean-ux-process)
 
-[1.2.2.1. Lean UX Problem Statement	15](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.3iid9nm3pxj6)
+[1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
-[1.2.2.2. Lean UX Assumptions	16](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.t8tqofghbx7t)
+[2. Capítulo II: Requirements Elicitation & Analysis](#2-capítulo-ii-requirements-elicitation--analysis)
 
-[1.2.2.3. Lean UX Hypothesis Statements	19](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.uxtjlqx1ohz)
+[2.1. Competidores](#21-competidores)
 
-[1.2.2.4. Lean UX Canvas	21](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.up7bjm5hqgcu)
+[2.1.1. Análisis competitivo](#211-análisis-competitivo)
 
-[1.3. Segmentos objetivo	26](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.xi957033woip)
+[2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
 
-[2. Capítulo II: Requirements Elicitation & Analysis	29](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.3bqg2zgwuxmd)
+[2.2. Entrevistas](#22-entrevistas)
 
-[2.1. Competidores	29](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.t407ubq27av2)
+[2.2.1. Diseño de Entrevistas](#221-diseño-de-entrevistas)
 
-[2.1.1. Análisis competitivo	30](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.ezbejsh9ywk1)
+[2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
 
-[2.1.2. Estrategias y tácticas frente a competidores	33](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.ycar5kjromd)
+[2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
 
-[2.2. Entrevistas	34](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.aenwx6aeub10)
+[2.3. Needfinding](#23-needfinding)
 
-[2.2.1. Diseño de Entrevistas	34](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.upagadcz41oj)
+[2.3.1. User Personas](#231-user-personas)
 
-[2.2.2. Registro de entrevistas	36](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.803c4gp3ucal)
+[2.3.2. User Task Matrix](#232-user-task-matrix)
 
-[2.2.3. Análisis de entrevistas	46](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.4gayhxo4m7cd)
+[2.3.3. User Journey Mapping](#233-user-journey-mapping)
 
-[2.3. Needfinding	47](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.xiix7i3jtkqm)
+[2.3.4. Empathy Mapping](#234-empathy-mapping)
 
-[2.3.1. User Personas	47](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.r5zvw04l61nf)
+[2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
 
-[2.3.2. User Task Matrix	52](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.9996v4akkkqx)
+[2.4. Ubiquitous Language](#24-ubiquitous-language)
 
-[2.3.3. User Journey Mapping	53](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.4h61skb4bu3m)
+[3. Capítulo III: Requirements Specification](#3-capítulo-iii-requirements-specification)
 
-[2.3.4. Empathy Mapping	56](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.qqnnhna8f0g5)
+[3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
 
-[2.3.5. As-is Scenario Mapping	61](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.vttznqt9igxy)
+[3.2. User Stories](#32-user-stories)
 
-[2.4. Ubiquitous Language	62](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.6ugf0t7iykq3)
+[3.3. Impact Mapping](#33-impact-mapping)
 
-[3. Capítulo III: Requirements Specification	64](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.45ye2ui4dia4)
+[3.4. Product Backlog](#34-product-backlog)
 
-[3.1. To-Be Scenario Mapping	64](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.87keqfbcnndl)
+[4. Capítulo IV: Product Design](#4-capítulo-iv-product-design)
 
-[3.2. User Stories	67](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.9h8sf6l971cc)
+[4.1. Style Guidelines](#41-style-guidelines)
 
-[3.3. Impact Mapping	150](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.9h5qkir0smbc)
+[4.1.1. General Style Guidelines](#411-general-style-guidelines)
 
-[3.4. Product Backlog	152](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.xnfkxx8pxpcz)
+[4.1.2. Web Style Guidelines](#412-web-style-guidelines)
 
-[4. Capítulo IV: Product Design	185](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.rjsn70fjqdnw)
+[4.2. Information Architecture](#42-information-architecture)
 
-[4.1. Style Guidelines	185](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.npx7hml4d852)
+[4.2.1. Organization Systems](#421-organization-systems)
 
-[4.1.1. General Style Guidelines	185](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.57exsnn1t3mz)
+[4.2.2. Labeling Systems](#422-labeling-systems)
 
-[4.1.2. Web Style Guidelines	187](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.g47602u1k351)
+[4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
 
-[4.2. Information Architecture	195](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.o3rh5q4py2c5)
+[4.2.4. Searching Systems](#424-searching-systems)
 
-[4.2.1. Organization Systems	200](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.g6at4yg9h1mv)
+[4.2.5. Navigation Systems](#425-navigation-systems)
 
-[4.2.2. Labeling Systems	203](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.yszd28b4wyr3)
+[4.3. Landing Page UI Design](#43-landing-page-ui-design)
 
-[4.2.3. SEO Tags and Meta Tags	205](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.bfcmw37tttgu)
+[4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
 
-[4.2.4. Searching Systems	209](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.6fk92hj3cbw5)
+[4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
 
-[4.2.5. Navigation Systems	212](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.hu74cfymw7dd)
+[4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
 
-[4.3. Landing Page UI Design	214](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.dcj023h3mg84)
+[4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
 
-[4.3.1. Landing Page Wireframe	215](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.h6mg49oq4zi4)
+[4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
 
-[4.3.2. Landing Page Mock-up	224](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.dd4epzwupi)
+[4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
 
-[4.4. Web Applications UX/UI Design	235](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.icfczkyuxfc6)
+[4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
 
-[4.4.1. Web Applications Wireframes	235](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.n6agmx8gbslg)
+[4.5. Web Applications Prototyping](#45-web-applications-prototyping)
 
-[4.4.2. Web Applications Wireflow Diagrams	253](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.u7egy6r8c3jc)
+[4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
 
-[4.4.3. Web Applications Mock-ups	267](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.5w6cgn9cqlxi)
+[4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
 
-[4.4.4. Web Applications User Flow Diagrams	285](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.hlmwa57vi1bq)
+[4.6.2. Software Architecture Container Diagram](#462-software-architecture-container-diagram)
 
-[4.5. Web Applications Prototyping	299](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.9e508mbapwtg)
+[4.6.3. Software Architecture Componentes Diagrams](#463-software-architecture-componentes-diagrams)
 
-[4.6. Domain-Driven Software Architecture	299](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.ob4yw6fzcw3n)
+[4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
 
-[4.6.1. Software Architecture Context Diagram	301](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.o5k6f9oonn2q)
+[4.7.1. Class Diagrams](#471-class-diagrams)
 
-[4.6.2. Software Architecture Container Diagram	302](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.eo8wb3mrw2tc)
+[4.7.2. Class Dictionary](#472-class-dictionary)
 
-[4.6.3. Software Architecture Componentes Diagrams	304](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.f6dbwgaxm3sw)
+[4.8. Database Design](#48-database-design)
 
-[4.7. Software Object-Oriented Design	314](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.l87lff3fqlan)
+[4.8.1. Database Diagram](#481-database-diagram)
 
-[4.7.1. Class Diagrams	314](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.hr6n6fczc1ne)
+[5. Capítulo V: Product Implementation, Validation & Deployment	](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.6fgh6bxcal2n)
 
-[4.7.2. Class Dictionary	323](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.om2d1kk3m8qe)
+[5.1. Software Configuration Management	](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.rza6l1h0pmq8)
 
-[4.8. Database Design	326](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.1k2rlvonbk1u)
+[5.1.1. Software Development Environment Configuration	](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.u02maq0t2p)
 
-[4.8.1. Database Diagram	326](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.nh9xmv1lyf7c)
+[5.1.2. Source Code Management](#512-source-code-management)
 
-[5. Capítulo V: Product Implementation, Validation & Deployment	331](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.6fgh6bxcal2n)
+[5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
 
-[5.1. Software Configuration Management	331](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.rza6l1h0pmq8)
+[5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
 
-[5.1.1. Software Development Environment Configuration	331](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.u02maq0t2p)
+[5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
 
-[5.1.2. Source Code Management	334](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.inmurzwpitdq)
+[5.2.1. Sprint 1](#521-sprint-1)
 
-[5.1.3. Source Code Style Guide & Conventions	336](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.1nbhkpgtyzwf)
+[5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
 
-[5.1.4. Software Deployment Configuration	339](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.y4bg64pjlzbu)
+[5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
 
-[5.2. Landing Page, Services & Applications Implementation	345](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.5hs5oh9rw5yb)
+[5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
 
-[5.2.1. Sprint 1	345](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.9oj20oyhwzfp)
+[5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
 
-[5.2.1.1. Sprint Planning 1	346](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.xyxgg5qcs5k5)
+[5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
 
-[5.2.1.2. Aspect Leaders and Collaborators	348](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.dnup14g3mh0y)
+[5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
 
-[5.2.1.3. Sprint Backlog 1	350](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.8611wed58li8)
+[5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
 
-[5.2.1.4. Development Evidence for Sprint Review	355](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.kq7h7t667bbm)
+[5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
 
-[5.2.1.5. Execution Evidence for Sprint Review	364](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.pguku1pzhjfg)
+[5.2.2. Sprint 2](#522-sprint-2)
 
-[5.2.1.6. Services Documentation Evidence for Sprint Review	368](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.ip7frlismxlc)
+[5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
 
-[5.2.1.7. Software Deployment Evidence for Sprint Review	370](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.j23h2pptn7gp)
+[5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
 
-[5.2.1.8. Team Collaboration Insights during Sprint	370](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.qon8bs2qf5vz)
+[5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
 
-[5.2.2. Sprint 2	372](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.jf4iji20cj7f)
+[5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
 
-[5.2.2.1. Sprint Planning 2	374](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.jpakd8cwijtv)
+[5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
 
-[5.2.2.2. Aspect Leaders and Collaborators	376](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.kv94q97wa8x2)
+[5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
 
-[5.2.2.3. Sprint Backlog 2	378](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.zgk10ld5024w)
+[5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
 
-[5.2.2.4. Development Evidence for Sprint Review	378](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.80pt64b6neci)
+[5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
 
-[5.2.2.5. Execution Evidence for Sprint Review	378](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.q3yu1t6ggfpx)
+[Bibliografía:](#bibliografía)
 
-[5.2.2.6. Services Documentation Evidence for Sprint Review	378](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.x0mmff53cfqq)
-
-[5.2.2.7. Software Deployment Evidence for Sprint Review	378](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.e94n3jhvgn1)
-
-[5.2.2.8. Team Collaboration Insights during Sprint	378](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.v6sweyrc1pts)
-
-[Bibliografía:	385](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.tzy73y5o56wu)
-
-[Anexos	386](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.g2sx3nis9xs6)
+[Anexos](#anexos)
 
 
 
