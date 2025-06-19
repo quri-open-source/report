@@ -16,13 +16,13 @@ Docente: Angel Augusto Velasquez Nuñez
 
 Integrantes: Dante Mateo Aleman Romano, Jonatan Ariel Acuña Corahua, Fabrizio Alessandro Contreras Peralta, Renzo Andres Luque Minaya, Juan Carlos Alvarado De La Cruz, Brayan Ccarita Cruz, Neil Aldrin Curipaco Huayllani
 
-TP
+TB2
 
 Startup: Quri
 
 TeeLab
 
-Mayo 2025
+Junio 2025
 
 
 
@@ -61,6 +61,11 @@ Mayo 2025
 | 1.0.12  | 10/05/2025 | Jonatan Acuña                                                | Se actualizó el diseño de base de datos para reflejar cambios en el modelo de clases y nuevas funcionalidades. Se modificaron relaciones entre tablas para mejorar la integridad referencial y se ajustaron claves primarias y foráneas según el dominio. Se eliminaron columnas obsoletas, se normalizaron estructuras y se optimizaron tipos de datos. El Database Diagram fue reorganizado para mejorar su legibilidad y trazabilidad. Estas correcciones aseguraron un modelo de datos más eficiente, consistente y alineado con la lógica del sistema. |
 | 1.0.13  | 12/05/2025 | Mateo Alemán                                                 | Se realizaron ajustes en la configuración del entorno de desarrollo, actualizando versiones de herramientas y corrigiendo conflictos de dependencias. Se reorganizó el repositorio siguiendo la estructura definida por capas y se reforzó el uso de GitFlow para una gestión ordenada del código fuente. Se depuraron convenciones de estilo en el código, eliminando inconsistencias en nombres, indentación y estructura. Además, se reconfiguró el despliegue automático de la landing page y servicios, optimizando rutas y variables de entorno. Estas mejoras garantizaron un flujo de desarrollo más estable, mantenible y alineado con las buenas prácticas del proyecto. |
 | 2.1.0   | 13/05/2025 | Jonatan AcuñaRenzo LuqueCuripaco NeilFabrizio ContrerasMateo Alemán | Se planificó y ejecutó el Sprint 2 con base en las correcciones y entregables del Sprint 1. Se definieron objetivos específicos y se actualizó el Sprint Backlog 2 con nuevas historias priorizadas por epic y capa funcional. Se asignaron responsables por funcionalidad en la matriz de Aspect Leaders and Collaborators para mejorar la trazabilidad de tareas. Se desarrollaron e implementaron nuevas funcionalidades en la landing page, módulos de diseño y flujos de usuario, generando evidencia de desarrollo y ejecución. Se documentaron los servicios implementados y su integración en el sistema. Además, se desplegaron actualizaciones en entornos de prueba y producción, dejando evidencia técnica y operativa. Finalmente, se recopilaron insights sobre la colaboración del equipo, destacando mejoras en la coordinación, revisión cruzada de tareas y mayor autonomía en la resolución de incidencias. |
+| 3.1.1   | 15/06/2025 | Jonatan Ariel Acuña Corahua                                  | Lideró la documentación de endpoints relacionados al User Management (UM) y colaboró en la definición de endpoints de Orders Fulfillment (OF). Participó en la redacción de la matriz LACX y en la validación técnica de las estructuras de respuesta en OpenAPI. Apoyó en entrevistas simuladas orientadas a la experiencia del comprador. |
+| 3.1.2   | 16/06/2025 | Renzo Andrés Luque Minaya                                    | Lideró los endpoints de Product Catalog (PC) en Web Services, asegurando su integración con el catálogo visual de la Web App. Participó en la revisión de consistencia entre rutas y controladores. También colaboró en la elaboración del LACX y en la redacción de observaciones funcionales sobre el editor desde la perspectiva del diseñador. |
+| 3.1.3   | 15/06/2025 | Fabrizio Alessandro Contreras Peralta                        | Lideró la documentación de endpoints de Analytics (AL) y colaboró en las secciones de Design Lab (DL). Aportó en la simulación de entrevistas desde el enfoque de usuario creador/diseñador. Además, revisó y aportó mejoras a la redacción de criterios de aceptación derivados de las entrevistas. |
+
+
 
 # Project Report Collaboration Insights
 
@@ -78,11 +83,11 @@ En la fase de diseño, se han establecido guías de estilo para asegurar la cohe
 
 Además, se ha iniciado la conceptualización de la arquitectura de software con diagramas de contexto, contenedores y componentes, y se ha diseñado la estructura de la base de datos, sentando las bases para la implementación. Finalmente, se han realizado ajustes en el código para mejorar la funcionalidad y el rendimiento de la plataforma.
 
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe-Fzf81jWd-WAduttCiucM1EI4GKc83Jl99NKCfc_f-QUvy4TwDXDrGdZcNLsr-F96iKOpdgemwXIqi3EXe_4fzcyH31viigg-aGSKsCavr64rbQcZkz5y0iV7H5darRh8iWOibw?key=wLsuErVgqDz-qczrBI4kMctR)
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeZV9HywzgDDgpVjDl5fcKPGWrpXJFgR49YAP0091S5HZDanguWntvev-y7lwaZCaajpuldzMUOeGRJigtIjfWtL9-8maXnGH8buEYTSGvPpUlVMqL_G3qkO1fGzLAeo9K6HmP33g?key=wLsuErVgqDz-qczrBI4kMctR)
 
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeED9FzmIqdokSOdZcGVlihy4R-IJ2Dfmspw_OagdJuC5BMvO43E3c793Wun56KDCUzN0JfvYtgztoB-3IABwYAiKO8NWIBVMTOg1IjvcTAs2pl7JUDcHUFZ98_JjPoKRKbmRkA?key=wLsuErVgqDz-qczrBI4kMctR)
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeNVCvzMerNJdOeRAT96xycFhrdCqLREpstslgvpnHM7-OkN4MJNrnci6K32hoePKpv1-YspSEzcecfBJV0BAF5EFUDw78s8lHPR5gVrj3b9r53F3cPOfrszumMjcLpOKAEba78?key=wLsuErVgqDz-qczrBI4kMctR)
 
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeOGhMgG0gsmhA-n3vdiPxUF7hKFhco5-NztRHvyAoSVvHdbTdIQpyMtHup2fkUwHubJHQpx2GFNuFO5fW6MyfvfpGeIIMlywTe0KMI751ZZglRjc-JbvzdfdVUr1xAoO44NWTO?key=wLsuErVgqDz-qczrBI4kMctR)
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeLnayrzXANEQPBeLA7fYUpkV-zlFUnLjdSBu1ZwJjRr05CePvBW2jura9E64ddsLwoRDqqkVAFVk2ctAe6TjaucQG3khOwkvCj01qwTJdcotz1d8Hl38Eoo81x1CqKxjD68CXA?key=wLsuErVgqDz-qczrBI4kMctR)
 
 **Contribuciones por Integrante**
 
@@ -130,9 +135,9 @@ Se han detallado los pormenores del Sprint 2, incluyendo su planificación, los 
 
 Además de los avances técnicos, esta fase ha culminado con la adición de secciones esenciales para la formalización del proyecto, como la bibliografía y los anexos. También se han incorporado las conclusiones, resumiendo el desarrollo y las metodologías empleadas en el proyecto TeeLab.
 
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeWu66NpbYJrRnhZZ05_GBZG3BTgg9z2QwinewNHDag9yZNI-EITNvVtEM52T0tvfv_Kgy14f8jG5LFSAksOGVJ-O0bDczAmyylEsJ-1cK0cuZK6hBg96DAj3So2ThbVf7R74FIEw?key=wLsuErVgqDz-qczrBI4kMctR)
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd05ZTsGjX9CIcPHktAWj3YbuqF1LLdHOlxL-th5ecEoJYDiWkiWiNVmnMq9LLWZdgo6mDE7BkRCqau4vf_z8R_t7NvXYWNkU8Cfo_N_oAn_-aq2cjxxtGl8KA9xfiCwslLIdSveg?key=wLsuErVgqDz-qczrBI4kMctR)
 
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfv4IFjvsyhbLPBUDR-phymn2-becTeiERutHTFFlOUdQWzhK2SmLTOJ0FRVfBIFmDrP1ijwB0SDWQXHmFgsbA0Xs_zBL6HofMMICDL427N-vpas-YHe_O5Io2lExpTjfNuFj7e?key=wLsuErVgqDz-qczrBI4kMctR)
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdtPlyqi54Llw1GSpS1hEowpRCNhqCsT6dGBy7h0pQKIDnOBP1PKBLHqJCIKReBY98qBX6xp1mMLFGeTn6tUmLKIC2AnOMFwryzf6BQ4MLZiAHOBPImvyW-Xxgs_RQExkMz8OXZ?key=wLsuErVgqDz-qczrBI4kMctR)
 
 **Contribuciones por Integrante**
 
@@ -159,10 +164,93 @@ A continuación, se detallan las contribuciones individuales de cada miembro del
 **Fabrizio Alessandro Contreras Peralta:**
 
 - **Sprint Backlog 2 y Evidencia de Desarrollo.** Añadió el Sprint Backlog 2 y la evidencia de desarrollo para la revisión del Sprint al README.md, detallando las historias de usuario, tareas y progreso, lo que es vital para el seguimiento del proyecto.
-
-**Actualización de Información del Proyecto y Línea de Tiempo del Sprint 2.** Actualizó el README.md para corregir el tipo de proyecto y revisar la línea de tiempo del Sprint 2, añadiendo nuevas secciones para el diseño de software y la evidencia de despliegue.
+- **Actualización de Información del Proyecto y Línea de Tiempo del Sprint 2.** Actualizó el README.md para corregir el tipo de proyecto y revisar la línea de tiempo del Sprint 2, añadiendo nuevas secciones para el diseño de software y la evidencia de despliegue.
 
 TB2: Desarrollo de la web service y web app.
+
+ **Jonatan Ariel Acuña Corahua**
+
+- Lideró la redacción de la sección **Services Documentation Evidence**, detallando endpoints, métodos HTTP, y ejemplos de respuestas.
+
+  
+
+- Participó en la creación y actualización de la matriz **LACX (Leadership and Collaboration Matrix)**.
+
+  
+
+- Aportó a las conclusiones del **Student Outcome 3**, enfocándose en la organización y visión general del trabajo del equipo.
+
+  
+
+ **Fabrizio Alessandro Contreras Peralta**
+
+- Documentó la funcionalidad del módulo de **Analytics**, incluyendo endpoints relacionados y estructura de acciones en la API.
+
+  
+
+- Describió hallazgos obtenidos en entrevistas a usuarios con enfoque en el editor de diseño y herramientas disponibles.
+
+  
+
+- Apoyó en la mejora de la redacción del registro de versiones y en la vinculación con artefactos técnicos.
+
+  
+
+**Dante Mateo Alemán Romano**
+
+- Se encargó de redactar la sección técnica de Access Security, destacando flujos de autenticación y ejemplos de parámetros.
+
+  
+
+- Describió la experiencia del entrevistado fabricante, vinculando sus necesidades con ajustes funcionales en el sistema.
+
+  
+
+- Colaboró en la edición general del informe y validación de congruencia entre los entregables escritos y los funcionales.
+
+  
+
+**Neil Aldrin Wilhelm Curipaco Huayllani**
+
+- Redactó las secciones correspondientes a observaciones de usuarios compradores en entrevistas, incluyendo propuestas derivadas.
+
+  
+
+- Colaboró en la traducción de feedback en mejoras de producto, integrando estas como nuevas historias de usuario.
+
+  
+
+- Participó en la redacción de resultados relacionados al módulo de órdenes y catálogo.
+
+  
+
+**Renzo Andrés Luque Minaya**
+
+- Aportó en la redacción de endpoints y documentación del módulo de Product Catalog, alineado con el repositorio backend.
+
+  
+
+- Apoyó en la revisión cruzada de contenido técnico del informe.
+
+  
+
+**Brayan Roberto Ccarita Cruz**
+
+- Participó en la documentación del módulo de Order Fulfillment, incluyendo especificación de rutas y estados.
+
+  
+
+- Desarrolló parte de la estructura de la sección de entrevistas desde el punto de vista operativo de los fabricantes.
+
+  
+
+ **Juan Carlos Alvarado De La Cruz**
+
+- Redactó contenido relacionado con la exploración del catálogo y diseño en la plataforma web, según lo expresado por usuarios entrevistados.
+
+  
+
+- Participó en la integración de los endpoints del módulo de búsqueda en la documentación técnica.
 
 Contenido
 
@@ -344,8 +432,12 @@ ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un 
 
 | Criterio específico                                          | Acciones realizadas                                          | Conclusiones                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Comunica oralmente con efectividad a diferentes rangos de audiencia | Jonatan Acuña Corahua Acciones TB1:Durante TB1, Jonatan expuso con claridad el *Context Diagram* y el *Container Diagram*, explicando oralmente en sesiones grupales la lógica detrás de la estructura modular del sistema, los roles de los contenedores (frontend, backend, base de datos) y su relación con los actores externos como clientes, diseñadores y proveedores. También participó activamente en la reunión de planificación del Sprint 1, donde justificó la priorización de tareas y propuso la asignación de responsabilidades en función de las capacidades técnicas del equipo. **Acciones TB2:**En TB2, lideró la presentación oral de los *Component Diagrams*, detallando los ajustes realizados en las interfaces internas, responsabilidades de los servicios y flujos de comunicación entre módulos. Durante la Sprint Review, contextualizó los cambios en la arquitectura frente a nuevos requerimientos funcionales, y explicó con precisión la lógica detrás de la reconfiguración de servicios y puntos de integración. Renzo Alexander Luque Romero **Acciones TB1:**Durante TB1, Renzo participó activamente en sesiones de exposición del análisis competitivo, donde explicó oralmente la metodología empleada para comparar a TeeLab con plataformas como Custom Ink, Spreadshirt y Rafasshop. Presentó los resultados de la matriz competitiva y el análisis FODA, detallando cómo las estrategias actuales del mercado influencian la propuesta de valor de TeeLab. Su discurso integró conceptos de marketing digital, diferenciación y accesibilidad, facilitando la comprensión del contexto competitivo por parte del equipo y de los docentes. **Acciones TB2:**En TB2, Renzo participó como expositor en la Sprint Review 2, enfocándose en los cambios realizados en las historias de usuario y en el Impact Mapping. Explicó con precisión cómo se ajustaron las funcionalidades del sistema en función de las metas de negocio, actores involucrados y los impactos esperados. También argumentó de forma oral los criterios para priorizar ciertas funcionalidades en el Product Backlog, integrando perspectiva funcional, técnica y de usuario. Neil Aldrin Wilhelm Curipaco Huayllani **Acciones TB1:**Durante TB1, Renzo redactó el análisis competitivo de TeeLab, documentando detalladamente la propuesta de valor, canales de distribución, precios, herramientas de diseño y estrategias de marketing de cada competidor. También desarrolló un análisis FODA para cada uno, organizando los hallazgos en un formato claro y comparativo. Además, participó en la redacción de la sección de estrategias diferenciadoras, integrando lenguaje estratégico con justificaciones técnicas. **Acciones TB2:**En TB2, Renzo actualizó varias historias de usuario aplicando el formato Gherkin completo y aseguró que cada historia tuviera criterios de aceptación claros, coherentes y medibles. También participó en la actualización del Impact Mapping, organizando relaciones entre metas, actores y entregables. Su documentación permitió trazar fácilmente cómo cada funcionalidad contribuía al propósito general del sistema. Fabrizio Alessandro Contreras Peralta **Acciones TB1:**Durante TB1, Fabrizio presentó en sesiones de equipo los artefactos UX generados a partir del needfinding, como las User Personas, User Task Matrix y Empathy Maps. Explicó con claridad cómo cada herramienta ayudaba a representar las necesidades emocionales, cognitivas y operativas de los distintos segmentos de usuarios. Además, participó en la socialización del As-is Scenario Mapping, detallando puntos de fricción detectados y oportunidades de mejora. Su lenguaje fue accesible, con un balance entre términos técnicos y referencias prácticas, facilitando la comprensión entre diseñadores, desarrolladores y docentes. **Acciones TB2:**En TB2, presentó oralmente los ajustes realizados en los wireframes, mockups y style guidelines. Explicó cómo las correcciones respondían a principios de usabilidad, accesibilidad y consistencia visual, y argumentó decisiones sobre estructura, jerarquía y navegación. También participó en la exposición del diseño UI de la landing page y de los flujos de usuario, justificando cambios gráficos a partir de datos cualitativos y directrices técnicas. Mateo Dante Alemán Romano**Acciones TB1:**Durante TB1, Mateo expuso el marco conceptual del proyecto, incluyendo los antecedentes, la problemática y el enfoque Lean UX. En sesiones de revisión, explicó oralmente el Lean UX Canvas, detallando cómo los supuestos, hipótesis y problemas de negocio se alineaban con las funcionalidades propuestas. También participó en la discusión del Ubiquitous Language, justificando los términos normalizados y su relación con el dominio de la personalización de camisetas. Su presentación se centró en articular la lógica entre estrategia de producto, necesidades del usuario y decisiones de diseño. **Acciones TB2:**En TB2, Mateo presentó los cambios realizados en la arquitectura de información del sistema. Explicó los ajustes en Organization Systems, Labeling Systems, Navigation y SEO Tags, destacando cómo cada mejora contribuía a la usabilidad, accesibilidad y rendimiento de la plataforma. También intervino en la revisión del entorno de desarrollo, detallando configuraciones técnicas y flujos de despliegue continuo. Participó en la Sprint Review 2 como vocero técnico y metodológico. | Jonatan Acuña Corahua **Conclusión TB1:**Demostró una comunicación oral técnica y estructurada, adaptando su lenguaje para explicar conceptos complejos de arquitectura a compañeros y docentes. Su capacidad para argumentar decisiones técnicas en contextos colaborativos permitió facilitar el entendimiento general y la toma de decisiones grupales. **Conclusión TB2:**Consolidó su capacidad de comunicación oral técnica, articulando adecuadamente decisiones arquitectónicas ante una audiencia diversa. Su intervención permitió que tanto docentes como el equipo comprendieran la evolución del sistema y validaran su escalabilidad y coherencia estructural. Renzo Alexander Luque Romero **Conclusión TB1:**Demostró habilidades de comunicación oral al presentar con claridad y seguridad un análisis estratégico, adecuando su lenguaje técnico a una audiencia mixta. Su intervención aportó una visión de negocio clave para orientar las decisiones funcionales del equipo. **Conclusión TB2:**Mostró madurez en la comunicación estratégica, presentando oralmente las relaciones entre decisiones funcionales y objetivos de negocio. Su capacidad para justificar y contextualizar prioridades evidenció comprensión integral del producto y fortaleció la cohesión del equipo. Neil Aldrin Wilhelm Curipaco Huayllani **Conclusión TB1:**Su redacción fue estructurada y persuasiva, permitiendo comprender de forma clara las oportunidades y desafíos del proyecto. Su documentación fue útil tanto para el equipo técnico como para las decisiones de diseño estratégico. **Conclusión TB2:**Evidenció dominio en la documentación funcional, articulando adecuadamente requerimientos técnicos, criterios de validación y objetivos de negocio. Su redacción fortaleció la trazabilidad del backlog y facilitó la validación cruzada entre artefactos. Fabrizio Alessandro Contreras Peralta **Conclusión TB1:**Mostró dominio en la comunicación visual y conceptual de artefactos UX, adaptando su exposición a distintos perfiles del equipo. Su claridad y empatía comunicativa fortalecieron la alineación de la solución con las necesidades del usuario. **Conclusión TB2:**Consolidó su habilidad para comunicar decisiones visuales y de interfaz, conectando diseño estético con funcionalidad. Su capacidad para explicar con fundamentos técnicos las decisiones de UI/UX fortaleció la cohesión entre diseño y desarrollo. Mateo Dante Alemán Romano**Conclusión TB1:**Demostró una comunicación oral clara, argumentativa y estructurada, ideal para exponer ideas estratégicas ante un equipo técnico y docente. Facilitó la comprensión de decisiones metodológicas y conceptuales dentro del diseño de la solución. **Conclusión TB2:**Consolidó una comunicación técnica precisa y versátil, articulando de forma eficaz los vínculos entre decisiones de arquitectura, experiencia de usuario y configuración del entorno. Su intervención fortaleció la claridad del sistema desde una perspectiva estructural y funcional. |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | Jonatan Acuña Corahua**Acciones TB1:**Durante TB1, redactó la documentación formal de los *Context* y *Container Diagrams* bajo el enfoque C4, describiendo funciones, interacciones y límites de cada componente. Además, contribuyó a la construcción del Sprint Backlog, redactando historias de usuario con lenguaje claro y técnico, vinculando funcionalidades con necesidades del dominio y facilitando su trazabilidad en el desarrollo. Su redacción fue precisa, coherente y adecuada al formato técnico del curso. **Acciones TB2:**Redactó la documentación completa del *Component Diagram*, describiendo módulos internos, responsabilidades, entradas y salidas. También escribió las evidencias técnicas para la Sprint Review 2, incluyendo registros de ejecución, documentación de servicios y configuración de despliegue. Organizó esta información con claridad, conectando cada elemento técnico con su objetivo funcional dentro del sistema. Renzo Alexander Luque Romero **Acciones TB1:**Durante TB1, Renzo redactó el análisis competitivo de TeeLab, documentando detalladamente la propuesta de valor, canales de distribución, precios, herramientas de diseño y estrategias de marketing de cada competidor. También desarrolló un análisis FODA para cada uno, organizando los hallazgos en un formato claro y comparativo. Además, participó en la redacción de la sección de estrategias diferenciadoras, integrando lenguaje estratégico con justificaciones técnicas. **Acciones TB2:**En TB2, Renzo actualizó varias historias de usuario aplicando el formato Gherkin completo y aseguró que cada historia tuviera criterios de aceptación claros, coherentes y medibles. También participó en la actualización del Impact Mapping, organizando relaciones entre metas, actores y entregables. Su documentación permitió trazar fácilmente cómo cada funcionalidad contribuía al propósito general del Neil Aldrin Wilhelm Curipaco Huayllani**Acciones TB1:**Neil redactó las secciones del informe relacionadas al diseño y ejecución de entrevistas, incluyendo la estructura de los formularios, los criterios de segmentación y el registro de resultados. También elaboró el análisis cualitativo de patrones de comportamiento y redactó parte de la sección de User Research dentro del capítulo de especificación de requisitos. Su documentación incluyó capturas, citas relevantes y observaciones contextuales. **Acciones TB2:**** ** En TB2, Neil actualizó y documentó los cambios realizados en el diseño de base de datos, reorganizando las entidades y relaciones según las nuevas necesidades funcionales. Redactó el diagrama entidad-relación corregido e incluyó explicaciones sobre claves primarias, foráneas y tipos de datos ajustados. También aportó en la sección escrita del Impact Mapping, organizando su estructura lógica y justificando conexiones. Fabrizio Alessandro Contreras Peralta **Acciones TB1:**Fabrizio redactó la documentación asociada al needfinding, incluyendo la sistematización de hallazgos y la descripción de los artefactos generados (User Personas, Task Matrix, Journey Maps, Empathy Maps). Su redacción destacó por ser clara, ordenada y alineada con los estándares de UX research. Además, documentó el As-is Scenario Mapping en Miro y lo complementó con descripciones por fase, pensamiento, emoción y oportunidades detectadas. **Acciones TB2:**En TB2, actualizó las Style Guidelines tanto generales como web, corrigiendo problemas de contraste, alineación y espaciado. Documentó los nuevos estándares gráficos con capturas, reglas y recomendaciones para los componentes. También desarrolló los mockups y wireframes de la landing page y los documentó con comentarios explicativos sobre cada sección visual. Mateo Dante Alemán Romano **Acciones TB1:**Redactó los apartados correspondientes a los antecedentes y la problemática, aplicando la técnica 5W2H para estructurar de forma clara y concisa el enfoque inicial del proyecto. También documentó el Lean UX Canvas, formulando hipótesis, supuestos y objetivos de aprendizaje con lenguaje formal y orientado a producto. Participó en la definición escrita del Ubiquitous Language, describiendo términos clave como “Blueprint Designer”, “Design Lab” y “Garment Canvas”, alineados al modelo de dominio. **Acciones TB2:**En TB2, revisó y corrigió los elementos del Ubiquitous Language para garantizar consistencia semántica en todo el proyecto. Redactó la documentación de configuración del entorno de desarrollo, incluyendo estructuras de carpetas, convenciones de commits, variables de entorno y automatización de despliegue. También participó en la documentación del capítulo de arquitectura de información, explicando decisiones sobre organización, etiquetas y buscabilidad del sistema. | Jonatan Acuña Corahua**Conclusión TB1:**Evidenció dominio en la comunicación escrita técnica, redactando con claridad y precisión documentos funcionales clave. Su documentación facilitó el trabajo colaborativo al servir como referencia estructurada para el diseño e implementación de los primeros módulos del sistema. **Conclusión TB2:**Mostró solidez en la documentación escrita avanzada, integrando precisión técnica y orden lógico en la presentación de los artefactos de arquitectura y despliegue. Su producción escrita reflejó una comprensión profunda del sistema y contribuyó directamente al seguimiento y validación del desarrollo en TB2. Renzo Alexander Luque Romero **Conclusión TB1:**Su redacción fue estructurada y persuasiva, permitiendo comprender de forma clara las oportunidades y desafíos del proyecto. Su documentación fue útil tanto para el equipo técnico como para las decisiones de diseño estratégico. **Conclusión TB2:**Evidenció dominio en la documentación funcional, articulando adecuadamente requerimientos técnicos, criterios de validación y objetivos de negocio. Su redacción fortaleció la trazabilidad del backlog y facilitó la validación cruzada entre artefactos. Neil Aldrin Wilhelm Curipaco Huayllani**Conclusión TB1:**Su comunicación escrita fue precisa, ordenada y detallada. Logró registrar de forma rigurosa tanto el proceso como los hallazgos de investigación, sirviendo como base confiable para la creación de artefactos UX. **Conclusión TB2:**Consolidó una redacción técnica clara y alineada con la arquitectura del sistema, facilitando la comprensión del modelo de datos y de la planificación funcional. Su documentación sirvió de guía tanto para desarrolladores como para validar la estructura relacional frente a los requerimientos definidos. Fabrizio Alessandro Contreras Peralta **Conclusión TB1:**Demostró capacidad para redactar documentación UX detallada y coherente, articulando datos cualitativos y diseño centrado en el usuario. Su producción escrita facilitó el diseño colaborativo y la identificación de mejoras funcionales. **Conclusión TB2:**Consolidó una redacción técnica y visual orientada al diseño, capaz de guiar la implementación de interfaces consistentes y accesibles. Su documentación fue clave para garantizar coherencia gráfica en toda la plataforma. Mateo Dante Alemán Romano**Conclusión TB1:**Produjo documentación estratégica con precisión conceptual, estructurando correctamente ideas complejas y articulando lenguaje funcional, técnico y de negocio en un mismo cuerpo de texto. **Conclusión TB2:**Mostró un nivel avanzado de redacción técnica y arquitectónica, logrando producir documentos robustos que sirvieron como guías tanto para el equipo de desarrollo como para docentes evaluadores. Su escritura contribuyó a la sostenibilidad y escalabilidad del proyecto. |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia | Jonatan Acuña Corahua <br />Acciones TB1:<br />Durante TB1, Jonatan expuso con claridad el *Context Diagram* y el *Container Diagram*, explicando oralmente en sesiones grupales la lógica detrás de la estructura modular del sistema, los roles de los contenedores (frontend, backend, base de datos) y su relación con los actores externos como clientes, diseñadores y proveedores. También participó activamente en la reunión de planificación del Sprint 1, donde justificó la priorización de tareas y propuso la asignación de responsabilidades en función de las capacidades técnicas del equipo. <br />Acciones TB1:<br />En TP1, lideró la presentación oral de los *Component Diagrams*, detallando los ajustes realizados en las interfaces internas, responsabilidades de los servicios y flujos de comunicación entre módulos. Durante la Sprint Review, contextualizó los cambios en la arquitectura frente a nuevos requerimientos funcionales, y explicó con precisión la lógica detrás de la reconfiguración de servicios y puntos de integración. <br /><br />Renzo Alexander Luque Romero <br />Acciones TB1:<br />Durante TB1, Renzo participó activamente en sesiones de exposición del análisis competitivo, donde explicó oralmente la metodología empleada para comparar a TeeLab con plataformas como Custom Ink, Spreadshirt y Rafasshop. Presentó los resultados de la matriz competitiva y el análisis FODA, detallando cómo las estrategias actuales del mercado influencian la propuesta de valor de TeeLab. Su discurso integró conceptos de marketing digital, diferenciación y accesibilidad, facilitando la comprensión del contexto competitivo por parte del equipo y de los docentes. <br />Acciones TP1:<br />En TP1, Renzo participó como expositor en la Sprint Review 2, enfocándose en los cambios realizados en las historias de usuario y en el Impact Mapping. Explicó con precisión cómo se ajustaron las funcionalidades del sistema en función de las metas de negocio, actores involucrados y los impactos esperados. También argumentó de forma oral los criterios para priorizar ciertas funcionalidades en el Product Backlog, integrando perspectiva funcional, técnica y de usuario. <br /><br />Neil Aldrin Wilhelm Curipaco Huayllani<br /><br /> Acciones TB1:<br />Durante TB1, Neil redactó el análisis competitivo de TeeLab, documentando detalladamente la propuesta de valor, canales de distribución, precios, herramientas de diseño y estrategias de marketing de cada competidor. También desarrolló un análisis FODA para cada uno, organizando los hallazgos en un formato claro y comparativo. Además, participó en la redacción de la sección de estrategias diferenciadoras, integrando lenguaje estratégico con justificaciones técnicas.<br /><br /> Acciones TP1:<br /><br />En TP1, Neil actualizó varias historias de usuario aplicando el formato Gherkin completo y aseguró que cada historia tuviera criterios de aceptación claros, coherentes y medibles. También participó en la actualización del Impact Mapping, organizando relaciones entre metas, actores y entregables. Su documentación permitió trazar fácilmente cómo cada funcionalidad contribuía al propósito general del sistema. <br /><br />Fabrizio Alessandro Contreras Peralta <br />Acciones TB1:<br /><br />Durante TB1, Fabrizio presentó en sesiones de equipo los artefactos UX generados a partir del needfinding, como las User Personas, User Task Matrix y Empathy Maps. Explicó con claridad cómo cada herramienta ayudaba a representar las necesidades emocionales, cognitivas y operativas de los distintos segmentos de usuarios. Además, participó en la socialización del As-is Scenario Mapping, detallando puntos de fricción detectados y oportunidades de mejora. Su lenguaje fue accesible, con un balance entre términos técnicos y referencias prácticas, facilitando la comprensión entre diseñadores, desarrolladores y docentes.<br /> Acciones TP1:<br />En TP1, presentó oralmente los ajustes realizados en los wireframes, mockups y style guidelines. Explicó cómo las correcciones respondían a principios de usabilidad, accesibilidad y consistencia visual, y argumentó decisiones sobre estructura, jerarquía y navegación. También participó en la exposición del diseño UI de la landing page y de los flujos de usuario, justificando cambios gráficos a partir de datos cualitativos y directrices técnicas. <br /><br />Mateo Dante Alemán Romano<br />Acciones TB1:<br /><br />Durante TB1, Mateo expuso el marco conceptual del proyecto, incluyendo los antecedentes, la problemática y el enfoque Lean UX. En sesiones de revisión, explicó oralmente el Lean UX Canvas, detallando cómo los supuestos, hipótesis y problemas de negocio se alineaban con las funcionalidades propuestas. También participó en la discusión del Ubiquitous Language, justificando los términos normalizados y su relación con el dominio de la personalización de camisetas. Su presentación se centró en articular la lógica entre estrategia de producto, necesidades del usuario y decisiones de diseño. <br /><br />Acciones TP1:<br /><br />En TP1, Mateo presentó los cambios realizados en la arquitectura de información del sistema. Explicó los ajustes en Organization Systems, Labeling Systems, Navigation y SEO Tags, destacando cómo cada mejora contribuía a la usabilidad, accesibilidad y rendimiento de la plataforma. También intervino en la revisión del entorno de desarrollo, detallando configuraciones técnicas y flujos de despliegue continuo. Participó en la Sprint Review 2 como vocero técnico y metodológico. | Conclusión grupal TB1:<br />Durante TB1, como equipo fuimos conscientes de la importancia de una comunicación oral clara y adaptada a los distintos públicos involucrados en el proyecto. Nos esforzamos por transmitir nuestras ideas de manera estructurada, asegurando que tanto docentes como compañeros comprendieran la lógica detrás de nuestras decisiones técnicas, estratégicas y de diseño. Reconocimos que no basta con saber; también es clave saber explicar, y por ello trabajamos en presentar con un lenguaje accesible, argumentativo y contextualizado. Esta primera entrega nos permitió identificar nuestras fortalezas individuales en la exposición oral y también los espacios donde debíamos mejorar para lograr una mayor fluidez y conexión con diferentes audiencias.<br /><br />Conclusión grupal TP1<br /><br />En TP1, consolidamos una comunicación oral más madura, efectiva y estratégica. Aprendimos a adaptar nuestro discurso no solo al contenido técnico o visual que presentábamos, sino también al tipo de audiencia, buscando siempre generar comprensión, interés y alineamiento. Logramos articular mejor nuestras ideas, justificar decisiones frente a cambios y priorizaciones, y presentar con seguridad tanto en escenarios colaborativos como evaluativos. Esta entrega nos hizo reflexionar sobre la importancia de comunicar no solo para informar, sino para generar consenso, promover participación y alinear perspectivas en entornos complejos. La experiencia nos reafirmó que la comunicación efectiva es una habilidad fundamental en el trabajo en equipo multidisciplinario. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | Jonatan Acuña Corahua<br /><br />Acciones TB1:<br />Durante TB1, redactó la documentación formal de los *Context* y *Container Diagrams* bajo el enfoque C4, describiendo funciones, interacciones y límites de cada componente. Además, contribuyó a la construcción del Sprint Backlog, redactando historias de usuario con lenguaje claro y técnico, vinculando funcionalidades con necesidades del dominio y facilitando su trazabilidad en el desarrollo. Su redacción fue precisa, coherente y adecuada al formato técnico del curso.<br /><br /> Acciones TP1:<br /><br />Redactó la documentación completa del *Component Diagram*, describiendo módulos internos, responsabilidades, entradas y salidas. También escribió las evidencias técnicas para la Sprint Review 2, incluyendo registros de ejecución, documentación de servicios y configuración de despliegue. Organizó esta información con claridad, conectando cada elemento técnico con su objetivo funcional dentro del sistema. <br /><br />Renzo Alexander Luque Romero Acciones TB1:<br />Durante TB1, Renzo redactó el análisis competitivo de TeeLab, documentando detalladamente la propuesta de valor, canales de distribución, precios, herramientas de diseño y estrategias de marketing de cada competidor. También desarrolló un análisis FODA para cada uno, organizando los hallazgos en un formato claro y comparativo. Además, participó en la redacción de la sección de estrategias diferenciadoras, integrando lenguaje estratégico con justificaciones técnicas. <br /><br />Acciones TP1:<br />En TP1, Renzo actualizó varias historias de usuario aplicando el formato Gherkin completo y aseguró que cada historia tuviera criterios de aceptación claros, coherentes y medibles. También participó en la actualización del Impact Mapping, organizando relaciones entre metas, actores y entregables. Su documentación permitió trazar fácilmente cómo cada funcionalidad contribuía al propósito general. <br /><br />Neil Aldrin Wilhelm Curipaco Huayllani<br /><br />Acciones TB1:Neil redactó las secciones del informe relacionadas al diseño y ejecución de entrevistas, incluyendo la estructura de los formularios, los criterios de segmentación y el registro de resultados. También elaboró el análisis cualitativo de patrones de comportamiento y redactó parte de la sección de User Research dentro del capítulo de especificación de requisitos. Su documentación incluyó capturas, citas relevantes y observaciones contextuales. <br /><br />Acciones TP1:  <br />En TP1, Neil actualizó y documentó los cambios realizados en el diseño de base de datos, reorganizando las entidades y relaciones según las nuevas necesidades funcionales. Redactó el diagrama entidad-relación corregido e incluyó explicaciones sobre claves primarias, foráneas y tipos de datos ajustados. También aportó en la sección escrita del Impact Mapping, organizando su estructura lógica y justificando conexiones. <br /><br />Fabrizio Alessandro Contreras Peralta <br />Acciones TB1:<br />Fabrizio redactó la documentación asociada al needfinding, incluyendo la sistematización de hallazgos y la descripción de los artefactos generados (User Personas, Task Matrix, Journey Maps, Empathy Maps). Su redacción destacó por ser clara, ordenada y alineada con los estándares de UX research. Además, documentó el As-is Scenario Mapping en Miro y lo complementó con descripciones por fase, pensamiento, emoción y oportunidades detectadas. <br /><br />Acciones TP1:<br />En TP1, actualizó las Style Guidelines tanto generales como web, corrigiendo problemas de contraste, alineación y espaciado. Documentó los nuevos estándares gráficos con capturas, reglas y recomendaciones para los componentes. También desarrolló los mockups y wireframes de la landing page y los documentó con comentarios explicativos sobre cada sección visual. <br /><br />Mateo Dante Alemán Romano <br />Acciones TB1:<br />Redactó los apartados correspondientes a los antecedentes y la problemática, aplicando la técnica 5W2H para estructurar de forma clara y concisa el enfoque inicial del proyecto. También documentó el Lean UX Canvas, formulando hipótesis, supuestos y objetivos de aprendizaje con lenguaje formal y orientado a producto. Participó en la definición escrita del Ubiquitous Language, describiendo términos clave como “Blueprint Designer”, “Design Lab” y “Garment Canvas”, alineados al modelo de dominio. <br /><br />Acciones TP1:<br />En TP1, revisó y corrigió los elementos del Ubiquitous Language para garantizar consistencia semántica en todo el proyecto. Redactó la documentación de configuración del entorno de desarrollo, incluyendo estructuras de carpetas, convenciones de commits, variables de entorno y automatización de despliegue. También participó en la documentación del capítulo de arquitectura de información, explicando decisiones sobre organización, etiquetas y buscabilidad del sistema. | Conclusión grupal TB1:<br />Durante TB1, como equipo comprendimos que la comunicación escrita efectiva es fundamental para alinear a los distintos perfiles involucrados en el desarrollo del proyecto, desde diseñadores hasta evaluadores técnicos. Logramos producir documentos claros, estructurados y pertinentes, capaces de traducir ideas complejas en lenguaje accesible sin perder rigurosidad técnica. Cada integrante aportó desde su rol con una redacción enfocada en objetivos específicos, ya sea explicando el sistema, los competidores, o los elementos UX. Esta entrega nos permitió reconocer que escribir bien no es solo redactar correctamente, sino construir un puente entre distintas áreas del proyecto y facilitar la colaboración interdisciplinaria desde los primeros avances.Conclusión grupal TP1<br />En TP1, fortalecimos nuestra capacidad de comunicación escrita elevando el nivel de precisión, profundidad y adecuación al lector. Los artefactos producidos no solo respondieron a estándares técnicos y metodológicos, sino que también fueron herramientas útiles para la toma de decisiones, el desarrollo ágil y la validación cruzada. Aprendimos a escribir con propósito, teniendo en cuenta tanto a usuarios técnicos como estratégicos, y garantizando trazabilidad, coherencia visual y funcional. Esta entrega nos reafirmó que una buena documentación no solo registra el trabajo realizado, sino que guía, ordena y da sostenibilidad al proyecto, especialmente en contextos colaborativos y multidisciplinarios. |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia | Acciones TB2:<br />Jonatan Ariel Acuña CorahuaParticipó activamente en las reuniones de Sprint Planning y Review, asumiendo el rol de facilitador en sesiones clave. Explicó de forma clara los alcances técnicos de los endpoints de Web Service y las necesidades del usuario durante las entrevistas simuladas.Renzo Andrés Luque MinayaSe comunicó con claridad durante reuniones internas, enfocándose en temas del Product Catalog. Presentó observaciones funcionales del editor desde el punto de vista del diseñador durante las entrevistas simuladas.<br />Fabrizio Alessandro Contreras PeraltaExplicó con solvencia sus aportes al módulo Analytics durante las reuniones. Su intervención en entrevistas desde el enfoque del diseñador fue clara y empática con las necesidades del usuario.<br />Dante Mateo Alemán RomanoComunicó con precisión técnica los procesos de autenticación durante sesiones internas. Participó activamente en la entrevista desde la perspectiva del fabricante, formulando preguntas claras y pertinentes.<br />Neil Aldrin Wilhelm Curipaco HuayllaniSe desenvolvió con claridad en sesiones colaborativas, facilitando la conexión entre necesidades del usuario y decisiones técnicas. Participó en entrevistas y sintetizó hallazgos verbalmente con efectividad.<br />Brayan Roberto Ccarita CruzComunicó de forma clara los avances del módulo de Fulfillments en reuniones técnicas, facilitando la integración de su trabajo con otros miembros.<br />Juan Carlos Alvarado De La CruzParticipó en sesiones de planificación y coordinación presentando aportes sobre el módulo de búsqueda y filtrado del catálogo. Se comunicó efectivamente al proponer mejoras en la experiencia de búsqueda del usuario. | Conclusión grupal del TB2:<br />Durante el desarrollo del Sprint 3, el equipo demostró una comunicación oral efectiva y colaborativa en diversas instancias clave como reuniones de planificación, revisiones de Sprint y entrevistas con distintos perfiles de usuario. Todos los miembros participaron activamente, adaptando su lenguaje según la audiencia: desde explicaciones técnicas entre desarrolladores hasta lenguaje funcional al conversar desde la perspectiva de usuarios o stakeholders. La participación en entrevistas simuladas fue fundamental para identificar mejoras en la experiencia de usuario, y se comunicaron hallazgos de manera clara y argumentada. Asimismo, se evidenció una mejora progresiva en la fluidez y claridad de exposición de ideas conforme avanzaban las sesiones del equipo. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | Acciones TB2:<br />Jonatan Ariel Acuña CorahuaRedactó secciones del LACX y la documentación técnica en OpenAPI. Su comunicación escrita se destacó por su claridad al describir los flujos de usuario y la organización estructural del proyecto en el backlog.<br />Renzo Andrés Luque MinayaRedactó y validó contenido técnico en la documentación de endpoints. Aportó de forma estructurada al backlog, priorizando la coherencia narrativa entre la funcionalidad y la experiencia de usuario.<br />Fabrizio Alessandro Contreras PeraltaDocumentó de forma técnica y ordenada los endpoints relacionados con Analytics. Sus contribuciones escritas al backlog y criterios de aceptación mejoraron la trazabilidad y consistencia funcional del sistema.<br />Dante Mateo Alemán RomanoRedactó secciones del LACX y contribuyó a mejorar la narrativa del To-Be Mapping. Su documentación en OpenAPI sobre Access Security fue detallada y orientada a la comprensión por desarrolladores y testers.<br />Neil Aldrin Wilhelm Curipaco HuayllaniElaboró la redacción de observaciones derivadas de entrevistas y su traducción en historias de usuario. Su participación escrita también incluyó la estructuración de los primeros entregables del proyecto.<br />Brayan Roberto Ccarita CruzRedactó de manera precisa los fragmentos de documentación técnica (OpenAPI) y colaboró en organizar el repositorio para facilitar la comprensión del flujo de endpoints y pruebas.<br />Juan Carlos Alvarado De La CruzDocumentó los cambios implementados en el filtro de productos por precio, texto y etiquetas. Su comunicación escrita en GitHub y en artefactos técnicos fue clara y específica en cuanto a funcionalidades. | Conclusión grupal de TB2:<br />En cuanto a la comunicación escrita, el equipo logró redactar artefactos técnicos y funcionales con un alto nivel de claridad y coherencia. Se produjeron entregables como el LACX (Leadership and Collaboration Matrix), documentación OpenAPI de endpoints, historias de usuario con formato Gherkin, observaciones de entrevistas, y actualizaciones al Product Backlog. La escritura se mantuvo organizada, precisa y enfocada en las necesidades tanto del equipo técnico como de los usuarios finales. La documentación generada fue esencial para la trazabilidad del proyecto y para el entendimiento compartido entre miembros que trabajaron en diferentes partes del sistema (Web App y Web Service). |
+
+ 
 
 # 1. Capítulo I: Introducción
 
@@ -383,6 +475,13 @@ Más que facilitar la creación de camisetas, en Teelab by Quri impulsamos que c
 | Alumno: Curipaco Huayllani, Neil Aldrin Wilhelm Código: u20231b866Carrera: Ingeniería de Software |                                                              |
 | Soy Neil Curipaco Huayllani. Estoy cursando el 4to ciclo de la carrera de Ingeniería de Software en la UPC. Me gusta jugar videojuegos, aprender cosas nuevas, escuchar música y mejorar mis habilidades para ser de ayuda en el equipo de trabajo del que formo parte. | ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXetcuu3XtpLr2o8hPixF4A9CuRxnx43xTBZJo2MKYxTSvIXxbP1B-pl3UyVZt0RMTq3KYx7RGlQ9lZt_ssV3EGNq_wRgvUXIAykmyoZwhH2phVJgViQpELv_L_qhitMWuFAJc9f9w?key=wLsuErVgqDz-qczrBI4kMctR) |
 
+1. 
+
+| Alumno: Alvarado De La Cruz, Juan CarlosCódigo: u202216150Carrera: Ingeniería de Software |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Soy Juan Carlos Alvarado, soy estudiante de la carrera de Ing. de Software. Me gusta resolver problemas y aprender cosas que son de mi interés. | ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe-ANy5wBN2GJKBv34Q8qPSvUqcNY2WH4-Lzo3GuNeUu5At7e06bPR6aZ5AT_oTULLnI4Ko0md37aVsZM19CjFDaA4iPOFCy1owRmWgh70Z1zUhWy26XX3vG3ZRyZrz3lClH9254g?key=wLsuErVgqDz-qczrBI4kMctR) |
+| Alumno: Ccarita Cruz, Brayan RobertoCódigo: u20221c218Carrera: Ingeniería de Software |                                                              |
+| Soy Brayan Roberto Ccarita Cruz, me gusta aprender cosas nuevas cada que tengo oportunidad y poner en práctica lo aprendido en la vida real generando soluciones con impacto real. | ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe7X4bbl7sdad1qzgW4Qy93DjX-BmsYY2CCnzvuk0Bsz8rrFc9BSEvDjleEbV06kuzTsR-y4SlF_KaOajUd5wIDvp7wqCUIU8PLiGCpI33Wimy7KXUkVyX9UDCT8RxGy5tuZKmsSA?key=wLsuErVgqDz-qczrBI4kMctR) |
 
 ## 1.2. Solution Profile
 
@@ -1101,21 +1200,7 @@ Las user stories fueron elaboradas aplicando los principios de arquitectura hexa
 
 Se usaron criterios como: consistencia semántica, trazabilidad, claridad de propósito y separación de preocupaciones.
 
-| **N°** | **Epic Title**                                               | **Layer**                     |
-| ------ | ------------------------------------------------------------ | ----------------------------- |
-| 1      | Platform Presentation for Visitors (Landing Page)            | Landing Page                  |
-| 2      | Platform Presentation and Structural Layout for Users (Web Application) | Web Application               |
-| 3      | Product Design (Web Application)                             | Web Application               |
-| 4      | Design Blueprint Management (Web Application)                | Web Application               |
-| 5      | Access Security and Information Protection (Web Service)     | Web Service                   |
-| 6      | Purchase Processing and Order Confirmation (Web Application + Web Service) | Web Application + Web Service |
-| 7      | Order Status Tracking and Updates (Web Application)          | Web Application               |
-| 8      | Manufacturer Administration Pannel (Web Application / Web Service) | Web Application + Web Service |
-| 9      | User Configuration and Preferences (Web Application)         | Web Application               |
-| 10     | Multilingual Platform Support (Web Application)              | Web Application               |
-| 11     | Web Accessibility (Web Application)                          | Web Application               |
-| 12     | Adaptability to Multiple Devices and Resolutions (Web Application) | Web Application               |
-| 13     | Payment Transaction and Transaction Validation (Web Service) | Web Application               |
+
 
 | **StoryID** | **Tittle**                                                   | **Description**                                              | **Acceptance Criteria**                                      | **Epic** |
 | ----------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | -------- |
@@ -3763,11 +3848,44 @@ La colaboración se gestionó mediante GitHub, empleando ramas por feature, comm
 
 
 
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd6g5kCBX-TiUAmX1M4bluGhxuj7x77HK-m54e_TCjbBlaM0adAGQk6KQ-REABn3T85iFe70-ny_fyh3Et5q6Evm9ZcZ81Hm2oUYrptdGg3HsWoMoC6XeJjwOXiupflknnZ8o7XUQ?key=wLsuErVgqDz-qczrBI4kMctR)
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXehJvJ9PeeY8vfzqreZjx_CVzwS7XU-wUMbz1D_77_nUrqGu_LxL5LAuYPQCKT42zSVQLWxHfh3scVsc6rcp7qi_cV52RxDzMxgOQeRfhtyB9JTfnYt5jAMiVMRQo7vp0ffdk9TeA?key=wLsuErVgqDz-qczrBI4kMctR)
 Capturas de los commits 
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcvrIxcolaElkOLuvOIDroeb_xIP2JNPvx5FykZz9CdTfZn5xqs0QaOYBk_9LsfLHnEQPbRw1zZkoh43iMyAkRS4nUaOnsBn8-CGGt9ZNikSU0eDYW6A8u5dwyELclhV6VW_geKOw?key=wLsuErVgqDz-qczrBI4kMctR)
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdR_GcJnXmR-DyM9FS98w2eDGZrU9gTSmf8zQBKoqjT3MCdNBNbtRaF7uQrVK0lIFYfb0zMNF0mG4WZXp1ZM5xl1Kdkpsjuy46HO4tvjALXfluBPFba8W0NG5oBIOORYku3eOkwrA?key=wLsuErVgqDz-qczrBI4kMctR)
 
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeMzfgfqCdrQ4VveshcWESNKUNP2PsMqhKvShF03m8g9obLwQjq3qx5YlUuY_YUDBqMI0ksD1gcto3sGNZ54hFQzveWD2tCiQjRjpQOhPHpvoGfmtC29NhK8rqiTD80wzsc1-H9yw?key=wLsuErVgqDz-qczrBI4kMctR)
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeF58hFMvVUPZ_Cu7uoN4fADVwT-ICWpO0TomXyZ-WmwxgU6QkNOgfdzqNcze8ld0BEJo2_8XBgPfgS6cTqya5oOuQCWCS2lI1W0auqPuLWQOGyEjyjyGXIwhshxy3i31BFOnrHYQ?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Dado que hemos podido solucionar el problema del manejo de Gitflow se espera que para las próximas entregas se desarrolle sin este problema y con normalidad.
+
+
+**Neil Curipaco**
+
+**Estructuración HTML:** Se encargó de la creación de las estructuras HTML base para la landing page, sentando las bases del contenido.
+
+**Mejora de formularios y registros:** Realizó correcciones en los formularios de entrevistas para optimizar la recopilación de datos y actualizó los registros audiovisuales para una mejor presentación de los hallazgos.
+
+**Mateo Alemán**
+
+**Estilos y diseño visual:** Desarrolló los estilos CSS que dieron vida a la interfaz de la landing page, asegurando una estética coherente y atractiva.
+
+**Optimización de documentación:** Revisó y corrigió a fondo los antecedentes y la problemática del proyecto, mejorando la redacción y alineación con los hallazgos. Además, reestructuró y perfeccionó el Lean UX Process y sus componentes clave.
+
+**Ajuste de arquitectura de información:** Realizó correcciones en la arquitectura de información para mejorar la estructura y la accesibilidad del contenido de la landing page.
+
+**Jonatan Acuña**
+
+**Implementación de i18n:** Se encargó de la implementación de la internacionalización (i18n) para la landing page, facilitando su adaptación a diferentes idiomas y regiones.
+
+**Renzo Luque**
+
+**Aseguramiento de accesibilidad:** Trabajó en garantizar que la landing page fuera accesible para todos los usuarios, cumpliendo con estándares de usabilidad importantes.
+
+**Fabrizio Contreras**
+
+**SEO y Meta Tags:** Implementó estrategias de SEO y configuró los meta tags para optimizar la visibilidad de la landing page en los motores de búsqueda.
+
+**Diseño de interfaz:** Lideró el diseño de la interfaz de la landing page, creando tanto el wireframe como el mock-up, definiendo su estructura y apariencia final.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcKwz-F5KQUH4qgNAVyOZXIW8c0P-qI0ydpoqF6IVqZobavZ8xUyyUFnhv57BLsZs1MH0W3ZE_fFYxV_uDj67ve4QzEVqAL_9U0L9fT5sS9H6f9dthhvpCAL0M7p1-Qn4XgH7KOZA?key=wLsuErVgqDz-qczrBI4kMctR)
 
 
 
@@ -3989,7 +4107,7 @@ https://open-source-web-app.vercel.app/home
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
-Durante el Sprint 2, el equipo mantuvo un nivel de colaboración constante y equilibrado en todas las capas de la solución (Landing Page, Web App y Web Services). A continuación se describen las principales prácticas y métricas de colaboración:
+Durante el Sprint 2, el equipo mantuvo un nivel de colaboración constante y equilibrado en todas las capas de la solución (Landi. A continuación se describen las principales prácticas y métricas de colaboración:
 
 **Navegación y Layout de la Plataforma:** Se trabajó en la estructura de navegación a través del sidebar, implementando un componente responsive y basado en roles. También se abordaron acciones desde la toolbar, el enrutamiento dinámico en el cuerpo principal, la visualización del enrutamiento activo, estilos para el estado activo, la capacidad de colapsar el sidebar en pantallas pequeñas y la manipulación del layout en diferentes breakpoints. Se buscó mejorar la usabilidad con un toolbar fijo y el manejo del scroll vertical, así como aplicar un posicionamiento sticky y layering al toolbar.
 
@@ -4003,7 +4121,672 @@ Durante el Sprint 2, el equipo mantuvo un nivel de colaboración constante y equ
 
 **Blueprints de Diseño:** Se implementaron funcionalidades para crear, instanciar (como un lienzo en blanco), guardar, cargar y eliminar "Design Blueprints", así como para serializar y persistir el estado del canvas. También se incluyeron tareas para recuperar e hidratar canvas desde blueprints almacenados, eliminar data y assets de blueprints, renombrar y duplicar blueprints, actualizar el título en la base de datos e interfaz, clonar blueprints asignando un nuevo ID, publicar blueprints y gestionar su visibilidad y compartición, incluyendo la generación de links compartibles con control de acceso.
 
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcDxWQHkb0l2kBSeG4MryMroi8o5R_l-zQr703cqltN_L612J4-REncTgNS6D4mUagIbn4s5642Scy3QrG5rIRhjoFeulBe3YULU70K_FEbrjuq0ob3oBMNSYZx1BnlzI3wWUgS?key=wLsuErVgqDz-qczrBI4kMctR)
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXetRexLKQmPrux15yPZ4AZc69uvRtbG_VTCY5fSj-ep-kg9ROiQZO05pNrHLx8Aeqay-8DuFGZmqxKVsy_1NTOgF-actjmGAoE5-PmAwahLbZkFjiogFZ7nYNHou-w-NkGLvKZU?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcZDxntYklOI9xrCzba_wUn4ybf2NMEwEe71ZOYCGV0VzoD04-SQTJ_GCm42xJgoPJOYfUhea3Y0eHFokqK4VGpRhacGpLvxeq59Ga-PQ9PtG5xDRInHwZYZoUrjpk-gUI6LgTE?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf0ozdhqcWTil1Dwec9rUWgGbhfpDf8R51z0H25eepKMmso9Baa7s8h-dSl3VBtpFvN4uYvZXEG4Grqsp1u40wOnuMmfv6C5WHRzRmmg36DWmf1Mi7GrdcKB39EW8DHQTkpmIkv9w?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Dado al problema que tuvimos con el github desktop tuvimos que hacer los commits desde el inicio. Este problema se comentó en clase con el profesor, es por ello que damos esta aclaración del porqué de los commits que siguen este patrón. Este problema se solucionará para próximas entregas.
+
+**Neil Curipaco**
+
+**Analíticas del Design Lab:** Implementó funcionalidades de analíticas específicas para el "bounded context" del Design Lab, lo que permitirá recopilar datos sobre su uso y rendimiento.
+
+**Mateo Alemán**
+
+**Componentes de edición del Design Lab:** Desarrolló los componentes interactivos que permiten a los usuarios editar y personalizar diseños dentro del Design Lab, la herramienta central de la aplicación.
+
+**Jonatan Acuña**
+
+**Organización y soporte general:** Se ocupó de la organización general de los componentes y vistas de la aplicación, gestionando también las variables de entorno. Su rol fue fundamental para brindar soporte a los demás integrantes del equipo durante todo el proceso de desarrollo.
+
+**Renzo Luque**
+
+**Opciones de personalización avanzada:** Implementó las opciones de personalización avanzadas para la customización dentro del Design Lab, dando mayor flexibilidad a los usuarios.
+
+**Fabrizio Contreras**
+
+**Modelo y servicios del Design Lab:** Desarrolló el modelo de datos y los servicios asociados al Design Lab, estableciendo la lógica y la estructura fundamental para su funcionamiento.
+
+
+
+### 5.2.3. Sprint 3
+
+Continuando con el desarrollo del proyecto TeeLab, el Sprint 3 se enfoca en reforzar los aspectos de seguridad, mejorar la accesibilidad para todos los usuarios y optimizar la gestión y visualización de pedidos en tiempo real. Este sprint avanza sobre las bases establecidas en iteraciones anteriores, priorizando la protección de datos, la inclusividad y una experiencia de usuario más fluida.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeFx_e2WgUUpJJiGLwhWMzPDb4z21RGhqf7RcOjXKHxaPLNUkEgyy-9FLNUZk9VYTUF8GWfhXcPRGNfnSndI7c_4RnztoF9Frj9N7PXD-NXX8R2FwsCM20RT6n2rmxA3K-vs1w6?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXflfu_RHuls1RbE0O1D11DGJ8LoZjLOvGhqZ6YUEDXl4xn8O-c9M_Wor5DJF-BD-qCR-vUVumyPOynyynQ7NAy3PfBEJiDWYKs4oEMKxS76idGmeqj3OTSyh5B9fwHjxpckRd78hA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdI4dCTIXxq2SHn9D4jQW-e2tm5Q6-rx6_D6Yh2bz_5JeXPlyOPihHzJY8rTshaLmZbWs8uZRA3O-rrBRzWkyR31yiSM6btpRwm5SQ3PIV9Lo1QsRtAra9vS5fozWD0UDz09TF_?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeWtDOov8JMAke-_B07r7KdJ-0U6m_1GCwuq7DVyRe0Ad_1Oat2X035dEnuKbUF5KxIWSBIx_C1Xw0ZTEO-ftGedMZf0K-fdBC_qv-SO-sqPa4x__2MZxmM8lV-LYjqLBOXJvhwfw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeFX0gXjALhh5KxdlM6UXWoNtHOt-Qyta7rKPEqgGfXKQBIyjQGLU0mlHcZcR0zDXYT6Inwgd17uIJ4RcEsZ0GqRuSBOnEPiHv7e6LsRVnSwj1jX2UdvnQGDLG06I2fSKjt2PZRuw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+#### 5.2.3.1. Sprint Planning 3
+
+El 19 de mayo de 2025, el equipo de QURI se reunió virtualmente a través de Google Meet para dar inicio al Sprint 3, una iteración clave enfocada en consolidar los módulos restantes de la aplicación web y desplegar el Web Service API en producción. Bajo la coordinación de Jonatan Ariel Acuña Corahua y con la participación de Dante Mateo Aleman Romano, Fabrizio Alessandro Contreras Peralta, Neil Aldrin Wilhelm Curipaco Huayllani, Juan Carlos Alvarado De La Cruz y Renzo Andres Luque Minaya, Brayan Roberto Ccarita Cruz, se revisaron los avances del sprint anterior, se definió el nuevo objetivo y se acordaron las historias de usuario prioritarias. Con un enfoque centrado en la personalización, gestión de pedidos y robustez del backend, el equipo estableció criterios de aceptación claros, validó estimaciones que sumaron 292 puntos de historia y reafirmó su compromiso para entregar una experiencia fluida, accesible y completamente funcional para los usuarios de TeeLab.
+
+
+
+
+
+| Sprint #                           | 3                                                            |
+| ---------------------------------- | ------------------------------------------------------------ |
+| Sprint Planning Background         |                                                              |
+| Date                               | May 19, 2025                                                 |
+| Time                               | 8:36 PM                                                      |
+| Location                           | Google Meet                                                  |
+| Prepared By                        | Jonatan Ariel Acuña Corahua                                  |
+| Attendees (to planning meeting)    | Jonatan Ariel Acuña Corahua, Dante Mateo Aleman Romano, Fabrizio Alessandro Contreras Peralta, Neil Aldrin Wilhelm Curipaco Huayllani, Juan Carlos Alvarado De La Cruz y Renzo Andres Luque Minaya, Brayan Roberto Ccarita Cruz. |
+| Sprint 3 – 2 Review Summary        | During Sprint 2 (28 Apr – 22 May), the team successfully implemented the internal navigation structure, basic product design tools, and Design Product Catalog functionalities. Users can now log in, browse different sections of the app seamlessly, interact with a simplified garment editor, and save or retrieve their design blueprints. The Product Owner highlighted the intuitive flow and design consistency as key wins. Minor bugs in the canvas tool were identified and recorded for future refinement. |
+| Sprint 3 – 2 Retrospective Summary | The Sprint 2 retrospective underscored strong alignment with product vision and team collaboration. However, inconsistencies in design specifications and unanticipated browser compatibility issues led to delays in two stories. Team members proposed earlier design validation checkpoints and more rigorous multi-browser testing. These initiatives will be adopted in Sprint 3 to improve delivery predictability and interface stability. |
+| Sprint Goal & User Stories         |                                                              |
+| Sprint 3 Goal                      | **Context:** With the Landing Page already deployed and the Design Lab core established in Sprint 2, Sprint 3 will complete the remaining Web App bounded contexts and deploy the Web Service API. **Our focus** is to facilitate user onboarding, order management, new Design Lab features, and full customization within the TeeLab web application, supported by our backend API. **We believe** that by allowing users to track and update orders in real time, personalize their experience across languages, devices, accessibility settings—along with enabling features like using blueprints, saving project progress, and publishing designs. We will deliver a comprehensive and reliable platform. **This will be confirmed** when users can monitor their orders via our API, save their design progress, use blueprints. Manufacturers will benefit from receiving validated and well-documented design specifications, enabling more efficient production planning, clearer order tracking. |
+| Sprint 3 Velocity                  |                                                              |
+| Sum of Story Points                | 292                                                          |
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+Durante este Sprint, el equipo ha abordado diversos aspectos clave relacionados con el desarrollo tanto del **Web App** como del **Web Service** de la solución. Para garantizar una colaboración efectiva y una comunicación clara entre los miembros del equipo, se ha elaborado la **Leadership-and-Collaboration Matrix (LACX)**. Esta matriz identifica quién lidera y quién colabora en cada aspecto del trabajo realizado, permitiendo distribuir responsabilidades de forma estratégica y asegurar el cumplimiento de los objetivos establecidos.
+
+Los principales aspectos considerados en este Sprint representan componentes funcionales esenciales para la entrega. Entre ellos se encuentran: **Access Security (AS)**, **Analytics (AL)**, **Design-lab (DL)**, **Orders Fulfillment (OF)**, **Product Catalog (PC)** y **User Management (UM)**. Cada uno de estos aspectos ha requerido un enfoque técnico y organizativo específico, así como la colaboración entre múltiples roles dentro del equipo.
+
+La matriz presentada a continuación detalla los responsables de liderazgo y colaboración para cada uno de estos aspectos, fomentando así un entorno de trabajo coordinado, eficiente y alineado con los principios de trabajo ágil.
+
+Tarea de Web App
+
+| **Team Member (Last Name, First Name)** | **GitHub Username**   | **AS** | **AL** | **DL** | **OF** | **PC** | **UM** |
+| --------------------------------------- | --------------------- | ------ | ------ | ------ | ------ | ------ | ------ |
+| Jonatan Ariel, Acuña Corahua            | JonatanFD             |        |        | L      |        |        | C      |
+| Luque Minaya, Renzo Andres              | renzoluquem           |        |        |        |        | L      |        |
+| Dante Mateo, Aleman Romano              | zGIKS                 | L      | C      |        |        |        | L      |
+| Fabrizio Alessandro, Contreras Peralta  | Fabrizio Contreras    | C      | L      | C      |        |        | C      |
+| Neil Aldrin Wilhelm, Curipaco Huayllani | Neilcuri              |        | C      |        | C      | C      |        |
+| Juan Carlos Alvarado De La Cruz         | JuanCarlosAlvarado900 |        |        |        |        | C      |        |
+| Brayan Ccarita Cruz                     | hallzyx               |        |        |        | L      |        |        |
+
+**Nota**: Access Security = AS, Analytics = AL, Desing-lab = DL, Orders Fulfillments = OF, Product Catalog = PC, User Management = UM
+
+Tareas de Web service
+
+| **Team Member (Last Name, First Name)** | **GitHub Username**   | **AL** | **DL** | **OF** | **PC** | **UM** |
+| --------------------------------------- | --------------------- | ------ | ------ | ------ | ------ | ------ |
+| Jonatan Ariel, Acuña Corahua            | JonatanFD             |        | L      |        |        | C      |
+| Luque Minaya, Renzo Andres              | renzoluquem           |        |        |        | L      |        |
+| Dante Mateo, Aleman Romano              | zGIKS                 | C      |        |        |        | L      |
+| Fabrizio Alessandro, Contreras Peralta  | Fabrizio Contreras    | L      | C      |        |        | C      |
+| Neil Aldrin Wilhelm, Curipaco Huayllani | Neilcuri              | C      |        | C      | C      |        |
+| Juan Carlos Alvarado De La Cruz         | JuanCarlosAlvarado900 |        |        |        | C      |        |
+| Brayan Ccarita Cruz                     | hallzyx               |        |        | L      |        |        |
+
+Nota: Analytics = AL, Desing lab = DL, Order Fulfillment = OF, Product Catalog = PC, User Management = UM
+
+
+
+#### 5.2.3.3. Sprint Backlog 3
+
+A continuación se presenta el **Sprint Backlog 3**, que agrupa todas las User Stories seleccionadas para este sprint junto con sus tareas descompuestas (Work Items). Cada entrada incluye el identificador de la historia, su título, la tarea asociada con su propia descripción, estimación en horas, responsable asignado y el estado inicial de “To Do”. Este backlog servirá de guía para el seguimiento diario del progreso y la coordinación de esfuerzos durante el Sprint 3.
+
+| **User Story ID** | **User Story Title**                                         | **Task ID** | **Task Title**                     | **Description**                                              | **Estimation (Hrs)** | **Assigned To**    | **Status** |
+| ----------------- | ------------------------------------------------------------ | ----------- | ---------------------------------- | ------------------------------------------------------------ | -------------------- | ------------------ | ---------- |
+| US90              | Validate authentication when logging in                      | QUR-90      | Validate authentication            | Validate login credentials and return an authentication token | 2                    | Mateo Aleman       | To Do      |
+| US91              | Implement secure password verification and JWT generation    | QUR-91      | Implement password verification    | Implement encrypted password validation and JWT generation   | 2                    | Mateo Aleman       | To Do      |
+| US92              | Register securely                                            | QUR-92      | Secure user registration           | Implement secure registration with data validation           | 5                    | Mateo Aleman       | To Do      |
+| US93              | Validate and store encrypted user data on registration       | QUR-93      | Store encrypted data               | Store encrypted user data after validating the registration form | 3                    | Mateo Aleman       | To Do      |
+| US94              | Being only able to access role-routes                        | QUR-94      | Restrict role-based access         | Ensure routes are only accessible to authorized users        | 5                    | Mateo Aleman       | To Do      |
+| US95              | Restrict API access                                          | QUR-95      | Secure API access                  | Implement role-based access control and middleware guards    | 5                    | Mateo Aleman       | To Do      |
+| US96              | Stay logged in                                               | QUR-96      | Implement session management       | Implement token-based session persistence for users          | 2                    | Mateo Aleman       | To Do      |
+| US97              | Configure JWT authentication with expiration handling        | QUR-97      | Handle token expiration            | Configure JWT expiration and refresh tokens                  | 2                    | Mateo Aleman       | To Do      |
+| US98              | Provide secure logout endpoint                               | QUR-98      | Implement logout endpoint          | Create a secure logout endpoint to terminate user sessions   | 2                    | Mateo Aleman       | To Do      |
+| US99              | Invalidate tokens and clear session metadata on logout       | QUR-99      | Invalidate tokens on logout        | Implement functionality to invalidate refresh tokens and delete session data | 2                    | Mateo Aleman       | To Do      |
+| US100             | Protect information                                          | QUR-100     | Encrypt user data                  | Implement encryption for personal and payment information    | 2                    | Mateo Aleman       | To Do      |
+| US101             | Secure data transmission via HTTPS and TLS protocols         | QUR-101     | Enforce secure transmission        | Ensure HTTPS is used and sensitive data is encrypted         | 2                    | Bryan Ccarita      | To Do      |
+| US102             | Reset my password                                            | QUR-102     | Implement password reset           | Implement a secure password reset mechanism for users        | 2                    | Bryan Ccarita      | To Do      |
+| US103             | Generate and validate reset tokens with expiry rules         | QUR-103     | Validate reset tokens              | Implement reset token expiration and validation              | 2                    | Bryan Ccarita      | To Do      |
+| US104             | Track and alert on suspicious login activity                 | QUR-104     | Monitor failed logins              | Log failed login attempts and notify admins for suspicious activity | 3                    | Bryan Ccarita      | To Do      |
+| US105             | Log failed authentications and enforce throttling            | QUR-105     | Log and throttle failed logins     | Log failed login attempts and apply throttling on repeated failures | 3                    | Bryan Ccarita      | To Do      |
+| US122             | View the customer's order history                            | QUR-122     | Retrieve customer order list       | Show a list of past and current orders                       | 5                    | Bryan Ccarita      | To Do      |
+| US123             | Fetch and render list of past and active orders              | QUR-123     | Render orders                      | Fetch orders from the API and display them                   | 2                    | Bryan Ccarita      | To Do      |
+| US124             | View detailed status of an individual order                  | QUR-124     | View order status                  | Display the detailed status of selected orders               | 3                    | Bryan Ccarita      | To Do      |
+| US125             | Display order lifecycle using progress tracker               | QUR-125     | Bind order status                  | Show a visual progress tracker for order lifecycle           | 2                    | Bryan Ccarita      | To Do      |
+| US126             | Track the status of individual order items                   | QUR-126     | Track item status                  | Display status for each item in the order                    | 3                    | Bryan Ccarita      | To Do      |
+| US127             | Bind per-item status updates in order detail view            | QUR-127     | Bind item statuses                 | Show individual item statuses in the order detail view       | 2                    | Bryan Ccarita      | To Do      |
+| US128             | Automatically update order status without page refresh       | QUR-128     | Update status dynamically          | Update order status in real time without refreshing          | 5                    | Fabrizio Contreras | To Do      |
+| US129             | Use real-time data source to refresh order status in UI      | QUR-129     | Implement polling or WebSocket     | Use polling or WebSocket for real-time order status updates  | 2                    | Fabrizio Contreras | To Do      |
+| US130             | Notify the user when the order status changes                | QUR-130     | Send status update notifications   | Notify customers when their order status changes             | 2                    | Fabrizio Contreras | To Do      |
+| US131             | Display UI alert when status update event is received        | QUR-131     | Show status update alert           | Display a UI alert when an order status is updated           | 2                    | Fabrizio Contreras | To Do      |
+| US132             | View estimated delivery time of the order                    | QUR-132     | Show estimated delivery            | Display estimated delivery date in order summary             | 2                    | Fabrizio Contreras | To Do      |
+| US133             | Bind delivery estimate to order summary UI                   | QUR-133     | Bind delivery date to UI           | Render the delivery date from the API in the summary UI      | 2                    | Fabrizio Contreras | To Do      |
+| US151             | Bind name input field and send update to profile API         | QUR-151     | Bind name field                    | Implement binding of the name input to user API and handle updates | 5                    | Fabrizio Contreras | To Do      |
+| US152             | Upload or change profile photo                               | QUR-152     | Upload profile photo               | Implement functionality to upload or change the profile photo | 2                    | Fabrizio Contreras | To Do      |
+| US153             | Bind image uploader to avatar property and display preview   | QUR-153     | Bind image uploader                | Bind image uploader to avatar field and display a preview    | 2                    | Fabrizio Contreras | To Do      |
+| US154             | Update user contact information                              | QUR-154     | Update contact info                | Allow customers to update email/phone in the profile         | 3                    | Jonatan Acuña      | To Do      |
+| US155             | Bind and validate email/phone fields in user profile         | QUR-155     | Validate contact fields            | Bind email/phone fields to user profile and validate formats | 3                    | Jonatan Acuña      | To Do      |
+| US156             | Set the user’s preferred language                            | QUR-156     | Set language preference            | Allow customers to select and save their preferred language  | 2                    | Jonatan Acuña      | To Do      |
+| US157             | Connect language selector to i18n and save preference        | QUR-157     | Bind language selector             | Implement language selector binding to i18n and save user preference | 5                    | Jonatan Acuña      | To Do      |
+| US158             | Toggle between light and dark theme                          | QUR-158     | Toggle theme mode                  | Implement a toggle for light and dark mode                   | 2                    | Jonatan Acuña      | To Do      |
+| US159             | Apply theme preference and persist user setting              | QUR-159     | Save theme preference              | Save user-selected theme preference locally or in the profile | 2                    | Jonatan Acuña      | To Do      |
+| US160             | View and edit profile information                            | QUR-160     | View and edit profile              | Display and allow editing of user profile information        | 3                    | Jonatan Acuña      | To Do      |
+| US161             | Render user data in editable form with two-way binding       | QUR-161     | Bind profile form                  | Bind profile fields to user model and enable auto-save on change | 3                    | Jonatan Acuña      | To Do      |
+| US162             | Select the user’s preferred language from UI                 | QUR-162     | Change language via UI             | Allow users to change language preference from the UI        | 2                    | Jonatan Acuña      | To Do      |
+| US163             | Bind language selector to i18n module and trigger language switch | QUR-163     | Bind language selector             | Connect the language selector to i18n module for dynamic language switch | 5                    | Jonatan Acuña      | To Do      |
+| US164             | Persist the selected language across sessions                | QUR-164     | Save language preference           | Retain the language setting across user sessions             | 5                    | Jonatan Acuña      | To Do      |
+| US165             | Save and retrieve language preference from profile or local storage | QUR-165     | Persist language preference        | Store language preference in local storage or backend profile | 3                    | Renzo Luque        | To Do      |
+| US166             | Translate all static and dynamic UI content                  | QUR-166     | Render UI in selected language     | Ensure all UI elements are translated according to selected language | 5                    | Renzo Luque        | To Do      |
+| US167             | Wrap content in translation keys and load from JSON dictionaries | QUR-167     | Implement translation keys         | Wrap all text in translation keys and load content dynamically from JSON | 3                    | Renzo Luque        | To Do      |
+| US168             | Detect user browser language on first load                   | QUR-168     | Auto-detect browser language       | Detect browser language on first visit and apply it to the UI | 5                    | Renzo Luque        | To Do      |
+| US169             | Initialize i18n default based on navigator language          | QUR-169     | Set i18n default                   | Use navigator.language to set the default language in i18n   | 5                    | Renzo Luque        | To Do      |
+| US170             | Enable optional locale-based URL routing                     | QUR-170     | Reflect language in URL            | Implement route prefixes like /en, /es based on the selected language | 5                    | Renzo Luque        | To Do      |
+| US171             | Configure route prefixes for localized navigation            | QUR-171     | Localized route configuration      | Configure Angular routes to support locale-based prefixes    | 5                    | Renzo Luque        | To Do      |
+| US172             | Navigate through the platform using only the keyboard        | QUR-172     | Implement keyboard navigation      | Ensure users can navigate the platform using only the keyboard | 2                    | Renzo Luque        | To Do      |
+| US173             | Ensure tab order and focusability of interactive elements    | QUR-173     | Fix tab order                      | Make sure all interactive elements are reachable and logically ordered with the Tab key | 2                    | Renzo Luque        | To Do      |
+| US174             | Access the platform using a screen reader                    | QUR-174     | Implement screen reader support    | Make sure the platform is compatible with screen readers for visually impaired users | 2                    | Renzo Luque        | To Do      |
+| US175             | Add semantic roles and ARIA attributes to UI components      | QUR-175     | Add ARIA roles                     | Implement ARIA roles and attributes to improve accessibility for assistive technologies | 3                    | Renzo Luque        | To Do      |
+| US176             | Show visual focus indicators for keyboard navigation         | QUR-176     | Implement focus indicators         | Display visible focus indicators for keyboard navigation     | 3                    | Juan Alvarado      | To Do      |
+| US177             | Style focus states for accessibility visibility              | QUR-177     | Apply custom focus styles          | Implement high-contrast visual styles for focused elements   | 2                    | Juan Alvarado      | To Do      |
+| US178             | Ensure readable color contrast across the UI                 | QUR-178     | Test and apply accessible contrast | Ensure all text and UI elements have sufficient contrast     | 3                    | Juan Alvarado      | To Do      |
+| US179             | Apply WCAG-compliant contrast ratios for text and elements   | QUR-179     | Apply WCAG contrast ratios         | Apply color contrast ratios to meet WCAG accessibility standards | 2                    | Juan Alvarado      | To Do      |
+| US180             | Provide descriptive labels for all inputs and controls       | QUR-180     | Add labels to form controls        | Ensure all form inputs and controls have clear, descriptive labels | 3                    | Juan Alvarado      | To Do      |
+| US181             | Use ARIA or HTML attributes for semantic labeling            | QUR-181     | Implement ARIA labels              | Add ARIA attributes to form controls for semantic labeling   | 2                    | Juan Alvarado      | To Do      |
+| US182             | Allow users to skip navigation and go to main content        | QUR-182     | Implement skip navigation          | Create a "skip to content" link to jump directly to main content | 2                    | Juan Alvarado      | To Do      |
+| US183             | Implement skip link anchored to main tag                     | QUR-183     | Add skip link                      | Add a "skip to content" link at the top of the page, anchored to the main section | 2                    | Juan Alvarado      | To Do      |
+| US184             | Announce dynamic changes for screen readers                  | QUR-184     | Announce dynamic updates           | Use ARIA live regions to notify screen readers of dynamic content changes | 2                    | Juan Alvarado      | To Do      |
+| US185             | Use ARIA live regions to broadcast UI updates                | QUR-185     | Implement live regions             | Use ARIA live regions to announce UI updates without a full page reload | 3                    | Juan Alvarado      | To Do      |
+| US186             | Display the application correctly on multiple devices        | QUR-186     | Implement responsive layout        | Ensure the platform displays correctly across various screen sizes and devices | 2                    | Juan Alvarado      | To Do      |
+| US187             | Implement responsive layout with breakpoints and CSS grid    | QUR-187     | Define responsive breakpoints      | Set up responsive breakpoints and use CSS grid for layout    | 3                    | Neil Curipaco      | To Do      |
+| US188             | Collapse the sidebar into a drawer on small screens          | QUR-188     | Implement drawer collapse          | Collapse the sidebar into a drawer when screen size is small | 5                    | Neil Curipaco      | To Do      |
+| US189             | Implement responsive toggle for sidebar visibility           | QUR-189     | Add sidebar toggle                 | Use mat-drawer with toggle logic at mobile breakpoints       | 2                    | Neil Curipaco      | To Do      |
+| US190             | Adapt toolbar layout to available screen width               | QUR-190     | Adjust toolbar for small screens   | Ensure toolbar adapts and simplifies on narrow screens       | 3                    | Neil Curipaco      | To Do      |
+| US191             | Use responsive classes and containers to rearrange actions   | QUR-191     | Organize toolbar actions           | Reorganize or hide toolbar actions based on screen size      | 5                    | Neil Curipaco      | To Do      |
+| US192             | Scale text and form fields appropriately                     | QUR-192     | Implement responsive text scaling  | Ensure text and form fields remain readable and usable across devices | 3                    | Neil Curipaco      | To Do      |
+| US193             | Use relative units to ensure proportional resizing           | QUR-193     | Use relative units for scaling     | Apply relative units like rem, %, and vw for components to scale with screen size | 2                    | Neil Curipaco      | To Do      |
+| US194             | Validate UI across standard device resolutions               | QUR-194     | Test UI on common resolutions      | Ensure the platform works correctly on standard resolutions like 1920x1080, 1366x768, etc. | 5                    | Neil Curipaco      | To Do      |
+| US195             | Test and adjust styles using media queries and emulators     | QUR-195     | Adjust layout with media queries   | Use media queries and device emulators to test and adjust layout | 3                    | Neil Curipaco      | To Do      |
+| US196             | Prevent horizontal scrolling on mobile devices               | QUR-196     | Fix horizontal scrolling           | Ensure the platform doesn’t have unnecessary horizontal scrolling on mobile | 2                    | Neil Curipaco      | To Do      |
+| US197             | Apply layout constraints to avoid content overflow           | QUR-197     | Enforce layout constraints         | Apply overflow and width constraints to prevent layout breakage | 5                    | Neil Curipaco      | To Do      |
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3 se avanzó en la implementación de la solución a través de múltiples commits en el repositorio principal **quri-open-source/web-app y quri-open-source/service**. A continuación se presenta una tabla detallada con cada cambio significativo, su rama de origen, identificador, mensaje y fecha de commiteo. Estos commits reflejan el progreso en los componentes Access Security, Analytics , Design-lab, Orders Fulfillment, Product Catalog y User Management .
+
+| **Repository**           | **Branch**                  | **Commit Id** | **Commit Message**     | **Author** | **Committed on** |
+| ------------------------ | --------------------------- | ------------- | ---------------------- | ---------- | ---------------- |
+| quri-open-source/web-app | feature/add-manunacter-a…   | 2910512       | Merge pull request #21 | zGIKS      | 18 de junio      |
+| quri-open-source/web-app | feature/fix-home-and-rol    | 1222f27       | Merge pull request #19 | Neilcuri   | 18 de junio      |
+| quri-open-source/web-app | feature/add-to-cart-from…   | 2cb505d       | Merge pull request #18 | Neilcuri   | 18 de junio      |
+| quri-open-source/web-app | feature/add-assemblers-a…   | 3c722de       | Merge pull request #17 | zGIKS      | 18 de junio      |
+| quri-open-source/web-app | refactor/product-catalog-bc | f947c66       | Merge pull request #16 | zGIKS      | 18 de junio      |
+| quri-open-source/web-app | feature/add-shopping-car…   | b20c6c9       | Merge pull request #15 | Neilcuri   | 18 de junio      |
+| quri-open-source/web-app | feature/project-card-add…   | 0bfffd5       | Merge pull request #14 | zGIKS      | 17 de junio      |
+| quri-open-source/web-app | feature/add-product-catalog | dc12a9d       | Merge pull request #13 | zGIKS      | 17 de junio      |
+| quri-open-source/web-app | feature/add-manufacturer…   | 579d366       | Merge pull request #12 | zGIKS      | 17 de junio      |
+| quri-open-source/web-app | feature/add-shopping-car…   | ca58e31       | Merge pull request #11 | Neilcuri   | 16 de junio      |
+
+| quri-open-source/web-app | feature/add-my-fulfillments-page      | d54b2aa | Merge pull request #9 from feature/add-analytics | hallzyx | 16 de junio |
+| ------------------------ | ------------------------------------- | ------- | ------------------------------------------------ | ------- | ----------- |
+| quri-open-source/web-app | feature/add-my-fulfillments-page      | eb0ab1d | fix: update fulfillment routes                   | hallzyx | 15 de junio |
+| quri-open-source/web-app | feature/add-choose-manufacturer-page  | 0a74a60 | fix: update choose manufacturer route            | hallzyx | 15 de junio |
+| quri-open-source/web-app | feature/currency-environment-settings | 144ec4d | Merge pull request #6 from feature/currency-env… | hallzyx | 15 de junio |
+
+| quri-open-source/web-app | refactor/search-bar         | f947c66 | Merge pull request #16 from refactor/product-catalog-bc      | JuanCarlosAlvarado900 | 17 de junio |
+| ------------------------ | --------------------------- | ------- | ------------------------------------------------------------ | --------------------- | ----------- |
+| quri-open-source/web-app | feature/add-product-catalog | 9d43634 | feat(explore): implement search bar with text, price and tag filters | JuanCarlosAlvarado900 | 16 de junio |
+
+| quri-open-source/web-app | feature/add-my-fulfillments-page      | Rama eliminada | JonatanFD | 15 de junio |
+| ------------------------ | ------------------------------------- | -------------- | --------- | ----------- |
+| quri-open-source/web-app | feature/add-design-lab-create-edit    | Rama eliminada | JonatanFD | 15 de junio |
+| quri-open-source/web-app | feature/add-shopping-card             | Rama eliminada | JonatanFD | 15 de junio |
+| quri-open-source/web-app | feature/currency-environment-and-cart | Rama eliminada | JonatanFD | 15 de junio |
+| quri-open-source/web-app | feature/fix-shopping-cart             | Rama eliminada | JonatanFD | 15 de junio |
+| quri-open-source/web-app | feature/add-choose-manufacturer-page  | Rama eliminada | JonatanFD | 15 de junio |
+| quri-open-source/web-app | feature/add-analytics                 | Rama eliminada | JonatanFD | 15 de junio |
+
+| quri-open-source/web-app | refactor/product-catalog-bc | 1ef6509 | refactor(product-catalog): update styles for catalog and product detail views | renzoluquem | 17 de junio  |
+| ------------------------ | --------------------------- | ------- | ------------------------------------------------------------ | ----------- | ------------ |
+| quri-open-source/web-app | feature/project-card-add    | 0bfffd5 | feat(design-lab): update project card component to include context and project info | renzoluquem | 16 de junio  |
+| quri-open-source/web-app | feature/add-product-catalog | 9d43634 | feat(explore): implement search bar with text, price and tag filters | renzoluquem | 16 de junios |
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 3, el equipo de QURI avanzó de manera significativa en la **documentación de los Web Services** de la aplicación TeeLab, centrándose en aspectos clave como la gestión de productos, usuarios, fabricantes, el carrito de compras y el cumplimiento de pedidos. Esta documentación fue elaborada mediante **OpenAPI**, permitiendo describir de forma estandarizada los Endpoints implementados y su interacción con los distintos componentes del sistema.
+
+El objetivo principal fue asegurar que tanto los desarrolladores frontend como los colaboradores externos pudieran consultar, probar e integrar fácilmente las funcionalidades de la API. Como resultado, se generaron especificaciones detalladas para cada Endpoint cubierto durante el Sprint, incluyendo verbos HTTP, rutas, parámetros, respuestas esperadas y ejemplos de uso interactivo, facilitando así el trabajo colaborativo y garantizando la trazabilidad del desarrollo técnico.
+
+A continuación se presenta la relación de los Endpoints documentados durante el Sprint 3:
+
+| **Módulo**                 | **Endpoint**       | **Método HTTP** | **Descripción**                             | **Parámetros**                | **Ejemplo de Request**            | **Ejemplo de Response**        |
+| -------------------------- | ------------------ | --------------- | ------------------------------------------- | ----------------------------- | --------------------------------- | ------------------------------ |
+| **Catálogo de Productos**  | /api/products      | GET             | Obtiene la lista de productos disponibles   | ?search=camiseta (opcional)   | GET /api/products?search=camiseta | 200 OK - Lista de productos    |
+|                            | /api/products/:id  | GET             | Obtiene detalles de un producto específico  | :id (string)                  | GET /api/products/123abc          | 200 OK - Detalle del producto  |
+| **Carrito de Compras**     | /api/cart          | POST            | Añade un producto al carrito                | body: { productId, quantity } | POST /api/cart                    | 201 Created - Producto añadido |
+|                            | /api/cart          | GET             | Obtiene el contenido del carrito actual     | Ninguno                       | GET /api/cart                     | 200 OK - Carrito del usuario   |
+| **Fabricantes**            | /api/manufacturers | GET             | Lista todos los fabricantes disponibles     | Ninguno                       | GET /api/manufacturers            | 200 OK - Lista de fabricantes  |
+| **Órdenes / Fulfillments** | /api/orders        | GET             | Lista las órdenes realizadas por el usuario | Auth header (token)           | GET /api/orders                   | 200 OK - Lista de órdenes      |
+|                            | /api/orders/:id    | GET             | Detalles de una orden específica            | :id (string)                  | GET /api/orders/456xyz            | 200 OK - Detalle de la orden   |
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcw7xRuMKMgHvGPI41QkTsNfWHWDPr0aTzGEdFo9zSL4H9u_yWWVqgQQer90g620U1QlBK-ieuunDItKlAUGRqyZ5r_s-DzpOpqQnv4D2MavGkipO3N9OK1Nvs_rIPKPVGnWTM7-w?key=wLsuErVgqDz-qczrBI4kMctR)
+
+## 5.3. Validacion Interviews
+
+### 5.3.1. Diseño de Entrevistas
+
+En esta sección se describe el enfoque seguido para las entrevistas de validación con cada uno de los segmentos objetivo definidos para el producto. El objetivo principal fue explorar la experiencia del usuario con el prototipo actual, identificar limitaciones, validar la propuesta de valor y detectar oportunidades de mejora en los flujos de diseño, compra y producción. Se utilizaron recursos como una Landing Page funcional, versiones preliminares del editor de camisetas y flujos simulados de usuario.
+
+Segmento Objetivo #1: Diseñadores Gráficos Independientes
+
+User Flow - Happy Path
+
+- Inicio: Login / Registro (Desktop o Mobile)
+
+  
+
+- Pantalla de entrada: Home (centro de operaciones)
+
+  
+
+- Navegación principal:
+
+  
+
+  - Explorar (Explore)
+
+    
+
+  - Plantillas (Blueprints)
+
+    
+
+  - Proyectos (Projects)
+
+    
+
+  - Editor gráfico (Design Lab)
+
+    
+
+- Proceso de creación:
+
+  
+
+  - Ingreso a Design Lab
+
+    
+
+  - Funcionalidades: subir imágenes, agregar texto, guardar, borrar versiones
+
+    
+
+- Simulación de compra:
+
+  
+
+  - Ingreso a Explore
+
+    
+
+  - Agregar al carrito
+
+    
+
+User Flow - Unhappy Path
+
+- Errores de autenticación: credenciales inválidas, campos vacíos, usuario no registrado
+
+  
+
+- Fallos en Design Lab: pérdida de datos, cierres inesperados, errores de carga
+
+  
+
+- Problemas de compra: fallos en carrito, transacciones fallidas
+
+  
+
+- Desincronización: pedidos no registrados, ventas no reflejadas
+
+  
+
+Formulario de preguntas:
+
+- ¿Te son útiles las zonas de la camiseta que puedes diseñar en el editor?
+- ¿Las herramientas que te ofrece el editor son suficientes para crear tu diseño?
+- ¿Te son suficientes las fuentes disponibles para tu diseño?
+- ¿Te es suficiente el tipo de prenda sobre la cual diseñar?
+
+Segmento Objetivo #2: Clientes Individuales Creativos
+
+User Flow - Happy Path
+
+- **Inicio**: Login / Registro
+
+  
+
+- **Pantalla de entrada**: Home
+
+  
+
+- **Navegación inicial**: Explore
+
+  
+
+- **Proceso de personalización**:
+
+  
+
+  - Acceso a Design Lab 
+
+    
+
+  - Previsualización del diseño
+
+    
+
+- **Compra del producto personalizado**:
+
+  
+
+  - Agregado al carrito
+
+    
+
+User Flow - Unhappy Path
+
+- **Errores de acceso**: login fallido, recuperación de contraseña
+
+  
+
+- **Fallos de navegación**: errores en carga de Explore, plantillas no disponibles
+
+  
+
+- **Problemas de edición**: cambios no guardados, validaciones incorrectas
+
+  
+
+- **Errores de compra**: adición al carrito fallida, fallos en pago, facturación incompleta
+
+Formulación de las preguntas:
+
+- Cuando ves la previsualización del diseño de una camiseta, ¿qué tanto puedes explorar el diseño antes de comprarla?
+- ¿Tienes claro cómo será el acabado final del producto?
+- ¿Encontraste información relevante de la camiseta que estás por comprar?
+
+Segmento Objetivo #3: Marcas Emergentes y Emprendedores
+
+User Flow - Happy Path
+
+- **Inicio**: Login / Registro
+
+  
+
+- **Rutas de gestión**:
+
+  
+
+  - Design Lab
+
+    
+
+  - Blueprints
+
+    
+
+  - Project
+
+    
+
+  - Orders
+
+    
+
+  - Profile 
+
+    
+
+User Flow - Unhappy Path
+
+- **Problemas iniciales**: errores en login, carga incompleta
+
+  
+
+- **Fallos de edición**: pérdida de datos, formatos inválidos
+
+  
+
+- **Errores de publicación y revisión**:
+
+  
+
+  - Campos incompletos, fallos de red
+
+    
+
+  - Rechazo sin retroalimentación útil
+
+    
+
+  - Aprobaciones erróneas con impacto en cliente
+
+    
+
+- **Problemas de compra**: productos visibles pero no disponibles, fallos de pago
+
+  
+
+- **Fallas operativas**: pedidos desorganizados, métricas desactualizadas
+
+Formulación de las preguntas:
+
+- ¿La aplicación te da la información suficiente para empezar a trabajar como fabricante dentro de la plataforma?
+
+- ¿Te es fácil ver todos los pedidos que has recibido o aceptado?
+
+- ¿Tienes acceso a datos del cliente para coordinar entregas o resolver problemas?
+
+- ¿La información de tu perfil es suficiente para dar a conocer que eres un fabricante dentro de la plataforma?
+
+  
+
+### 5.3.2. Registro de Entrevistas
+
+| **Segmento objetivo #1: Diseñadores:**                       |               |
+| ------------------------------------------------------------ | ------------- |
+| **Entrevista 1:**                                            |               |
+| **Sexo:**                                                    | **Edad:**     |
+| **Instante en el que inicia:**                               | **Duración:** |
+|                                                              |               |
+| **Resumen:** El entrevistado expresó apreciaciones críticas respecto a las funcionalidades del editor de camisetas, centradas principalmente en las limitaciones del diseño y personalización. En primer lugar, señaló que únicamente es posible diseñar la parte frontal de la prenda, lo cual consideró restrictivo para un diseño completo, ya que no se puede intervenir la espalda ni las mangas. Esta falta de cobertura reduce las posibilidades creativas, especialmente para quienes buscan un diseño integral.En cuanto a las herramientas ofrecidas por el editor, el usuario consideró que son demasiado básicas. Aunque permite subir imágenes y añadir texto, no cuenta con funcionalidades adicionales como insertar formas, trabajar con capas, ni utilizar vectores, lo que limita la flexibilidad y control sobre el diseño final.Respecto a las tipografías, el entrevistado manifestó que el catálogo disponible es muy limitado y que no existe la opción de cargar fuentes personalizadas, lo cual afecta especialmente a usuarios que ya cuentan con sus propias tipografías y desean incorporarlas en sus diseños.Finalmente, también se evidenció una limitación en el tipo de prendas disponibles. El entrevistado comentó que únicamente encontró polos clásicos, y echó en falta otras opciones como sudaderas, camisetas sin mangas o crop tops, lo cual restringe aún más la capacidad de personalización y variedad de productos a diseñar.**Datos adicionales:**Marcas de camisetas preferidas:** Gildan y Fruit of the Loom. **Dispositivos usados para diseñar:** Laptop de marca Lenovo con sistema operativo Windows 10 y smartphone android. **Programas de edición utilizados:** Adobe Illustrator y Photoshop. **Canales de información sobre tendencias:** Instagram, Pinterest, Vogue y Behance. **Motivations:**** ** Vender sus diseños en productos físicos (como camisetas), mostrar sus diseños en maquetas realistas, tener una plataforma fácil de usar y recibir pedidos personalizados.**Frustrations:** ** No tener una plataforma interactiva y accesible donde sus diseños sean mostrados de manera atractiva; limitaciones actuales de exposición en redes.**Browsers:**** Instagram, Facebook, YouTube, LinkedIn, Pinterest.**Devices:** ** Laptop de marca Lenovo con sistema operativo Windows 10 y smartphone android. |               |
+
+| **Segmento objetivo #2: Usuario general:**                   |               |
+| ------------------------------------------------------------ | ------------- |
+| **Entrevista 1:**                                            |               |
+| **Sexo:**                                                    | **Edad:**     |
+| **Instante en el que inicia:**                               | **Duración:** |
+|                                                              |               |
+| **Resumen:** El entrevistado compartió observaciones relevantes sobre su experiencia al previsualizar el diseño de la camiseta y el proceso previo a la compra. En primer lugar, indicó que solo es posible visualizar la parte frontal de la prenda, sin opción de explorar otras vistas como la espalda, los costados o las mangas. Manifestó que le gustaría contar con una funcionalidad para girar la prenda y así evaluar mejor cómo se verá el diseño en su totalidad, lo que considera clave antes de tomar la decisión de compra.En relación con el acabado final del producto, el entrevistado señaló que no tiene claridad sobre cómo será la impresión. Comentó que solo vio una imagen del diseño aplicado, pero no se le proporcionó información sobre la técnica de estampado (como serigrafía o impresión directa) ni sobre los materiales de la prenda. Esta falta de transparencia genera incertidumbre sobre la calidad del producto final.Finalmente, el entrevistado mencionó que no encontró información relevante relacionada con el producto más allá del diseño y el precio. Lamentó que no se indicara quién fabricará la camiseta, ni se mostraran detalles del proveedor o características específicas de la prenda como el tipo de tela. Esta ausencia de datos limita la confianza en la compra y reduce la percepción de valor del producto.**Datos adicionales:****Marcas de camisetas preferidas:** Prefiere calidad sobre marcas específicas.**Dispositivos usados para diseñar o comprar:** Laptop de marca Hp con sistema operativo Windows 10 y smartphone android.**Programas de edición utilizados:** No especificó programas, pero busca herramientas interactivas para crear diseños personalizados.**Canales de información sobre tendencias:** Instagram, Pinterest y sitios especializados en moda. **Motivations:** Crear y personalizar su propio diseño para camisetas, tener control sobre el diseño final, calidad del material.**Frustrations:** Comprar camisetas con diseños que no reflejan su gusto; limitaciones de personalización.**Browsers:** Instagram, Pinterest, TikTok, Facebook, WhatsApp.**Devices:** Laptop de marca Hp con sistema operativo Windows 10 y smartphone android. |               |
+
+| **Segmento objetivo #3: Marcas o emprendedores:**            |               |
+| ------------------------------------------------------------ | ------------- |
+| **Entrevista 1:**                                            |               |
+| **Sexo:**                                                    | **Edad:**     |
+| **Instante en el que inicia:**                               | **Duración:** |
+|                                                              |               |
+| **Resumen:**El entrevistado, en su rol de fabricante, expresó varias limitaciones que afectan su experiencia al usar la plataforma. En primer lugar, comentó que no existe una sección dedicada ni clara para fabricantes, lo que dificulta entender cómo empezar a operar dentro del sistema. Mencionó la ausencia de instrucciones específicas, información sobre márgenes de ganancia o reglas de participación, lo que genera incertidumbre sobre el funcionamiento del modelo de negocio.Respecto al seguimiento de pedidos, indicó que no hay una vista centralizada para monitorear los pedidos recibidos o aceptados. Actualmente debe revisar uno por uno, lo cual resulta poco práctico. El entrevistado propuso que los pedidos estén organizados por estado o fecha, lo que facilitaría una mejor gestión operativa.También mencionó que no tiene acceso a los datos de los clientes, lo que representa un problema al momento de coordinar entregas o resolver dudas específicas sobre los pedidos. La falta de un canal de comunicación directa ralentiza la atención y puede generar errores en la producción o en la logística.Por último, expresó que su perfil como fabricante es muy limitado. Actualmente no puede incluir su nombre comercial, logo ni catálogo, lo cual le impide visibilizar su marca. Esta falta de identidad corporativa dentro de la plataforma lo desmotiva, ya que no puede posicionarse ni diferenciarse frente a otros fabricantes.**Tipo de clientes:** Personas naturales, instituciones educativas, empresas deportivas (campeonatos y eventos especiales).**Principales desafíos:** Cambios de último momento en el diseño o la cantidad, afectando los tiempos de entrega.**Dispositivos usados:** Laptop de marca Hp con sistema operativo Windows 10 y smartphone android.**Programas de edición utilizados:** Adobe Illustrator y Photoshop.**Canales de información sobre tendencias:** Instagram, Behance, páginas especializadas en moda. **Motivations:** Cumplir pedidos personalizados de clientes variados (eventos, instituciones) de forma eficiente; aceptar tanto diseños propios como externos.**Frustrations:** Cambios de último momento en diseños o cantidades por parte de los clientes, lo que causa retrasos.**Browsers:** Instagram, WhatsApp, Facebook, YouTube, LinkedIn.**Devices:** Laptop de marca Hp con sistema operativo Windows 10 y smartphone android. |               |
+
+### 5.3.3. Evaluación según heurísticas 
+
+UX Heuristics & Principles Evaluation
+
+Usability – Inclusive Design – Information Architecture
+
+CARRERA 		: Ingeniería de Software
+
+CURSO 		: Desarrollo de Aplicaciones Open Source 
+
+SECCIÓN 		: 4350
+
+PROFESORES 	: Todos 
+
+AUDITOR 		: Nombre del Grupo que ejecuta la Sesión de evaluación
+
+CLIENTE(S) 		: Grecia Curipaco, Giuliana Nisbeth y Orianka Buitrón
+
+SITE o APP A EVALUAR: 
+
+Quri
+
+TAREAS A EVALUAR: 
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas: 
+
+Segmento Objetivo #1: Diseñadores Gráficos Independientes
+
+- Personalizar camisetas: Variedad y profundidad de opciones de personalización.
+- Acceder a guías: Disponibilidad y claridad de guías de diseño.
+- Ver ejemplos: Presencia y calidad de ejemplos inspiradores.
+
+Segmento Objetivo #2: Clientes Individuales Creativos
+
+- Iniciar diseño: Claridad del llamado a la acción para diseñar.
+- Inspirarse: Disponibilidad de ejemplos de diseños.
+
+Segmento Objetivo #3: Marcas Emergentes y Emprendedores
+
+- Información mayorista: Facilidad para encontrar información de pedidos al por mayor.
+- Acceso a sección B2B: Claridad y accesibilidad de la sección "Para Empresas".
+- Contacto comercial: Facilidad para encontrar información de contacto comercial.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas: 
+
+Segmento Objetivo #1: Diseñadores Gráficos Independientes
+
+- Diseño de otras prendas además de camisetas
+- Proceso de registro de usuario
+- Soporte técnico detallado
+
+Segmento Objetivo #2: Clientes Individuales Creativos
+
+- Opciones de pago
+- Detalles de envío
+- Calidad de la atención al cliente
+
+ESCALA DE SEVERIDAD:
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripción                                                  |
+| ----- | ------------------------------------------------------------ |
+| 1     | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+TABLA RESUMEN:
+
+| #    | Problema                                                     | Escala de severidad | Heurística/Principio violada(o)                            |
+| ---- | ------------------------------------------------------------ | ------------------- | ---------------------------------------------------------- |
+| 1    | Limitadas opciones de personalización de camisetas (solo colores básicos, sin opciones de texturas de tela) | 2                   | Usabilidad: Flexibilidad y eficiencia de uso.              |
+| 2    | Guías de diseño poco visibles y con información incompleta (falta información sobre tipos de archivo) | 3                   | Usabilidad: Ayuda y documentación.                         |
+| 3    | El llamado a la acción "Diseña Ahora" no es lo suficientemente visible en la página de inicio. | 3                   | Usabilidad: Visibilidad del estado del sistema.            |
+| 4    | No hay un enlace claro a información sobre pedidos al por mayor en el menú principal. | 3                   | Usabilidad: Coincidencia entre el sistema y el mundo real. |
+| 5    | La información de contacto comercial no es fácilmente accesible (solo un formulario genérico). | 2                   | Usabilidad: Ayuda y documentación.                         |
+
+DESCRIPCIÓN DE PROBLEMAS:
+
+SEGMENTO: CLIENTES
+
+- Severidad: 2
+   Heurística violada: Reconocimiento antes que recuerdo
+   Segmento: Clientes
+   Problema: Solo se visualiza la parte frontal del polo en la tienda. El cliente no puede ver la espalda, las mangas u otras zonas, lo que limita su comprensión del producto final.
+   Recomendación: Incluir vistas adicionales del producto desde múltiples ángulos o una vista 360° que permita inspeccionar la prenda completa.
+
+- Severidad: 2
+   Heurística violada: Coincidencia entre el sistema y el mundo real
+   Segmento: Clientes
+   Problema: No se muestran ejemplos visuales del tipo de impresión ni de la textura de la tela. Esto genera incertidumbre sobre el resultado final.
+   Recomendación: Añadir imágenes reales o simuladas que ilustren cómo lucen diferentes técnicas de impresión y tipos de tela como algodón o dry-fit.
+
+- Severidad: 2
+   Heurística violada: Ayuda y documentación
+   Segmento: Clientes
+   Problema: No se muestra información del fabricante al momento de comprar un producto, lo que reduce la transparencia y confianza.
+   Recomendación: Mostrar el perfil del fabricante (nombre, ubicación, reputación, tiempo estimado de entrega) en la ficha del producto.
+
+SEGMENTO: DISEÑADORES
+
+- Severidad: 3
+   Heurística violada: Flexibilidad y eficiencia de uso
+   Segmento: Diseñadores
+   Problema: Solo se puede diseñar la parte delantera del polo. Esto limita la creatividad y la funcionalidad del diseño.
+   Recomendación: Habilitar edición en otras zonas como espalda, mangas y cuello, con navegación clara entre vistas.
+
+- Severidad: 3
+   Heurística violada: Flexibilidad y eficiencia de uso
+   Segmento: Diseñadores
+   Problema: El editor solo permite subir texto e imágenes planas, sin acceso a herramientas vectoriales, formas o recursos avanzados.
+   Recomendación: Ampliar el editor con opciones de formas, vectores, capas y bibliotecas externas para mejorar la calidad profesional de los diseños.
+
+- Severidad: 2
+   Heurística violada: Flexibilidad y eficiencia de uso
+   Segmento: Diseñadores
+   Problema: El sistema solo ofrece un conjunto limitado de fuentes tipográficas, restringiendo la variedad estilística.
+   Recomendación: Integrar una biblioteca más extensa de fuentes categorizadas por estilo, e incluir opción de carga de fuentes personalizadas bajo condiciones de licencia.
+
+- Severidad: 3
+   Heurística violada: Flexibilidad y eficiencia de uso
+   Segmento: Diseñadores
+   Problema: Solo hay un tipo de prenda disponible (polo clásico), lo que reduce la diversidad de productos que los diseñadores pueden ofrecer.
+   Recomendación: Incluir distintos tipos de prendas como hoodies, polos sin mangas o crop tops, con adaptación del editor y vistas previas.
+
+SEGMENTO: MANUFACTURERS (Fabricantes / Vendedores)
+
+- Severidad: 3
+   Heurística violada: Coincidencia entre el sistema y el mundo real
+   Segmento: Manufacturers
+   Problema: No hay una sección clara que explique cómo ser fabricante, aceptar diseños, establecer márgenes, y gestionar producción.
+   Recomendación: Crear una sección “Produce en Quri” con onboarding paso a paso, reglas operativas, políticas de ingresos y ejemplos ilustrativos.
+
+- Severidad: 2
+   Heurística violada: Visibilidad del estado del sistema
+   Segmento: Manufacturers
+   Problema: No existe un panel centralizado que permita ver de forma unificada los diseños aceptados, los pedidos en curso y los ya enviados.
+   Recomendación: Diseñar un “Panel del Fabricante” con secciones específicas, filtros por estado, fechas y acceso directo a cada pedido.
+
+- Severidad: 3
+   Heurística violada: Ayuda y documentación
+   Segmento: Manufacturers
+   Problema: No hay forma de comunicarse directamente con el cliente para resolver dudas sobre pedidos, archivos o entregas.
+   Recomendación: Implementar un sistema de mensajería interna por pedido, que respete privacidad pero facilite la coordinación directa.
+
+- Severidad: 2
+   Heurística violada: Ayuda y documentación
+   Segmento: Manufacturers
+   Problema: El fabricante no tiene acceso a información mínima del cliente (ni siquiera nombre o contacto controlado), dificultando la resolución de incidentes.
+   Recomendación: Mostrar datos limitados y controlados como nombre y canal interno de mensajería autenticada.
+
+- Severidad: 3
+   Heurística violada: Ayuda y documentación
+   Segmento: Manufacturers
+   Problema: No existe una sección de soporte técnico especializada para fabricantes, y el único canal disponible es un formulario genérico.
+   Recomendación: Crear un centro de soporte exclusivo con artículos técnicos, chat y tickets clasificados por tipo de problema.
+
+- Severidad: 2
+   Heurística violada: Flexibilidad y eficiencia de uso
+   Segmento: Manufacturers
+   Problema: Los fabricantes no pueden personalizar su perfil público, lo que impide construir una marca visible dentro de la plataforma.
+   Recomendación: Permitir crear perfiles personalizados con nombre comercial, logo, descripción, catálogo activo y sistema de calificaciones.
+
+
 
 # Conclusiones:
 
@@ -4013,57 +4796,69 @@ En primer lugar, el enfoque Lean UX permitió identificar con precisión los pri
 
 En segundo lugar, la especificación y análisis de requisitos se llevó a cabo de manera rigurosa, aplicando técnicas modernas como el To-Be Scenario Map, MoSCoW prioritization, impact mapping, backlog grooming y user stories con criterios de aceptación en formato Gherkin. Esta sistematización permitió descomponer la solución en funcionalidades concretas, medibles y verificables, alineadas con las necesidades reales de los usuarios y con los objetivos de negocio de la startup.
 
-Desde la perspectiva del diseño visual y arquitectónico, se implementaron style guidelines, un sistema de información bien etiquetado y una arquitectura C4 sustentada en principios de Domain-Driven Design. La estructura modular basada en bounded contexts como Design Studio, Order Processing, Product Catalog, y User Management permite garantizar escalabilidad, mantenibilidad y separación de responsabilidades, lo que refuerza la calidad técnica y la sostenibilidad del proyecto en fases posteriores.
+Desde la perspectiva del diseño visual y arquitectónico, se implementaron style guidelines, un sistema de información bien etiquetado y una arquitectura C4 sustentada en principios de Domain-Driven Design. La estructura modular basada en bounded contexts como Design Lab, Order Processing, Product Catalog, y User Management permite garantizar escalabilidad, mantenibilidad y separación de responsabilidades, lo que refuerza la calidad técnica y la sostenibilidad del proyecto en fases posteriores.
 
 Durante el Sprint 1, se desarrollaron 22 historias de usuario correspondientes a las épicas de Landing Page, Responsive UI, Internacionalización y Accesibilidad, completándose el backlog planificado con éxito. El equipo demostró una alta capacidad de colaboración, distribución equitativa de responsabilidades y cumplimiento de estándares técnicos mediante el uso de herramientas como Jira, GitHub, Figma, PlantUML y Netlify. La landing page fue desplegada correctamente y validada funcionalmente bajo criterios de usabilidad, accesibilidad WCAG y diseño responsive, cumpliendo con los estándares establecidos para el ciclo inicial de desarrollo.
 
 Cabe destacar que, si bien este sprint se centró en la interfaz gráfica y la experiencia inicial del usuario, sentó las bases para la futura implementación de los servicios backend, APIs RESTful y microservicios modulares que articularán el núcleo transaccional de la plataforma en los siguientes sprints.
 
+El Sprint 3 representó una fase crucial en el desarrollo de la plataforma TeeLab, ya que marcó el paso hacia la consolidación de funcionalidades esenciales tanto en el frontend como en el backend, además del despliegue inicial de los Web Services. Se lograron avances técnicos importantes, tales como la implementación y documentación de endpoints para el catálogo de productos, el carrito de compras, la gestión de órdenes y fabricantes, todos bajo especificaciones OpenAPI. Esto permitió sentar una base sólida para la interoperabilidad y la escalabilidad de la aplicación.
+
+Durante este Sprint también se realizaron entrevistas simuladas a distintos perfiles de usuario (cliente final y fabricante), cuyos hallazgos permitieron identificar áreas clave de mejora en la experiencia de usuario. Entre las principales observaciones se detectaron limitaciones en la capacidad de personalización dentro del editor de camisetas, como la imposibilidad de diseñar otras partes de la prenda (espalda o mangas), un set de herramientas muy básico y una selección restringida de fuentes y tipos de prendas. Por el lado de la visualización y compra, los usuarios reportaron la falta de información clara sobre el acabado final, materiales, y el fabricante del producto.
+
+Desde la perspectiva del fabricante, se evidenció la necesidad de mayor autonomía y visibilidad dentro de la plataforma: se carece de un espacio con lineamientos específicos, una vista centralizada de pedidos y herramientas para la comunicación con el cliente. También se identificó una falta de personalización del perfil del fabricante, lo que limita su capacidad para mostrar su marca o diferenciarse.
+
+En cuanto a la colaboración del equipo, se mantuvo una alta alineación con los objetivos del Sprint cumpliendo con los compromisos planificados. Se fortaleció la documentación técnica, se mejoraron las prácticas de revisión de código, y se incorporaron propuestas del Sprint anterior, como validaciones anticipadas y pruebas cruzadas en navegadores.
+
 # Bibliografía:
 
-Angular CLI. (n.d.). *Angular CLI*. Retrieved from[ https://angular.io/cli](https://angular.io/cli)
-
-Apache Software Foundation. (n.d.). *Apache Maven*. Retrieved from[ https://maven.apache.org/](https://maven.apache.org/)
-
-Google. (n.d.). *Firebase*. Retrieved from[ https://firebase.google.com/](https://firebase.google.com/)
-
-JetBrains. (n.d.). *WebStorm*. Retrieved from[ https://www.jetbrains.com/webstorm/](https://www.jetbrains.com/webstorm/)
-
-Lucid Software Inc. (n.d.). *Lucidchart*. Retrieved from[ https://www.lucidchart.com/](https://www.lucidchart.com/)
-
-OpenJDK. (n.d.). *OpenJDK*. Retrieved from[ https://jdk.java.net/](https://jdk.java.net/)
-
-Postman, Inc. (n.d.). *Postman*. Retrieved from[ https://www.postman.com/](https://www.postman.com/)
-
-Spring. (n.d.). *Spring Boot*. Retrieved from[ https://spring.io/projects/spring-boot](https://spring.io/projects/spring-boot)
-
-Structurizr Ltd. (n.d.). *Structurizr*. Retrieved from[ https://structurizr.com/](https://structurizr.com/)
-
-Supabase. (n.d.). *Supabase*. Retrieved from[ https://supabase.com/](https://supabase.com/)
-
-UXPressia. (n.d.). *UXPressia*. Retrieved from[ https://uxpressia.com/](https://uxpressia.com/)
-
-Adobe. (2022). *The future of creativity: Personalization trends in consumer behavior*. Adobe Creative Insights.
+Adobe. (2022). The future of creativity: Personalization trends in consumer behavior. Adobe Creative Insights.
 
 Bahena, M. (2024). *Estrategias de personalización en experiencias digitales*. Editorial UX Latam.
 
-El Comercio. (2022). *Estudio de consumo responsable en Perú 2022*.[ https://elcomercio.pe/](https://elcomercio.pe/)
+Chang, C. L., & Chen, H. H. (2018). The influence of perceived value and brand image on purchase intention: A case study of T-shirts. *Journal of Fashion Marketing and Management: An International Journal, 22*(4), 519-536.
 
-Fowler, M. (n.d.). *GivenWhenThen*.[ https://martinfowler.com/bliki/GivenWhenThen.html](https://martinfowler.com/bliki/GivenWhenThen.html)
+El Comercio. (2022). *Estudio de consumo responsable en Perú 2022*. https://elcomercio.pe/
 
-IBM Design. (n.d.). *To-Be Scenario Mapping Toolkit*.[ https://www.ibm.com/design/thinking/page/toolkit/activity/to-be-scenario-map](https://www.ibm.com/design/thinking/page/toolkit/activity/to-be-scenario-map)
+Fletcher, K. (2014). Sustainable fashion and textiles: Design journeys (2nd ed.). Routledge.
 
-Mountaingoat Software. (n.d.). *User Stories and Acceptance Criteria*.[ https://www.mountaingoatsoftware.com/](https://www.mountaingoatsoftware.com/)
+Fowler, M. (n.d.). *GivenWhenThen*. https://martinfowler.com/bliki/GivenWhenThen.html
+
+Google. (n.d.). *Firebase*. Retrieved from https://firebase.google.com/
+
+IBM Design. (n.d.). *To-Be Scenario Mapping Toolkit.* https://www.ibm.com/design/thinking/page/toolkit/activity/to-be-scenario-map
+
+JetBrains. (n.d.). *WebStorm*. Retrieved from https://www.jetbrains.com/webstorm/
+
+Joy, A., Sherry Jr, J. F., Venkatesh, A., Wang, J., & Chan, R. (2012). *Fast fashion, sustainability, and the ethical consumer*. Journal of Business Research, 65(9), 1399-1407.
+
+Kim, H., & Lee, Y. (2020). *The effect of mass customization on consumer satisfaction and loyalty in the fashion industry*. Journal of Business Research, 116*,* 290-297.
+
+Lucid Software Inc. (n.d.). Lucidchart. Retrieved from https://www.lucidchart.com/
+
+Mountaingoat Software. (n.d.). User Stories and Acceptance Criteria. https://www.mountaingoatsoftware.com/
+
+OpenJDK. (n.d.). *OpenJDK*. Retrieved from https://jdk.java.net/
+
+Piller, F. T., & Tseng, M. M. (2010). Mass customization: An update and review. *International Journal of Production Economics, 127*(1), 1-17. 
+
+Postman, Inc. (n.d.). *Postman*. Retrieved from https://www.postman.com/
 
 Shopify. (2023). *Print-on-demand: Market opportunities and business strategies*. Shopify Reports.
 
-Syndicode. (2018). *12 Software Architecture Quality Attributes*.[ https://syndicode.com/2018/05/03/12-software-architecture-quality-attributes/](https://syndicode.com/2018/05/03/12-software-architecture-quality-attributes/)
+Sindicode. (2018). *12 Software Architecture Quality Attributes*. https://syndicode.com/2018/05/03/12-software-architecture-quality-attributes/
 
-Twilio. (2023). *Customer Engagement Report 2023*.[ https://www.twilio.com/](https://www.twilio.com/)
+Spring. (n.d.). *Spring Boot*. Retrieved from https://spring.io/projects/spring-boot
 
-UML Diagrams. (n.d.). *Use Case Diagrams Examples*.[ https://www.uml-diagrams.org/use-case-diagrams-examples.html](https://www.uml-diagrams.org/use-case-diagrams-examples.html)
+Structurizr Ltd. (n.d.). *Structurizr*. Retrieved from https://structurizr.com/
 
-# Anexos
+Supabase. (n.d.). *Supabase*. Retrieved from https://supabase.com/
+
+Twilio. (2023). *Customer Engagement Report 2023*. https://www.twilio.com/
+
+UML Diagrams. (n.d.). *Use Case Diagrams Examples*. https://www.uml-diagrams.org/use-case-diagrams-examples.html
+
+# Anexo
 
 Anexo 1.
 
