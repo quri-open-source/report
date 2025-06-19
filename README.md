@@ -4335,15 +4335,6 @@ Durante el Sprint 3 se avanzó en la implementación de la solución a través d
 | ------------------------ | --------------------------- | ------- | ------------------------------------------------------------ | --------------------- | ----------- |
 | quri-open-source/web-app | feature/add-product-catalog | 9d43634 | feat(explore): implement search bar with text, price and tag filters | JuanCarlosAlvarado900 | 16 de junio |
 
-| quri-open-source/web-app | feature/add-my-fulfillments-page      | Rama eliminada | JonatanFD | 15 de junio |
-| ------------------------ | ------------------------------------- | -------------- | --------- | ----------- |
-| quri-open-source/web-app | feature/add-design-lab-create-edit    | Rama eliminada | JonatanFD | 15 de junio |
-| quri-open-source/web-app | feature/add-shopping-card             | Rama eliminada | JonatanFD | 15 de junio |
-| quri-open-source/web-app | feature/currency-environment-and-cart | Rama eliminada | JonatanFD | 15 de junio |
-| quri-open-source/web-app | feature/fix-shopping-cart             | Rama eliminada | JonatanFD | 15 de junio |
-| quri-open-source/web-app | feature/add-choose-manufacturer-page  | Rama eliminada | JonatanFD | 15 de junio |
-| quri-open-source/web-app | feature/add-analytics                 | Rama eliminada | JonatanFD | 15 de junio |
-
 | quri-open-source/web-app | refactor/product-catalog-bc | 1ef6509 | refactor(product-catalog): update styles for catalog and product detail views | renzoluquem | 17 de junio  |
 | ------------------------ | --------------------------- | ------- | ------------------------------------------------------------ | ----------- | ------------ |
 | quri-open-source/web-app | feature/project-card-add    | 0bfffd5 | feat(design-lab): update project card component to include context and project info | renzoluquem | 16 de junio  |
