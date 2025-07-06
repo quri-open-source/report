@@ -16,13 +16,13 @@ Docente: Angel Augusto Velasquez Nuñez
 
 Integrantes: Dante Mateo Aleman Romano, Jonatan Ariel Acuña Corahua, Fabrizio Alessandro Contreras Peralta, Renzo Andres Luque Minaya, Juan Carlos Alvarado De La Cruz, Brayan Ccarita Cruz, Neil Aldrin Curipaco Huayllani
 
-TB2
+Trabajo Final
 
 Startup: Quri
 
 TeeLab
 
-Junio 2025
+Julio 2025
 
 
 
@@ -65,7 +65,13 @@ Junio 2025
 | 3.1.2   | 16/06/2025 | Renzo Andrés Luque Minaya                                    | Lideró los endpoints de Product Catalog (PC) en Web Services, asegurando su integración con el catálogo visual de la Web App. Participó en la revisión de consistencia entre rutas y controladores. También colaboró en la elaboración del LACX y en la redacción de observaciones funcionales sobre el editor desde la perspectiva del diseñador. |
 | 3.1.3   | 15/06/2025 | Fabrizio Alessandro Contreras Peralta                        | Lideró la documentación de endpoints de Analytics (AL) y colaboró en las secciones de Design Lab (DL). Aportó en la simulación de entrevistas desde el enfoque de usuario creador/diseñador. Además, revisó y aportó mejoras a la redacción de criterios de aceptación derivados de las entrevistas. |
 
-
+| 4.0.0 | 06/07/2025 | Jonatan Ariel Acuña Corahua            | Lideró la implementación de la autenticación segura con JWT y cifrado de contraseñas. Desarrolló las rutas seguras para el panel del fabricante y la funcionalidad de consultas filtradas en el backend. Fue clave en la configuración de pagos con Stripe y la coordinación de lanzamientos de nuevas versiones. |
+| ----- | ---------- | -------------------------------------- | ------------------------------------------------------------ |
+| 4.0.1 | 06/07/2025 | Dante Mateo Aleman Romano              | Se enfocó en el frontend, implementando la visualización del resumen final del pedido para el cliente. Integró el selector de idioma con el módulo i18n, permitiendo el cambio dinámico de lenguaje en la aplicación. Además, participó en las vistas para ensambladores y fabricantes. |
+| 4.0.2 | 06/07/2025 | Fabrizio Alessandro Contreras Peralta  | Fue fundamental en el flujo de checkout, implementando la creación de pedidos pendientes desde el carrito. Desarrolló la validación y almacenamiento de la información de envío y la funcionalidad para realizar y confirmar el pedido final. Refactorizó los flujos de pedido y mejoró las validaciones en el checkout. |
+| 4.0.3 | 06/07/2025 | Neil Aldrin Wilhelm Curipaco Huayllani | Contribuyó a las funcionalidades post-compra, implementando la notificación de nueva compra al fabricante. Desarrolló la pantalla de confirmación de pedido para el cliente. Apoyó en la refactorización del diseño general y la mejora de la navegación. |
+| 4.0.4 | 06/07/2025 | Renzo Andres Luque Minaya              | Se centró en la gestión de informes y notificaciones, implementando la funcionalidad para subir reportes de producción. Desarrolló el sistema de notificaciones para nuevos pedidos asignados a los fabricantes. También gestionó el ingreso y confirmación de los detalles de envío durante el proceso de checkout. |
+| 4.0.5 | 06/07/2025 | Brayan Roberto Ccarita Cruz            | rindó apoyo crucial en el proceso de compra, implementando la funcionalidad para añadir productos al carrito de compras. Colaboró en la realización y confirmación del pedido y en la visualización de la confirmación del pedido, asegurando la integración de correcciones en el módulo de cumplimiento. |
 
 # Project Report Collaboration Insights
 
@@ -254,9 +260,26 @@ TB2: Desarrollo de la web service y web app.
 
 Contenido
 
-[Registro de versiones	](#registro-de-versiones)
+TF: Implementación del web service y web app
 
-[Project Report Collaboration Insights	](#project-report-collaboration-insights)
+- Lo Logrado en Detalle:
+  - Jonatan Ariel Acuña Corahua: Jonatan lideró la redacción de la sección "Services Documentation Evidence", un componente vital que detalla nuestros endpoints de Web Service, sus métodos HTTP y ejemplos claros de respuestas. Esta labor es crucial para que otros desarrolladores y futuros miembros del equipo entiendan cómo interactuar con nuestra API. Su participación en la creación y actualización de la matriz LACX (Leadership and Collaboration Matrix) y sus aportes a las conclusiones del Student Outcome 3 subrayan su rol en la organización y visión general del trabajo del equipo.
+  - Fabrizio Alessandro Contreras Peralta: Fabrizio se encargó de documentar la funcionalidad del módulo de Analytics, detallando los endpoints relacionados y la estructura de acciones en la API. Esto es esencial para entender cómo rastreamos y analizamos el comportamiento del usuario. Además, describió los hallazgos clave de las entrevistas a usuarios centradas en el editor de diseño, lo que nos permite mejorar nuestras herramientas. Su apoyo en la mejora de la redacción del registro de versiones y la vinculación con artefactos técnicos garantizó la coherencia de nuestra documentación.
+  - Dante Mateo Alemán Romano: Dante fue responsable de redactar la sección técnica de "Access Security", destacando los flujos de autenticación y ejemplos de parámetros, una pieza fundamental para garantizar la seguridad de nuestra plataforma. Su descripción de la experiencia del entrevistado fabricante nos proporcionó una visión invaluable de sus necesidades, lo que nos permitió realizar ajustes funcionales en el sistema. Además, colaboró en la edición general del informe y la validación de congruencia entre los entregables escritos y los funcionales, asegurando un documento final cohesivo.
+  - Neil Aldrin Wilhelm Curipaco Huayllani: Neil redactó las secciones correspondientes a las observaciones de los usuarios compradores obtenidas en las entrevistas, incluyendo propuestas de mejora derivadas de sus comentarios. Su colaboración en la traducción de este feedback en mejoras de producto y su integración como nuevas historias de usuario es vital para el desarrollo centrado en el usuario. También participó activamente en la redacción de los resultados relacionados con los módulos de órdenes y catálogo, lo que refleja su amplio conocimiento de estas áreas.
+  - Renzo Andrés Luque Minaya: Renzo aportó significativamente en la redacción de endpoints y la documentación del módulo de Product Catalog, asegurando que esta información esté alineada con el repositorio backend. Su apoyo en la revisión cruzada de contenido técnico del informe fue crucial para garantizar la precisión y consistencia de toda la documentación.
+  - Brayan Roberto Ccarita Cruz: Brayan participó activamente en la documentación del módulo de Order Fulfillment, incluyendo la especificación detallada de rutas y estados, lo cual es esencial para el seguimiento de los pedidos. También desarrolló parte de la estructura de la sección de entrevistas desde el punto de vista operativo de los fabricantes, lo que nos ayudó a comprender mejor sus flujos de trabajo y necesidades.
+  - Juan Carlos Alvarado De La Cruz: Juan Carlos redactó contenido relacionado con la exploración del catálogo y el diseño en la plataforma web, basándose en las experiencias de los usuarios entrevistados. Su participación en la integración de los endpoints del módulo de búsqueda en la documentación técnica fue clave para asegurar que esta funcionalidad esté bien descrita y accesible.![image-20250706181225459](C:\Users\NEIL\AppData\Roaming\Typora\typora-user-images\image-20250706181225459.png)
+
+
+
+![image-20250706181259371](C:\Users\NEIL\AppData\Roaming\Typora\typora-user-images\image-20250706181259371.png)
+
+[Registro de versiones](#registro-de-versiones)
+
+[Project Report Collaboration Insights](#project-report-collaboration-insights)
+
+[Student Outcome](#student-outcome)
 
 [1. Introducción](#1-capítulo-i-introducción)
 
@@ -271,6 +294,14 @@ Contenido
 [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
 
 [1.2.2. Lean UX Process](#122-lean-ux-process)
+
+[1.2.2.1. Lean UX Problem Statement](#1221-lean-ux-problem-statement)
+
+[1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+
+[1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+
+[1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
 
 [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
@@ -370,11 +401,11 @@ Contenido
 
 [4.8.1. Database Diagram](#481-database-diagram)
 
-[5. Capítulo V: Product Implementation, Validation & Deployment	](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.6fgh6bxcal2n)
+[5. Capítulo V: Product Implementation, Validation & Deployment](#5-capítulo-v-product-implementation-validation--deployment)
 
-[5.1. Software Configuration Management	](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.rza6l1h0pmq8)
+[5.1. Software Configuration Management](#51-software-configuration-management)
 
-[5.1.1. Software Development Environment Configuration	](https://docs.google.com/document/d/1Yv_R1tLczv-Ddm6ZIhJy_lEi8TN6nTkcaB7WZD5AUMA/edit?tab=t.0#heading=h.u02maq0t2p)
+[5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
 
 [5.1.2. Source Code Management](#512-source-code-management)
 
@@ -420,7 +451,55 @@ Contenido
 
 [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
 
-[Bibliografía:](#bibliografía)
+[5.2.3. Sprint 3](#523-sprint-3)
+
+[5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+
+[5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+
+[5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+
+[5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+
+[5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+
+[5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+
+[5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+
+[5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+
+[5.2.4. Sprint 4](#524-sprint-4)
+
+[5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+
+[5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+
+[5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+
+[5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+
+[5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+
+[5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+
+[5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+
+[5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
+
+[5.3. Validacion Interviews](#53-validacion-interviews)
+
+[5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+
+[5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+
+[5.3.3. Evaluación según heurísticas](#533-evaluación-según-heurísticas)
+
+[5.4. Video About-the-Product](#54-video-about-the-product)
+
+[Conclusiones](#conclusiones)
+
+[Bibliografía](#bibliografía)
 
 [Anexos](#anexos)
 
@@ -438,6 +517,10 @@ ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un 
 | Comunica por escrito con efectividad a diferentes rangos de audiencia | Acciones TB2:<br />Jonatan Ariel Acuña CorahuaRedactó secciones del LACX y la documentación técnica en OpenAPI. Su comunicación escrita se destacó por su claridad al describir los flujos de usuario y la organización estructural del proyecto en el backlog.<br />Renzo Andrés Luque MinayaRedactó y validó contenido técnico en la documentación de endpoints. Aportó de forma estructurada al backlog, priorizando la coherencia narrativa entre la funcionalidad y la experiencia de usuario.<br />Fabrizio Alessandro Contreras PeraltaDocumentó de forma técnica y ordenada los endpoints relacionados con Analytics. Sus contribuciones escritas al backlog y criterios de aceptación mejoraron la trazabilidad y consistencia funcional del sistema.<br />Dante Mateo Alemán RomanoRedactó secciones del LACX y contribuyó a mejorar la narrativa del To-Be Mapping. Su documentación en OpenAPI sobre Access Security fue detallada y orientada a la comprensión por desarrolladores y testers.<br />Neil Aldrin Wilhelm Curipaco HuayllaniElaboró la redacción de observaciones derivadas de entrevistas y su traducción en historias de usuario. Su participación escrita también incluyó la estructuración de los primeros entregables del proyecto.<br />Brayan Roberto Ccarita CruzRedactó de manera precisa los fragmentos de documentación técnica (OpenAPI) y colaboró en organizar el repositorio para facilitar la comprensión del flujo de endpoints y pruebas.<br />Juan Carlos Alvarado De La CruzDocumentó los cambios implementados en el filtro de productos por precio, texto y etiquetas. Su comunicación escrita en GitHub y en artefactos técnicos fue clara y específica en cuanto a funcionalidades. | Conclusión grupal de TB2:<br />En cuanto a la comunicación escrita, el equipo logró redactar artefactos técnicos y funcionales con un alto nivel de claridad y coherencia. Se produjeron entregables como el LACX (Leadership and Collaboration Matrix), documentación OpenAPI de endpoints, historias de usuario con formato Gherkin, observaciones de entrevistas, y actualizaciones al Product Backlog. La escritura se mantuvo organizada, precisa y enfocada en las necesidades tanto del equipo técnico como de los usuarios finales. La documentación generada fue esencial para la trazabilidad del proyecto y para el entendimiento compartido entre miembros que trabajaron en diferentes partes del sistema (Web App y Web Service). |
 
  
+
+| Comunica oralmente con efectividad a diferentes rangos de audiencia | Acciones TF:<br />Jonatan Ariel Acuña Corahua: <br />Participó activamente en las reuniones de Sprint Planning y Review, asumiendo el rol de facilitador en sesiones clave. Explicó de forma clara los alcances técnicos de los endpoints de Web Service para la autenticación y las rutas seguras, asegurando que el equipo comprendiera los detalles de la implementación backend.<br /><br />Dante Mateo Aleman Romano: <br />Se comunicó con claridad durante las reuniones, explicando las configuraciones de la API y el proceso de internacionalización. Además, en las presentaciones, detalló cómo se visualizaba el resumen final del pedido para el cliente y el impacto de los cambios de idioma.<br /><br />Fabrizio Alessandro Contreras Peralta: <br />Explicó de forma concisa el flujo de creación de pedidos pendientes y las validaciones de envío. Durante las demostraciones, detalló los pasos para realizar y confirmar un pedido, asegurando que el Product Owner entendiera la lógica del checkout.<br /><br />Neil Aldrin Wilhelm Curipaco Huayllani: <br />Compartió actualizaciones sobre la implementación de la notificación de nuevas compras y la pantalla de confirmación de pedido. En las reuniones, aportó ideas para mejorar la experiencia del usuario al visualizar el seguimiento de los pedidos.<br /><br />Juan Carlos Alvarado De La Cruz: <br />Tuvo poca participación en las reuniones y no se comunicaba con el equipo.Renzo <br /><br />Andrés Luque Minaya: <br />Comunicó de forma efectiva los requisitos para subir reportes de producción y el flujo de notificaciones para los nuevos pedidos asignados a los fabricantes. También explicó el proceso de ingreso y confirmación de los detalles de envío durante el checkout.<br /><br />Brayan Roberto Ccarita Cruz: <br />Se mantuvo al día con los avances del equipo, participando en las discusiones sobre el carrito de compras y las funcionalidades de checkout. Aportó en las sesiones de resolución de problemas para la integración del módulo de cumplimiento. | Conclusión grupal del TF:<br /><br />En este Sprint, el equipo demostró una sólida capacidad para comunicarse oralmente con efectividad. Las reuniones fueron dinámicas y productivas, facilitando la toma de decisiones rápida y la resolución colaborativa de problemas. Cada miembro contribuyó con explicaciones claras y concisas en sus áreas de experticia, lo que permitió un entendimiento compartido de los objetivos y desafíos técnicos. La participación activa de todos, incluso de Juan Carlos con sus preguntas clave, fue fundamental para el éxito del sprint. |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | Acciones TF:<br /><br />Jonatan Ariel Acuña Corahua: <br />Mantuvo un alto estándar en los mensajes de commit y en la documentación técnica de los endpoints de seguridad y filtrado.<br /> Sus descripciones en Jira para las tareas de autenticación y rutas protegidas fueron muy claras.<br />Dante Mateo Aleman Romano: <br />Documentó de forma detallada las configuraciones de la API y la implementación del módulo de internacionalización. Sus descripciones de las tareas relacionadas con el resumen del pedido y el selector de idioma en Jira fueron concisas.<br /><br />Fabrizio Alessandro Contreras Peralta:<br /> Sus mensajes de commit reflejaron claramente los cambios en el flujo de pedidos y las validaciones de checkout. La información en Jira sobre la creación de pedidos pendientes y la validación de envío fue precisa y completa.<br /><br />Neil Aldrin Wilhelm Curipaco Huayllani: <br />Sus descripciones de tareas en Jira para la notificación de compras y la confirmación de pedido fueron claras y fáciles de seguir. Contribuyó con documentación sobre el diseño y la navegación que fue útil para el equipo.<br />Juan Carlos Alvarado De La Cruz: <br />A penas y se comunica de forma escrita con el equipo y tuvo muy pocos commits<br /><br />Renzo Andrés Luque Minaya: <br />Se encargó de documentar el proceso para subir reportes de producción y las especificaciones de las notificaciones de nuevos pedidos asignados. <br />Sus aportes escritos sobre la confirmación de detalles de envío fueron de gran ayuda.<br /><br />Brayan Roberto Ccarita Cruz: <br />Sus mensajes de commit fueron claros al integrar correcciones en el módulo de cumplimiento. Las descripciones de las tareas en Jira para añadir productos al carrito y para las funcionalidades compartidas de checkout y confirmación de pedido fueron concisas. | Conclusión grupal de TF:<br /><br />El equipo demostró una fuerte competencia en la comunicación escrita, crucial para el seguimiento del proyecto y la transparencia. La calidad de los mensajes de commit y las descripciones en Jira fue consistente, facilitando el entendimiento del progreso y las dependencias. La documentación generada en áreas clave como la autenticación, los flujos de pedido y el panel del fabricante será invaluable para el mantenimiento a largo plazo y para futuras incorporaciones. Incluso con la menor participación en commits, la contribución de Juan Carlos en la revisión de la documentación subraya el compromiso colectivo con la claridad escrita. |
 
 # 1. Capítulo I: Introducción
 
@@ -634,50 +717,7 @@ Cada hipótesis fue traducida en un Lean UX Canvas formal, siguiendo un enfoque 
 
 Este trabajo metodológico permitió no solo establecer un marco claro de experimentación y validación temprana de las decisiones de diseño y tecnología, sino también alinear todos los esfuerzos de desarrollo a métricas de éxito específicas y medibles. Así, el apartado de Lean UX Canvas representa una pieza fundamental dentro del enfoque de construcción iterativa, ágil y centrada en el usuario de TeeLab, asegurando que cada funcionalidad propuesta responde a necesidades reales, riesgos priorizados y oportunidades de negocio tangibles.
 
-
-"Anexo: Diagrama de Lean UX Canvas" [https://drive.google.com/drive/folders/1ctYIYsZtXYcRKoBjgA4hCUx4Xmwf66EZ?usp=sharing
-
-](https://drive.google.com/drive/folders/1ctYIYsZtXYcRKoBjgA4hCUx4Xmwf66EZ?usp=sharing)
-
-- Implementación del Editor de Camisetas Drag & Drop
-
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe76Tf7yUAwEUPL-rUCHwLy5PFeEo-Ml7VMMYc6Xj2hnlQEwEqiFcwL0MqImanzTYAzzlustFv4uZ5KYMcS1vwqHPpNYutkcWofRkYpc5rQdvZzli-Lm-M1ioYffoQqG_k7wU6Rqw?key=wLsuErVgqDz-qczrBI4kMctR)
-
-- Personalización Visual en Tiempo Real para Aumentar la Satisfacción de Compra
-
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdSVtcdmp4SG-caBJRft-pFLIZCTDdeQWwTiVpkRCrjj2RvFGaf-qsn0lanOLBLFHmundV4NS2OQQ6isDCEsgQ7QE8wHzFW1hqQlL14QdS9JhZSEUuPIYrR9uJ-n_zzVLo2ARcu?key=wLsuErVgqDz-qczrBI4kMctR)
-
-- Facilitación de la Personalización y Compra para Incrementar la Tasa de Conversión
-
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe0UNq_nB7c3sJmeOSiWSIoObKb4lDsnQ8KPr7rj3NsTxcNyyfyoBveueDSr4KlRhnE21c0zMF1njUgVOKZOuXNeqMr1dDqDNYTaFLI-p1GAwYg_CDStWTma67DIgKFeuT-ShZ9oA?key=wLsuErVgqDz-qczrBI4kMctR)
-
-- Incremento de la Confianza mediante Simulador de Diseño en Tiempo Real
-
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfFqkDzqDmhnb6Od8VMIE3LlS5XhKJssqhXnzB-aBVPEfvMzK4NL9YcIQZQij883yvjduAODAAWg38SeWuoQLQ-RLo8RoqqIffx5TAw7qvXuABu_nY6OZ9O17COOWZy6J36wZSH?key=wLsuErVgqDz-qczrBI4kMctR)
-
-- Preferencia de los Clientes por Acceder y Comprar desde Dispositivos Móviles
-
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc-VdZnMaP_UHG488kws-fIj9cF0bjMnqUO3zGmGC5bnbQqZwywb0jtsWT1TTvUMGmn8ZBgVPWecqh0R2lTaRtImC2YGlWmSMYuzv5PytjQR3ATSvU_7SAY5x1PB0FRIRMnxpMJsg?key=wLsuErVgqDz-qczrBI4kMctR)
-
-- Reducción del Abandono del Carrito mediante Diversificación de Métodos de Pago
-
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeWHljLK_FIiAZ70lRi97Kxzsyp8FII079AcWws5PJ8C3ky3j08-QPXo8VuiBk0qu2ncMiF3311pIeWCyd7bF2lcGKn4fr6TUI8OG2SlK8wcW1vwa6G0JKViOArza8EJInjkbZwhA?key=wLsuErVgqDz-qczrBI4kMctR)
-
-- Optimización del Rendimiento en la Renderización de Vistas Previas de Camisetas
-
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcDgdGf1hWz3_IbwMl0HrXh52PZYMzL2JdunTXaFF1jE--lqV0kLAgBjgyQ81umIF3b-iNpMyc07TATptZ0s6sjrMhokPSZT8N67OR1GcvadcdffkDu95MPu45DnBkOcV565PGusA?key=wLsuErVgqDz-qczrBI4kMctR)
-
-- Expansión Internacional mediante Implementación de Selector de Idioma
-
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdqyryXcwqN_qz5Wye1o3Bjww4LSuk5UAS5T_Z8xrANEfyOFH_BSyhqBpC0XL7IFba9rx6KSyKEFrxC56zJJd9r6G7d7O5IRc2t7lez7wslCPkxIuMokZt6knXF6K3-6hjosZc8iw?key=wLsuErVgqDz-qczrBI4kMctR)
-
-- Impulso de Alianzas Estratégicas con Marcas Emergentes mediante Eliminación de Barreras de Producción
-
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcROQe14bgpdcIRKdgWxJqRuL7Po0pG7uWZhizRFkKVUzUphxrtVzBdQTf6w2lPbw7Ev9jZQtaA5QJ5YmB2AcdC8vduUGud-TPCnkyxlWqvQGd9AmT-W2tCJ0qmKWl1TpTkhJ6aHw?key=wLsuErVgqDz-qczrBI4kMctR)
-
-- Garantizar Estabilidad y Seguridad de Sesiones en Móviles y Desktop
-
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeGpqJP439Xsp4nbUZMJQqOZHgsLoL22shAySCFDO9iVESDRd64_dsaE5Of0sFlNGqb32IPgZbGXzT-r_fAJCUfscyhWQKoyDg-elhl9alHuittlD2KMRI9MU9fMViBY4MOCiAiyw?key=wLsuErVgqDz-qczrBI4kMctR)
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXebXWzIgkqPrtOKV3Qbq8eq4-KXqNdUJfTlsHccro9mMtTNTu5Upn3Fqpz_schwGuZztCfKuDIjV-EbgGBBRMWugkeA9JBSB1UHIQPpysfGcP0V7o-qULWYvovm6oK2C1WbaTrvhg?key=wLsuErVgqDz-qczrBI4kMctR)
 
 ## 1.3. Segmentos objetivo
 
@@ -855,7 +895,9 @@ Subjetivas:
 
 En este apartado se debe documentar detalladamente cada entrevista realizada a los distintos segmentos objetivo. Se debe incluir información relevante como el perfil del entrevistado, sus respuestas y los principales hallazgos obtenidos.
 
-**URL de las entrevistas:** [**upc-pre-202510-1asi0729-4350-Quri-needfinding-sprint-1 1.mp4**](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b866_upc_edu_pe/EaT2Whd5p5dOpm-3cKi4p_sBsPYWvxHOUhgK05qfy65oow?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=cNFgdc)
+**URL de las entrevistas:** 
+
+upc-pre-202510-1asi0729-4350-Quri-needfinding-sprint-1 https://shorturl.at/bDehN
 
 
 
@@ -919,9 +961,7 @@ Para identificar las necesidades reales de nuestros usuarios, se realizaron entr
 
 En esta sección se construyeron perfiles representativos denominados “User Personas”, los cuales sintetizan características clave de los usuarios objetivo a partir del análisis cualitativo de entrevistas semiestructuradas. Cada User Persona refleja patrones comunes de comportamiento, motivaciones, frustraciones, objetivos, dispositivos utilizados, y canales de información. Esta herramienta permitió traducir datos individuales en arquetipos comprensibles que orientan el diseño centrado en el usuario, facilitando decisiones estratégicas en cuanto a funcionalidades, experiencia de usuario y comunicación visual. Se desarrollaron dos perfiles principales: uno correspondiente a diseñadores que buscan monetizar y visibilizar su trabajo a través de plataformas digitales, y otro vinculado a consumidores interesados en personalizar camisetas como medio de expresión individual.
 
-“Anexo: Diagrama User Persona” https://drive.google.com/drive/folders/1R8iOqc0ieVcnw8Vr9TyI9FlygRtZmc4k?usp=sharing
-
-
+“Anexo: Diagrama User Persona” https://shorturl.at/Bz3gG
 
 - Segmento Objetivo #1: Diseñadores Gráficos Independientes
 
@@ -996,7 +1036,7 @@ Para cada uno de ellos se diseñó un mapa que incluye:
 Gracias a UXPressia, se logró una representación visual dinámica y clara que facilita la toma de decisiones centradas en el usuario. Este trabajo no solo mejora la comprensión de sus motivaciones y desafíos, sino que también guía el diseño de soluciones más relevantes, empáticas y funcionales para cada perfil identificado.
 
 
-“Anexo: Diagrama Journey Mapping” https://drive.google.com/drive/folders/1h3zjZW7i1lTedkyJnTJQeXw4Y27kYPOY?usp=sharing
+“Anexo: Diagrama Journey Mapping” https://shorturl.at/8df4u
 
 Segmento Objetivo #1: Diseñadores Gráficos Independientes
 
@@ -1052,10 +1092,7 @@ Aplicación por segmento
 
 Los Empathy Mapping revelaron aspectos clave de cada perfil que no serían detectados con métodos tradicionales. Por ejemplo, se identificaron barreras emocionales como el miedo al fracaso en Elena, la decepción previa en Marta, y la resistencia al cambio en Laura. Estos hallazgos sirvieron como base para definir mejoras en el diseño de la experiencia del usuario y personalizar las soluciones de valor.
 
-
-“Anexo: Diagrama Empathy Mapping”
-
-https://drive.google.com/drive/folders/1SmotEHZv7R4b4g4NwnTeehjksSv_uQhR?usp=sharing
+“Anexo: Diagrama Empathy Mapping” https://shorturl.at/W61Dz
 
 Segmento Objetivo #1: Diseñadores Gráficos Independientes
 
@@ -1087,9 +1124,7 @@ Para construir el mapa, se organizaron los datos recolectados mediante entrevist
 
 Cada celda fue codificada por colores para representar el nivel de satisfacción o claridad del usuario en esa etapa, Este mapeo permite visualizar de forma clara el estado actual de la experiencia del usuario y sirve como base para definir mejoras en el flujo, funcionalidades a priorizar y futuros escenarios (*To-be Scenarios*).
 
-“Anexo: Diagrama Scenario Mapping” 
-
-https://acortar.link/c0uFoZ
+“Anexo: Diagrama Scenario Mapping” https://acortar.link/c0uFoZ
 
 
 Segmento Objetivo #1: Diseñadores Gráficos Independientes
@@ -1106,45 +1141,25 @@ Segmento Objetivo #3: Marcas Emergentes y Emprendedores
 
 ## 2.4. Ubiquitous Language
 
-| Ubiquos Term               | Definition of Functional Domain                              |
-| -------------------------- | ------------------------------------------------------------ |
-| Blueprint Designer         | User responsible for creating visual compositions using the designlab and saving/publishing them as blueprints. |
-| Garment Designer           | User responsible for creating visual compositions using the designlab and saving/publishing them as garment that can be sold |
-| Customer                   | End user who browses, and purchases garmentsthrough the platform. |
-| Manufacturer               | Partner entity that produces garments based on finalized and approved blueprints. |
-| Platform Administrator     | System-level operator who manages roles, content approvals, and technical settings. |
-| Designed Garment           | Final customized product created by the designer, ready for purchase or preview. |
-| Designed Garment Price     | Calculated price of a customized garment, based on design complexity and material usage. |
-| Design Lab                 | Creative environment where blueprints are composed using canvas, layers, and design tools. |
-| Design Blueprint           | Reusable template that represents the structure, elements, and layout of a garment design. |
-| Garment Canvas             | Editable area where design elements like text and images are placed and arranged. |
-| Garment Color              | Color applied to the garment or its components during customization. |
-| Edit Select                | Action of selecting one or more design elements on the canvas. |
-| Delete Selected            | Action of removing the currently selected design element from the canvas. |
-| Move Selected              | Action of repositioning the selected design element within the canvas. |
-| Delete Selected            | Reverts the last performed change made to the blueprint in the design lab. |
-| Bring Front                | Move a layer to a higher priority position, making it the focus in the system's flow. |
-| Send Back                  | Move a layer to a lower priority position, reducing its influence. |
-| Move Front                 | Shift a layer to a more prominent position in the system.    |
-| Move Back                  | We move the Infrastructure Layer back to focus on implementation |
-| Revert Last Change         | Reapplies the most recently undone change to the current blueprint. |
-| Repeat Last Change         | Resets the current blueprint to its initial saved state, removing unsaved modifications. |
-| Reset Blueprint            | Adds a text element to the garment canvas.                   |
-| Add Text                   | Adds a text element to the garment canvas.                   |
-| Add Image                  | Adds an image or illustration to the garment canvas.         |
-| Text Element Font          | Font applied to a selected text element.                     |
-| Text Element Color         | Color applied to a selected text element.                    |
-| Text Element Size          | Size of a selected text element in design units.             |
-| Text Format                | Format attributes (bold, italic, underline, etc.) applied to text elements. |
-| Save Design Blueprint      | Stores the current state of the blueprint in the system for future editing or publishing. |
-| Designed Garment Stock     | Inventory count or availability of a specific designed garment in different sizes or variants. |
-| Publish Design Blueprint   | Makes a saved design blueprint publicly visible and available to customers. |
-| Delete Design Blueprint    | Removes a saved design blueprint from the system or from public access. |
-| Share Design Blueprint     | Allows a designer to distribute a blueprint with others for collaboration or duplication. |
-| Load Design Blueprint      | Retrieves and displays a saved blueprint for editing or reuse. |
-| Designed Garment Purchased | Event triggered when a customer successfully completes the purchase of a designed garment. |
-| Order State                | Defines the current lifecycle stage of the order, such as pending, in production, shipped,or delivered. |
-| Payment State              | Status representing the confirmation and completion of the payment process. |
+| Ubiquos Term           | Definition of Functional Domain                              |
+| ---------------------- | ------------------------------------------------------------ |
+| Designer               | User responsible for creating visual compositions using the designlab and saving/publishing them as products that can be sold/produce |
+| Customer               | End user who browses, and purchases garmentsthrough the platform. |
+| Manufacturer           | Partner entity that produces garments based on finalized and approved blueprints. |
+| Platform Administrator | System-level operator who manages roles, content approvals, and technical settings. |
+| Project                | Project in the Design Lab, garment piece that is personalize |
+| Product                | Published project already assigned for production            |
+| Design Lab             | Creative environment where blueprints are composed using canvas, layers, and design tools. |
+| Project Blueprint      | Reusable template that represents the structure, elements, and layout of a garment design. |
+| Canvas                 | Editable area where design elements like text and images are placed and arranged. |
+| Base color             | Color applied to the garment in the customization process    |
+| Texts                  | Text elements that are meant to be manipulated for customization in the canvas |
+| Images                 | Image elements that are meant to be manipulated for customization in the canvas |
+| Product Stock          | Inventory count or availability of a specific designed garment in different sizes or variants. |
+| Load Project Blueprint | Retrieves and displays a saved blueprint for editing or reuse. |
+| Order                  | Event triggered when a customer successfully completes the purchase of a product(s). |
+| Order State            | Defines the current lifecycle stage of the order, such as pending, in production, shipped, or delivered. |
+| Payment State          | Status representing the confirmation and completion of the payment process. |
 
 # 3. Capítulo III: Requirements Specification
 
@@ -1200,221 +1215,25 @@ Las user stories fueron elaboradas aplicando los principios de arquitectura hexa
 
 Se usaron criterios como: consistencia semántica, trazabilidad, claridad de propósito y separación de preocupaciones.
 
-
-
-| **StoryID** | **Tittle**                                                   | **Description**                                              | **Acceptance Criteria**                                      | **Epic** |
-| ----------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | -------- |
-| US01        | Change the language of the website                           | As a visitor, I want to change the language of the page so that I feel more comfortable in my native language. | Feature: Change Website Language Scenario: Update content after selecting languageGiven the visitor is on any page of the websiteWhen the visitor selects a language from the selectorThen the content of the page is updated to match the selected language Scenario: Maintain language across navigationGiven the visitor has selected a languageWhen they navigate to another pageThen the language remains consistent Scenario: Persist language between sessionsGiven the visitor selected a language in a past sessionWhen they return to the websiteThen the previously selected language is applied | 1        |
-| US02        | Add a language dictionary                                    | As a developer, I want to integrate a language dictionary so that the visitor can change the language based on their preference. | Feature: Language Dictionary Integration Scenario: Load correct dictionary based on selected languageGiven the system has multiple translation filesWhen the user selects a languageThen the system loads the corresponding language file Scenario: Fallback to default for missing translationsGiven a translation is missing in the selected languageWhen a string is renderedThen the default language is used | 1        |
-| US03        | Adapt the website to mobile devices                          | As a developer, I want to implement responsive design on the landing page so that I can improve the visitor’s experience on mobile devices. | Feature: Responsive Landing Page Scenario: Adjust layout on small screensGiven the screen width is less than 768pxWhen the landing page loadsThen the layout elements adjust to a mobile-friendly format Scenario: Show collapsible menu on mobileGiven the visitor is on a mobile deviceWhen the navigation is renderedThen the menu appears as a collapsible icon Scenario: Avoid horizontal scrollGiven the visitor is on the landing pageWhen the page is viewed on any screenThen there is no horizontal scrolling | 1        |
-| US04        | Know the value proposition of the platform                   | As a visitor, I want to clearly understand the value proposition offered so that I feel confident about hiring the services. | Feature: Display Value Proposition Scenario: Show value proposition on landingGiven the visitor accesses the landing pageWhen the page loadsThen a section explaining the value proposition is visible Scenario: Present benefits clearlyGiven the value proposition section is shownWhen the visitor views itThen it lists the platform’s benefits in a structured format | 1        |
-| US05        | Deploy a clear value proposition                             | As a developer, I want to structure clear sections with information about my product so that the visitor understands my value proposition. | Feature: Structure Value Proposition Sections Scenario: Organize product benefits into sectionsGiven the developer is structuring the landing pageWhen product benefits are addedThen each benefit is placed in its own section Scenario: Add supporting visuals and labelsGiven the value proposition is being displayedWhen it is shown to the visitorThen it includes clear headings, descriptions, and optional visuals | 1        |
-| US06        | Explore information about the company                        | As a visitor, I want to easily access information about the company so that I feel confident using its services. | Feature: Access Company Information Scenario: View company information from landing pageGiven the visitor is on the landing pageWhen the visitor clicks on "About Us"Then a section with company information is shown Scenario: Show relevant company detailsGiven the company information is displayedWhen the visitor reads the sectionThen it includes company background, mission, and contact details | 1        |
-| US07        | Redirect to the editor from the Landing Page                 | As a visitor, I want to access the Design Lab directly from the homepage so that I can interact with the platform. | Feature: Access Design Lab from Landing Page Scenario: Redirect to editorGiven the visitor is on the homepageWhen they click the “Start Designing” buttonThen the system redirects to the Design Lab page | 1        |
-| US08        | Configure navigation from the Landing Page to the editor     | As a developer, I want to implement the navigation logic that allows visitors to directly access the design functionality so that the entry experience is smooth. | Feature: Navigation from Landing to Editor Scenario: Handle navigation triggerGiven the homepage has a design CTA buttonWhen the visitor clicks the buttonThen the router redirects to the editor route Scenario: Load editor on route accessGiven the visitor is redirected to the editor pathWhen the route is loadedThen the editor initializes successfully | 1        |
-| US09        | Display team information                                     | As a visitor, I want to learn about the project’s development team so that I feel confident in the professionalism of the service. | Feature: View Project Team Information Scenario: Display team sectionGiven the visitor is on the landing pageWhen they click on the "Team" sectionThen names, roles, and photos of the team are displayed | 1        |
-| US10        | Consult frequently asked questions                           | As a visitor, I want to see the most frequently asked questions about the service so that I can resolve my concerns. | Feature: Access FAQs Scenario: Display FAQ sectionGiven the visitor accesses the FAQ sectionWhen the section loadsThen a list of frequently asked questions is shown Scenario: Expand a specific questionGiven the FAQ list is visibleWhen the visitor clicks on a questionThen the corresponding answer is expanded and displayed | 1        |
-| US11        | Implement ARIA tags foraccessible navigation                 | As a developer, I want to incorporate ARIA attributes so that users relying on assistive technologies can understand and navigate the static website accessibly and unambiguously. | Feature: ARIA Accessibility Support Scenario: Apply ARIA roles to structural elementsGiven the static site has navigation and sectionsWhen the HTML is parsedThen each section includes ARIA roles and labels Scenario: Screen reader announces elements correctlyGiven a user is using a screen readerWhen they move through the websiteThen each region is announced according to its ARIA role and label | 1        |
-| US12        | Access image descriptions for accessible navigation          | As a visitor, I want to hear the descriptions of the images on the page so that I can understand the visual content. | Feature: Accessible Image Descriptions Scenario: Screen reader reads image descriptionsGiven an image with an alt attribute is on the pageWhen a screen reader is usedThen the description in the alt attribute is announced Scenario: Decorative images are skippedGiven an image is purely decorativeWhen assistive technology parses the pageThen the image is ignored due to empty alt text | 1        |
-| US13        | Browse social networks                                       | As a visitor, I want to see links to the official social media accounts so that I can follow updates, stay informed, and/or contact the team. | Feature: Access Official Social Media Accounts Scenario: Display social media linksGiven the visitor is on the landing pageWhen they reach the footer or social sectionThen links to social media platforms are visible Scenario: Redirect to external social platformGiven a visitor clicks a social media iconWhen the link is activatedThen it opens the corresponding profile in a new browser tab | 1        |
-| US14        | Implement social media access points                         | As a developer, I want to add links to social media so that visitors can easily access our external platforms and stay connected with our community. | Feature: Add Social Media Access Points Scenario: Add social media links with correct metadataGiven the developer has social platform URLsWhen they add the links to the pageThen each link has the correct icon, URL, and opens in a new tab Scenario: Provide accessible labels for iconsGiven the icons are displayed on the pageWhen the user hovers or uses a screen readerThen an aria-label or equivalent is available | 1        |
-| US15        | Implement custom SEO with robots                             | As a developer, I want to implement a robots.txt file accessible from the root of the domain so that search engines know which paths to crawl or not, improving SEO and control over indexed content. | Feature: robots.txt for SEO Control Scenario: Make robots.txt availableGiven the website is liveWhen a crawler accesses /robots.txtThen a valid robots.txt file is served Scenario: Apply crawl rulesGiven the robots.txt file contains path rulesWhen a crawler processes the fileThen it follows the Disallow and Allow directives | 1        |
-| US16        | Navigate between sections from the header                    | As a visitor, I want to navigate between sections from the header so that I can easily access what the platform offers. | Feature: Navigation via Header Scenario: Navigate to section from header linkGiven the visitor is on the pageWhen they click a link in the headerThen the system scrolls or redirects to the selected section Scenario: Navigate to multiple sections from headerGiven the visitor has used one header linkWhen they click another linkThen the page navigates to the new section | 1        |
-| US17        | Implement header with navigation links                       | As a developer, I want to implement a header with 6 links (QURI, FAQ, About, Team, Join, Login) so that I can enable smooth and accessible navigation. | Feature: Header Navigation Links Scenario: Render header with all required linksGiven the application loadsWhen the header is displayedThen it includes links for QURI, FAQ, About, Team, Join, and Login Scenario: Ensure links are interactive and accessibleGiven the header is visibleWhen a user hovers or uses keyboard navigationThen each link provides a visual cue and can be activated | 1        |
-| US18        | Visualize the header visible while scrolling                 | As a visitor, I want the header to remain visible at all times so that I can stay oriented while scrolling. | Feature: Persistent Header Visibility Scenario: Header remains visible during scrollGiven the page height exceeds the viewportWhen the visitor scrolls downThen the header stays visible at the top of the screen | 1        |
-| US19        | Set the header as sticky on top                              | As a developer, I want to make the header sticky at the top so that it remains visible during scrolling. | Feature: Sticky Header Implementation Scenario: Apply sticky positioning to headerGiven the header is styledWhen the page is scrolledThen the header remains fixed at the top using sticky behavior Scenario: Avoid layout overlap with sticky headerGiven the header is stickyWhen the page scrollsThen no content is obscured or covered by the header | 1        |
-| US20        | Visually distinguish header options                          | As a visitor, I want to clearly distinguish the header options so that I understand the purpose of each one. | Feature: Distinguishable Header Options Scenario: Display distinct text labelsGiven the header is visibleWhen the visitor looks at the linksThen each link has a clear and unique label Scenario: Show visual state on interactionGiven the visitor hovers or focuses on a linkWhen the interaction occursThen the link changes appearance to indicate it's active | 1        |
-| US21        | Apply consistent styles to header links                      | As a developer, I want to apply consistent visual styles to the header links so that I can improve their readability and visual hierarchy. | Feature: Apply consistent styles to header links Scenario: Ensure all header links share the same styleGiven the page contains a header with navigation linksWhen the stylesheet is appliedThen all links in the header have the same font, size, weight, color, and spacingAnd no link visually deviates from the defined style configuration | 1        |
-| US22        | View inspiring t-shirt examples                              | As a visitor, I want to see examples of garments designed through the platform so that I can trust it. | Feature: Display examples of garments designed on the platform Scenario: Load static examples of designed t-shirtsGiven the visitor accesses the landing pageWhen the example section is renderedThen the section displays at least three images of garments generated using the platformAnd the images are served from a predefined data source | 1        |
-| US23        | Implement visual carousel of custom layouts                  | As a developer, I want to implement a visual carousel with images of designed garments so that I can showcase example products made through the platform. | Feature: Visual carousel of designed garments Scenario: Display carousel with garment designsGiven the carousel component is initializedWhen the page loadsThen the carousel shows at least five images of garment designsAnd each image is sourced from the designated dataset Scenario: Carousel navigation is functionalGiven the carousel is displayedWhen the user activates the next or previous controlThen the current image changes according to the navigation input | 1        |
-| US24        | Access key sections from the footer                          | As a visitor, I want to access key sections from the footer so that I can keep exploring without having to return to the header. | Feature: Footer navigation to key sections Scenario: Footer contains valid navigation linksGiven the visitor scrolls to the bottom of the pageWhen the footer is visibleThen it displays links to at least three key sections of the platformAnd each link navigates to the correct section without reloading the page | 1        |
-| US25        | Implement bottom navigation in the footer                    | As a developer, I want to implement a footer with links to Community, About us, and Contact us so that navigation remains accessible from anywhere on the page. | Feature: Footer links to Community, About Us, and Contact Us Scenario: Footer displays required navigation optionsGiven the footer is renderedWhen the page loadsThen the footer contains labeled links for Community, About Us, and Contact Us Scenario: Footer links function correctlyGiven the footer links are presentWhen the user selects oneThen the system routes to the respective section or page | 1        |
-| US26        | Invite registration from anywhere on the page                | As a visitor, I want to feel invited to register from anywhere on the site so that I’m encouraged to join at any time. | Feature: Registration accessibility from any section Scenario: Registration element is available throughout the pageGiven the visitor is on any section of the siteWhen the page is renderedThen a registration element or CTA is persistently accessible without requiring scrolling to a specific area | 1        |
-| US27        | Show text with link to login and registration in the footer  | As a developer, I want to display a static text with an embedded link to /login or /signup in the footer so that I can reinforce the call to action. | Feature: Display login and signup links in the footer Scenario: Static text with embedded links is present in footerGiven the visitor scrolls to the bottom of the pageWhen the footer is renderedThen the footer contains static text with embedded links to /login and /signupAnd the links navigate to their respective pages when selected | 1        |
-| US28        | Show geographic location of the company                      | As a visitor, I want to see the company's location so that I can know where it is based and gain trust in the service. | Feature: Display company’s geographic location Scenario: Display company locationGiven the visitor accesses the landing pageWhen the page is renderedThen a non-interactive element indicating the company’s location is visibleAnd the location is presented as text containing "LIMA, PE" | 1        |
-| US29        | Include geographical headquarters visible in the footer      | As a developer, I want to display the geographical location (LIMA, PE) in the footer in a discreet yet visible manner. | Feature: Headquarters location in footer Scenario: Render company location in footerGiven the footer is renderedWhen the visitor views the bottom of the pageThen the footer includes the text "LIMA, PE"And the text is visible and not hidden or obscured | 1        |
-| US30        | Access the privacy policy and legal conditions               | As a visitor, I want to easily access the privacy policy and terms of use so that I know how my information is handled. | Feature: Access legal documentation Scenario: Visitor accesses Privacy Policy and Terms & ConditionsGiven the visitor is on any page of the websiteWhen they request access to privacy or terms documentationThen the corresponding legal page is loaded without error | 1        |
-| US31        | Link to legal documents from the footer                      | As a developer, I want to include links to Privacy Policy and Terms & Conditions in the footer so that they redirect to their respective informational pages. | Feature: Footer links to legal documents Scenario: Display legal links in footerGiven the footer is renderedWhen the page loadsThen the footer includes links labeled "Privacy Policy" and "Terms & Conditions"And each link navigates to its respective informational page when selected | 1        |
-| US32        | Navigate through platform sections via sidebar               | As a Customer, I want to access the platform’s core areas via a sidebar (Home, Blueprints, Favorites, Explore, Projects, Design Lab, Settings, Help) so that I can move through the application. | Feature: Sidebar Navigation for Platform Sections Scenario: Customer accesses platform sections from sidebarGiven the user is authenticatedWhen the user selects a section from the sidebarThen the system navigates to the corresponding sectionAnd the selected section is marked as active | 2        |
-| US33        | Implement a responsive and role-based sidebar component      | As a Developer, I want to implement a left-aligned sidebar component with responsive behavior and route-based active state tracking so that users can navigate Angular modules | Feature: Responsive and Role-Based Sidebar Component Scenario: Sidebar adapts to screen sizeGiven the sidebar component is renderedWhen the screen size changesThen the sidebar adjusts its layout responsively Scenario: Sidebar updates active state based on routeGiven the user navigates using the sidebarWhen a new route is selectedThen the corresponding sidebar item is marked as active Scenario: Sidebar visibility adapts to user roleGiven a user with a specific role is logged inWhen the sidebar is renderedThen only the sections permitted for that role are displayed | 2        |
-| US34        | Access core platform actions from the top toolbar            | As a Customer, I want the top toolbar to provide instant access to Create, Cart, and Profile so that I can reach those key actions from any screen. | Feature: Access Toolbar Actions Scenario: Toolbar provides access to main actionsGiven the user is authenticatedWhen the toolbar is displayedThen it includes buttons for Create, Cart, and ProfileAnd each button routes to the corresponding section | 2        |
-| US35        | Bind toolbar buttons to key route actions                    | As a Developer, I want to bind toolbar buttons to /design-lab/new, /cart, and /profile using routerLink, and ensure responsive icon layout using Angular Material, so that action buttons remain accessible and semantic. | Feature: Toolbar Button Routing and Layout Scenario: Toolbar buttons are linked to routesGiven the toolbar component is initializedWhen the user clicks the Create buttonThen the system navigates to /design-lab/new Scenario: Toolbar buttons route to Cart and ProfileGiven the toolbar is displayedWhen the user clicks the Cart buttonThen the system navigates to /cart When the user clicks the Profile buttonThen the system navigates to /profile Scenario: Toolbar buttons maintain responsive layoutGiven the screen size changesWhen the toolbar is displayedThen the buttons remain accessible and adapt using Angular Material layout | 2        |
-| US36        | Visualize dynamic routing in the main body                   | As a Customer,I want the main content area to display the view associated with the currently active route,So that I can seamlessly navigate through different sections of the application via the sidebar or toolbar. | Feature: Main Content View Based on Active Route Scenario: Display route content in main bodyGiven a route is activated via the sidebar or toolbarWhen the main content area is renderedThen the system displays the corresponding route view | 2        |
-| US37        | Embed router outlet and configure lazy-loaded modules        | As a Developer, I want to embed <router-outlet> in the body container and configure lazy-loaded Angular modules for each route so that content updates contextually | Feature: Dynamic Routing with Lazy Loading Scenario: Render routed views using router outletGiven the main body contains a <router-outlet>When a route is activatedThen the view inside the outlet updates to match the route Scenario: Load routes using lazy-loaded modulesGiven a route is requestedWhen the corresponding module is not yet loadedThen the system loads the Angular module using lazy loading | 2        |
-| US38        | Visualize active route visually in navigation                | As a Customer,I want the active route to be visually highlighted in the sidebar or toolbar,So that I can easily identify which section of the platform I am currently viewing. | Feature: Visual Indicator for Active Route in Navigation Scenario: Sidebar highlights active routeGiven the user is viewing a section of the platformWhen the sidebar is renderedThen the item corresponding to the current route is visually marked as active Scenario: Toolbar highlights active routeGiven the user is viewing a section accessible from the toolbarWhen the toolbar is renderedThen the button corresponding to the current route is visually marked as active | 2        |
-| US39        | Apply route-aware styles for active navigation state         | As a Developer, I want to use routerLinkActive and dynamic class bindings to apply style indicators (e.g., color, weight, border) to menu items that reflect the current route. | Feature: Apply Active Route Styles Using Angular Bindings Scenario: Apply active class via routerLinkActiveGiven a navigation link uses routerLinkActiveWhen the link’s route matches the current routeThen the active class is applied to the link element Scenario: Bind style indicators dynamically based on routeGiven the route changesWhen the component re-rendersThen the correct dynamic classes (e.g., color, font weight, border) are applied to the active item | 2        |
-| US40        | Collapse the sidebar into a drawer on small screens          | As a Customer, I want the sidebar to collapse into a drawer on small screens so that I can browse the platform comfortably on any device. | Feature: Responsive Sidebar Collapse on Small Screens Scenario: Sidebar collapses into drawer layoutGiven the user accesses the platform from a small screen deviceWhen the sidebar component is initializedThen the sidebar is rendered as a collapsible drawer | 2        |
-| US41        | Toggle sidebar layout based on screen breakpoints            | As a Developer, I want to detect screen breakpoints with Angular CDK and toggle the sidebar into a mat-drawer on tablets and mobile so that the layout remains clean and accessible. | Feature: Sidebar Layout Toggle Based on Breakpoints Scenario: Detect screen size and switch layoutGiven Angular CDK observes screen sizeWhen the viewport matches tablet or mobile breakpointsThen the sidebar is replaced with a mat-drawer component Scenario: Render standard sidebar on large screensGiven the viewport is desktop sizeWhen the sidebar component is displayedThen it renders in full width and does not collapse | 2        |
-| US42        | Visualize a fixed toolbar during vertical scroll             | As a Customer,I want the toolbar to remain fixed at the top of the screen while I scroll vertically,So that I can always access key navigation or actions without needing to scroll back up. | Feature: Persistent Toolbar During Scroll Scenario: Toolbar remains visible on vertical scrollGiven the user scrolls vertically through the contentWhen the toolbar is presentThen the toolbar remains fixed at the top of the viewport | 2        |
-| US43        | Apply sticky positioning and layering to the toolbar         | As a Developer, I want to apply position: sticky to the toolbar component and ensure z-index layering so that it floats above body content during scroll events. | Feature: Sticky Toolbar with Proper Layering Scenario: Toolbar uses sticky positioningGiven the toolbar component is styledWhen the user scrolls the main contentThen the toolbar uses CSS position: sticky to stay in view Scenario: Toolbar is layered above contentGiven the toolbar uses sticky positioningWhen overlapping elements existThen the toolbar maintains visibility using appropriate z-index | 2        |
-| US44        | Visualize navigation items based on user role                | As a Customer,I want the navigation items in the sidebar and toolbar to reflect my user role,So that I only see sections and actions that are relevant and authorized for me. | Feature: Role-Based Navigation Item Visibility Scenario: Show role-specific routes in sidebarGiven a user is authenticatedWhen the sidebar is renderedThen it displays only the sections permitted for the user’s role Scenario: Show role-specific toolbar buttonsGiven a user is authenticatedWhen the toolbar is displayedThen it includes only the buttons relevant to the user’s role | 2        |
-| US45        | Filter route visibility according to user permissions        | As a Developer, I want to filter visible routes using Angular structural directives and role-based guards from the auth service so that navigation adapts to the authenticated user’s role. | Feature: Role-Based Route Filtering in Angular Scenario: Filter routes using Angular structural directivesGiven the user is logged in with a specific roleWhen navigation items are renderedThen only elements allowed by that role are included in the DOM Scenario: Restrict access using route guardsGiven a user attempts to access a restricted routeWhen the route guard checks the user’s roleThen access is granted only if the role matches the permitted configuration | 2        |
-| US46        | Being redirected to a default route when accessing an undefined one | As a Customer,I want to be redirected to the Home view when I log in or access an undefined route,So that I always land on a valid page and avoid broken or confusing navigation experiences. | Feature: Redirect to Home View on Login or Undefined Route Scenario: Redirect to Home after loginGiven the user has logged in successfullyWhen the route is emptyThen the system navigates to the Home view Scenario: Redirect to Home on undefined routeGiven the user accesses an undefined routeWhen the router fails to match any pathThen the system redirects to the Home view | 2        |
-| US47        | Configure routing for default and fallback scenarios         | As a Developer, I want to configure Angular’s router to set a default route (`redirectTo: 'home'`) and a wildcard route (path: '**') pointing to a 404 or fallback screen in the body container. | Feature: Angular Router Default and Wildcard Route Configuration Scenario: Configure default redirectGiven the user accesses the root pathWhen the route is matched as emptyThen the router redirects to the 'home' route Scenario: Configure fallback route for undefined pathsGiven the user accesses a path not defined in the router configurationWhen the router cannot resolve the pathThen the 404 or fallback component is rendered in the body container | 2        |
-| US48        | Visualize a proper login layout                              | As a Customer,I want a clearly structured login screen with labeled fields for email and password,So that I can easily understand where to enter my credentials and access my account. | Feature: Login Screen Layout Scenario: Display credential input fieldsGiven the login page is renderedWhen the user is not authenticatedThen the screen displays labeled fields for email and password | 2        |
-| US49        | Implement the login screen structure                         | As a Developer, I want to structure the login view using Angular components and Material Design so that the form is responsive, semantic, and ready to connect with the authentication module. | Feature: Login View Component Structure Scenario: Structure login form with Angular MaterialGiven the login route is accessedWhen the component initializesThen the view uses Angular Material components for inputs and layout Scenario: Prepare login form for authenticationGiven the user enters valid credentialsWhen the form is submittedThen the input values are emitted to the authentication module | 2        |
-| US50        | Visualize a proper register layout                           |                                                              | Feature: Registration Screen Layout Scenario: Display required input fieldsGiven the registration page is renderedWhen the user accesses the pageThen the screen shows all required registration fields with labels | 2        |
-| US51        | Implement the registration screen structure                  | As a Developer, I want to implement the registration form layout using Angular Material fields, responsive grid layout, and input validation structure so that the design is aligned with the rest of the web app interface. | Feature: Registration Form Component Structure Scenario: Build registration layout using Angular MaterialGiven the registration component is initializedWhen the page loadsThen Angular Material input components are rendered in a responsive grid layout Scenario: Apply form validation structureGiven the user enters values into the formWhen the fields are submittedThen each field is validated for format and completeness before submission | 2        |
-| US52        | Add text to the Designed Garment                             | As a Garment Designer, I want to add text to a Designed Garment so that I can personalize the product with a message or branding. | Feature: Add Text Element to Garment Canvas Scenario: Insert new text elementGiven the garment designer is using the editorWhen the "Add Text" action is triggeredThen a text element is rendered on the canvasAnd the element becomes selectable for editing | 3        |
-| US53        | Render draggable text on the Garment Canvas                  | As a Developer, I want to render a draggable and resizable text element on the Garment Canvas so that it can be placed freely on the shirt design. | Feature: Draggable and Resizable Text Element Scenario: Enable drag and resize on textGiven a text element is present on the canvasWhen the designer interacts with the elementThen it can be moved to any position on the canvasAnd its dimensions can be resized using control points | 3        |
-| US54        | Change the font of a text element                            | As a Garment Designer, I want to change the font of a text element so that the design matches a specific visual identity or style. | Feature: Change Font of Canvas Text Scenario: Font selection for text elementGiven a text element is selectedWhen a font is chosen from the listThen the selected font is applied to the text element | 3        |
-| US55        | Apply selected font to text element on canvas                | As a Developer, I want to provide a dropdown of web-safe fonts and apply the selected font to the text element on the canvas. | Feature: Apply Font from Dropdown Scenario: Apply selected web-safe fontGiven a font dropdown is availableWhen the garment designer selects a fontThen the chosen font is applied to the active text element on the canvas | 3        |
-| US56        | Change the color of a text element                           | As a Garment Designer, I want to change the color of a text element so that it contrasts or complements the garment's base color. | Feature: Update Text Color Scenario: Set text element fill colorGiven a text element is selectedWhen a color is chosen from the color pickerThen the fill color of the text is updated accordingly | 3        |
-| US57        | Bind color picker to text element fill style                 | As a Developer, I want to bind a color picker to the selected text object so that the chosen color updates its fillStyle in real-time. | Feature: Real-Time Text Fill Update Scenario: Live update of text fill colorGiven the color picker is active and a text element is selectedWhen a new color is chosenThen the text element's fill style is updated in real-time | 3        |
-| US58        | Upload and position an image on the Designed Garment         | As a Garment Designer, I want to upload and place an image on the Designed Garment so that I can include logos or graphics in the product. | Feature: Upload and Position Image on Canvas Scenario: Upload image to canvasGiven the garment designer selects an image file (PNG, JPG)When the upload completesThen the image is rendered as an object on the canvas Scenario: Position image freelyGiven the image is on the canvasWhen the user drags or resizes itThen the image's position and size are updated accordingly | 3        |
-| US59        | Render uploaded image as a canvas layer with controls        | As a Developer, I want to support image upload (PNG, JPG, SVG) and render the image as a canvas layer with drag, resize, and z-index control. | Feature: Canvas Layer for Uploaded Image Scenario: Support image rendering with controlsGiven the garment designer uploads a valid imageWhen the image is rendered on the canvasThen it includes controls for dragging, resizing, and z-index adjustment | 3        |
-| US60        | Set the base color of the Designed Garment                   | As a Garment Designer, I want to choose the base color of the shirt so that the entire garment reflects the intended look. | Feature: Set Base Color of Designed Garment Scenario: Garment designer sets base colorGiven the garment designer is using the editorWhen a color is selected from the base color optionsThen the background color of the garment is updated accordingly | 3        |
-| US61        | Bind base color selector to the garment background           | As a Developer, I want to bind a base color selector to the background layer of the Garment Canvas so that it changes the product preview. | Feature: Bind Base Color Selector to Canvas Background Scenario: Update canvas background via color selectorGiven the base color selector is presentWhen the designer selects a colorThen the canvas background layer reflects the selected color in real time | 3        |
-| US62        | Reorder design layers on the canvas                          | As a Garment Designer, I want to move elements forward or backward in layers so that I can control which ones are in front or behind. | Feature: Reorder Canvas Layers Scenario: Move element forward or backwardGiven an element is selected on the canvasWhen the designer chooses to move it forward or backwardThen the element's z-index is updated accordingly | 3        |
-| US63        | Implement bring/send layer ordering functions                | As a Developer, I want to implement functions like “Bring Front” and “Send Back” that adjust the z-index of canvas layers dynamically. | Feature: Layer Ordering with Bring/Send Controls Scenario: Bring element to frontGiven a canvas element is selectedWhen the "Bring to Front" control is activatedThen the element is assigned the highest z-index Scenario: Send element to backGiven a canvas element is selectedWhen the "Send to Back" control is activatedThen the element is assigned the lowest z-index | 3        |
-| US64        | Preview the Designed Garment in full view                    | As a Garment Designer, I want to preview the Designed Garment in full screen or preview so that I can validate how it will look to the Customer. | Feature: Full View Preview of Designed Garment Scenario: Open garment preview modeGiven the design is ready for reviewWhen preview mode is triggeredThen the garment is displayed in full view without editing elements | 3        |
-| US65        | Enable high-resolution preview mode without UI               | As a Developer, I want to provide a preview mode that hides UI tools and shows the final render of the garment with high resolution. | Feature: High-Resolution UI-Free Preview Scenario: Render garment preview without UI toolsGiven the preview mode is activeWhen the screen is renderedThen UI elements are hiddenAnd the garment is displayed at maximum resolution | 3        |
-| US66        | Assign a name to the Designed Garment                        | As a Garment Designer, I want to assign a name to the Designed Garment so that customers can easily identify or refer to the product. | Feature: Name Assignment for Designed Garment Scenario: Input garment nameGiven the designer is editing a garmentWhen a value is entered in the name fieldThen the name is stored in the product name property | 3        |
-| US67        | Bind name input field to product model                       | As a Developer, I want to provide a form input field bound to the product.name property so that the garment can be saved or published with a title. | Feature: Bind Garment Name to Product Model Scenario: Bind name field to modelGiven the name input field is renderedWhen a value is enteredThen the value is bound to product.name in the model | 3        |
-| US68        | Write a description for the Designed Garment                 | As a Garment Designer, I want to write a description for the Designed Garment so that I can explain the concept, purpose, or style of the product. | Feature: Write Product Description Scenario: Enter garment descriptionGiven a description input field is availableWhen the designer enters a descriptionThen the value is accepted for the product description | 3        |
-| US69        | Bind multiline description field to product metadata         | As a Developer, I want to implement a multiline input field bound to the product.description attribute so that the garment can be indexed or shown in product detail views. | Feature: Bind Garment Description to Product Metadata Scenario: Bind multiline input to model attributeGiven the multiline field is bound to product.descriptionWhen a description is enteredThen the value is stored in the product metadata for display and indexing | 3        |
-| US70        | Select the target gender for the Designed Garment            | As a Garment Designer, I want to select the intended gender (e.g., male, female, unisex) of the garment so that it appears in the right customer filters. | Feature: Select Target Gender for Designed Garment Scenario: Choose target gender for productGiven the garment designer is editing a productWhen a gender option is selected (e.g., male, female, unisex)Then the selected value is assigned to the garment’s gender attribute | 3        |
-| US71        | Bind gender selector to product configuration                | As a Developer, I want to implement a dropdown or segmented control bound to product.gender so that the design is categorized correctly for storefront filtering. | Feature: Bind Gender Selector to Product Configuration Scenario: Bind gender selection to product modelGiven a gender selector is rendered in the editorWhen a value is chosenThen the selected gender is stored in product.gender | 3        |
-| US72        | Select available sizes for the Designed Garment              | As a Garment Designer, I want to select the available sizes for the Designed Garment (e.g., S, M, L, XL) so that customers can choose the correct size when purchasing. | Feature: Select Available Sizes for Designed Garment Scenario: Choose one or more available garment sizesGiven the designer is configuring the productWhen sizes (e.g., S, M, L, XL) are selectedThen each selected size is included in the garment’s size options | 3        |
-| US73        | Bind multi-size input to garment size array                  | As a Developer, I want to implement a multi-select component or checkbox list bound to product.sizes[] so that the defined sizes are stored and displayed correctly in the product detail view. | Feature: Bind Size Selection to Product Size Array Scenario: Bind selected sizes to product.sizes[]Given the size selection component is displayedWhen the garment designer selects multiple size optionsThen each selected value is stored in product.sizes[] | 3        |
-| US74        | Create a new Design Blueprint                                | As a Blueprint Designer, I want to create a new Design Blueprint so that I can start composing a reusable garment design. | Feature: Create New Design Blueprint Scenario: Initialize a new design blueprintWhen the "Create" action is triggeredThen a new design blueprint is createdAnd the editor view is initialized for composition | 4        |
-| US75        | Instantiate a blank canvas for new blueprint creation        | As a Developer, I want to instantiate a blank canvas and generate a new Design Blueprint ID so that changes can be saved progressively. | Feature: Instantiate Blank Canvas for New Blueprint Scenario: Generate canvas and blueprint IDWhen a new blueprint is createdThen a blank canvas is renderedAnd a unique blueprint ID is generated and stored | 4        |
-| US76        | Save the current Design Blueprint                            | As a Blueprint Designer, I want to save my current blueprint so that I can continue editing or reuse it later. | Feature: Save Design Blueprint Scenario: Save current blueprintWhen the save action is triggeredThen the current canvas state is stored under the blueprint ID | 4        |
-| US77        | Serialize and persist blueprint canvas state                 | As a Developer, I want to serialize the canvas state and persist it to the database under the associated Blueprint ID. | Feature: Persist Canvas State Scenario: Serialize and store canvas stateWhen the save function is calledThen the canvas state is serializedAnd persisted in the database under the matching blueprint ID | 4        |
-| US78        | Load a saved Design Blueprint                                | As a Blueprint Designer, I want to load a saved Design Blueprint so that I can continue working on it. | Feature: Load Saved Design Blueprint Scenario: Load existing blueprintWhen a saved blueprint is selectedThen the corresponding design data is loaded into the canvas | 4        |
-| US79        | Retrieve and hydrate canvas from stored blueprint            | As a Developer, I want to retrieve the blueprint by ID and hydrate the canvas with its saved state. | Feature: Hydrate Canvas from Stored Blueprint Scenario: Load and render stored canvas stateWhen a blueprint ID is providedThen the blueprint data is retrievedAnd the canvas is hydrated with the saved state | 4        |
-| US80        | Delete a Design Blueprint                                    | As a Blueprint Designer, I want to delete a Design Blueprint I no longer need so that I can clean up my workspace. | Feature: Delete Design Blueprint Scenario: Delete blueprint from systemWhen a blueprint is selected for deletionThen the blueprint is removed from storageAnd it no longer appears in the blueprint list | 4        |
-| US81        | Remove blueprint data and assets from storage                | As a Developer, I want to remove the blueprint entry and associated assets from the database. | Feature: Remove Blueprint and Associated Data Scenario: Delete blueprint record and assetsWhen a blueprint is deletedThen the blueprint entry is removed from the databaseAnd all associated assets linked to its ID are deleted | 4        |
-| US82        | Rename a Design Blueprint                                    | As a Blueprint Designer, I want to rename my blueprint so that it’s easier to identify later. | Feature: Rename Design Blueprint Scenario: Rename existing blueprintWhen a new name is submitted for a blueprintThen the blueprint’s title is updated in the interface and stored for future access | 4        |
-| US83        | Update blueprint title in the database and interface         | As a Developer, I want to update the name property of the blueprint record and sync it in the UI. | Feature: Update Blueprint Name in Storage and UI Scenario: Persist new name for blueprintWhen the name input field value is changedThen the blueprint record’s name property is updated in the databaseAnd the new name is reflected in the visible blueprint list | 4        |
-| US84        | Duplicate an existing Design Blueprint                       | As a Blueprint Designer, I want to duplicate a blueprint so that I can modify a copy without losing the original. | Feature: Duplicate Blueprint for Editing Scenario: Copy blueprint for modificationWhen the duplicate action is triggeredThen a copy of the blueprint is createdAnd the original blueprint remains unchanged | 4        |
-| US85        | Clone blueprint data and assign a new ID                     | As a Developer, I want to clone the canvas state and assign a new Blueprint ID for the duplicate. | Feature: Clone Blueprint Canvas State Scenario: Duplicate canvas and generate new IDWhen the blueprint is clonedThen the canvas data is duplicatedAnd a new unique blueprint ID is assigned to the copy | 4        |
-| US86        | Publish a Design Blueprint                                   | As a Blueprint Designer, I want to publish a Design Blueprint so that it can be viewed or used by others. | Feature: Publish Blueprint Scenario: Change blueprint status to publishedWhen the publish action is triggeredThen the blueprint’s visibility status is set to public | 4        |
-| US87        | Set blueprint visibility to public and indexable             | As a Developer, I want to mark the blueprint as public and enable its discovery in search or gallery views. | Feature: Make Blueprint Public and Discoverable Scenario: Update blueprint metadata to publicWhen a blueprint is publishedThen the blueprint is marked as public in the databaseAnd the blueprint becomes available in search and gallery views | 4        |
-| US88        | Share a Design Blueprint with others                         | As a Blueprint Designer, I want to share a Design Blueprint with others so that they can view or duplicate it. | Feature: Share Blueprint Scenario: Allow blueprint to be sharedWhen the share action is usedThen the blueprint is prepared for viewing or duplication by others | 4        |
-| US89        | Generate sharable blueprint link with access control         | As a Developer, I want to generate a sharable URL linked to the blueprint ID with view or edit permissions. | Feature: Generate Shareable Blueprint URL Scenario: Generate blueprint URL with access settingsWhen the system creates a sharable linkThen the URL contains the blueprint IDAnd permissions are assigned for view or edit access based on configuration | 4        |
-| US90        | Validate authentication when login in                        | As a Customer,I want the system to validate my login credentials and return an authentication token,So that I can securely access my account and protected areas of the application. | Feature: User Login Scenario: Authenticate using valid credentialsWhen valid credentials are submitted to the login endpointThen the system verifies themAnd returns an authentication token | 5        |
-| US91        | Implement secure password verification and JWT generation    | As a Developer, I want to implement an authentication endpoint with encrypted password validation and JWT issuance so that secure sessions can be established. | Feature: Secure Authentication and Token Issuance Scenario: Validate password and issue JWTWhen the login endpoint receives email and passwordThen the password is verified using hashingAnd a signed JWT token is generated and returned | 5        |
-| US92        | Register ssecurely                                           | As a Customer,I want to securely register with valid information,So that my account is created safely and I receive confirmation of successful registration. | Feature: User Registration Scenario: Register user with valid inputWhen registration data is submittedThen the system creates a new user accountAnd responds with a success status and confirmation | 5        |
-| US93        | Validate and store encrypted user data on registration       | As a Customer,I want a properly designed registration screen that displays all required input fields with clear labels,So that I can easily complete the registration process without confusion. | Feature: Secure Registration Endpoint Scenario: Validate input and store encrypted dataWhen a user submits registration dataThen inputs are validatedAnd the password is hashedAnd the user is saved only if the email is unique | 5        |
-| US94        | Being only able to acces role-routes                         | As a Customer, I want to only access routes allowed by my role so that I don’t access unauthorized resources. | Feature: Role-Based Access Enforcement Scenario: Restrict access by roleWhen a user accesses a protected routeThen the system checks the user roleAnd allows access only if the role matches the route policy | 5        |
-| US95        | Restrict API access                                          | As a Developer, I want to secure API routes using role-based access control and middleware guards so that unauthorized access is blocked. | Feature: Secure API Routes with Role Guards Scenario: Block unauthorized API requestsWhen an API route is accessedThen the system verifies the access token and roleAnd rejects the request if the user lacks permissions | 5        |
-| US96        | Stay log in                                                  | As a Customer, I want to stay logged in securely across sessions so that I don’t have to re-authenticate frequently. | Feature: Session Management with Tokens Scenario: Maintain session with access and refresh tokensWhen the user logs inThen an access token and refresh token are issuedAnd the user can refresh the session without re-authenticating | 5        |
-| US97        | Configure JWT authentication with expiration handling        | As a Developer, I want to manage access tokens and refresh tokens using stateless JWT and configure expiration policies. | Feature: JWT Expiration and Refresh Handling Scenario: Issue tokens with expiration policyWhen tokens are generatedThen the access token has a short expirationAnd the refresh token has a longer, revocable lifespan | 5        |
-| US98        | Provide secure logout endpoint                               | As a Customer, I want to log out from the system so that my session is closed and cannot be reused. | Feature: Logout Endpoint Scenario: Log user out and end sessionWhen the logout endpoint is calledThen the user session is terminatedAnd the client is instructed to discard tokens | 5        |
-| US99        | Invalidate tokens and clear session metadata on logout       | As a Developer, I want to implement a logout mechanism that invalidates refresh tokens and deletes session metadata. | Feature: Invalidate Refresh Token and Session Metadata Scenario: Terminate session securelyWhen the logout endpoint is triggeredThen the refresh token is invalidatedAnd any session metadata is deleted from the server | 5        |
-| US100       | Protect information                                          | As a Customer, I want my personal and payment data to be stored securely so that I am protected from data breaches. | Feature: Encrypt Sensitive Data at Rest Scenario: Encrypt personal and payment dataWhen sensitive user data is storedThen encryption is applied at restAnd only authorized services can decrypt it | 5        |
-| US101       | Secure data transmission via HTTPS and TLS protocols         | As a Developer, I want to encrypt sensitive fields at rest using industry standards (e.g., AES, bcrypt) and enforce HTTPS in transit. | Feature: Enforce Secure Transmission and Encryption Standards Scenario: Use HTTPS for all data in transitWhen the application is accessedThen all requests and responses are transmitted over HTTPS using TLS Scenario: Encrypt sensitive fields at restWhen user data is storedThen sensitive fields are encrypted using industry-standard algorithms (e.g., AES, bcrypt) | 5        |
-| US102       | Reset my password                                            | As a Customer, I want to reset my password securely so that I can regain access to my account if I forget it. | Feature: Secure Password Reset Scenario: Request password resetWhen a password reset request is submitted with a valid emailThen a reset token is generated and sent to the email address Scenario: Reset password with valid tokenWhen the user accesses the reset link and submits a new passwordThen the password is updated and the token is invalidated | 5        |
-| US103       | Generate and validate reset tokens with expiry rules         | As a Developer, I want to implement a password reset flow with temporary token, email validation, and secure password update. | Feature: Temporary Reset Token Validation Scenario: Generate time-limited password reset tokenWhen a password reset request is madeThen a token with an expiration timestamp is created and linked to the user Scenario: Validate token before allowing password changeWhen the user accesses the reset linkThen the system verifies the token is valid and not expired | 5        |
-| US104       | Track and alert on suspicious login activity                 | As a Platform Administrator, I want to be notified of repeated failed login attempts so that I can take action against potential threats. | Feature: Monitor Suspicious Login Attempts Scenario: Track failed login attemptsWhen multiple failed login attempts occur for a single accountThen the system logs each attempt with metadata Scenario: Trigger alert after threshold is reachedWhen failed attempts exceed a predefined thresholdThen a notification is sent to the platform administrator | 5        |
-| US105       | Log failed authentications and enforce throttling            | As a Developer, I want to log failed authentications and trigger alerts based on rate limits or IP anomalies. | Feature: Authentication Throttling and Alerting Scenario: Log failed authentication attemptsWhen a login attempt failsThen the event is recorded with timestamp, IP, and user identifier Scenario: Enforce rate limiting on repeated failuresWhen login attempts exceed the allowed rateThen the system temporarily blocks further attempts from the same source | 5        |
-| US106       | Add a Designed Garment to the shopping cart                  | As a Customer, I want to add a Designed Garment to my cart so that I can review and purchase it later. | Feature: Add Garment to Shopping Cart Scenario: Add a garment to cartWhen a customer selects a Designed Garment and triggers the add-to-cart actionThen the garment ID and quantity are added to the user's cart session | 6        |
-| US107       | Send garment data to the cart service for storage            | As a Developer, I want to trigger a POST request to the cart API with the garment ID and quantity so that it is stored in the user's cart session. | Feature: POST Garment to Cart Service Scenario: Send garment data to backend cart serviceWhen the add-to-cart action is triggeredThen a POST request is sent to the cart API with the garment ID and quantityAnd the item is persisted in the user's cart session | 6        |
-| US108       | View and manage cart items before purchase                   | As a Customer, I want to view and edit the contents of my cart so that I can update quantities or remove items before checking out. | Feature: View and Modify Cart Contents Scenario: Display current cart contentsWhen the cart page is accessedThen all items stored in the session cart are listed with their details Scenario: Update item quantity or remove itemWhen the customer modifies quantity or removes an itemThen the session cart is updated to reflect the change | 6        |
-| US109       | Retrieve and update cart state via cart service              | As a Developer, I want to fetch the cart items via REST API and allow inline edits so that updates are reflected in the session cart state. | Feature: Fetch and Update Cart via API Scenario: Fetch cart items from backendWhen the cart view is loadedThen a GET request retrieves the current cart data from the cart service Scenario: Update item quantity via inline inputWhen a quantity field is editedThen a PATCH or PUT request updates the item in the backend cart session | 6        |
-| US110       | Initiate checkout process from cart                          | As a Customer, I want to proceed to checkout from my cart so that I can complete my purchase. | Feature: Proceed to Checkout Scenario: Trigger checkout from cartWhen the customer clicks checkoutThen the system transitions to the checkout viewAnd the current cart state is preserved for the order | 6        |
-| US111       | Create a pending order record from current cart data         | As a Developer, I want to route the user to a checkout view and initialize an order object in the backend with their cart contents. | Feature: Initialize Order from Cart Scenario: Create pending order on checkoutWhen the checkout view is loadedThen the cart contents are sent to the backendAnd an order record is created with status "pending" | 6        |
-| US112       | Enter and confirm shipping details during checkout           | As a Customer, I want to confirm my shipping address and contact info during checkout so that my order can be delivered correctly. | Feature: Confirm Shipping Details Scenario: Submit shipping and contact informationWhen the customer enters a shipping address and contact infoThen the data is saved to the order recordAnd validated for completeness | 6        |
-| US113       | Validate and store shipping data in the order record         | As a Developer, I want to validate and persist the shipping info to the order entity so that it can be used by logistics. | Feature: Store Shipping Info in Order Record Scenario: Validate and persist shipping dataWhen the customer submits shipping information during checkoutThen the data is validated for completeness and formatAnd persisted to the corresponding order record | 6        |
-| US114       | Display final order summary to the customer                  | As a Customer, I want to see a final summary of my order before confirming so that I know what I’m paying for. | Feature: Display Final Order Summary Scenario: Show complete order summary before confirmationWhen the customer reaches the final step of checkoutThen the system displays a summary including item list, total cost, and shipping details | 6        |
-| US115       | Calculate and present total order amount server-side         | As a Developer, I want to generate a visual order summary from the current cart and server-side calculation of total amount. | Feature: Server-Side Total Calculation Scenario: Calculate order total and display summaryWhen the order summary is requestedThen the total amount is calculated server-side from the cart contentsAnd the data is returned for display on the summary screen | 6        |
-| US116       | Place and confirm customer order                             | As a Customer, I want to place my order so that the system can process it and begin fulfillment. | Feature: Place Order Scenario: Confirm and place the orderWhen the customer confirms the summary and submits the orderThen the system finalizes the order for processing | 6        |
-| US117       | Lock cart and persist confirmed order with timestamp         | As a Developer, I want to mark the order as confirmed, lock the cart, and return an order ID and estimated delivery time. | Feature: Finalize Order and Lock Cart Scenario: Persist confirmed order and lock cartWhen an order is placedThen the cart is locked from further modificationAnd an order record is stored with a timestamp, order ID, and estimated delivery time | 6        |
-| US118       | Display order confirmation to the customer                   | As a Customer, I want to see a confirmation screen after placing an order so that I can know it was successful. | Feature: Display Order Confirmation Scenario: Show confirmation message and summaryWhen the order is successfully placedThen the system displays a confirmation screen with order status and reference number | 6        |
-| US119       | Render confirmation view with order metadata                 | As a Developer, I want to display the confirmation page using the data returned from the order API (ID, summary, ETA). | Feature: Confirmation Page Rendering Scenario: Use API response to populate confirmation viewWhen the order API returns metadata (ID, total, ETA)Then the frontend renders the confirmation screen using this data | 6        |
-| US120       | Notify manufacturer of new purchase                          | As a Manufacturer, I want to be notified when an order is placed so that I can begin production. | Feature: Notify Manufacturer of New Order Scenario: Notify manufacturer when order is confirmedWhen a new order is placedThen the manufacturer receives a notification with order details | 6        |
-| US121       | Trigger internal manufacturing alert on order save           | As a Developer, I want to trigger a webhook or internal notification to the manufacturer service when a new order is saved. | Feature: Manufacturing Notification Trigger Scenario: Send webhook or alert to manufacturing serviceWhen an order is saved in the databaseThen the system triggers a webhook or internal message to the manufacturer service | 6        |
-| US122       | View the customer's order history                            | As a Customer, I want to see a list of my past and current orders so that I can track what I’ve purchased. | Feature: Customer Order History Scenario: List past and current ordersWhen the customer accesses their order historyThen the system displays a list of all orders associated with the user | 7        |
-| US123       | Fetch and render list of past and active orders              | As a Developer, I want to retrieve the customer’s orders via API and display them using a card or list component. | Feature: Fetch Order List via API Scenario: Retrieve order historyWhen the order history view is initializedThen a request is sent to the order APIAnd the response is rendered in a list or card component | 7        |
-| US124       | View detailed status of an individual order                  | As a Customer, I want to view the detailed status of an order so that I know if it is pending, processing, or delivered. | Feature: View Order Detail Status Scenario: Access specific order detailsWhen a customer selects an order from the history listThen the system displays the order detail view including its current status | 7        |
-| US125       | Display order lifecycle using progress tracker               | As a Developer, I want to bind the order status to a visual progress bar or badge inside the order detail view | Feature: Visualize Order Status Progress Scenario: Bind order status to trackerWhen the order detail view is loadedThen the order status is reflected in a progress tracker or badge component | 7        |
-| US126       | Track the status of individual order items                   | As a Customer, I want to track the status of individual products within my order so that I understand if some items ship separately. | Feature: Item-Level Order Status Tracking Scenario: Display per-item statusWhen the order detail view is accessedThen the status of each item in the order is shown independently | 7        |
-| US127       | Bind per-item status updates in order detail view            | As a Developer, I want to structure the order detail view to show item-level status and update them independently. | Feature: Item-Level Status Binding in UI Scenario: Bind item statuses from API to UIWhen the order detail data is receivedThen each product's status is bound to its respective section in the interface | 7        |
-| US128       | Automatically update order status without page refresh       | As a Customer, I want the order status to update without reloading so that I’m always seeing the current state. | Feature: Live Order Status Updates Scenario: Update status without full reloadWhen the status of an order changesThen the UI reflects the change without requiring a page refresh | 7        |
-| US129       | Use real-time data source to refresh order status in UI      | As a Developer, I want to implement polling or WebSocket to refresh order status dynamically. | Feature: Dynamic Order Status Updates Scenario: Refresh order data using real-time updatesWhen the order detail view is activeThen the system uses polling or WebSocket to update the order status dynamically | 7        |
-| US130       | Notify the user when the order status changes                | As a Customer, I want to be notified when my order status changes so that I’m informed even if I’m not viewing the detail page. | Feature: Order Status Notification Scenario: Notify customer on status changeWhen the status of any order changesThen the system triggers a notification to the customerAnd the notification contains the updated status and order ID | 7        |
-| US131       | Display UI alert when status update event is received        | As a Developer, I want to show toast notifications or banners when order status events are received. | Feature: Notify User on Status Update Event Scenario: Show alert when order status changesWhen a status update event is received from the serverThen a toast notification or alert banner is displayed with the updated status | 7        |
-| US132       | View estimated delivery time of the order                    | As a Customer, I want to see the expected delivery date of my order so that I can plan accordingly. | Feature: Display Estimated Delivery Time Scenario: Show expected delivery date in order summaryWhen the customer accesses the order summaryThen the estimated delivery date is shown as part of the order information | 7        |
-| US133       | Bind delivery estimate to order summary UI                   | As a Developer, I want to display the estimatedDeliveryDate property from the order API on the confirmation and detail screens. | Feature: Bind Estimated Delivery Date to UI Scenario: Display estimatedDeliveryDate from APIWhen order data is fetched from the APIThen the value of estimatedDeliveryDate is rendered in both confirmation and detail views | 7        |
-| US134       | Track production progress from manufacturer dashboard        | As a Manufacturer, I want to view the progress of my assigned orders so that I can manage production accordingly. | Feature: Track Production Progress of Assigned Orders Scenario: Show assigned order statusesWhen the manufacturer opens the production dashboardThen a list of assigned orders is displayedAnd each order includes its current production status | 7        |
-| US135       | Filter and display assigned orders with current status       | As a Developer, I want to filter the order tracking interface to show only the orders related to the logged-in manufacturer. | Feature: Filter Orders by Manufacturer Assignment Scenario: Filter orders to show only manufacturer’s assignmentsWhen the manufacturer dashboard is renderedThen only orders assigned to the current manufacturer are displayedAnd each order shows its latest status | 7        |
-| US136       | Access the manufacturer's administration panel               | As a Manufacturer, I want to access a dedicated dashboard so that I can manage the orders assigned to my company. | Feature: Access Manufacturer Dashboard Scenario: Navigate to manufacturer dashboardWhen the manufacturer accesses the dashboard routeThen the manufacturer panel is rendered with role-specific tools and data | 8        |
-| US137       | Create secured route and render manufacturer-specific data   | As a Developer, I want to create a protected route for the manufacturer dashboard and render orders linked to the logged-in manufacturer. | Feature: Manufacturer Dashboard Route Protection Scenario: Secure dashboard route by roleWhen the route is accessedThen the system verifies the user’s manufacturer roleAnd renders only manufacturer-assigned order data | 8        |
-| US138       | View assigned orders in the manufacturer panel               | As a Manufacturer, I want to view all orders assigned to me so that I can plan and prioritize production. | Feature: View Assigned Orders Scenario: List all orders for the manufacturerWhen the dashboard is openedThen all orders linked to the manufacturer’s ID are displayed | 8        |
-| US139       | Fetch and paginate orders filtered by manufacturer ID        | As a Developer, I want to query the database for orders where manufacturerId matches the user’s profile and return them paginated. | Feature: Paginated Order Retrieval by Manufacturer Scenario: Retrieve manufacturer-specific ordersWhen the manufacturer ID is provided in the queryThen the system returns paginated orders matching that manufacturer ID | 8        |
-| US140       | View design blueprint associated with an order               | As a Manufacturer, I want to see the design blueprint attached to each order so that I can follow the exact specifications. | Feature: View Order Blueprint Scenario: Display blueprint linked to orderWhen an order is selectedThen the system shows the associated DesignBlueprint details | 8        |
-| US141       | Retrieve blueprint metadata and files via API                | As a Developer, I want to retrieve the DesignBlueprint metadata and assets related to each order and expose them via API. | Feature: Retrieve Blueprint Assets Scenario: Fetch blueprint data for orderWhen a request is made for an order’s blueprintThen the API returns metadata and asset references for the associated blueprint | 8        |
-| US142       | Update the production status of an order                     | As a Manufacturer, I want to update the production status of an order (e.g., received, in production, completed) so that the platform reflects the current progress. | Feature: Update Production Status Scenario: Submit production status updateWhen the manufacturer updates the order statusThen the order record reflects the new production status | 8        |
-| US143       | Patch order record with validated production status          | As a Developer, I want to expose a PATCH endpoint to update the productionStatus field of an order, with validations. | Feature: PATCH Endpoint for Order Production Status Scenario: Update order with valid statusWhen a PATCH request is made with a new production statusThen the value is validatedAnd the order’s productionStatus field is updated accordingly | 8        |
-| US144       | Upload production reports or notes for an order              | As a Manufacturer, I want to upload a report or notes about production so that the platform admin or customer can see relevant updates. | Feature: Upload Manufacturing Report Scenario: Attach report to orderWhen the manufacturer uploads a file or enters notesThen the report is linked to the corresponding orderAnd becomes available to authorized roles | 8        |
-| US145       | Store report files linked to order and manufacturer ID       | As a Developer, I want to support file upload (PDF, images) and bind it to the ManufacturingReport entity linked to an order. | Feature: Persist Uploaded Report Files Scenario: Save report with relational metadataWhen a file (PDF, image) is uploadedThen it is saved and linked to the order and manufacturer ID in the ManufacturingReport entity | 8        |
-| US146       | Filter manufacturer orders by status and date                | As a Manufacturer, I want to filter my orders by production status or date range so that I can locate orders more easily. | Feature: Filter Manufacturer Orders Scenario: Filter orders using production status and date rangeWhen the manufacturer applies filtersThen the list updates to show only matching orders by status and date range | 8        |
-| US147       | Implement filtered queries and client-side UI filters        | As a Developer, I want to implement client-side filters and backend query parameters for search efficiency. | Feature: Filtered Queries and Client-Side Filtering Scenario: Apply filter parameters from UIWhen the user applies filters on the frontendThen the UI updates with results matching the selected criteriaAnd a request is sent to the backend with query parameters | 8        |
-| US148       | Notify manufacturer of new assigned orders                   | As a Manufacturer, I want to be notified when a new order is assigned to me so that I can start production promptly. | Feature: Notify Manufacturer on New Assignment Scenario: Send notification on new order assignmentWhen a manufacturer is assigned to an orderThen the manufacturer is notified of the assignment | 8        |
-| US149       | Trigger alert or event on assignment of new order            | As a Developer, I want to trigger a WebSocket event or email notification when the assignedManufacturerId field is updated on an order. | Feature: Trigger Event on Manufacturer Assignment Scenario: Send WebSocket event or email when assignment occursWhen assignedManufacturerId is updatedThen a WebSocket event or email notification is triggered to the corresponding manufacturer | 8        |
-| US150       | Update display name                                          | As a Customer, I want to change my display name so that my profile reflects my identity. | Feature: Update User Display Name Scenario: Change user name via profile formWhen the user enters a new name and submits the formThen the name is updated in the user profile record | 9        |
-| US151       | Bind name input field and send update to profile API         | As a Developer, I want to bind an input field to the user.name property and send the update via PATCH request. | Feature: Bind and Send Name Update to API Scenario: Patch user.name via form bindingWhen the name input field is modified and submittedThen a PATCH request is sent to the profile APIAnd the updated name is saved | 9        |
-| US152       | Upload or change profile photo                               | As a Customer, I want to upload or change my profile picture so that others can recognize me. | Feature: Upload Profile Photo Scenario: Upload and set new avatarWhen the user selects an image fileThen the image is uploaded and linked to the user profile | 9        |
-| US153       | Bind image uploader to avatar property and display preview   | As a Developer, I want to enable image upload and preview, and bind it to the user.avatarUrl property. | Feature: Avatar Upload Binding and Preview Scenario: Bind uploaded image to avatar fieldWhen a file is selected and previewedThen the image is displayed in the UIAnd bound to user.avatarUrl for submission | 9        |
-| US154       | Update user contact information                              | As a Platform Customer, I want to update my contact details (email, phone) so that I can receive communications. | Feature: Update Contact Information Scenario: Edit email and phone in profileWhen the user modifies their contact fieldsThen the updated values are stored in the user profile | 9        |
-| US155       | Bind and validate email/phone fields in user profile         | As a Developer, I want to bind form inputs to user.email and user.phone and validate formats before submitting. | Feature: Bind and Validate Contact Fields Scenario: Validate email and phone formatWhen the user submits the formThen user.email and user.phone are validatedAnd a PATCH request is sent only if valid | 9        |
-| US156       | Set the user’s preferred language                            | As a Platform Customer, I want to select my preferred language so that the platform displays content in my native language. | Feature: Set Preferred Language Scenario: Change language preferenceWhen the user selects a language from the optionsThen the preference is stored in their user profile | 9        |
-| US157       | Connect language selector to i18n and save preference        | As a Developer, I want to bind a language selector to the i18n module and persist the selection in user preferences. | Feature: Language Selector Integration Scenario: Bind selector to i18n moduleWhen a language is selectedThen the app content updates using i18nAnd the selection is saved to user.preferences.language | 9        |
-| US158       | Toggle between light and dark theme                          | As a Customer, I want to choose between light and dark mode so that I can customize the visual appearance. | Feature: Toggle Theme Mode Scenario: Switch between light and dark modesWhen the user selects a theme modeThen the platform updates the visual appearance accordingly | 9        |
-| US159       | Apply theme preference and persist user setting              | As a Developer, I want to toggle CSS classes or design tokens and persist the user.theme preference locally or in the backend. | Feature: Apply and Store Theme Preference Scenario: Toggle theme and save settingWhen the user changes the theme modeThen the corresponding CSS class or design token is appliedAnd the selected theme is saved to local storage or user profile | 9        |
-| US160       | View and edit profile information                            | As a Customer, I want to view all my profile details in one place so that I can manage them easily. | Feature: Access and Modify Profile Information Scenario: Display profile in editable formatWhen the user opens the profile pageThen all fields are shown with current values and editable inputs | 9        |
-| US161       | Render user data in editable form with two-way binding       | As a Developer, I want to render a summary panel with editable fields bound to the user model and auto-save on change. | Feature: Bind Profile Form to User Model Scenario: Auto-save on changeWhen the user modifies a fieldThen the value is updated in the user modelAnd changes are saved automatically or via confirmation | 9        |
-| US162       | Select the user’s preferred language from UI                 | As a Customer, I want to choose my preferred language from the UI so that I can interact with the platform in my native language. | Feature: Change Language Preference via UI Scenario: Update language selectionWhen the user selects a new language from the UIThen the content is updated to reflect the selected language | 10       |
-| US163       | Bind language selector to i18n module and trigger language switch | As a Developer, I want to bind a language selector dropdown to the i18n module (ngx-translate) and trigger use(languageCode) dynamically. | Feature: Bind Language Selector to i18n Scenario: Dynamically change language with ngx-translateWhen a language is selectedThen the use(languageCode) function is triggered in the i18n module | 10       |
-| US164       | Persist the selected language across sessions                | As a Platform Customer, I want my language preference to be saved so that I don’t have to select it every time I log in. | Feature: Save Language Preference Scenario: Retain language setting on future visitsWhen the user selects a languageThen the preference is saved to local storage or user profileAnd it is used to set the language on subsequent sessions | 10       |
-| US165       | Save and retrieve language preference from profile or local storage | As a Developer, I want to store the selected language in local storage or send it to the backend user profile so that it loads automatically on future sessions. | Feature: Persist Language Preference Scenario: Load preferred language on initializationWhen the application startsThen the language is retrieved from local storage or user profileAnd applied automatically | 10       |
-| US166       | Translate all static and dynamic UI content                  | As a Customer, I want all content including menus, labels, buttons, and messages to appear in the selected language so that my experience is consistent. | Feature: Internationalize All UI Content Scenario: Render UI in selected languageWhen the language is setThen all static and dynamic UI text is displayed using the correct translation | 10       |
-| US167       | Wrap content in translation keys and load from JSON dictionaries | As a Developer, I want to wrap all static and dynamic texts in translation keys and provide language-specific JSON files loaded at runtime. | Feature: Translation Key Mapping Scenario: Load and apply language-specific JSON filesWhen the app initializes or the language is changedThen all translation keys are mapped to values from the corresponding JSON dictionary | 10       |
-| US168       | Detect user browser language on first load                   | As a Customer, I want the platform to auto-detect my browser language on first visit so that I see the UI in my language without setting it manually. | Feature: Auto-Detect Browser Language Scenario: Set UI language based on browser settingsWhen a user visits the platform for the first timeThen the browser's language is detectedAnd the UI content is loaded in the detected language | 10       |
-| US169       | Initialize i18n default based on navigator language          | As a Developer, I want to detect navigator.language and set the default translation language in the i18n module unless a user preference exists. | Feature: Set i18n Default from Browser Language Scenario: Detect and apply navigator.language on first loadWhen the application initializesAnd no saved language preference existsThen the i18n module sets the default language based on navigator.language | 10       |
-| US170       | Enable optional locale-based URL routing                     | As a Customer, I want to see the current language reflected in the URL if applicable so that I can share localized links. | Feature: Locale-Based URL Routing Scenario: Reflect selected language in URL pathWhen a user changes the languageThen the current route updates to include the language prefix (e.g., /en or /es) Scenario: Share localized linkWhen the user copies the current URLThen the locale is included in the link path | 10       |
-| US171       | Configure route prefixes for localized navigation            | As a Developer, I want to enable optional route prefixes like /en, /es, using Angular router and i18n locale guards. | Feature: Localized Route Prefix Support Scenario: Configure Angular route prefixes for i18nWhen the router is initializedThen the application supports route prefixes like /en or /es Scenario: Redirect to language-specific route using guardWhen a user accesses the platformThen the locale guard evaluates the preferred languageAnd navigates to the appropriate prefixed route | 10       |
-| US172       | Navigate through the platform using only the keyboard        | As a Customer, I want to navigate through all interactive elements using only my keyboard so that I can use the platform without a mouse. | Feature: Keyboard Navigation Across Platform Scenario: Navigate UI using Tab and Enter keysWhen the user navigates with the keyboardThen all interactive elements are reachable using TabAnd actionable with Enter or Space | 11       |
-| US173       | Ensure tab order and focusability of interactive elements    | As a Developer, I want to ensure all focusable elements are reachable via Tab and that their focus order is logical. | Feature: Logical Tab Order and Focusable Elements Scenario: All focusable elements are included in the tab sequenceWhen a user presses the Tab keyThen focus moves to the next interactive element in a logical order | 11       |
-| US174       | Access the platform using a screen reader                    | As a Customer, I want the screen reader to describe elements accurately so that I understand the content and actions available. | Feature: Screen Reader Compatibility Scenario: Read interface elements with screen readerWhen a screen reader parses the pageThen all elements are described accurately based on their semantic role or label | 11       |
-| US175       | Add semantic roles and ARIA attributes to UI components      | As a Developer, I want to implement ARIA roles, labels, and landmarks to make the DOM understandable by assistive technologies. | Feature: Add ARIA and Semantic Roles Scenario: Assign ARIA roles and labels to UI elementsWhen UI components are renderedThen each component has the appropriate role, aria-label, or landmark tag | 11       |
-| US176       | Show visual focus indicators for keyboard navigation         | As a Customer, I want to see a visible outline or indicator when an element is focused so that I know where I am in the interface. | Feature: Visual Focus Indicators Scenario: Display visible focus indicator on navigationWhen an element receives focusThen a visible outline or highlight is shown around it | 11       |
-| US177       | Style focus states for accessibility visibility              | As a Developer, I want to apply custom focus styles to buttons, links, and inputs so that active elements are visually distinguishable. | Feature: Custom Focus Styling Scenario: Apply visible styles to focused elementsWhen a button, link, or input receives focusThen the element shows a high-contrast visual indicator | 11       |
-| US178       | Ensure readable color contrast across the UI                 | As a Customer, I want text and interface elements to have sufficient contrast so that I can read and understand content easily. | Feature: Accessible Color Contrast Scenario: Apply readable contrast between text and backgroundWhen text and UI elements are displayedThen their contrast ratio meets or exceeds 4.5:1 for normal text | 11       |
-| US179       | Apply WCAG-compliant contrast ratios for text and elements   | As a Developer, I want to apply and test contrast ratios (≥ 4.5:1 for text) using accessible color palettes and tools. | Feature: WCAG Contrast Compliance Scenario: Test and apply accessible color contrastWhen UI styles are definedThen colors are tested and applied to meet WCAG standards for readability | 11       |
-| US180       | Provide descriptive labels for all inputs and controls       | As a Customer, I want all form inputs and buttons to have clear labels so that I understand their purpose. | Feature: Descriptive Labels for Form Elements Scenario: Inputs and buttons have clear labelsWhen a user interacts with any controlThen the purpose of the element is described through visible or programmatic text | 11       |
-| US181       | Use ARIA or HTML attributes for semantic labeling            | As a Developer, I want to bind aria-label, aria-describedby, or <label for> tags to relevant inputs and controls. | Feature: Semantic Form Labeling Scenario: Bind label using ARIA or native HTMLWhen an input or control is renderedThen it includes a <label>, aria-label, or aria-describedby attribute | 11       |
-| US182       | Allow users to skip navigation and go to main content        | As a Customer, I want a shortcut to jump directly to the main content so that I can avoid repetitive navigation. | Feature: Skip Navigation Shortcut Scenario: Skip link moves focus to main contentWhen the user activates the skip linkThen the focus jumps to the <main> region of the page | 11       |
-| US183       | Implement skip link anchored to main tag                     | As a Developer, I want to implement a "skip to content" link at the top of the page that anchors to the main section. | Feature: Anchor Skip Link to Main Tag Scenario: Position skip link at top of documentWhen the page loadsThen a "Skip to main content" link appears before navigationAnd it targets the <main> section with an anchor | 11       |
-| US184       | Announce dynamic changes for screen readers                  | As a Customer with a screen reader, I want to be notified when dynamic content changes (e.g., modal opens, form submits) so that I’m aware of what’s happening. | Feature: Announce UI Updates Scenario: Notify screen readers of dynamic contentWhen a modal is opened or a form is submittedThen the screen reader receives an announcement describing the change | 11       |
-| US185       | Use ARIA live regions to broadcast UI updates                | As a Developer, I want to use ARIA live regions or alerts to announce updates without full reloads. | Feature: ARIA Live Regions for Dynamic Content Scenario: Trigger updates via live regionsWhen a dynamic update occursThen the update text is injected into an ARIA live regionAnd it is read aloud by screen readers without full page reload | 11       |
-| US186       | Display the application correctly on multiple devices        | As a Platform Customer, I want the interface to adjust to the device I’m using so that I can access the platform from any screen comfortably. | Feature: Cross-Device Responsive Layout Scenario: Interface adapts to screen sizeWhen the platform is accessed from any deviceThen the layout adjusts to fit the viewport dimensions without distortion | 12       |
-| US187       | Implement responsive layout with breakpoints and CSS grid    | As a Developer, I want to define responsive breakpoints and use grid/flexbox layouts so that components adapt fluidly across devices. | Feature: Responsive Grid Layout with Breakpoints Scenario: Apply layout rules based on screen sizeWhen the screen width matches defined breakpointsThen the component layout is updated using CSS grid or flexbox | 12       |
-| US188       | Collapse the sidebar into a drawer on small screens          | As a Mobile Customer, I want the sidebar to collapse into a drawer or menu so that I can see the main content without obstruction. | Feature: Sidebar Drawer on Small Screens Scenario: Collapse sidebar at mobile breakpointWhen the viewport width is below the defined breakpointThen the sidebar is hiddenAnd a toggle button opens it as a drawer | 12       |
-| US189       | Implement responsive toggle for sidebar visibility           | As a Developer, I want to use Angular Material’s mat-drawer or similar component with toggle logic at mobile breakpoints. | Feature: Sidebar Visibility Toggle Scenario: Use mat-drawer with toggle logicWhen the screen width falls below the mobile thresholdThen mat-drawer is used to manage sidebar visibilityAnd the toggle button shows or hides the drawer | 12       |
-| US190       | Adapt toolbar layout to available screen width               | As a Customer, I want the toolbar to simplify or wrap its elements on narrow screens so that the interface remains usable. | Feature: Responsive Toolbar Layout Scenario: Simplify or wrap toolbar items on narrow screensWhen the screen width decreasesThen the toolbar items wrap or collapse to fit the space | 12       |
-| US191       | Use responsive classes and containers to rearrange actions   | As a Developer, I want to use conditional rendering and responsive layout classes to reorganize or group toolbar elements based on width. | Feature: Conditional Toolbar Layout with Responsive Classes Scenario: Reorganize toolbar actions by screen widthWhen the screen width changesThen toolbar actions are regrouped or hidden based on responsive classes | 12       |
-| US192       | Scale text and form fields appropriately                     | As a Customer, I want text and form inputs to remain readable and usable on all devices so that I can interact with the platform without difficulty. | Feature: Responsive Text and Input Scaling Scenario: Maintain readability on all devicesWhen the platform is accessed from any screen sizeThen text and input fields remain legible and usable | 12       |
-| US193       | Use relative units to ensure proportional resizing           | As a Developer, I want to use relative units (rem, %, vw) for text and components so that they scale with screen size. | Feature: Responsive Sizing with Relative Units Scenario: Apply rem, %, and vw unitsWhen defining sizes for text and componentsThen relative units are used to ensure proportional scaling | 12       |
-| US194       | Validate UI across standard device resolutions               | As a Platform Customer, I want the application to work correctly on common resolutions (e.g., 1920x1080, 1366x768, 1024x768, 375x667) so that I don’t face layout issues. | Feature: Compatibility with Common Resolutions Scenario: Render correctly on standard screen sizesWhen the app is tested on 1920x1080, 1366x768, 1024x768, and 375x667Then all layouts remain functional and visually consistent | 12       |
-| US195       | Test and adjust styles using media queries and emulators     | As a Developer, I want to use device emulators and media queries to test and adjust the layout across target breakpoints. | Feature: Media Query and Emulator Testing Scenario: Adjust layout across breakpointsWhen viewing the platform in a device emulatorThen layout changes are applied using media queries for accurate rendering | 12       |
-| US196       | Prevent horizontal scrolling on mobile devices               | As a Mobile Customer, I want the platform to avoid unnecessary horizontal scroll so that I can focus on the content vertically. | Feature: Eliminate Horizontal Scroll on Small Viewports Scenario: Enforce scroll confinement to vertical axisWhen the platform is rendered on a mobile screenThen no horizontal scroll is present | 12       |
-| US197       | Apply layout constraints to avoid content overflow           | As a Developer, I want to enforce container widths and overflow constraints to prevent layout breakage on small viewports. | Feature: Prevent Layout Overflow on Small Screens Scenario: Apply overflow and width constraintsWhen the screen width is reducedThen container limits prevent content from overflowing the viewport | 12       |
-| US198       | Choose a payment method during checkout                      | As a Customer, I want to select a payment method (credit card, wallet, etc.) so that I can complete my purchase. | Feature: Select Payment Method Scenario: Choose a payment methodWhen the user reaches the payment step during checkoutThen a list of available payment methods is shownAnd the selected method is applied to the transaction | 13       |
-| US199       | Bind payment selection to transaction payload                | As a Developer, I want to display a form for available payment options and bind the selection to the order payload. | Feature: Bind Payment Method to Order Payload Scenario: Bind selected method to backend payloadWhen a payment option is selectedThen the value is included in the transaction request to the backend | 13       |
-| US200       | Submit payment securely for transaction processing           | As a Customer, I want to submit my payment information securely so that I can finalize my purchase without risk. | Feature: Submit Secure Payment Scenario: Enter and submit payment dataWhen the user submits payment detailsThen the data is securely transmitted to the backend for processing | 13       |
-| US201       | Tokenize and transmit payment data via secure API            | As a Developer, I want to integrate with a PCI-compliant payment gateway and tokenize the sensitive data before processing. | Feature: Tokenize and Send Payment Information Scenario: Use PCI-compliant gatewayWhen payment is submittedThen the sensitive data is tokenizedAnd sent to the gateway through a secure, encrypted API call | 13       |
-| US202       | Validate payment and confirm transaction result              | As a System, I want to verify if the transaction was successful so that the order can be confirmed or rejected. | Feature: Verify Payment Transaction Scenario: Confirm transaction with payment gatewayWhen the gateway response is receivedThen the transaction is marked as successful or failed | 13       |
-| US203       | Handle gateway response and store transaction outcome        | As a Developer, I want to receive the gateway response, validate the transaction status, and store the result in the database. | Feature: Store Transaction Result Scenario: Save payment result in databaseWhen the payment gateway returns a statusThen the system stores the outcome, reference code, and metadata | 13       |
-| US204       | Display payment confirmation with receipt code               | As a Customer, I want to see a confirmation screen or message after payment so that I know my order is complete. | Feature: Display Payment Confirmation Scenario: Show receipt and confirmationWhen a payment is successfully processedThen a confirmation screen is displayedAnd the receipt or reference code is shown | 13       |
-| US205       | Render transaction result from backend response              | As a Developer, I want to display the transaction result and reference code retrieved from the backend. | Feature: Render Transaction Result Scenario: Display backend-confirmed resultWhen the frontend receives the transaction resultThen the outcome and reference number are displayed to the user | 13       |
-| US206       | Notify user of failed payment attempt                        | As a Customer, I want to be notified if my payment fails so that I can retry or choose another method. | Feature: Notify Payment Failure Scenario: Show error on failed transactionWhen a payment attempt failsThen the user is notified that the transaction did not complete | 13       |
-| US207       | Display error messages on transaction failure                | As a Developer, I want to catch failed payment states and show user-friendly error messages based on the backend response. | Feature: Show Friendly Error on Failed Payment Scenario: Handle failed transaction stateWhen the backend indicates a payment failureThen a specific error message is displayed based on the error type | 13       |
-| US208       | Prevent duplicate transaction submissions                    | As a System, I want to prevent the same order from being paid twice so that users aren’t overcharged. | Feature: Prevent Duplicate Payments Scenario: Block repeat submissions for same orderWhen a payment is already recorded for an orderThen the system does not allow another charge for the same order ID | 13       |
-| US209       | Validate payment status before initiating new charge         | As a Developer, I want to check if the order has already been paid before allowing a new transaction to be submitted. | Feature: Check Payment Status Before Charge Scenario: Validate order before processingWhen a new payment is attemptedThen the system checks if the order is already paidAnd aborts the transaction if payment is confirmed | 13       |
-| US210       | Store transaction metadata for auditing                      | As a Platform Administrator, I want to access payment metadata for each transaction so that I can audit or resolve disputes. | Feature: Store Metadata for Audit Scenario: Record metadata for each paymentWhen a payment is processedThen metadata is stored for administrative review and audits | 13       |
-| US211       | Save payment method, status, and timestamps per transaction  | As a Developer, I want to store fields like payment method, transaction ID, timestamp, amount, and status in the database. | Feature: Save Transaction Details Scenario: Persist transaction details to databaseWhen a transaction completesThen the payment method, amount, status, timestamp, and reference ID are saved | 13       |
+| Ubiquos Term           | Definition of Functional Domain                              |
+| ---------------------- | ------------------------------------------------------------ |
+| Designer               | User responsible for creating visual compositions using the designlab and saving/publishing them as products that can be sold/produce |
+| Customer               | End user who browses, and purchases garmentsthrough the platform. |
+| Manufacturer           | Partner entity that produces garments based on finalized and approved blueprints. |
+| Platform Administrator | System-level operator who manages roles, content approvals, and technical settings. |
+| Project                | Project in the Design Lab, garment piece that is personalize |
+| Product                | Published project already assigned for production            |
+| Design Lab             | Creative environment where blueprints are composed using canvas, layers, and design tools. |
+| Project Blueprint      | Reusable template that represents the structure, elements, and layout of a garment design. |
+| Canvas                 | Editable area where design elements like text and images are placed and arranged. |
+| Base color             | Color applied to the garment in the customization process    |
+| Texts                  | Text elements that are meant to be manipulated for customization in the canvas |
+| Images                 | Image elements that are meant to be manipulated for customization in the canvas |
+| Product Stock          | Inventory count or availability of a specific designed garment in different sizes or variants. |
+| Load Project Blueprint | Retrieves and displays a saved blueprint for editing or reuse. |
+| Order                  | Event triggered when a customer successfully completes the purchase of a product(s). |
+| Order State            | Defines the current lifecycle stage of the order, such as pending, in production, shipped, or delivered. |
+| Payment State          | Status representing the confirmation and completion of the payment process. |
 
 ## 3.3. Impact Mapping
 
@@ -1441,225 +1260,84 @@ Para el proyecto Quri – TeeLab se elaboró un *Impact Map* siguiendo las buena
 Este mapa fue desarrollado en UX Pressia herramienta visual colaborativa y sirvió como puente entre la visión del producto y su diseño técnico.
 
 
-“Anexo: Impact Mapping” https://drive.google.com/drive/folders/1SmotEHZv7R4b4g4NwnTeehjksSv_uQhR?usp=sharing
+“Anexo: Impact Mapping” https://short-link.me/16Fhk
 
 ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcHFcz5Disakct1CdlXMmsbVA26BSybLu_vs_kVqy-WzONVj2qokQNveDn4seL1FccD68usoIkRcIwX64rYKrWesZLTKeOBmbvxS6HtloL9rhI9_tANHLDfN7tasf12T6XCN46cBQ?key=wLsuErVgqDz-qczrBI4kMctR)
 
 ## 3.4. Product Backlog
 
-| **Id** | **StoryID** | **Tittle**                                                   | **Description**                                              | **Story Points** |
-| ------ | ----------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------- |
-| 1      | US01        | Change the language of the website                           | As a visitor, I want to change the language of the page so that I feel more comfortable in my native language. | 5                |
-| 2      | US02        | Add a language dictionary                                    | As a developer, I want to integrate a language dictionary so that the visitor can change the language based on their preference. | 5                |
-| 3      | US03        | Adapt the website to mobile devices                          | As a developer, I want to implement responsive design on the landing page so that I can improve the visitor’s experience on mobile devices. | 5                |
-| 4      | US04        | Know the value proposition of the platform                   | As a visitor, I want to clearly understand the value proposition offered so that I feel confident about hiring the services. | 8                |
-| 5      | US05        | Deploy a clear value proposition                             | As a developer, I want to structure clear sections with information about my product so that the visitor understands my value proposition. | 5                |
-| 6      | US06        | Explore information about the company                        | As a visitor, I want to easily access information about the company so that I feel confident using its services. | 5                |
-| 7      | US07        | Redirect to the editor from the Landing Page                 | As a visitor, I want to access the Design Lab directly from the homepage so that I can interact with the platform. | 5                |
-| 8      | US08        | Configure navigation from the Landing Page to the editor     | As a developer, I want to implement the navigation logic that allows visitors to directly access the design functionality so that the entry experience is smooth. | 3                |
-| 9      | US09        | Display team information                                     | As a visitor, I want to learn about the project’s development team so that I feel confident in the professionalism of the service. | 3                |
-| 10     | US10        | Consult frequently asked questions                           | As a visitor, I want to see the most frequently asked questions about the service so that I can resolve my concerns. | 3                |
-| 11     | US11        | Implement ARIA tags foraccessible navigation                 | As a developer, I want to incorporate ARIA attributes so that users relying on assistive technologies can understand and navigate the static website accessibly and unambiguously. | 5                |
-| 12     | US12        | Access image descriptions for accessible navigation          | As a visitor, I want to hear the descriptions of the images on the page so that I can understand the visual content. | 5                |
-| 13     | US13        | Browse social networks                                       | As a visitor, I want to see links to the official social media accounts so that I can follow updates, stay informed, and/or contact the team. | 5                |
-| 14     | US14        | Implement social media access points                         | As a developer, I want to add links to social media so that visitors can easily access our external platforms and stay connected with our community. | 5                |
-| 15     | US15        | Implement custom SEO with robots                             | As a developer, I want to implement a robots.txt file accessible from the root of the domain so that search engines know which paths to crawl or not, improving SEO and control over indexed content. | 5                |
-| 16     | US16        | Navigate between sections from the header                    | As a visitor, I want to navigate between sections from the header so that I can easily access what the platform offers. | 8                |
-| 17     | US17        | Implement header with navigation links                       | As a developer, I want to implement a header with 6 links (QURI, FAQ, About, Team, Join, Login) so that I can enable smooth and accessible navigation. | 5                |
-| 18     | US18        | Visualize the header visible while scrolling                 | As a visitor, I want the header to remain visible at all times so that I can stay oriented while scrolling. | 8                |
-| 19     | US19        | Set the header as sticky on top                              | As a developer, I want to make the header sticky at the top so that it remains visible during scrolling. | 8                |
-| 20     | US20        | Visually distinguish header options                          | As a visitor, I want to clearly distinguish the header options so that I understand the purpose of each one. | 5                |
-| 21     | US21        | Apply consistent styles to header links                      | As a developer, I want to apply consistent visual styles to the header links so that I can improve their readability and visual hierarchy. | 8                |
-| 22     | US22        | View inspiring t-shirt examples                              | As a visitor, I want to see examples of garments designed through the platform so that I can trust it. | 5                |
-| 23     | US23        | Implement visual carousel of custom layouts                  | As a developer, I want to implement a visual carousel with images of designed garments so that I can showcase example products made through the platform. | 3                |
-| 24     | US24        | Access key sections from the footer                          | As a visitor, I want to access key sections from the footer so that I can keep exploring without having to return to the header. | 5                |
-| 25     | US25        | Implement bottom navigation in the footer                    | As a developer, I want to implement a footer with links to Community, About us, and Contact us so that navigation remains accessible from anywhere on the page. | 3                |
-| 26     | US26        | Invite registration from anywhere on the page                | As a visitor, I want to feel invited to register from anywhere on the site so that I’m encouraged to join at any time. | 5                |
-| 27     | US27        | Show text with link to login and registration in the footer  | As a developer, I want to display a static text with an embedded link to /login or /signup in the footer so that I can reinforce the call to action. | 3                |
-| 28     | US28        | Show geographic location of the company                      | As a visitor, I want to see the company's location so that I can know where it is based and gain trust in the service. | 3                |
-| 29     | US29        | Include geographical headquarters visible in the footer      | As a developer, I want to display the geographical location (LIMA, PE) in the footer in a discreet yet visible manner. | 2                |
-| 30     | US30        | Access the privacy policy and legal conditions               | As a visitor, I want to easily access the privacy policy and terms of use so that I know how my information is handled. | 2                |
-| 31     | US31        | Link to legal documents from the footer                      | As a developer, I want to include links to Privacy Policy and Terms & Conditions in the footer so that they redirect to their respective informational pages. | 3                |
-| 32     | US32        | Navigate through platform sections via sidebar               | As a Customer, I want to access the platform’s core areas via a sidebar (Home, Blueprints, Favorites, Explore, Projects, Design Lab, Settings, Help) so that I can move through the application. | 8                |
-| 33     | US33        | Implement a responsive and role-based sidebar component      | As a Developer, I want to implement a left-aligned sidebar component with responsive behavior and route-based active state tracking so that users can navigate Angular modules | 8                |
-| 34     | US34        | Access core platform actions from the top toolbar            | As a Customer, I want the top toolbar to provide instant access to Create, Cart, and Profile so that I can reach those key actions from any screen. | 8                |
-| 35     | US35        | Bind toolbar buttons to key route actions                    | As a Developer, I want to bind toolbar buttons to /design-lab/new, /cart, and /profile using routerLink, and ensure responsive icon layout using Angular Material, so that action buttons remain accessible and semantic. | 8                |
-| 36     | US36        | Visualize dynamic routing in the main body                   | As a Customer,I want the main content area to display the view associated with the currently active route,So that I can seamlessly navigate through different sections of the application via the sidebar or toolbar. | 5                |
-| 37     | US37        | Embed router outlet and configure lazy-loaded modules        | As a Developer, I want to embed <router-outlet> in the body container and configure lazy-loaded Angular modules for each route so that content updates contextually | 8                |
-| 38     | US38        | Visualize active route visually in navigation                | As a Customer,I want the active route to be visually highlighted in the sidebar or toolbar,So that I can easily identify which section of the platform I am currently viewing. | 5                |
-| 39     | US39        | Apply route-aware styles for active navigation state         | As a Developer, I want to use routerLinkActive and dynamic class bindings to apply style indicators (e.g., color, weight, border) to menu items that reflect the current route. | 5                |
-| 40     | US40        | Collapse the sidebar into a drawer on small screens          | As a Customer, I want the sidebar to collapse into a drawer on small screens so that I can browse the platform comfortably on any device. | 5                |
-| 41     | US41        | Toggle sidebar layout based on screen breakpoints            | As a Developer, I want to detect screen breakpoints with Angular CDK and toggle the sidebar into a mat-drawer on tablets and mobile so that the layout remains clean and accessible. | 5                |
-| 42     | US42        | Visualize a fixed toolbar during vertical scroll             | As a Customer,I want the toolbar to remain fixed at the top of the screen while I scroll vertically,So that I can always access key navigation or actions without needing to scroll back up. | 5                |
-| 43     | US43        | Apply sticky positioning and layering to the toolbar         | As a Developer, I want to apply position: sticky to the toolbar component and ensure z-index layering so that it floats above body content during scroll events. | 5                |
-| 44     | US44        | Visualize navigation items based on user role                | As a Customer,I want the navigation items in the sidebar and toolbar to reflect my user role,So that I only see sections and actions that are relevant and authorized for me. | 8                |
-| 45     | US45        | Filter route visibility according to user permissions        | As a Developer, I want to filter visible routes using Angular structural directives and role-based guards from the auth service so that navigation adapts to the authenticated user’s role. | 8                |
-| 46     | US46        | Being redirected to a default route when accessing an undefined one | As a Customer,I want to be redirected to the Home view when I log in or access an undefined route,So that I always land on a valid page and avoid broken or confusing navigation experiences. | 8                |
-| 47     | US47        | Configure routing for default and fallback scenarios         | As a Developer, I want to configure Angular’s router to set a default route (`redirectTo: 'home'`) and a wildcard route (path: '**') pointing to a 404 or fallback screen in the body container. | 8                |
-| 48     | US48        | Visualize a proper login layout                              | As a Customer,I want a clearly structured login screen with labeled fields for email and password,So that I can easily understand where to enter my credentials and access my account. | 3                |
-| 49     | US49        | Implement the login screen structure                         | As a Developer, I want to structure the login view using Angular components and Material Design so that the form is responsive, semantic, and ready to connect with the authentication module. | 3                |
-| 50     | US50        | Visualize a proper register layout                           |                                                              | 3                |
-| 51     | US51        | Implement the registration screen structure                  | As a Developer, I want to implement the registration form layout using Angular Material fields, responsive grid layout, and input validation structure so that the design is aligned with the rest of the web app interface. | 3                |
-| 52     | US52        | Add text to the Designed Garment                             | As a Garment Designer, I want to add text to a Designed Garment so that I can personalize the product with a message or branding. | 5                |
-| 53     | US53        | Render draggable text on the Garment Canvas                  | As a Developer, I want to render a draggable and resizable text element on the Garment Canvas so that it can be placed freely on the shirt design. | 8                |
-| 54     | US54        | Change the font of a text element                            | As a Garment Designer, I want to change the font of a text element so that the design matches a specific visual identity or style. | 5                |
-| 55     | US55        | Apply selected font to text element on canvas                | As a Developer, I want to provide a dropdown of web-safe fonts and apply the selected font to the text element on the canvas. | 5                |
-| 56     | US56        | Change the color of a text element                           | As a Garment Designer, I want to change the color of a text element so that it contrasts or complements the garment's base color. | 5                |
-| 57     | US57        | Bind color picker to text element fill style                 | As a Developer, I want to bind a color picker to the selected text object so that the chosen color updates its fillStyle in real-time. | 5                |
-| 58     | US58        | Upload and position an image on the Designed Garment         | As a Garment Designer, I want to upload and place an image on the Designed Garment so that I can include logos or graphics in the product. | 8                |
-| 59     | US59        | Render uploaded image as a canvas layer with controls        | As a Developer, I want to support image upload (PNG, JPG, SVG) and render the image as a canvas layer with drag, resize, and z-index control. | 8                |
-| 60     | US60        | Set the base color of the Designed Garment                   | As a Garment Designer, I want to choose the base color of the shirt so that the entire garment reflects the intended look. | 8                |
-| 61     | US61        | Bind base color selector to the garment background           | As a Developer, I want to bind a base color selector to the background layer of the Garment Canvas so that it changes the product preview. | 8                |
-| 62     | US62        | Reorder design layers on the canvas                          | As a Garment Designer, I want to move elements forward or backward in layers so that I can control which ones are in front or behind. | 5                |
-| 63     | US63        | Implement bring/send layer ordering functions                | As a Developer, I want to implement functions like “Bring Front” and “Send Back” that adjust the z-index of canvas layers dynamically. | 8                |
-| 64     | US64        | Preview the Designed Garment in full view                    | As a Garment Designer, I want to preview the Designed Garment in full screen or preview so that I can validate how it will look to the Customer. | 8                |
-| 65     | US65        | Enable high-resolution preview mode without UI               | As a Developer, I want to provide a preview mode that hides UI tools and shows the final render of the garment with high resolution. | 3                |
-| 66     | US66        | Assign a name to the Designed Garment                        | As a Garment Designer, I want to assign a name to the Designed Garment so that customers can easily identify or refer to the product. | 3                |
-| 67     | US67        | Bind name input field to product model                       | As a Developer, I want to provide a form input field bound to the product.name property so that the garment can be saved or published with a title. | 3                |
-| 68     | US68        | Write a description for the Designed Garment                 | As a Garment Designer, I want to write a description for the Designed Garment so that I can explain the concept, purpose, or style of the product. | 3                |
-| 69     | US69        | Bind multiline description field to product metadata         | As a Developer, I want to implement a multiline input field bound to the product.description attribute so that the garment can be indexed or shown in product detail views. | 3                |
-| 70     | US70        | Select the target gender for the Designed Garment            | As a Garment Designer, I want to select the intended gender (e.g., male, female, unisex) of the garment so that it appears in the right customer filters. | 2                |
-| 71     | US71        | Bind gender selector to product configuration                | As a Developer, I want to implement a dropdown or segmented control bound to product.gender so that the design is categorized correctly for storefront filtering. | 2                |
-| 72     | US72        | Select available sizes for the Designed Garment              | As a Garment Designer, I want to select the available sizes for the Designed Garment (e.g., S, M, L, XL) so that customers can choose the correct size when purchasing. | 2                |
-| 73     | US73        | Bind multi-size input to garment size array                  | As a Developer, I want to implement a multi-select component or checkbox list bound to product.sizes[] so that the defined sizes are stored and displayed correctly in the product detail view. | 2                |
-| 74     | US74        | Create a new Design Blueprint                                | As a Blueprint Designer, I want to create a new Design Blueprint so that I can start composing a reusable garment design. | 8                |
-| 75     | US75        | Instantiate a blank canvas for new blueprint creation        | As a Developer, I want to instantiate a blank canvas and generate a new Design Blueprint ID so that changes can be saved progressively. | 8                |
-| 76     | US76        | Save the current Design Blueprint                            | As a Blueprint Designer, I want to save my current blueprint so that I can continue editing or reuse it later. | 8                |
-| 77     | US77        | Serialize and persist blueprint canvas state                 | As a Developer, I want to serialize the canvas state and persist it to the database under the associated Blueprint ID. | 8                |
-| 78     | US78        | Load a saved Design Blueprint                                | As a Blueprint Designer, I want to load a saved Design Blueprint so that I can continue working on it. | 8                |
-| 79     | US79        | Retrieve and hydrate canvas from stored blueprint            | As a Developer, I want to retrieve the blueprint by ID and hydrate the canvas with its saved state. | 8                |
-| 80     | US80        | Delete a Design Blueprint                                    | As a Blueprint Designer, I want to delete a Design Blueprint I no longer need so that I can clean up my workspace. | 5                |
-| 81     | US81        | Remove blueprint data and assets from storage                | As a Developer, I want to remove the blueprint entry and associated assets from the database. | 3                |
-| 82     | US82        | Rename a Design Blueprint                                    | As a Blueprint Designer, I want to rename my blueprint so that it’s easier to identify later. | 2                |
-| 83     | US83        | Update blueprint title in the database and interface         | As a Developer, I want to update the name property of the blueprint record and sync it in the UI. | 3                |
-| 84     | US84        | Duplicate an existing Design Blueprint                       | As a Blueprint Designer, I want to duplicate a blueprint so that I can modify a copy without losing the original. | 3                |
-| 85     | US85        | Clone blueprint data and assign a new ID                     | As a Developer, I want to clone the canvas state and assign a new Blueprint ID for the duplicate. | 5                |
-| 86     | US86        | Publish a Design Blueprint                                   | As a Blueprint Designer, I want to publish a Design Blueprint so that it can be viewed or used by others. | 5                |
-| 87     | US87        | Set blueprint visibility to public and indexable             | As a Developer, I want to mark the blueprint as public and enable its discovery in search or gallery views. | 5                |
-| 88     | US88        | Share a Design Blueprint with others                         | As a Blueprint Designer, I want to share a Design Blueprint with others so that they can view or duplicate it. | 5                |
-| 89     | US89        | Generate sharable blueprint link with access control         | As a Developer, I want to generate a sharable URL linked to the blueprint ID with view or edit permissions. | 3                |
-| 90     | US90        | Validate authentication when login in                        | As a Customer,I want the system to validate my login credentials and return an authentication token,So that I can securely access my account and protected areas of the application. | 2                |
-| 91     | US91        | Implement secure password verification and JWT generation    | As a Developer, I want to implement an authentication endpoint with encrypted password validation and JWT issuance so that secure sessions can be established. | 2                |
-| 92     | US92        | Register ssecurely                                           | As a Customer,I want to securely register with valid information,So that my account is created safely and I receive confirmation of successful registration. | 5                |
-| 93     | US93        | Validate and store encrypted user data on registration       | As a Customer,I want a properly designed registration screen that displays all required input fields with clear labels,So that I can easily complete the registration process without confusion. | 3                |
-| 94     | US94        | Being only able to acces role-routes                         | As a Customer, I want to only access routes allowed by my role so that I don’t access unauthorized resources. | 5                |
-| 95     | US95        | Restrict API access                                          | As a Developer, I want to secure API routes using role-based access control and middleware guards so that unauthorized access is blocked. | 5                |
-| 96     | US96        | Stay log in                                                  | As a Customer, I want to stay logged in securely across sessions so that I don’t have to re-authenticate frequently. | 2                |
-| 97     | US97        | Configure JWT authentication with expiration handling        | As a Developer, I want to manage access tokens and refresh tokens using stateless JWT and configure expiration policies. | 2                |
-| 98     | US98        | Provide secure logout endpoint                               | As a Customer, I want to log out from the system so that my session is closed and cannot be reused. | 2                |
-| 99     | US99        | Invalidate tokens and clear session metadata on logout       | As a Developer, I want to implement a logout mechanism that invalidates refresh tokens and deletes session metadata. | 2                |
-| 100    | US100       | Protect information                                          | As a Customer, I want my personal and payment data to be stored securely so that I am protected from data breaches. | 2                |
-| 101    | US101       | Secure data transmission via HTTPS and TLS protocols         | As a Developer, I want to encrypt sensitive fields at rest using industry standards (e.g., AES, bcrypt) and enforce HTTPS in transit. | 2                |
-| 102    | US102       | Reset my password                                            | As a Customer, I want to reset my password securely so that I can regain access to my account if I forget it. | 2                |
-| 103    | US103       | Generate and validate reset tokens with expiry rules         | As a Developer, I want to implement a password reset flow with temporary token, email validation, and secure password update. | 2                |
-| 104    | US104       | Track and alert on suspicious login activity                 | As a Platform Administrator, I want to be notified of repeated failed login attempts so that I can take action against potential threats. | 3                |
-| 105    | US105       | Log failed authentications and enforce throttling            | As a Developer, I want to log failed authentications and trigger alerts based on rate limits or IP anomalies. | 3                |
-| 106    | US106       | Add a Designed Garment to the shopping cart                  | As a Customer, I want to add a Designed Garment to my cart so that I can review and purchase it later. | 3                |
-| 107    | US107       | Send garment data to the cart service for storage            | As a Developer, I want to trigger a POST request to the cart API with the garment ID and quantity so that it is stored in the user's cart session. | 3                |
-| 108    | US108       | View and manage cart items before purchase                   | As a Customer, I want to view and edit the contents of my cart so that I can update quantities or remove items before checking out. | 2                |
-| 109    | US109       | Retrieve and update cart state via cart service              | As a Developer, I want to fetch the cart items via REST API and allow inline edits so that updates are reflected in the session cart state. | 3                |
-| 110    | US110       | Initiate checkout process from cart                          | As a Customer, I want to proceed to checkout from my cart so that I can complete my purchase. | 5                |
-| 111    | US111       | Create a pending order record from current cart data         | As a Developer, I want to route the user to a checkout view and initialize an order object in the backend with their cart contents. | 2                |
-| 112    | US112       | Enter and confirm shipping details during checkout           | As a Customer, I want to confirm my shipping address and contact info during checkout so that my order can be delivered correctly. | 3                |
-| 113    | US113       | Validate and store shipping data in the order record         | As a Developer, I want to validate and persist the shipping info to the order entity so that it can be used by logistics. | 2                |
-| 114    | US114       | Display final order summary to the customer                  | As a Customer, I want to see a final summary of my order before confirming so that I know what I’m paying for. | 2                |
-| 115    | US115       | Calculate and present total order amount server-side         | As a Developer, I want to generate a visual order summary from the current cart and server-side calculation of total amount. | 5                |
-| 116    | US116       | Place and confirm customer order                             | As a Customer, I want to place my order so that the system can process it and begin fulfillment. | 2                |
-| 117    | US117       | Lock cart and persist confirmed order with timestamp         | As a Developer, I want to mark the order as confirmed, lock the cart, and return an order ID and estimated delivery time. | 3                |
-| 118    | US118       | Display order confirmation to the customer                   | As a Customer, I want to see a confirmation screen after placing an order so that I can know it was successful. | 5                |
-| 119    | US119       | Render confirmation view with order metadata                 | As a Developer, I want to display the confirmation page using the data returned from the order API (ID, summary, ETA). | 3                |
-| 120    | US120       | Notify manufacturer of new purchase                          | As a Manufacturer, I want to be notified when an order is placed so that I can begin production. | 3                |
-| 121    | US121       | Trigger internal manufacturing alert on order save           | As a Developer, I want to trigger a webhook or internal notification to the manufacturer service when a new order is saved. | 3                |
-| 122    | US122       | View the customer's order history                            | As a Customer, I want to see a list of my past and current orders so that I can track what I’ve purchased. | 5                |
-| 123    | US123       | Fetch and render list of past and active orders              | As a Developer, I want to retrieve the customer’s orders via API and display them using a card or list component. | 2                |
-| 124    | US124       | View detailed status of an individual order                  | As a Customer, I want to view the detailed status of an order so that I know if it is pending, processing, or delivered. | 3                |
-| 125    | US125       | Display order lifecycle using progress tracker               | As a Developer, I want to bind the order status to a visual progress bar or badge inside the order detail view | 2                |
-| 126    | US126       | Track the status of individual order items                   | As a Customer, I want to track the status of individual products within my order so that I understand if some items ship separately. | 3                |
-| 127    | US127       | Bind per-item status updates in order detail view            | As a Developer, I want to structure the order detail view to show item-level status and update them independently. | 2                |
-| 128    | US128       | Automatically update order status without page refresh       | As a Customer, I want the order status to update without reloading so that I’m always seeing the current state. | 5                |
-| 129    | US129       | Use real-time data source to refresh order status in UI      | As a Developer, I want to implement polling or WebSocket to refresh order status dynamically. | 2                |
-| 130    | US130       | Notify the user when the order status changes                | As a Customer, I want to be notified when my order status changes so that I’m informed even if I’m not viewing the detail page. | 2                |
-| 131    | US131       | Display UI alert when status update event is received        | As a Developer, I want to show toast notifications or banners when order status events are received. | 2                |
-| 132    | US132       | View estimated delivery time of the order                    | As a Customer, I want to see the expected delivery date of my order so that I can plan accordingly. | 2                |
-| 133    | US133       | Bind delivery estimate to order summary UI                   | As a Developer, I want to display the estimatedDeliveryDate property from the order API on the confirmation and detail screens. | 2                |
-| 134    | US134       | Track production progress from manufacturer dashboard        | As a Manufacturer, I want to view the progress of my assigned orders so that I can manage production accordingly. | 2                |
-| 135    | US135       | Filter and display assigned orders with current status       | As a Developer, I want to filter the order tracking interface to show only the orders related to the logged-in manufacturer. | 2                |
-| 136    | US136       | Access the manufacturer's administration panel               | As a Manufacturer, I want to access a dedicated dashboard so that I can manage the orders assigned to my company. | 5                |
-| 137    | US137       | Create secured route and render manufacturer-specific data   | As a Developer, I want to create a protected route for the manufacturer dashboard and render orders linked to the logged-in manufacturer. | 3                |
-| 138    | US138       | View assigned orders in the manufacturer panel               | As a Manufacturer, I want to view all orders assigned to me so that I can plan and prioritize production. | 5                |
-| 139    | US139       | Fetch and paginate orders filtered by manufacturer ID        | As a Developer, I want to query the database for orders where manufacturerId matches the user’s profile and return them paginated. | 2                |
-| 140    | US140       | View design blueprint associated with an order               | As a Manufacturer, I want to see the design blueprint attached to each order so that I can follow the exact specifications. | 5                |
-| 141    | US141       | Retrieve blueprint metadata and files via API                | As a Developer, I want to retrieve the DesignBlueprint metadata and assets related to each order and expose them via API. | 5                |
-| 142    | US142       | Update the production status of an order                     | As a Manufacturer, I want to update the production status of an order (e.g., received, in production, completed) so that the platform reflects the current progress. | 5                |
-| 143    | US143       | Patch order record with validated production status          | As a Developer, I want to expose a PATCH endpoint to update the productionStatus field of an order, with validations. | 3                |
-| 144    | US144       | Upload production reports or notes for an order              | As a Manufacturer, I want to upload a report or notes about production so that the platform admin or customer can see relevant updates. | 2                |
-| 145    | US145       | Store report files linked to order and manufacturer ID       | As a Developer, I want to support file upload (PDF, images) and bind it to the ManufacturingReport entity linked to an order. | 2                |
-| 146    | US146       | Filter manufacturer orders by status and date                | As a Manufacturer, I want to filter my orders by production status or date range so that I can locate orders more easily. | 5                |
-| 147    | US147       | Implement filtered queries and client-side UI filters        | As a Developer, I want to implement client-side filters and backend query parameters for search efficiency. | 2                |
-| 148    | US148       | Notify manufacturer of new assigned orders                   | As a Manufacturer, I want to be notified when a new order is assigned to me so that I can start production promptly. | 2                |
-| 149    | US149       | Trigger alert or event on assignment of new order            | As a Developer, I want to trigger a WebSocket event or email notification when the assignedManufacturerId field is updated on an order. | 2                |
-| 150    | US150       | Update display name                                          | As a Customer, I want to change my display name so that my profile reflects my identity. | 3                |
-| 151    | US151       | Bind name input field and send update to profile API         | As a Developer, I want to bind an input field to the user.name property and send the update via PATCH request. | 5                |
-| 152    | US152       | Upload or change profile photo                               | As a Customer, I want to upload or change my profile picture so that others can recognize me. | 2                |
-| 153    | US153       | Bind image uploader to avatar property and display preview   | As a Developer, I want to enable image upload and preview, and bind it to the user.avatarUrl property. | 2                |
-| 154    | US154       | Update user contact information                              | As a Platform Customer, I want to update my contact details (email, phone) so that I can receive communications. | 3                |
-| 155    | US155       | Bind and validate email/phone fields in user profile         | As a Developer, I want to bind form inputs to user.email and user.phone and validate formats before submitting. | 3                |
-| 156    | US156       | Set the user’s preferred language                            | As a Platform Customer, I want to select my preferred language so that the platform displays content in my native language. | 2                |
-| 157    | US157       | Connect language selector to i18n and save preference        | As a Developer, I want to bind a language selector to the i18n module and persist the selection in user preferences. | 5                |
-| 158    | US158       | Toggle between light and dark theme                          | As a Customer, I want to choose between light and dark mode so that I can customize the visual appearance. | 2                |
-| 159    | US159       | Apply theme preference and persist user setting              | As a Developer, I want to toggle CSS classes or design tokens and persist the user.theme preference locally or in the backend. | 2                |
-| 160    | US160       | View and edit profile information                            | As a Customer, I want to view all my profile details in one place so that I can manage them easily. | 3                |
-| 161    | US161       | Render user data in editable form with two-way binding       | As a Developer, I want to render a summary panel with editable fields bound to the user model and auto-save on change. | 3                |
-| 162    | US162       | Select the user’s preferred language from UI                 | As a Customer, I want to choose my preferred language from the UI so that I can interact with the platform in my native language. | 2                |
-| 163    | US163       | Bind language selector to i18n module and trigger language switch | As a Developer, I want to bind a language selector dropdown to the i18n module (ngx-translate) and trigger use(languageCode) dynamically. | 5                |
-| 164    | US164       | Persist the selected language across sessions                | As a Platform Customer, I want my language preference to be saved so that I don’t have to select it every time I log in. | 5                |
-| 165    | US165       | Save and retrieve language preference from profile or local storage | As a Developer, I want to store the selected language in local storage or send it to the backend user profile so that it loads automatically on future sessions. | 3                |
-| 166    | US166       | Translate all static and dynamic UI content                  | As a Customer, I want all content including menus, labels, buttons, and messages to appear in the selected language so that my experience is consistent. | 5                |
-| 167    | US167       | Wrap content in translation keys and load from JSON dictionaries | As a Developer, I want to wrap all static and dynamic texts in translation keys and provide language-specific JSON files loaded at runtime. | 3                |
-| 168    | US168       | Detect user browser language on first load                   | As a Customer, I want the platform to auto-detect my browser language on first visit so that I see the UI in my language without setting it manually. | 5                |
-| 169    | US169       | Initialize i18n default based on navigator language          | As a Developer, I want to detect navigator.language and set the default translation language in the i18n module unless a user preference exists. | 5                |
-| 170    | US170       | Enable optional locale-based URL routing                     | As a Customer, I want to see the current language reflected in the URL if applicable so that I can share localized links. | 5                |
-| 171    | US171       | Configure route prefixes for localized navigation            | As a Developer, I want to enable optional route prefixes like /en, /es, using Angular router and i18n locale guards. | 5                |
-| 172    | US172       | Navigate through the platform using only the keyboard        | As a Customer, I want to navigate through all interactive elements using only my keyboard so that I can use the platform without a mouse. | 2                |
-| 173    | US173       | Ensure tab order and focusability of interactive elements    | As a Developer, I want to ensure all focusable elements are reachable via Tab and that their focus order is logical. | 2                |
-| 174    | US174       | Access the platform using a screen reader                    | As a Customer, I want the screen reader to describe elements accurately so that I understand the content and actions available. | 2                |
-| 175    | US175       | Add semantic roles and ARIA attributes to UI components      | As a Developer, I want to implement ARIA roles, labels, and landmarks to make the DOM understandable by assistive technologies. | 3                |
-| 176    | US176       | Show visual focus indicators for keyboard navigation         | As a Customer, I want to see a visible outline or indicator when an element is focused so that I know where I am in the interface. | 3                |
-| 177    | US177       | Style focus states for accessibility visibility              | As a Developer, I want to apply custom focus styles to buttons, links, and inputs so that active elements are visually distinguishable. | 2                |
-| 178    | US178       | Ensure readable color contrast across the UI                 | As a Customer, I want text and interface elements to have sufficient contrast so that I can read and understand content easily. | 3                |
-| 179    | US179       | Apply WCAG-compliant contrast ratios for text and elements   | As a Developer, I want to apply and test contrast ratios (≥ 4.5:1 for text) using accessible color palettes and tools. | 2                |
-| 180    | US180       | Provide descriptive labels for all inputs and controls       | As a Customer, I want all form inputs and buttons to have clear labels so that I understand their purpose. | 3                |
-| 181    | US181       | Use ARIA or HTML attributes for semantic labeling            | As a Developer, I want to bind aria-label, aria-describedby, or <label for> tags to relevant inputs and controls. | 2                |
-| 182    | US182       | Allow users to skip navigation and go to main content        | As a Customer, I want a shortcut to jump directly to the main content so that I can avoid repetitive navigation. | 2                |
-| 183    | US183       | Implement skip link anchored to main tag                     | As a Developer, I want to implement a "skip to content" link at the top of the page that anchors to the main section. | 2                |
-| 184    | US184       | Announce dynamic changes for screen readers                  | As a Customer with a screen reader, I want to be notified when dynamic content changes (e.g., modal opens, form submits) so that I’m aware of what’s happening. | 2                |
-| 185    | US185       | Use ARIA live regions to broadcast UI updates                | As a Developer, I want to use ARIA live regions or alerts to announce updates without full reloads. | 3                |
-| 186    | US186       | Display the application correctly on multiple devices        | As a Platform Customer, I want the interface to adjust to the device I’m using so that I can access the platform from any screen comfortably. | 2                |
-| 187    | US187       | Implement responsive layout with breakpoints and CSS grid    | As a Developer, I want to define responsive breakpoints and use grid/flexbox layouts so that components adapt fluidly across devices. | 3                |
-| 188    | US188       | Collapse the sidebar into a drawer on small screens          | As a Mobile Customer, I want the sidebar to collapse into a drawer or menu so that I can see the main content without obstruction. | 5                |
-| 189    | US189       | Implement responsive toggle for sidebar visibility           | As a Developer, I want to use Angular Material’s mat-drawer or similar component with toggle logic at mobile breakpoints. | 2                |
-| 190    | US190       | Adapt toolbar layout to available screen width               | As a Customer, I want the toolbar to simplify or wrap its elements on narrow screens so that the interface remains usable. | 3                |
-| 191    | US191       | Use responsive classes and containers to rearrange actions   | As a Developer, I want to use conditional rendering and responsive layout classes to reorganize or group toolbar elements based on width. | 5                |
-| 192    | US192       | Scale text and form fields appropriately                     | As a Customer, I want text and form inputs to remain readable and usable on all devices so that I can interact with the platform without difficulty. | 3                |
-| 193    | US193       | Use relative units to ensure proportional resizing           | As a Developer, I want to use relative units (rem, %, vw) for text and components so that they scale with screen size. | 2                |
-| 194    | US194       | Validate UI across standard device resolutions               | As a Platform Customer, I want the application to work correctly on common resolutions (e.g., 1920x1080, 1366x768, 1024x768, 375x667) so that I don’t face layout issues. | 5                |
-| 195    | US195       | Test and adjust styles using media queries and emulators     | As a Developer, I want to use device emulators and media queries to test and adjust the layout across target breakpoints. | 3                |
-| 196    | US196       | Prevent horizontal scrolling on mobile devices               | As a Mobile Customer, I want the platform to avoid unnecessary horizontal scroll so that I can focus on the content vertically. | 2                |
-| 197    | US197       | Apply layout constraints to avoid content overflow           | As a Developer, I want to enforce container widths and overflow constraints to prevent layout breakage on small viewports. | 5                |
-| 198    | US198       | Choose a payment method during checkout                      | As a Customer, I want to select a payment method (credit card, wallet, etc.) so that I can complete my purchase. | 5                |
-| 199    | US199       | Bind payment selection to transaction payload                | As a Developer, I want to display a form for available payment options and bind the selection to the order payload. | 3                |
-| 200    | US200       | Submit payment securely for transaction processing           | As a Customer, I want to submit my payment information securely so that I can finalize my purchase without risk. | 2                |
-| 201    | US201       | Tokenize and transmit payment data via secure API            | As a Developer, I want to integrate with a PCI-compliant payment gateway and tokenize the sensitive data before processing. | 5                |
-| 202    | US202       | Validate payment and confirm transaction result              | As a System, I want to verify if the transaction was successful so that the order can be confirmed or rejected. | 3                |
-| 203    | US203       | Handle gateway response and store transaction outcome        | As a Developer, I want to receive the gateway response, validate the transaction status, and store the result in the database. | 3                |
-| 204    | US204       | Display payment confirmation with receipt code               | As a Customer, I want to see a confirmation screen or message after payment so that I know my order is complete. | 2                |
-| 205    | US205       | Render transaction result from backend response              | As a Developer, I want to display the transaction result and reference code retrieved from the backend. | 5                |
-| 206    | US206       | Notify user of failed payment attempt                        | As a Customer, I want to be notified if my payment fails so that I can retry or choose another method. | 5                |
-| 207    | US207       | Display error messages on transaction failure                | As a Developer, I want to catch failed payment states and show user-friendly error messages based on the backend response. | 2                |
-| 208    | US208       | Prevent duplicate transaction submissions                    | As a System, I want to prevent the same order from being paid twice so that users aren’t overcharged. | 3                |
-| 209    | US209       | Validate payment status before initiating new charge         | As a Developer, I want to check if the order has already been paid before allowing a new transaction to be submitted. | 2                |
-| 210    | US210       | Store transaction metadata for auditing                      | As a Platform Administrator, I want to access payment metadata for each transaction so that I can audit or resolve disputes. | 2                |
-| 211    | US211       | Save payment method, status, and timestamps per transaction  | As a Developer, I want to store fields like payment method, transaction ID, timestamp, amount, and status in the database. | 5                |
+|      | **Story ID** | **Tittle**                                                   | **Description**                                              | **Story Points** |
+| ---- | ------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------- |
+| 1    | US01         | Change landing page language                                 | As a visitor, I want to translate the landing page, so that I can read the content in my preferred language. | 3                |
+| 2    | US02         | Multidevice Support                                          | As a visitor, I want to be able to view the landing page on my mobile device, so that I do not have the need to open the website on a desktop-like device. | 3                |
+| 3    | US03         | Practical Design Lab interaction                             | As a visitor, I want to access the Design Lab directly from the homepage so that I can interact with the product. | 3                |
+| 4    | US04         | Accessible Navigation                                        | As a visitor who relies on assistive technologies, I want the landing page to clearly announce section roles and labels so that I can understand the structure and purpose. | 3                |
+| 5    | US05         | Access Image Descriptions                                    | As a visitor who relies on a screen reader, I want all meaningful images on the landing page to include clear alternative text so that I can understand the visual content and navigate the website. | 3                |
+| 6    | US06         | Explore Social Media                                         | As a visitor, I want to see links to the official social media accounts so that I can follow updates, stay informed, and/or contact the team. | 3                |
+| 7    | US07         | Display visual representations of the product                | As a visitor, I want to see visual examples of how the product works so that I can feel confident about the product. | 3                |
+| 8    | US08         | Role-Based Rendering of Navigation and Actions               | As a developer, I want to render navigation elements based on the authenticated roles, so that users only see the sections and actions they are authorized to access. | 5                |
+| 9    | US09         | Text Manipulation in Project                                 | As a designer, I want to manipulate text(s) in a project so that I can personalize the project with a message, branding, etc. | 8                |
+| 10   | US10         | Image Manipulation in Project                                | As a designer, I want to manipulate image(s) in a project so that I can personalize the design. | 8                |
+| 11   | US11         | Project Base Color Modification                              | As a designer, I want to modify the base color of the project so that I can personalize the design. | 8                |
+| 12   | US12         | Layer Ordering Control in the Design Lab                     | As a designer, I need the ability to reorder visual elements on the canvas by moving them forward or backward, so that I can have a better editing experience. | 5                |
+| 13   | US13         | Real-Time Canvas Rendering and State Reflection              | As a developer, I want the Design Lab canvas to render all user interactions in real time, so that designers receive instant visual feedback and the rendered state accurately reflects what will be saved. | 8                |
+| 14   | US14         | Add Name and Description to Project                          | As a designer, I want to assign a name and write a short description for each of my product designs so that I can give them identity, meaning, and/or context. | 3                |
+| 15   | US15         | Select Gender and Sizes for Project                          | As a designer, I want to select the gender and available size(s) for my project so that it appears correctly in customer filters and size selections, and also, so that manufacturers can handle sizing more accurately during production. | 5                |
+| 16   | US16         | Create Project or Project Blueprint                          | As a designer, I want to create a new project that can also serve as a design blueprint, so that I can begin creating. | 5                |
+| 17   | US17         | Load a saved product design or design blueprint              | As a designer, I want to load a saved product design or design blueprint so that I can continue working on it without starting from scratch | 5                |
+| 18   | US18         | Delete a saved design blueprint                              | As a designer, I want to delete a design blueprint I no longer need so that I can keep my workspace organized and focused. | 3                |
+| 19   | US19         | Enforce design deletion with ownership checks                | As a developer, I want to allow designers to delete their own blueprints but restrict deletion for non-creators, so that permission boundaries are respected. | 3                |
+| 20   | US20         | Duplicate a project or project blueprint                     | As a designer, I want to duplicate an existing product design or design blueprint so that I can make changes to a copy without affecting the original version. | 2                |
+| 21   | US21         | Publish a product design or design blueprint                 | As a designer, I want to publish a product design so that others can view or use it within the platform. | 3                |
+| 22   | US22         | Share a product design or design blueprint                   | As a designer, I want to share a product design or design blueprint with others so that they can view or duplicate it from their own accounts. | 1                |
+| 23   | US23         | Support publishing of product designs and design blueprints  | As a developer, I want to implement a publishing mechanism for design blueprints so that designers can make their work publicly visible within the platform and retrievable by other users. | 3                |
+| 24   | US24         | Implement design sharing via secure, shareable links         | As a developer, I want to generate and manage secure, shareable links for design blueprints so that users can view or duplicate shared content. | 1                |
+| 25   | US25         | Publish product design as a product for sale                 | As a designer, I want to publish my product design as a product for sale so that customers can discover and purchase it in the public product catalog. | 5                |
+| 26   | US26         | Edit profile information                                     | As a customer, I want to view all my profile details in one place so that I can manage them easily. | 3                |
+| 27   | US27         | Implement secure authentication with JWT and password encryption | As a developer, I want to implement an authentication endpoint and issues signed JWTs with expiration handling, so that secure and stateless user sessions can be established. | 2                |
+| 28   | US28         | Validate and store encrypted user data on registration       | As a developer, I want to validate incoming registration data and store user credentials in encrypted form, so that user accounts are securely created and protected against unauthorized access. | 3                |
+| 29   | US29         | Restrict API access                                          | As a developer, I want to secure API routes using role-based access control and middleware guards so that unauthorized access is blocked. | 5                |
+| 30   | US30         | Stay Log In                                                  | As a customer, I want to stay logged in securely across sessions so that I don’t have to re-authenticate frequently when returning to the platform. | 2                |
+| 31   | US31         | Secure Logout Functionality                                  | As a Customer, I want to log out securely from the system so that my session ends completely and cannot be reused by unauthorized parties. | 2                |
+| 32   | US32         | Invalidate Tokens and Clear Session Metadata on Logout       | As a developer, I want to implement a logout mechanism that invalidates refresh tokens and clears session metadata to enhance security. | 2                |
+| 33   | US33         | Enforce Secure Data Transmission and Encryption              | As a developer, I want to ensure that all sensitive data is encrypted at rest and transmitted securely. | 2                |
+| 34   | US34         | Password Reset                                               | As a customer, I want to securely reset my password in case I forget it, so that I can regain access to my account. | 2                |
+| 35   | US35         | Implement Temporary Token for Password Reset                 | As a Developer, I want to implement a password reset flow using time-limited tokens, so that only valid users can reset their passwords within a secure time frame. | 2                |
+| 36   | US36         | Add product to shopping cart                                 |                                                              | 3                |
+| 37   | US37         | Retrieve and update cart                                     | As a customer, I want to add a product to my shopping cart so that I can review it and purchase it later. | 3                |
+| 38   | US38         | Start checkout                                               | As a customer, I want to proceed to checkout from my cart so that I can complete my purchase. | 5                |
+| 39   | US39         | Create Pending Order from Cart                               | As a developer, I want to initialize a pending order so that the order can be tracked and fulfilled after checkout begins. | 2                |
+| 40   | US40         | Enter and Confirm Shipping Details                           | As a customer, I want to enter and confirm my shipping address and contact information during checkout so that my order can be delivered to the correct location. | 3                |
+| 41   | US41         | Validate and Store Shipping Information in Order             | As a developer, I want to validate and persist the customer's shipping information into the order entity so that it can be used by the logistics system. | 2                |
+| 42   | US42         | Display final order summary to the customer                  | As a customer, I want to view a detailed summary of my order before confirming it, so I know exactly what I’m purchasing and how much I will pay. | 2                |
+| 43   | US43         | Place and Confirm Order                                      | As a customer, I want to confirm my order so that the system can begin processing and preparing it for fulfillment. | 2                |
+| 44   | US44         | Display Order Confirmation                                   | As a customer, I want to receive a confirmation screen after placing my order so that I know it was successful and have a reference for tracking. | 2                |
+| 45   | US45         | Notify of New Purchase                                       | As a manufacturer, I want to be notified immediately when a new order is placed so that I can start the production process without delays. | 3                |
+| 46   | US46         | View Customer Order History                                  | As a customer, I want to see a list of all my past and current orders so that I can track my purchase history and delivery status. | 5                |
+| 47   | US47         | View Detailed Order Status                                   | As a customer, I want to see detailed tracking information about each order so that I know whether it's pending, being processed, shipped, or delivered. | 3                |
+| 48   | US48         | View Estimated Delivery Time                                 | As a customer, I want to see the estimated delivery date for my order so that I can plan for its arrival. | 2                |
+| 49   | US49         | Track production progress in dashboard                       | As a customer, I want to see the estimated delivery date for my order so that I can plan for its arrival. | 2                |
+| 50   | US50         | Access the administration panel                              | As a manufacturer, I want to access a dedicated dashboard so that I can manage the orders assigned to my company. | 5                |
+| 51   | US51         | Create secured route and render manufacturer-specific data   | As a developer, I want to protect the manufacturer dashboard so that only manufacturers can view it. | 3                |
+| 52   | US52         | View assigned orders in the manufacturer panel               | As a manufacturer, I want to view all orders assigned to me so that I can plan and prioritize production. | 5                |
+| 53   | US53         | Update the production status of an order                     | As a manufacturer, I want to update the production status of an order so that the platform reflects the current progress to inform the client. | 5                |
+| 54   | US54         | Upload Production Reports                                    | As a manufacturer, I want to upload a report or notes about production so that the platform admin or customer can see relevant updates. | 2                |
+| 55   | US55         | Filter manufacturer orders by status and date                | As a manufacturer, I want to filter my orders by production status or date range so that I can locate orders more easily. | 5                |
+| 56   | US56         | Implement filtered queries                                   | As a developer, I want to implement client-side filters for search efficiency. | 2                |
+| 57   | US57         | Notification of new assigned orders                          | As a manufacturer, I want to be notified when a new order is assigned to me so that I can start production promptly. | 2                |
+| 58   | US58         | Translate the Web Application                                | As a customer, I want to choose my preferred language from the UI so that I can interact with the platform in my native language. | 2                |
+| 59   | US59         | Bind language selector to i18n module and trigger language switch | As a developer, I want to bind a language selector dropdown to the i18n module (ngx-translate) and trigger use(languageCode) dynamically. | 5                |
+| 60   | US60         | Configure route prefixes for localized navigation            | As a developer, I want to enable optional route prefixes like /en, /es, using Angular router and i18n locale guards. | 5                |
+| 61   | US61         | Choose a payment method during checkout                      | As a customer, I want to select my preferred payment method during checkout so that I can complete my purchase with the option that suits me best. | 5                |
+| 62   | US62         | Bind selected payment method to transaction request          | As a developer, I want to display available payment methods to the user and bind their selected option to the transaction payload so correct payment flow is process. | 3                |
+| 63   | US63         | Securely submit payment to complete my purchase              | As a customer, I want to enter and submit my payment information through a secure process so that I can finalize my order with confidence and without risk of data exposure. | 2                |
+| 64   | US64         | Integrate PCI-compliant tokenization for secure payment processing | As a developer, I want to tokenize sensitive payment data and transmit it securely through a PCI-compliant payment gateway so that I can process transactions without directly handling raw card information. | 5                |
+| 65   | US65         | Validate transaction result and confirm order status         | As a developer, I want to verify the final transaction status from the payment provider so that I can either confirm the order or reject it based on payment success. | 3                |
+| 66   | US66         | Process payment gateway response and persist transaction outcome | As a developer, I want to handle the payment gateway’s response, validate the transaction result so that all transactions are reliably recorded for reference, auditing, and user feedback. | 3                |
+| 67   | US67         | Get notice of failed payment attempt                         | As a customer, I want to be notified immediately if my payment attempt fails so that I understand what went wrong and can try again or choose another payment method. | 3                |
+| 68   | US68         | Prevent duplicate transaction submissions                    | As a developer, I want to prevent the same order from being paid twice so that users aren’t overcharged. | 3                |
+| 69   | US69         | Store transaction metadata for auditing                      | As a platform administrator, I want to access payment metadata for each transaction so that I can audit or resolve disputes. | 2                |
+| 70   | US70         | Save payment method, status, and timestamps per transaction  | As a developer, I want to persist each transaction's payment method, status, and timestamps so that I can ensure accurate record-keeping, auditing, and tracking of payment flows across the system. | 5                |
 
 # 4. Capítulo IV: Product Design
 
@@ -3578,15 +3256,9 @@ En esta sección de logs Vercel está realizando los pasos finales del despliegu
 
 La implementación de la landing page de la plataforma Quri, estableciendo la presencia inicial y los puntos de contacto clave para los usuarios. El trabajo abarcó desde la estructura y el diseño visual hasta funcionalidades esenciales como la responsividad, internacionalización y accesibilidad. A continuación, se detallan la planificación, el backlog ejecutado, la evidencia de desarrollo y los aspectos de colaboración.
 
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe-2SVfhMg88oDtMO_3QYWOO5uSdwJqhAP4-goRu09WZLItrz6fQridhrQKTKHOgDDmlhN9f-Uew18B1LujBxl5xHQ-rptqsELMORMVVwgpLSV40i9ytpJQr-6IfYxr6SCXCxbV?key=wLsuErVgqDz-qczrBI4kMctR)
-
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdL9rdlqw1DW-dBuqIzMn-OjuMEsp3FtlvaYD47HOj8Xu0GnvDfl4Qy0ewUQepBKVET_sDQRPJL0K-YSsYP5ToF7jyxV1RbtstVnkuWcbX13-0UeJHE8CXSNsgY1iQx316dsHV3og?key=wLsuErVgqDz-qczrBI4kMctR)
-
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXftU8ULy-Dv8cfDrLA9rdzxg1U7661kBBQXBlhCCJpOlA7KD6tM1zyrCbxkNYoEo-ZnNpa2fTy1ZljQXkroVefiKKiWppycJyL3jAeBf2x-2xr-h-xzT6QnK5waEW0cx6I9xqDy?key=wLsuErVgqDz-qczrBI4kMctR)
-
 #### 5.2.1.1. Sprint Planning 1
 
-El 31 de marzo de 2025, el equipo de QURI se reunió virtualmente a través de Google Meet para dar inicio al Sprint 1, la primera iteración enfocada en establecer las bases de la plataforma. Bajo la coordinación de Dante Alemán y con la participación de Jonatan Ariel Acuña Corahua, Fabrizio Contreras Peralta, Neil Curipaco Huayllani y Renzo Luque Minaya, revisamos el backlog, definimos el objetivo principal y acordamos las historias de usuario a abordar. Con un claro enfoque en la navegación accesible y coherente (header, footer y rutas clave), establecimos criterios de aceptación, validamos estimaciones que sumaron 118 puntos de historia y aseguramos el compromiso de todos para cumplir con la meta de ofrecer una experiencia inclusiva y fluida para nuestros usuarios.
+El 31 de marzo de 2025, el equipo de QURI se reunió virtualmente a través de Google Meet para dar inicio al Sprint 1, la primera iteración enfocada en establecer las bases de la plataforma. Bajo la coordinación de Dante Alemán y con la participación de Jonatan Ariel Acuña Corahua, Fabrizio Contreras Peralta, Neil Curipaco Huayllani y Renzo Luque Minaya, revisamos el backlog, definimos el objetivo principal y acordamos las historias de usuario a abordar. Con un claro enfoque en la navegación accesible y coherente (header, footer y rutas clave), establecimos criterios de aceptación, validamos estimaciones que sumaron 21 puntos de historia y aseguramos el compromiso de todos para cumplir con la meta de ofrecer una experiencia inclusiva y fluida para nuestros usuarios.
 
 | Sprint #                        | 1                                                            |
 | ------------------------------- | ------------------------------------------------------------ |
@@ -3597,9 +3269,9 @@ El 31 de marzo de 2025, el equipo de QURI se reunió virtualmente a través de G
 | Prepared By                     | Dante Alemán                                                 |
 | Attendees (to planning meeting) | Jonatan Ariel Acuña Corahua, Dante Mateo Aleman Romano, Fabrizio Alessandro Contreras Peralta, Neil Aldrin Wilhelm Curipaco Huayllani, Renzo Andres Luque Minaya |
 | Sprint Goal & User Stories      |                                                              |
-| Sprint 1 Goal                   | Our focus is on delivering an accessible and consistent navigation system including header, footer, and key routes.We believe it delivers a smoother and more inclusive browsing experience for end users.This will be confirmed when users can navigate through the main areas of the platform using visual and assistive technologies (e.g., screen readers, keyboard navigation). |
-| Sprint 1 Velocity               | 148                                                          |
-| Sum of Story Points             | 148                                                          |
+| Sprint 1 Goal                   | Our focus is on delivering a consistent, appealing and multi-device platform site.We believe it delivers a smoother and more inclusive browsing experience for end users.This will be confirmed when users start building follow up expectations to use our product. |
+| Sprint 1 Velocity               | 21                                                           |
+| Sum of Story Points             | 21                                                           |
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
@@ -3627,36 +3299,21 @@ El presente Sprint se centra en establecer la base funcional y visual de la plat
 
  A continuación, se presenta la tabla de control de estado del Sprint 1, la cual detalla los User Stories asignados, sus respectivas tareas (Work Items), descripciones funcionales, estimaciones en horas, responsables y estado actual.
 
-| User Story Id | User Story Title                                            | Task Id | Task Title                                    | Description                                                  | Estimation (Hours) | Assigned To | Status |
-| ------------- | ----------------------------------------------------------- | ------- | --------------------------------------------- | ------------------------------------------------------------ | ------------------ | ----------- | ------ |
-| US06          | Explore information about the company                       | 6       | Add About Us section                          | Display company background and mission in About section.     | 5                  | Fabrizio    | Done   |
-| US07          | Redirect to the editor from the Landing Page                | 7       | Enable editor access from CTA                 | Redirect user to editor when clicking 'Start Designing'.     | 5                  | Mateo       | Done   |
-| US08          | Configure navigation from the Landing Page to the editor    | 8       | Implement routing logic to editor             | Ensure smooth redirection and route handling to editor page. | 3                  | Mateo       | Done   |
-| US09          | Display team information                                    | 9       | Show team member details                      | Add section with names, roles, and photos of team.           | 3                  | Neil        | Done   |
-| US10          | Consult frequently asked questions                          | 10      | Design and display FAQ section                | Display and expand common service questions for user.        | 3                  | Fabrizio    | Done   |
-| US11          | Implement ARIA tags for accessible navigation               | 11      | Add ARIA roles and labels                     | Enhance accessibility with ARIA attributes for navigation and content. | 5                  | Neil        | Done   |
-| US12          | Access image descriptions for accessible navigation         | 12      | Add image alt descriptions                    | Include meaningful alt text and skip decorative images.      | 5                  | Neil        | Done   |
-| US13          | Browse social networks                                      | 13      | Display social media icons                    | Show social media links in footer or section.                | 5                  | Neil        | Done   |
-| US14          | Implement social media access points                        | 14      | Implement icon metadata and ARIA labels       | Add social links with metadata and accessibility labels.     | 5                  | Neil        | Done   |
-| US15          | Implement custom SEO with robots                            | 15      | Create and configure robots.txt               | Enable indexing control with robots.txt file.                | 5                  | Mateo       | Done   |
-| US16          | Navigate between sections from the header                   | 16      | Header links scroll or route to sections      | Enable section navigation from header items.                 | 8                  | Neil        | Done   |
-| US17          | Implement header with navigation links                      | 17      | Add header with 6 accessible links            | Render QURI, FAQ, About, Team, Join, Login with accessibility. | 5                  | Neil        | Done   |
-| US18          | Visualize the header visible while scrolling                | 18      | Ensure persistent header visibility           | Keep header visible while user scrolls page.                 | 8                  | Neil        | Done   |
-| US19          | Set the header as sticky on top                             | 19      | Apply sticky positioning and margin fixes     | Keep header fixed using sticky layout.                       | 8                  | NCeil       | Done   |
-| US20          | Visually distinguish header options                         | 20      | Style header links for clarity                | Use visual distinction and active state styles.              | 5                  | Neil        | Done   |
-| US21          | Apply consistent styles to header links                     | 21      | Apply unified header link styles              | Ensure consistent font, spacing and hierarchy in nav links.  | 8                  | Neil        | Done   |
-| US22          | View inspiring t-shirt examples                             | 22      | Add image gallery of designed shirts          | Display at least 3 examples of shirts built on platform.     | 5                  | Renzo       | Done   |
-| US23          | Implement visual carousel of custom layouts                 | 23      | Develop t-shirt carousel                      | Create functional carousel for showcasing designs.           | 3                  | Fabrizio    | Done   |
-| US24          | Access key sections from the footer                         | 24      | Footer nav to top sections                    | Add footer links to main platform sections.                  | 5                  | Renzo       | Done   |
-| US25          | Implement bottom navigation in the footer                   | 25      | Add footer links to Community, About, Contact | Persistent access from footer to community and info pages.   | 3                  | Renzo       | Done   |
-| US26          | Invite registration from anywhere on the page               | 26      | Add persistent registration CTA               | Ensure join CTA is always accessible.                        | 5                  | Renzo       | Done   |
-| US27          | Show text with link to login and registration in the footer | 27      | Add static login/signup text in footer        | Add footer text with links to /login and /signup.            | 3                  | Renzo       | Done   |
-| US28          | Show geographic location of the company                     | 28      | Display location on About section             | Indicate Lima, PE in company info section.                   | 3                  | Mateo       | Done   |
-| US29          | Include geographical headquarters visible in the footer     | 29      | Show LIMA, PE in footer                       | Display headquarters in footer without obstructing content.  | 2                  | Fabrizio    | Done   |
-| US30          | Access the privacy policy and legal conditions              | 30      | Implement legal access from footer            | Show Privacy Policy and Terms on request.                    | 2                  | Jonatan     | Done   |
-| US31          | Link to legal documents from the footer                     | 31      | Add footer links to legal docs                | Label and route links to privacy and terms info.             | 3                  | Neil        | Done   |
-
  
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf02_lu7uOETqTZuIP-dWSYl8PxdwGiI7knc42j3_c0WAG4LzdO8j9hU3XT7zpeH63cnFozV8a8UM6bTi39ec3dNC7gv8uuuRAAhhHhiHwjVE4I3JAklEDWy2-x80qHWYbi8bBHFA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+| Sprint 1      |                                               |         |                                  |                                                              |                    |                    |        |
+| ------------- | --------------------------------------------- | ------- | -------------------------------- | ------------------------------------------------------------ | ------------------ | ------------------ | ------ |
+| User Story    | Work-Item / Task                              |         |                                  |                                                              |                    |                    |        |
+| User Story Id | User Story Title                              | Task Id | Task Title                       | Description                                                  | Estimation (Hours) | Assigned To        | Status |
+| US01          | Change landing page language                  | T01     | Implement language selector      | As a visitor, I want to translate the landing page, so that I read the content in my preferred language. | 3                  | Jonatan Acuña      | Done   |
+| US02          | Multidevice Support                           | T02     | Make landing page responsive     | As a visitor, I want to view the landing page on my mobile device, so that I don’t need a desktop-like device. | 3                  | Dante Aleman       | Done   |
+| US03          | Practical Design Lab interaction              | T03     | Redirect to Design Lab           | As a visitor, I want to access the Design Lab directly from the homepage so that I can interact with the product. | 3                  | Fabrizio Contreras | Done   |
+| US04          | Accessible Navigation                         | T04     | Add ARIA roles and landmarks     | As a visitor who relies on assistive technologies, I want the landing page to clearly announce section roles and labels so that I can understand the structure and purpose. | 3                  | Neil Curipaco      | Done   |
+| US05          | Access Image Descriptions                     | T05     | Add alt text to images           | As a visitor who relies on a screen reader, I want all meaningful images on the landing page to include clear alternative text so that I can understand the visual content. | 3                  | Renzo Luque        | Done   |
+| US06          | Explore Social Media                          | T06     | Add social media links           | As a visitor, I want to see links to the official social media accounts so that I can follow updates, stay informed, and/or contact the team. | 3                  | Jonatan Acuña      | Done   |
+| US07          | Display visual representations of the product | T07     | Show product visuals on homepage | As a visitor, I want to see visual examples of how the product works so that I can feel confident about the product. | 3                  | Dante Aleman       | Done   |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -3786,7 +3443,7 @@ A continuación, se presentan capturas de las vistas más relevantes implementad
 
 ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdZr80oFRJhcpRKUKkON3bvbSVhwQUSv33OsAH8EknAvUz7AaWBhomOFvzGFZgj7fhl3buazRQ7EQVn0RCBY7OMgxK1QAUA1n2i5-q9vC638XpEOhb47o_PrywVnN1jO--fVIhy?key=wLsuErVgqDz-qczrBI4kMctR)
 
-Link del video [upc-pre-202510-1asi0730-4350-quri-product-navigation-sprint-1 ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b866_upc_edu_pe/EUt6PjaYjKdCrlfYfu8kISUBWaIJHZ2pE2f9z1m1SAyZPg?e=WeKdLc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+ upc-pre-202510-1asi0730-4350-quri-product-navigation-sprint-1 : https://shorturl.at/ikk23
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -3826,7 +3483,7 @@ Para iniciar la construcción y el despliegue de la plataforma Q2, utilizamos Ne
 
 ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXekQn436aRg51yMs91jHYhOHDgWN6rlxU5eZAm5X-bmtyXx0RP61GWqs9hBbEZeXuAo0Du3MGoUxD4LG1tLVJOCQfDvEUr44bngzD_xi6xwaEyp5cXyZw0evOwanEsfZ6tAupWgaQ?key=wLsuErVgqDz-qczrBI4kMctR)
 
-Captura de la Landing Page en producción, accesible en https://quri.netlify.app.
+Captura de la Landing Page en producción, accesible en https://quri.netlify.app/
 
 
 
@@ -3893,19 +3550,9 @@ Dado que hemos podido solucionar el problema del manejo de Gitflow se espera que
 
 Continuando con el desarrollo del proyecto TeeLab, el Sprint 2 se enfocó en expandir las funcionalidades de la aplicación web, introduciendo la estructura de navegación interna, las herramientas de diseño de productos y la gestión de plantillas de diseño (blueprints). Este ciclo iterativo avanzó sobre las bases sentadas en el sprint anterior, comenzando a dar forma a la experiencia interactiva del usuario dentro de la plataforma. A continuación, se detallan los componentes de este sprint.
 
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdkRcl0XS5Uts9tDKqD6FhG4nUQsfY9vov4r49HM9s-GHR6hAhDnl96SuZUTEWMKm-T4b40Zw9hzn6wPhle9GUw3zKN5GHoODsFVII9DwzwAXNF7vrkKHL9t73lODAJyObb7GC2eA?key=wLsuErVgqDz-qczrBI4kMctR)
-
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeDN7dNRs0Yqhix-rGvdHjoSXPGkgcb0m6mbLN_rVUBfxfAeD8k5SxQkvv48pzANiSz-avXMDMR9ru0IuyypIHBrIFOtU23KBiSV8rgA9xlj2E5etGZCrgr9In3YkzGwp-SVVUCUQ?key=wLsuErVgqDz-qczrBI4kMctR)
-
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc795HanGiSNzmr96bFTFV_JZY6pP703wYSUmJWf9fx1J3QEg5nXMXKGq-xv7Au4Olu0Rv4yBoBFg4NEg-CPFMp1rMsVfUNj0GlnkjfzZrtR0TASbjWzpnOzx5dZsSihzYCHYgZoQ?key=wLsuErVgqDz-qczrBI4kMctR)
-
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf8CXnjEoR69fGaWzD4nKB0OXiC__Y922vv24qGAT6y9Z4bQ7f9bD-8jAkBk3novwU-VLfh-qfY333w1-4dfXzYPoGRaul4PJo7gB6v5sEB5A8cJUvgW8fferYUXoY4irvMG1h4DA?key=wLsuErVgqDz-qczrBI4kMctR)
-
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc7PhtSugs-KqvPzlv7WUPZz9IIYJ62Vtl1OA8s-09C2118ANpkFOfyb_49sQJua_GEpNNMu_-Wfly93HHVtOZsS4FnzNnHONa9p9HyXfD5ZzLIndiJio125vI-3nJS4_swJRjI?key=wLsuErVgqDz-qczrBI4kMctR)
-
 #### 5.2.2.1. Sprint Planning 2
 
-El 10 de mayo de 2025, el equipo de desarrollo de QURI se reunió de manera virtual a través de Google Meet para dar inicio al Sprint 2, correspondiente al periodo del 28 de abril al 22 de mayo. Bajo la coordinación de Jonatan Ariel Acuña Corahua y con la participación de Dante Mateo Alemán Romano, Fabrizio Contreras Peralta, Neil Curipaco Huayllani y Renzo Andrés Luque Minaya, en esta sesión de planificación revisamos los resultados y aprendizajes del Sprint 1, definimos el objetivo de este nuevo Sprint y seleccionamos las historias de usuario prioritarias. Con un enfoque claro en la estructura de navegación interna, las herramientas de diseño de productos y la gestión de “blueprints” de diseño, acordamos los criterios de éxito, validamos estimaciones por un total de 113 puntos de historia y establecimos las bases para una iteración eficiente y de alta calidad.
+El 10 de mayo de 2025, el equipo de desarrollo de QURI se reunió de manera virtual a través de Google Meet para dar inicio al Sprint 2, correspondiente al periodo del 28 de abril al 22 de mayo. Bajo la coordinación de Jonatan Ariel Acuña Corahua y con la participación de Dante Mateo Alemán Romano, Fabrizio Contreras Peralta, Neil Curipaco Huayllani y Renzo Andrés Luque Minaya, en esta sesión de planificación revisamos los resultados y aprendizajes del Sprint 1, definimos el objetivo de este nuevo Sprint y seleccionamos las historias de usuario prioritarias. Con un enfoque claro en la estructura de navegación interna, las herramientas de diseño de productos y la gestión de “blueprints” de diseño, acordamos los criterios de éxito, validamos estimaciones por un total de 74 puntos de historia y establecimos las bases para una iteración eficiente y de alta calidad.
 
 
 
@@ -3920,9 +3567,11 @@ El 10 de mayo de 2025, el equipo de desarrollo de QURI se reunió de manera virt
 | Sprint 2 – 1 Review Summary        | During Sprint 1 (31 Mar – 24 Apr), the team delivered a fully responsive landing page featuring accessible header and footer navigation, persistent language-switching (i18n) that retains the user’s choice across pages and sessions, clearly structured value-proposition and company-info sections, an interactive FAQ component, team profiles with social links, and a dynamic product carousel. All features passed QA, met acceptance criteria, and earned praise from the Product Owner for their clarity, usability, and compliance with accessibility standards across devices and assistive technologies. |
 | Sprint 2 – 1 Retrospective Summary | In our retrospective, we celebrated strong collaboration—marked by thorough pull-request reviews, effective daily stand-ups, and clear communication—but acknowledged that several stories (notably the sticky header behavior) were under-estimated, and that our end-to-end integration testing was insufficient. We also agreed to enrich our Web Service documentation with error-case examples. To address these learnings in Sprint 2, we will refine story point estimations during planning, introduce baseline E2E tests for key navigation flows, and expand API docs to include comprehensive error responses. |
 | Sprint Goal & User Stories         |                                                              |
-| Sprint 2 Goal                      | Our focus for Sprint 2 is to expand the core functionalities of the TeeLab web application by implementing the internal navigation structure, developing the initial product design tools, and enabling the management of design blueprints. We believe this will provide users with the foundational interactive experience for creating and managing their personalized designs. This will be confirmed when users can navigate key sections of the logged-in application, utilize basic design tools on a garment canvas, and save/load design blueprints. |
-| Sprint 2 Velocity                  | 113                                                          |
-| Sum of Story Points                | 307                                                          |
+| Sprint 2 Goal                      | Our focus for Sprint 2 is to expand the core functionalities of the TeeLab web application by implementing the internal navigation structure, developing the initial product design tools. We believe this will provide users with the foundational interactive experience for creating and managing their personalized designs. This will be confirmed when users can navigate key sections of the logged-in application, utilize basic design tools on a garment canvas, and save/load design blueprints. |
+| Sprint 2 Velocity                  | 74                                                           |
+| Sum of Story Points                | 74                                                           |
+
+
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
 
@@ -3944,64 +3593,27 @@ En esta sección se elaborará la **Leadership-and-Collaboration Matrix (LACX)**
 
 A continuación se presenta el **Sprint Backlog 2**, que agrupa todas las User Stories seleccionadas para este sprint junto con sus tareas descompuestas (Work Items). Cada entrada incluye el identificador de la historia, su título, la tarea asociada con su propia descripción, estimación en horas, responsable asignado y el estado inicial de “To Do”. Este backlog servirá de guía para el seguimiento diario del progreso y la coordinación de esfuerzos durante el Sprint 2.
 
-| **User Story ID** | **User Story Title**                                         | **Task ID** | **Task Title**              | **Description**                                             | **Estimation (Hrs)** | **Assigned To**        | **Status** |
-| ----------------- | ------------------------------------------------------------ | ----------- | --------------------------- | ----------------------------------------------------------- | -------------------- | ---------------------- | ---------- |
-| US33              | Responsive and Role-Based Sidebar Component                  | QURI-45     | Implement sidebar component | Left-aligned responsive sidebar with route-active state     | 8                    | Dante Mateo (Matteo)   | To Do      |
-| US34              | Access core platform actions from the top toolbar            | QURI-46     | Add toolbar buttons         | Add Create, Cart, Profile buttons in top toolbar            | 8                    | Dante Mateo (Matteo)   | To Do      |
-| US35              | Bind toolbar buttons to key route actions                    | QURI-47     | Bind routerLinks            | Wire up Create/Cart/Profile buttons to routes               | 8                    | Fabrizio Alessandro    | To Do      |
-| US36              | Visualize dynamic routing in the main body                   | QURI-48     | Embed <router-outlet>       | Place <router-outlet> in main content container             | 5                    | JonatanFD              | To Do      |
-| US37              | Embed router outlet and configure lazy-loaded modules        | QURI-49     | Configure lazy modules      | Set up loadChildren for each route                          | 8                    | JonatanFD              | To Do      |
-| US38              | Visualize active route visually in navigation                | QURI-50     | Highlight active link       | Apply visual style for active route in navigation           | 5                    | Dante Mateo (Matteo)   | To Do      |
-| US39              | Apply route-aware styles for active navigation state         | QURI-51     | Apply routerLinkActive      | Use routerLinkActive and dynamic classes for styling        | 5                    | Dante Mateo (Matteo)   | To Do      |
-| US40              | Collapse the sidebar into a drawer on small screens          | QURI-52     | Implement drawer collapse   | Sidebar becomes mat-drawer on mobile breakpoints            | 5                    | Dante Mateo (Matteo)   | To Do      |
-| US41              | Toggle sidebar layout based on screen breakpoints            | QURI-53     | Detect breakpoints with CDK | Switch between sidebar and drawer based on viewport size    | 5                    | Dante Mateo (Matteo)   | To Do      |
-| US42              | Visualize a fixed toolbar during vertical scroll             | QURI-54     | Make toolbar sticky         | Toolbar remains fixed at top on vertical scroll             | 5                    | Dante Mateo (Matteo)   | To Do      |
-| US43              | Apply sticky positioning and layering to the toolbar         | QURI-55     | Set position: sticky        | Apply z-index so toolbar floats above content               | 5                    | Dante Mateo (Matteo)   | To Do      |
-| US44              | Visualize navigation items based on user role                | QURI-56     | Filter nav items by role    | Show only permitted sections per user role                  | 8                    | Neil Aldrin (Neilcuri) | To Do      |
-| US45              | Filter route visibility according to user permissions        | QURI-57     | Implement role-based guards | Use structural directives and guards to restrict menu items | 8                    | Neil Aldrin (Neilcuri) | To Do      |
-| US46              | Being redirected to a default route when accessing an undefined one | QURI-58     | Redirect to Home            | Redirect empty or undefined routes to Home view             | 8                    | Neil Aldrin (Neilcuri) | To Do      |
-| US47              | Configure routing for default and fallback scenarios         | QURI-59     | Add wildcard route          | Set default redirectTo: 'home' and wildcard 404 route       | 8                    | Neil Aldrin (Neilcuri) | To Do      |
-| US48              | Visualize a proper login layout                              | QURI-60     | Design login page layout    | Layout with labeled email/password fields                   | 5                    | Dante Mateo (Matteo)   | To Do      |
-| US49              | Implement the login screen structure                         | QURI-61     | Build login component       | Angular Material form ready for authentication              | 3                    | Dante Mateo (Matteo)   | To Do      |
-| US50              | Visualize a proper register layout                           | QURI-62     | Design register page layout | Layout with all required registration fields                | 3                    | Dante Mateo (Matteo)   | To Do      |
-| US51              | Implement the registration screen structure                  | QURI-63     | Build registration form     | Material grid with validation hooks                         | 3                    | Dante Mateo (Matteo)   | To Do      |
-| US52              | Add text to the Designed Garment                             | QURI-64     | Add text element            | Insert selectable text on canvas                            | 5                    | Neil Aldrin (Neilcuri) | To Do      |
-| US53              | Render draggable text on the Garment Canvas                  | QURI-65     | Make text draggable         | Enable drag & resize on text elements                       | 8                    | Neil Aldrin (Neilcuri) | To Do      |
-| US54              | Change the font of a text element                            | QURI-66     | Implement font dropdown     | Apply chosen font from dropdown to text                     | 5                    | Neil Aldrin (Neilcuri) | To Do      |
-| US55              | Apply selected font to text element on canvas                | QURI-67     | Bind font selection         | Live update font on selected text element                   | 5                    | Neil Aldrin (Neilcuri) | To Do      |
-| US56              | Change the color of a text element                           | QURI-68     | Integrate color picker      | Update text fill color in real time                         | 5                    | Neil Aldrin (Neilcuri) | To Do      |
-| US57              | Bind color picker to text element fill style                 | QURI-69     | Connect picker to canvas    | Live-binding color to canvas object                         | 5                    | Neil Aldrin (Neilcuri) | To Do      |
-| US58              | Upload and position an image on the Designed Garment         | QURI-70     | Implement image upload      | Render uploaded image layer on canvas                       | 8                    | Neil Aldrin (Neilcuri) | To Do      |
-| US59              | Render uploaded image as a canvas layer with controls        | QURI-71     | Add image layer controls    | Drag, resize, z-index controls for image                    | 8                    | Neil Aldrin (Neilcuri) | To Do      |
-| US60              | Set the base color of the Designed Garment                   | QURI-72     | Add base color picker       | Change canvas background color                              | 8                    | Neil Aldrin (Neilcuri) | To Do      |
-| US61              | Bind base color selector to the garment background           | QURI-73     | Bind base color selection   | Live update of garment base color                           | 8                    | Neil Aldrin (Neilcuri) | To Do      |
-| US62              | Reorder design layers on the canvas                          | QURI-74     | Implement layer reorder     | Move elements forward/backward in z-index                   | 5                    | Neil Aldrin (Neilcuri) | To Do      |
-| US63              | Implement bring/send layer ordering functions                | QURI-75     | Add bring/send controls     | Functions for highest/lowest z-index                        | 8                    | Neil Aldrin (Neilcuri) | To Do      |
-| US64              | Preview the Designed Garment in full view                    | QURI-76     | Create preview mode         | Show garment full-screen without UI                         | 8                    | Neil Aldrin (Neilcuri) | To Do      |
-| US65              | Enable high-resolution preview mode without UI               | QURI-77     | Hide UI in preview          | Render high-res preview without tools                       | 3                    | Neil Aldrin (Neilcuri) | To Do      |
-| US66              | Assign a name to the Designed Garment                        | QURI-78     | Add name input              | Bind garment name to model property                         | 3                    | Dante Mateo (Matteo)   | To Do      |
-| US67              | Bind name input field to product model                       | QURI-79     | Two-way bind name           | Sync input value to product.name                            | 3                    | Dante Mateo (Matteo)   | To Do      |
-| US68              | Write a description for the Designed Garment                 | QURI-80     | Add description textarea    | Bind to product.description                                 | 3                    | Dante Mateo (Matteo)   | To Do      |
-| US69              | Bind multiline description field to product metadata         | QURI-81     | Bind multiline input        | Sync multiline input to product metadata                    | 3                    | Dante Mateo (Matteo)   | To Do      |
-| US70              | Select the target gender for the Designed Garment            | QURI-82     | Add gender selector         | Dropdown bound to product.gender                            | 2                    | Dante Mateo (Matteo)   | To Do      |
-| US71              | Bind gender selector to product configuration                | QURI-83     | Two-way bind gender         | Sync selection to product.gender                            | 2                    | Dante Mateo (Matteo)   | To Do      |
-| US72              | Select available sizes for the Designed Garment              | QURI-84     | Add size multi-select       | Checkbox list bound to product.sizes[]                      | 2                    | Dante Mateo (Matteo)   | To Do      |
-| US73              | Bind multi-size input to garment size array                  | QURI-85     | Bind size selection         | Sync selected sizes to product.sizes                        | 2                    | Dante Mateo (Matteo)   | To Do      |
-| US74              | Create a new Design Blueprint                                | QURI-86     | Initiate new blueprint      | Generate blank canvas and new blueprint ID                  | 8                    | Fabrizio Alessandro    | To Do      |
-| US75              | Instantiate a blank canvas for new blueprint creation        | QURI-87     | Render blank canvas         | Initialize editor for new blueprint                         | 8                    | Fabrizio Alessandro    | To Do      |
-| US76              | Save the current Design Blueprint                            | QURI-88     | Implement save action       | Store canvas state under blueprint ID                       | 8                    | Fabrizio Alessandro    | To Do      |
-| US77              | Serialize and persist blueprint canvas state                 | QURI-89     | Serialize canvas state      | Save serialized state to database                           | 8                    | Fabrizio Alessandro    | To Do      |
-| US78              | Load a saved Design Blueprint                                | QURI-90     | Implement load action       | Retrieve and load saved blueprint                           | 8                    | Fabrizio Alessandro    | To Do      |
-| US79              | Retrieve and hydrate canvas from stored blueprint            | QURI-91     | Hydrate canvas              | Re-render canvas from stored data                           | 8                    | Fabrizio Alessandro    | To Do      |
-| US80              | Delete a Design Blueprint                                    | QURI-92     | Implement delete            | Remove blueprint record and UI item                         | 5                    | Fabrizio Alessandro    | To Do      |
-| US81              | Remove blueprint data and assets from storage                | QURI-93     | Cleanup storage             | Delete all assets linked to blueprint ID                    | 3                    | Fabrizio Alessandro    | To Do      |
-| US82              | Rename a Design Blueprint                                    | QURI-94     | Add rename action           | Update blueprint title in UI and database                   | 2                    | Fabrizio Alessandro    | To Do      |
-| US83              | Update blueprint title in the database and interface         | QURI-95     | Bind rename input           | Sync new title to database and blueprint list               | 3                    | Fabrizio Alessandro    | To Do      |
-| US84              | Duplicate an existing Design Blueprint                       | QURI-96     | Add duplicate action        | Clone record without modifying original                     | 3                    | Fabrizio Alessandro    | To Do      |
-| US85              | Clone blueprint data and assign a new ID                     | QURI-97     | Clone canvas state          | Generate new ID for cloned blueprint                        | 5                    | Fabrizio Alessandro    | To Do      |
-| US86              | Publish a Design Blueprint                                   | QURI-98     | Implement publish           | Set blueprint visibility to public                          | 5                    | Fabrizio Alessandro    | To Do      |
-| US87              | Set blueprint visibility to public and indexable             | QURI-99     | Index blueprint             | Enable discovery in gallery/search                          | 5                    | Fabrizio Alessandro    | To Do      |
-| US88              | Share a Design Blueprint with others                         | QURI-100    | Implement share             | Generate shareable link or embed                            | 5                    | Fabrizio Alessandro    | To Do      |
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcjcMB1KeE395SPsQeVWqTAvNBUbqQSEPWJZguiLA-EzVPGrraAtYuNFO_FNxzeGlSB-elDaahXPGSrhSh68TCwe5tkCxC41lpZJMnXQoqsfapZzAqGIvPeJuodHob3kDgVI_L_-A?key=wLsuErVgqDz-qczrBI4kMctR)![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcY39vjb7Gh-eCwit3NoeNBdqnMJI9Q5n23u6bRN8bUpj2whALgdRcUGIZb5SYGAkWFePmJnUAOVGcnLHGCY1axotzS3qoXW6_At5RVJCmZNh-nNnZwOpv6Yj_dVlboXG3DH3zxFQ?key=wLsuErVgqDz-qczrBI4kMctR)
+
+| Sprint 2          |                                                 |             |                                     |                                                              |                        |                    |            |
+| ----------------- | ----------------------------------------------- | ----------- | ----------------------------------- | ------------------------------------------------------------ | ---------------------- | ------------------ | ---------- |
+| User Story        | Work-Item / Task                                |             |                                     |                                                              |                        |                    |            |
+| **User Story Id** | **User Story Title**                            | **Task Id** | **Task Title**                      | **Description**                                              | **Estimation (Hours)** | **Assigned To**    | **Status** |
+| US08              | Role-Based Rendering of Navigation and Actions  | T08         | Render UI based on user roles       | As a user, I want the navigation and actions to reflect my role so that I only see what I need. | 5                      | Jonatan Acuña      | Done       |
+| US09              | Text Manipulation in Project                    | T09         | Add and edit text in project        | As a user, I want to add and modify text in my design project. | 8                      | Dante Aleman       | Done       |
+| US10              | Image Manipulation in Project                   | T10         | Upload and adjust images in project | As a user, I want to upload and manipulate images in my design. | 8                      | Fabrizio Contreras | Done       |
+| US11              | Project Base Color Modification                 | T11         | Change base color of project        | As a user, I want to modify the base color of my project.    | 8                      | Neil Curipaco      | Done       |
+| US12              | Layer Ordering Control in the Design Lab        | T12         | Reorder layers in design            | As a user, I want to control the order of layers in my design. | 5                      | Renzo Luque        | Done       |
+| US13              | Real-Time Canvas Rendering and State Reflection | T13         | Sync canvas with design state       | As a user, I want the canvas to reflect real-time changes.   | 8                      | Jonatan Acuña      | Done       |
+| US14              | Add Name and Description to Project             | T14         | Add metadata to project             | As a user, I want to name and describe my project.           | 3                      | Dante Aleman       | Done       |
+| US15              | Select Gender and Sizes for Project             | T15         | Choose gender and size options      | As a user, I want to select gender and size for my design.   | 5                      | Fabrizio Contreras | Done       |
+| US16              | Create Project or Project Blueprint             | T16         | Create new project or blueprint     | As a user, I want to start a new project or blueprint.       | 5                      | Neil Curipaco      | Done       |
+| US17              | Load a saved product design or blueprint        | T17         | Load existing design                | As a user, I want to load a previously saved design.         | 5                      | Renzo Luque        | Done       |
+| US18              | Delete a saved design blueprint                 | T18         | Delete blueprint                    | As a user, I want to delete a saved blueprint.               | 3                      | Jonatan Acuña      | Done       |
+| US19              | Enforce design deletion with ownership checks   | T19         | Validate ownership before deletion  | As a user, I want to ensure only owners can delete designs.  | 3                      | Dante Aleman       | Done       |
+| US20              | Duplicate a project or blueprint                | T20         | Clone project or blueprint          | As a user, I want to duplicate an existing project.          | 2                      | Fabrizio Contreras | Done       |
+| US21              | Publish a product design or blueprint           | T21         | Publish design                      | As a user, I want to publish my design for others to view.   | 3                      | Neil Curipaco      | Done       |
+| US23              | Support publishing of product designs           | T22         | Enable publishing support           | As a user, I want the system to support publishing workflows. | 3                      | Renzo Luque        | Done       |
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
@@ -4060,7 +3672,7 @@ Editor de Imagen
 Gestión de Blueprints
 ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXey_8pGLJhRanONIVhUJyNe56HMwA0rMsG5u6AWRGN5AF91aeiX6-yUy3nfGmr3zsuC2Z7m4uTWXb5g8p-xLc_Kbx0wrPbOpsowSnEOJK28DTTGGzIc62X9iGxQOo59qPIvImqW?key=wLsuErVgqDz-qczrBI4kMctR)
 
-Link del video: [upc-pre-202510-1asi0730-4350-quri-product-navigation-sprint-2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b866_upc_edu_pe/EfCW_hsDweFBubi04Lzjyl0B4Ntjok1WEc_KEoa4O7ZLjw?e=Rm4Xaj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+upc-pre-202510-1asi0730-4350-quri-product-navigation-sprint-2:[ https://shorturl.at/IK79Y](https://shorturl.at/IK79Y)
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -4102,8 +3714,7 @@ Durante el Sprint 2 pusimos en marcha todo el proceso de **Deployment** para la 
 
 ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeTIzKYB344blI3OQVnv3ZErIoPAVBitAB5Me2S_s7RuwMVPOGoSRhtddp6G7_0hg83GeNFatbomOYV-Tc2i_FaO3B0TMt0iq1OwFJ-UI2biNLQXg5JD6F6sGEfbpk0b7RV12PR?key=wLsuErVgqDz-qczrBI4kMctR)
 
-Captura de la Landing Page en producción, accesible en:
-https://open-source-web-app.vercel.app/home
+Captura de la Landing Page en producción, accesible en: https://web-app-lc38.onrender.com/sign-in
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
@@ -4155,19 +3766,9 @@ Dado al problema que tuvimos con el github desktop tuvimos que hacer los commits
 
 Continuando con el desarrollo del proyecto TeeLab, el Sprint 3 se enfoca en reforzar los aspectos de seguridad, mejorar la accesibilidad para todos los usuarios y optimizar la gestión y visualización de pedidos en tiempo real. Este sprint avanza sobre las bases establecidas en iteraciones anteriores, priorizando la protección de datos, la inclusividad y una experiencia de usuario más fluida.
 
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeFx_e2WgUUpJJiGLwhWMzPDb4z21RGhqf7RcOjXKHxaPLNUkEgyy-9FLNUZk9VYTUF8GWfhXcPRGNfnSndI7c_4RnztoF9Frj9N7PXD-NXX8R2FwsCM20RT6n2rmxA3K-vs1w6?key=wLsuErVgqDz-qczrBI4kMctR)
-
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXflfu_RHuls1RbE0O1D11DGJ8LoZjLOvGhqZ6YUEDXl4xn8O-c9M_Wor5DJF-BD-qCR-vUVumyPOynyynQ7NAy3PfBEJiDWYKs4oEMKxS76idGmeqj3OTSyh5B9fwHjxpckRd78hA?key=wLsuErVgqDz-qczrBI4kMctR)
-
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdI4dCTIXxq2SHn9D4jQW-e2tm5Q6-rx6_D6Yh2bz_5JeXPlyOPihHzJY8rTshaLmZbWs8uZRA3O-rrBRzWkyR31yiSM6btpRwm5SQ3PIV9Lo1QsRtAra9vS5fozWD0UDz09TF_?key=wLsuErVgqDz-qczrBI4kMctR)
-
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeWtDOov8JMAke-_B07r7KdJ-0U6m_1GCwuq7DVyRe0Ad_1Oat2X035dEnuKbUF5KxIWSBIx_C1Xw0ZTEO-ftGedMZf0K-fdBC_qv-SO-sqPa4x__2MZxmM8lV-LYjqLBOXJvhwfw?key=wLsuErVgqDz-qczrBI4kMctR)
-
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeFX0gXjALhh5KxdlM6UXWoNtHOt-Qyta7rKPEqgGfXKQBIyjQGLU0mlHcZcR0zDXYT6Inwgd17uIJ4RcEsZ0GqRuSBOnEPiHv7e6LsRVnSwj1jX2UdvnQGDLG06I2fSKjt2PZRuw?key=wLsuErVgqDz-qczrBI4kMctR)
-
 #### 5.2.3.1. Sprint Planning 3
 
-El 19 de mayo de 2025, el equipo de QURI se reunió virtualmente a través de Google Meet para dar inicio al Sprint 3, una iteración clave enfocada en consolidar los módulos restantes de la aplicación web y desplegar el Web Service API en producción. Bajo la coordinación de Jonatan Ariel Acuña Corahua y con la participación de Dante Mateo Aleman Romano, Fabrizio Alessandro Contreras Peralta, Neil Aldrin Wilhelm Curipaco Huayllani, Juan Carlos Alvarado De La Cruz y Renzo Andres Luque Minaya, Brayan Roberto Ccarita Cruz, se revisaron los avances del sprint anterior, se definió el nuevo objetivo y se acordaron las historias de usuario prioritarias. Con un enfoque centrado en la personalización, gestión de pedidos y robustez del backend, el equipo estableció criterios de aceptación claros, validó estimaciones que sumaron 292 puntos de historia y reafirmó su compromiso para entregar una experiencia fluida, accesible y completamente funcional para los usuarios de TeeLab.
+El 19 de mayo de 2025, el equipo de QURI se reunió virtualmente a través de Google Meet para dar inicio al Sprint 3, una iteración clave enfocada en consolidar los módulos restantes de la aplicación web y desplegar el Web Service API en producción. Bajo la coordinación de Jonatan Ariel Acuña Corahua y con la participación de Dante Mateo Aleman Romano, Fabrizio Alessandro Contreras Peralta, Neil Aldrin Wilhelm Curipaco Huayllani, Juan Carlos Alvarado De La Cruz y Renzo Andres Luque Minaya, Brayan Roberto Ccarita Cruz, se revisaron los avances del sprint anterior, se definió el nuevo objetivo y se acordaron las historias de usuario prioritarias. Con un enfoque centrado en la personalización, gestión de pedidos y robustez del backend, el equipo estableció criterios de aceptación claros, validó estimaciones que sumaron 53puntos de historia y reafirmó su compromiso para entregar una experiencia fluida, accesible y completamente funcional para los usuarios de TeeLab.
 
 
 
@@ -4185,8 +3786,12 @@ El 19 de mayo de 2025, el equipo de QURI se reunió virtualmente a través de Go
 | Sprint 3 – 2 Retrospective Summary | The Sprint 2 retrospective underscored strong alignment with product vision and team collaboration. However, inconsistencies in design specifications and unanticipated browser compatibility issues led to delays in two stories. Team members proposed earlier design validation checkpoints and more rigorous multi-browser testing. These initiatives will be adopted in Sprint 3 to improve delivery predictability and interface stability. |
 | Sprint Goal & User Stories         |                                                              |
 | Sprint 3 Goal                      | **Context:** With the Landing Page already deployed and the Design Lab core established in Sprint 2, Sprint 3 will complete the remaining Web App bounded contexts and deploy the Web Service API. **Our focus** is to facilitate user onboarding, order management, new Design Lab features, and full customization within the TeeLab web application, supported by our backend API. **We believe** that by allowing users to track and update orders in real time, personalize their experience across languages, devices, accessibility settings—along with enabling features like using blueprints, saving project progress, and publishing designs. We will deliver a comprehensive and reliable platform. **This will be confirmed** when users can monitor their orders via our API, save their design progress, use blueprints. Manufacturers will benefit from receiving validated and well-documented design specifications, enabling more efficient production planning, clearer order tracking. |
-| Sprint 3 Velocity                  |                                                              |
-| Sum of Story Points                | 292                                                          |
+| Sprint 3 Velocity                  | 53                                                           |
+| Sum of Story Points                | 53                                                           |
+
+
+
+
 
 #### 5.2.3.2. Aspect Leaders and Collaborators
 
@@ -4230,83 +3835,33 @@ Nota: Analytics = AL, Desing lab = DL, Order Fulfillment = OF, Product Catalog =
 
 A continuación se presenta el **Sprint Backlog 3**, que agrupa todas las User Stories seleccionadas para este sprint junto con sus tareas descompuestas (Work Items). Cada entrada incluye el identificador de la historia, su título, la tarea asociada con su propia descripción, estimación en horas, responsable asignado y el estado inicial de “To Do”. Este backlog servirá de guía para el seguimiento diario del progreso y la coordinación de esfuerzos durante el Sprint 3.
 
-| **User Story ID** | **User Story Title**                                         | **Task ID** | **Task Title**                     | **Description**                                              | **Estimation (Hrs)** | **Assigned To**    | **Status** |
-| ----------------- | ------------------------------------------------------------ | ----------- | ---------------------------------- | ------------------------------------------------------------ | -------------------- | ------------------ | ---------- |
-| US90              | Validate authentication when logging in                      | QUR-90      | Validate authentication            | Validate login credentials and return an authentication token | 2                    | Mateo Aleman       | To Do      |
-| US91              | Implement secure password verification and JWT generation    | QUR-91      | Implement password verification    | Implement encrypted password validation and JWT generation   | 2                    | Mateo Aleman       | To Do      |
-| US92              | Register securely                                            | QUR-92      | Secure user registration           | Implement secure registration with data validation           | 5                    | Mateo Aleman       | To Do      |
-| US93              | Validate and store encrypted user data on registration       | QUR-93      | Store encrypted data               | Store encrypted user data after validating the registration form | 3                    | Mateo Aleman       | To Do      |
-| US94              | Being only able to access role-routes                        | QUR-94      | Restrict role-based access         | Ensure routes are only accessible to authorized users        | 5                    | Mateo Aleman       | To Do      |
-| US95              | Restrict API access                                          | QUR-95      | Secure API access                  | Implement role-based access control and middleware guards    | 5                    | Mateo Aleman       | To Do      |
-| US96              | Stay logged in                                               | QUR-96      | Implement session management       | Implement token-based session persistence for users          | 2                    | Mateo Aleman       | To Do      |
-| US97              | Configure JWT authentication with expiration handling        | QUR-97      | Handle token expiration            | Configure JWT expiration and refresh tokens                  | 2                    | Mateo Aleman       | To Do      |
-| US98              | Provide secure logout endpoint                               | QUR-98      | Implement logout endpoint          | Create a secure logout endpoint to terminate user sessions   | 2                    | Mateo Aleman       | To Do      |
-| US99              | Invalidate tokens and clear session metadata on logout       | QUR-99      | Invalidate tokens on logout        | Implement functionality to invalidate refresh tokens and delete session data | 2                    | Mateo Aleman       | To Do      |
-| US100             | Protect information                                          | QUR-100     | Encrypt user data                  | Implement encryption for personal and payment information    | 2                    | Mateo Aleman       | To Do      |
-| US101             | Secure data transmission via HTTPS and TLS protocols         | QUR-101     | Enforce secure transmission        | Ensure HTTPS is used and sensitive data is encrypted         | 2                    | Bryan Ccarita      | To Do      |
-| US102             | Reset my password                                            | QUR-102     | Implement password reset           | Implement a secure password reset mechanism for users        | 2                    | Bryan Ccarita      | To Do      |
-| US103             | Generate and validate reset tokens with expiry rules         | QUR-103     | Validate reset tokens              | Implement reset token expiration and validation              | 2                    | Bryan Ccarita      | To Do      |
-| US104             | Track and alert on suspicious login activity                 | QUR-104     | Monitor failed logins              | Log failed login attempts and notify admins for suspicious activity | 3                    | Bryan Ccarita      | To Do      |
-| US105             | Log failed authentications and enforce throttling            | QUR-105     | Log and throttle failed logins     | Log failed login attempts and apply throttling on repeated failures | 3                    | Bryan Ccarita      | To Do      |
-| US122             | View the customer's order history                            | QUR-122     | Retrieve customer order list       | Show a list of past and current orders                       | 5                    | Bryan Ccarita      | To Do      |
-| US123             | Fetch and render list of past and active orders              | QUR-123     | Render orders                      | Fetch orders from the API and display them                   | 2                    | Bryan Ccarita      | To Do      |
-| US124             | View detailed status of an individual order                  | QUR-124     | View order status                  | Display the detailed status of selected orders               | 3                    | Bryan Ccarita      | To Do      |
-| US125             | Display order lifecycle using progress tracker               | QUR-125     | Bind order status                  | Show a visual progress tracker for order lifecycle           | 2                    | Bryan Ccarita      | To Do      |
-| US126             | Track the status of individual order items                   | QUR-126     | Track item status                  | Display status for each item in the order                    | 3                    | Bryan Ccarita      | To Do      |
-| US127             | Bind per-item status updates in order detail view            | QUR-127     | Bind item statuses                 | Show individual item statuses in the order detail view       | 2                    | Bryan Ccarita      | To Do      |
-| US128             | Automatically update order status without page refresh       | QUR-128     | Update status dynamically          | Update order status in real time without refreshing          | 5                    | Fabrizio Contreras | To Do      |
-| US129             | Use real-time data source to refresh order status in UI      | QUR-129     | Implement polling or WebSocket     | Use polling or WebSocket for real-time order status updates  | 2                    | Fabrizio Contreras | To Do      |
-| US130             | Notify the user when the order status changes                | QUR-130     | Send status update notifications   | Notify customers when their order status changes             | 2                    | Fabrizio Contreras | To Do      |
-| US131             | Display UI alert when status update event is received        | QUR-131     | Show status update alert           | Display a UI alert when an order status is updated           | 2                    | Fabrizio Contreras | To Do      |
-| US132             | View estimated delivery time of the order                    | QUR-132     | Show estimated delivery            | Display estimated delivery date in order summary             | 2                    | Fabrizio Contreras | To Do      |
-| US133             | Bind delivery estimate to order summary UI                   | QUR-133     | Bind delivery date to UI           | Render the delivery date from the API in the summary UI      | 2                    | Fabrizio Contreras | To Do      |
-| US151             | Bind name input field and send update to profile API         | QUR-151     | Bind name field                    | Implement binding of the name input to user API and handle updates | 5                    | Fabrizio Contreras | To Do      |
-| US152             | Upload or change profile photo                               | QUR-152     | Upload profile photo               | Implement functionality to upload or change the profile photo | 2                    | Fabrizio Contreras | To Do      |
-| US153             | Bind image uploader to avatar property and display preview   | QUR-153     | Bind image uploader                | Bind image uploader to avatar field and display a preview    | 2                    | Fabrizio Contreras | To Do      |
-| US154             | Update user contact information                              | QUR-154     | Update contact info                | Allow customers to update email/phone in the profile         | 3                    | Jonatan Acuña      | To Do      |
-| US155             | Bind and validate email/phone fields in user profile         | QUR-155     | Validate contact fields            | Bind email/phone fields to user profile and validate formats | 3                    | Jonatan Acuña      | To Do      |
-| US156             | Set the user’s preferred language                            | QUR-156     | Set language preference            | Allow customers to select and save their preferred language  | 2                    | Jonatan Acuña      | To Do      |
-| US157             | Connect language selector to i18n and save preference        | QUR-157     | Bind language selector             | Implement language selector binding to i18n and save user preference | 5                    | Jonatan Acuña      | To Do      |
-| US158             | Toggle between light and dark theme                          | QUR-158     | Toggle theme mode                  | Implement a toggle for light and dark mode                   | 2                    | Jonatan Acuña      | To Do      |
-| US159             | Apply theme preference and persist user setting              | QUR-159     | Save theme preference              | Save user-selected theme preference locally or in the profile | 2                    | Jonatan Acuña      | To Do      |
-| US160             | View and edit profile information                            | QUR-160     | View and edit profile              | Display and allow editing of user profile information        | 3                    | Jonatan Acuña      | To Do      |
-| US161             | Render user data in editable form with two-way binding       | QUR-161     | Bind profile form                  | Bind profile fields to user model and enable auto-save on change | 3                    | Jonatan Acuña      | To Do      |
-| US162             | Select the user’s preferred language from UI                 | QUR-162     | Change language via UI             | Allow users to change language preference from the UI        | 2                    | Jonatan Acuña      | To Do      |
-| US163             | Bind language selector to i18n module and trigger language switch | QUR-163     | Bind language selector             | Connect the language selector to i18n module for dynamic language switch | 5                    | Jonatan Acuña      | To Do      |
-| US164             | Persist the selected language across sessions                | QUR-164     | Save language preference           | Retain the language setting across user sessions             | 5                    | Jonatan Acuña      | To Do      |
-| US165             | Save and retrieve language preference from profile or local storage | QUR-165     | Persist language preference        | Store language preference in local storage or backend profile | 3                    | Renzo Luque        | To Do      |
-| US166             | Translate all static and dynamic UI content                  | QUR-166     | Render UI in selected language     | Ensure all UI elements are translated according to selected language | 5                    | Renzo Luque        | To Do      |
-| US167             | Wrap content in translation keys and load from JSON dictionaries | QUR-167     | Implement translation keys         | Wrap all text in translation keys and load content dynamically from JSON | 3                    | Renzo Luque        | To Do      |
-| US168             | Detect user browser language on first load                   | QUR-168     | Auto-detect browser language       | Detect browser language on first visit and apply it to the UI | 5                    | Renzo Luque        | To Do      |
-| US169             | Initialize i18n default based on navigator language          | QUR-169     | Set i18n default                   | Use navigator.language to set the default language in i18n   | 5                    | Renzo Luque        | To Do      |
-| US170             | Enable optional locale-based URL routing                     | QUR-170     | Reflect language in URL            | Implement route prefixes like /en, /es based on the selected language | 5                    | Renzo Luque        | To Do      |
-| US171             | Configure route prefixes for localized navigation            | QUR-171     | Localized route configuration      | Configure Angular routes to support locale-based prefixes    | 5                    | Renzo Luque        | To Do      |
-| US172             | Navigate through the platform using only the keyboard        | QUR-172     | Implement keyboard navigation      | Ensure users can navigate the platform using only the keyboard | 2                    | Renzo Luque        | To Do      |
-| US173             | Ensure tab order and focusability of interactive elements    | QUR-173     | Fix tab order                      | Make sure all interactive elements are reachable and logically ordered with the Tab key | 2                    | Renzo Luque        | To Do      |
-| US174             | Access the platform using a screen reader                    | QUR-174     | Implement screen reader support    | Make sure the platform is compatible with screen readers for visually impaired users | 2                    | Renzo Luque        | To Do      |
-| US175             | Add semantic roles and ARIA attributes to UI components      | QUR-175     | Add ARIA roles                     | Implement ARIA roles and attributes to improve accessibility for assistive technologies | 3                    | Renzo Luque        | To Do      |
-| US176             | Show visual focus indicators for keyboard navigation         | QUR-176     | Implement focus indicators         | Display visible focus indicators for keyboard navigation     | 3                    | Juan Alvarado      | To Do      |
-| US177             | Style focus states for accessibility visibility              | QUR-177     | Apply custom focus styles          | Implement high-contrast visual styles for focused elements   | 2                    | Juan Alvarado      | To Do      |
-| US178             | Ensure readable color contrast across the UI                 | QUR-178     | Test and apply accessible contrast | Ensure all text and UI elements have sufficient contrast     | 3                    | Juan Alvarado      | To Do      |
-| US179             | Apply WCAG-compliant contrast ratios for text and elements   | QUR-179     | Apply WCAG contrast ratios         | Apply color contrast ratios to meet WCAG accessibility standards | 2                    | Juan Alvarado      | To Do      |
-| US180             | Provide descriptive labels for all inputs and controls       | QUR-180     | Add labels to form controls        | Ensure all form inputs and controls have clear, descriptive labels | 3                    | Juan Alvarado      | To Do      |
-| US181             | Use ARIA or HTML attributes for semantic labeling            | QUR-181     | Implement ARIA labels              | Add ARIA attributes to form controls for semantic labeling   | 2                    | Juan Alvarado      | To Do      |
-| US182             | Allow users to skip navigation and go to main content        | QUR-182     | Implement skip navigation          | Create a "skip to content" link to jump directly to main content | 2                    | Juan Alvarado      | To Do      |
-| US183             | Implement skip link anchored to main tag                     | QUR-183     | Add skip link                      | Add a "skip to content" link at the top of the page, anchored to the main section | 2                    | Juan Alvarado      | To Do      |
-| US184             | Announce dynamic changes for screen readers                  | QUR-184     | Announce dynamic updates           | Use ARIA live regions to notify screen readers of dynamic content changes | 2                    | Juan Alvarado      | To Do      |
-| US185             | Use ARIA live regions to broadcast UI updates                | QUR-185     | Implement live regions             | Use ARIA live regions to announce UI updates without a full page reload | 3                    | Juan Alvarado      | To Do      |
-| US186             | Display the application correctly on multiple devices        | QUR-186     | Implement responsive layout        | Ensure the platform displays correctly across various screen sizes and devices | 2                    | Juan Alvarado      | To Do      |
-| US187             | Implement responsive layout with breakpoints and CSS grid    | QUR-187     | Define responsive breakpoints      | Set up responsive breakpoints and use CSS grid for layout    | 3                    | Neil Curipaco      | To Do      |
-| US188             | Collapse the sidebar into a drawer on small screens          | QUR-188     | Implement drawer collapse          | Collapse the sidebar into a drawer when screen size is small | 5                    | Neil Curipaco      | To Do      |
-| US189             | Implement responsive toggle for sidebar visibility           | QUR-189     | Add sidebar toggle                 | Use mat-drawer with toggle logic at mobile breakpoints       | 2                    | Neil Curipaco      | To Do      |
-| US190             | Adapt toolbar layout to available screen width               | QUR-190     | Adjust toolbar for small screens   | Ensure toolbar adapts and simplifies on narrow screens       | 3                    | Neil Curipaco      | To Do      |
-| US191             | Use responsive classes and containers to rearrange actions   | QUR-191     | Organize toolbar actions           | Reorganize or hide toolbar actions based on screen size      | 5                    | Neil Curipaco      | To Do      |
-| US192             | Scale text and form fields appropriately                     | QUR-192     | Implement responsive text scaling  | Ensure text and form fields remain readable and usable across devices | 3                    | Neil Curipaco      | To Do      |
-| US193             | Use relative units to ensure proportional resizing           | QUR-193     | Use relative units for scaling     | Apply relative units like rem, %, and vw for components to scale with screen size | 2                    | Neil Curipaco      | To Do      |
-| US194             | Validate UI across standard device resolutions               | QUR-194     | Test UI on common resolutions      | Ensure the platform works correctly on standard resolutions like 1920x1080, 1366x768, etc. | 5                    | Neil Curipaco      | To Do      |
-| US195             | Test and adjust styles using media queries and emulators     | QUR-195     | Adjust layout with media queries   | Use media queries and device emulators to test and adjust layout | 3                    | Neil Curipaco      | To Do      |
-| US196             | Prevent horizontal scrolling on mobile devices               | QUR-196     | Fix horizontal scrolling           | Ensure the platform doesn’t have unnecessary horizontal scrolling on mobile | 2                    | Neil Curipaco      | To Do      |
-| US197             | Apply layout constraints to avoid content overflow           | QUR-197     | Enforce layout constraints         | Apply overflow and width constraints to prevent layout breakage | 5                    | Neil Curipaco      | To Do      |
+
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfPKfvPEYvvualO6IaS8FRSN0Dm3tXWds2VEYQAPU4Ai_ddgg7Ura2hSoUJVTOS_aP2OUz7BNWZ-oesqMGNipBO7YqLhSYFJJD5ha26IyC5mSZzRTD2eVQ3jF0w2KOsa33T7QE3?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfJ7bUo2VmtpSn_ifst2QDr4QcnU0RrT5OaYHrVLfweR86bmv6KUWL7PYbZ6jXtByg1PEkJHXvuwWLsKlpWzYIv5Ij-1UnMSDESdJ0bCvmujK8h2oMROCp-hSFfi_WdIL2UoidkLQ?key=wLsuErVgqDz-qczrBI4kMctR)
+
+| Sprint 3      |                                                        |         |                                     |                                                              |                    |                      |        |
+| ------------- | ------------------------------------------------------ | ------- | ----------------------------------- | ------------------------------------------------------------ | ------------------ | -------------------- | ------ |
+| User Story    | Work-Item / Task                                       |         |                                     |                                                              |                    |                      |        |
+| User Story Id | User Story Title                                       | Task Id | Task Title                          | Description                                                  | Estimation (Hours) | Assigned To          | Status |
+| US27          | Validate and store encrypted user data on registration | T27     | Encrypt and store user data         | As a user, I want my data to be securely stored during registration. | 3                  | Jonatan Acuña        | Done   |
+| US28          | Restrict API access                                    | T28     | Apply API access restrictions       | As a user, I want APIs to be protected from unauthorized access. | 5                  | Dante Aleman         | Done   |
+| US29          | Stay Log In                                            | T29     | Maintain session after login        | As a user, I want to stay logged in across sessions.         | 2                  | Fabrizio Contreras   | Done   |
+| US30          | Secure Logout Functionality                            | T30     | Implement secure logout             | As a user, I want to log out securely.                       | 2                  | Neil Curipaco        | Done   |
+| US31          | Invalidate Tokens and Clear Session Metadata           | T31     | Invalidate tokens on logout         | As a user, I want my session to be fully cleared on logout.  | 2                  | Juan Carlos Alvarado | Done   |
+| US32          | Enforce Secure Data Transmission and Encryption        | T32     | Enforce HTTPS and encrypt data      | As a user, I want all data to be transmitted securely.       | 2                  | Renzo Luque          | Done   |
+| US34          | Implement Temporary Token for Password Reset           | T34     | Generate temporary reset token      | As a user, I want to reset my password securely.             | 2                  | Brayan Ccarita       | Done   |
+| US36          | Retrieve and update cart                               | T36     | Implement cart retrieval and update | As a user, I want to manage my cart.                         | 3                  | Jonatan Acuña        | Done   |
+| US37          | Start checkout                                         | T37     | Begin checkout process              | As a user, I want to initiate the checkout process.          | 5                  | Dante Aleman         | Done   |
+| US45          | View Customer Order History                            | T45     | Display order history               | As a user, I want to see my past orders.                     | 5                  | Fabrizio Contreras   | Done   |
+| US46          | View Detailed Order Status                             | T46     | Show detailed order status          | As a user, I want to track my order status.                  | 3                  | Neil Curipaco        | Done   |
+| US47          | View Estimated Delivery Time                           | T47     | Show estimated delivery time        | As a user, I want to know when my order will arrive.         | 2                  | Juan Carlos Alvarado | Done   |
+| US48          | Track production progress in dashboard                 | T48     | Display production progress         | As a user, I want to track production status in real time.   | 2                  | Renzo Luque          | Done   |
+| US49          | Access the administration panel                        | T49     | Open admin panel                    | As a manufacturer, I want to access the admin panel.         | 5                  | Brayan Ccarita       | Done   |
+| US57          | Edit profile information                               | T57     | Allow profile editing               | As a user, I want to update my profile.                      | 3                  | Jonatan Acuña        | Done   |
+| US58          | Translate the Web Application                          | T58     | Add multilingual support            | As a user, I want to use the app in my preferred language.   | 2                  | Dante Aleman         | Done   |
+| US60          | Configure route prefixes for localized navigation      | T60     | Set up localized routes             | As a user, I want navigation to reflect my language.         | 5                  | Fabrizio Contreras   | Done   |
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
@@ -4362,11 +3917,13 @@ Durante el Sprint 3, el equipo logró implementar de manera efectiva los módulo
 
 Estas funcionalidades fueron integradas con el Web Service desarrollado por el equipo, garantizando una navegación fluida, respuestas rápidas y coherencia visual entre vistas. El resultado es una versión estable de la plataforma que conecta usuarios diseñadores, compradores y fabricantes en un entorno digital intuitivo.
 
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfu24dNqbAlD-McUJvhfUQWvTbXNTLsfNwLxaU6Od-9w1SMBIAFAhtQFFdRmJxQNyZeDb_6YIkRxM4kRMLgtyEY3AO8WHA-dS75akevP0j1t3ot2lqziLYm8CIgg0s7m3hvq6fM?key=wLsuErVgqDz-qczrBI4kMctR)
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeTxr8hoxZ8vZMaOvRVTBSOXcGZVwQJVAV9jQB67knoZa7dia-OHgwpxBK3b3N4RjQ4jvt1xU5IiT1pW0m5kWt6yPE5VNMX0IegRe1g6Z4GqlMpDSQChCyu9e8BfedyBxO5t5Os2A?key=wLsuErVgqDz-qczrBI4kMctR)
 
-**![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfKxuihsEaqpbRE7OnXniHh0vcgunvfoufRSJseSvazLyG8BW0ZqGVUmqPTBJsa7XR0tJumWMZSWbO12L8UZ8zjrJY3S4KvBNwMImYIBiNmxX6GlzOIWeeVDbIjn7p8I2isxB8HMg?key=wLsuErVgqDz-qczrBI4kMctR)**
+**![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdtNto4ikkAB96PTbGi79NhBAYR0Eua6R8dyc7UDteStpqhkyfB8-1th3WOAuPSd7LtOaEXETxVEZ0VSZ0XMxCn2fILMeE3k7gYAYcIH5qnoW5-s8zI15bS-ItF6aYQMZyRg5W6?key=wLsuErVgqDz-qczrBI4kMctR)**
 
-![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc8eYDKbwX2_aJBDMXPojEV6SrRjoJ4dBmYMDeF2WVOSTA3hhLj2WfUHufRq70ZkhfoxzO3ORGaJa1Wj4qGMc-CrZ993LRIr_LOzQch6K-Q91Gu8UfZ4tdDHpoQqt23PiChKSPiSg?key=wLsuErVgqDz-qczrBI4kMctR)
+**![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeCO5l4n1NujRWPSAK34BLR6yaNIlDOGWT84u1OS1CcH7pi5oGlq6e0IbrKSyoNe68xzsAyBAmxcnGUzIW5cAEi78_fl2g7EuUGlj1ZR_gWXsKKl2Phvw6aiE8OvIfK3z6nNs5E4A?key=wLsuErVgqDz-qczrBI4kMctR)**
+
+Link del video upc-pre-202510-1asi0729-4350-quri-about-the-team-sprint-4: https://acortar.link/lExAu7
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -4399,6 +3956,10 @@ Para el despliegue del Web Service, se utilizó Railway.app como plataforma de g
 ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfM_SS_VX1XeuUn01ccxogs67lXMKGpiGMCaV80FUO8p2ofHZV-oC_qKubhGpcqBhwqq13bKCNuSbAHKkVEuz-IH7uSJwQLDBf35dH97MKlr3aoCenev35LBQ0tYy1dYt9uA05vTQ?key=wLsuErVgqDz-qczrBI4kMctR)
 
 ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXficOjBn33Vd4NMYl1gCPtVJyQY6YDlJMqw6KVjYugPCiLA-o_8Wwxws6MfA8Iud4L5XOQUqG7NuTIPaOnAqIrnPyZvO2XHaLmdfS-z7U9vnEcGOCHdV996CpIVUwtudE_tHHq-9g?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Link del deploy: https://web-services-ydwf.onrender.com/swagger-ui/index.html#/
+
+Link del deploy: https://web-app-lc38.onrender.com/sign-in
 
 **Disclaimer Técnico sobre la Conectividad entre el Frontend y la API (Swagger OpenAPI)**
 
@@ -4512,6 +4073,386 @@ Rol en Web Service: Colaborador en Product Catalog.
 - Integración del sistema de búsqueda con parámetros condicionales.
 
 ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdMfqAEw5AZbAEwzL3qsU9S1H-NFBwrarSH0Kev0MHNZLny-geaMRTVBGp49i_REiRNscGQLdBKRXGIJmC2eyJ24MMEOKPtFYqwYuEF-zpa4qrs-tLf2k-DMNr5FdaQdqLirJae?key=wLsuErVgqDz-qczrBI4kMctR)
+
+### 5.2.4. Sprint 4
+
+Continuando con el desarrollo del proyecto TeeLab, el Sprint 4 se enfoca en reforzar los aspectos de seguridad, mejorar la accesibilidad para todos los usuarios y optimizar la gestión y visualización de pedidos en tiempo real. Este sprint avanza sobre las bases establecidas en iteraciones anteriores, priorizando la protección de datos, la inclusividad y una experiencia de usuario más fluida.
+
+#### 5.2.4.1. Sprint Planning 4
+
+El 28 de mayo de 2025, el equipo de desarrollo de QURI se reunió de manera virtual a través de Google Meet para dar inicio al Sprint 4. Bajo la coordinación de Jonatan Ariel Acuña Corahua y con la participación de Dante Mateo Aleman Romano, Fabrizio Alessandro Contreras Peralta, Neil Aldrin Wilhelm Curipaco Huayllani, Juan Carlos Alvarado De La Cruz, Renzo Andres Luque Minaya y Brayan Roberto Ccarita Cruz, definimos el objetivo de este último Sprint y de implementar la correcta sincronización de los tres productos landig page, web application y web service. Con un enfoque centrado en la personalización, gestión de pedidos y robustez del backend, el equipo estableció criterios de aceptación claros, validó estimaciones que sumaron 60
+
+
+
+| Sprint #                        | 4                                                            |
+| ------------------------------- | ------------------------------------------------------------ |
+| Sprint Planning Background      |                                                              |
+| Date                            | May 28, 2025                                                 |
+| Time                            | 8:36 PM                                                      |
+| Location                        | Google Meet                                                  |
+| Prepared By                     | Jonatan Ariel Acuña Corahua                                  |
+| Attendees (to planning meeting) | Jonatan Ariel Acuña Corahua, Dante Mateo Aleman Romano, Fabrizio Alessandro Contreras Peralta, Neil Aldrin Wilhelm Curipaco Huayllani, Juan Carlos Alvarado De La Cruz y Renzo Andres Luque Minaya, Brayan Roberto Ccarita Cruz. |
+| Sprint 3 Review Summary         | During Sprint 3, we successfully implemented the Design Lab and Project endpoints for the Web Service API. On the Web App, users can now track and update orders, personalize their experience, and use blueprints, save project progress, and publish designs. The Product Owner praised the strong API integration and improved user experience. Minor real-time update issues were noted for future sprints. |
+| Sprint 3 Retrospective Summary  | The Sprint 3 retrospective underscored strong alignment with product vision and team collaboration. However, inconsistencies in design specifications and unanticipated browser compatibility issues led to delays in two stories. Team members proposed earlier design validation checkpoints and more rigorous multi-browser testing. These initiatives will be adopted in Sprint 4 to improve delivery predictability and interface stability |
+| Sprint Goal & User Stories      |                                                              |
+| Sprint 4 Goal                   | Our focus is to finish the TeeLab web application by adding user onboarding, order management, new Design Lab features, and full customization, all powered by our new Web Service API.We believe this will let users easily track and update orders, personalize their experience on any device and language, and use advanced like saving projects, and publishing designs. Manufacturers will get clear, complete design details for better production and order tracking.This will be evidenced when users can monitor and manage their orders through the API, save their design work, use blueprints, and publish designs. Manufacturers will receive detailed specifications for each order, resulting in higher satisfaction and efficiency for both segments. |
+| Sprint 4 Velocity               | 60                                                           |
+| Sum of Story Points             | 60                                                           |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+Durante este Sprint, el equipo ha abordado diversos aspectos clave relacionados con el desarrollo tanto del **Web App** como del **Web Service** de la solución. Para garantizar una colaboración efectiva y una comunicación clara entre los miembros del equipo, se ha elaborado la **Leadership-and-Collaboration Matrix (LACX)**. Esta matriz identifica quién lidera y quién colabora en cada aspecto del trabajo realizado, permitiendo distribuir responsabilidades de forma estratégica y asegurar el cumplimiento de los objetivos establecidos.
+
+Los principales aspectos considerados en este Sprint representan componentes funcionales esenciales para la entrega. Entre ellos se encuentran: **Access Security (AS)**, **Analytics (AL)**, **Design-lab (DL)**, **Orders Fulfillment (OF)**, **Product Catalog (PC)** y **User Management (UM)**. Cada uno de estos aspectos ha requerido un enfoque técnico y organizativo específico, así como la colaboración entre múltiples roles dentro del equipo.
+
+La matriz presentada a continuación detalla los responsables de liderazgo y colaboración para cada uno de estos aspectos, fomentando así un entorno de trabajo coordinado, eficiente y alineado con los principios de trabajo ágil.
+
+Tarea de Web App
+
+| **Team Member (Last Name, First Name)** | **GitHub Username**   | **AS** | **AL** | **DL** | **OF** | **PC** | **UM** |
+| --------------------------------------- | --------------------- | ------ | ------ | ------ | ------ | ------ | ------ |
+| Jonatan Ariel, Acuña Corahua            | JonatanFD             |        |        | L      |        |        | C      |
+| Luque Minaya, Renzo Andres              | renzoluquem           |        |        |        | C      | L      |        |
+| Dante Mateo, Aleman Romano              | zGIKS                 | L      | C      |        |        |        | L      |
+| Fabrizio Alessandro, Contreras Peralta  | Fabrizio Contreras    | C      | L      | C      |        |        | C      |
+| Neil Aldrin Wilhelm, Curipaco Huayllani | Neilcuri              |        | C      |        | C      | C      |        |
+| Juan Carlos Alvarado De La Cruz         | JuanCarlosAlvarado900 |        |        |        |        | C      |        |
+| Brayan Ccarita Cruz                     | hallzyx               |        |        |        | L      |        |        |
+
+**Nota**: Access Security = AS, Analytics = AL, Desing-lab = DL, Orders Fulfillments = OF, Product Catalog = PC, User Management = UM
+
+Tareas de Web service
+
+| **Team Member (Last Name, First Name)** | **GitHub Username**   | **AL** | **DL** | **OF** | **PC** | **UM** |
+| --------------------------------------- | --------------------- | ------ | ------ | ------ | ------ | ------ |
+| Jonatan Ariel, Acuña Corahua            | JonatanFD             |        | L      |        |        | C      |
+| Luque Minaya, Renzo Andres              | renzoluquem           |        |        |        | L      |        |
+| Dante Mateo, Aleman Romano              | zGIKS                 | C      |        |        |        | L      |
+| Fabrizio Alessandro, Contreras Peralta  | Fabrizio Contreras    | L      | C      |        |        | C      |
+| Neil Aldrin Wilhelm, Curipaco Huayllani | Neilcuri              | C      |        | C      | C      |        |
+| Juan Carlos Alvarado De La Cruz         | JuanCarlosAlvarado900 |        |        |        | C      |        |
+| Brayan Ccarita Cruz                     | hallzyx               |        |        | L      |        |        |
+
+Nota: Analytics = AL, Desing lab = DL, Order Fulfillment = OF, Product Catalog = PC, User Management = UM
+
+#### 5.2.4.4. Sprint Backlog 4
+
+A continuación se presenta el Sprint Backlog 4, que agrupa todas las User Stories seleccionadas para este sprint junto con sus tareas descompuestas (Work Items). Cada entrada incluye el identificador de la historia, su título, la tarea asociada con su propia descripción, estimación en horas, responsable asignado y el estado inicial de “To Do”. Este backlog servirá de guía para el seguimiento diario del progreso y la coordinación de esfuerzos durante el Sprint 4.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdB35GTEnpfZ3JceetrsejOf7IVGjt6brEd-uU-JyS09b2B6fiZRJ084uIuXuXSnciLFk-736Fl3zWBNOBSLqKZsEoTz2I8kI00DAh4TYz5ZHXj1L9_6rmKa7oAAtdQdsKkLhp5vw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXef1rOjEkatSAgBNhdot6z6U6SaI0JiRhKzAMv8X8wM8d4Si8mpNZDZYTAP1XecxAVuam4GB0YBW60JH6gnTSB1kGGboFOEA3s49wBUphR30prfwIqY6AyZZOuAoYnzJkL14mkv?key=wLsuErVgqDz-qczrBI4kMctR)
+
+| Sprint 4      |                                                            |         |                           |                                                              |                    |                      |        |
+| ------------- | ---------------------------------------------------------- | ------- | ------------------------- | ------------------------------------------------------------ | ------------------ | -------------------- | ------ |
+| User Story    | Work-Item / Task                                           |         |                           |                                                              |                    |                      |        |
+| User Story Id | User Story Title                                           | Task Id | Task Title                | Description                                                  | Estimation (Hours) | Assigned To          | Status |
+| US26          | Implement secure authentication with JWT and encryption    | T26     | Secure login with JWT     | As a user, I want to authenticate securely using JWT and encrypted passwords. | 2                  | Jonatan Acuña        | Done   |
+| US25          | Publish product design as a product for sale               | T25     | Publish design as product | As a user, I want to publish my design as a product for sale. | 5                  | Dante Aleman         | Done   |
+| US35          | Add product to shopping cart                               | T35     | Add product to cart       | As a user, I want to add a product to my shopping cart.      | 3                  | Fabrizio Contreras   | Done   |
+| US38          | Create Pending Order from Cart                             | T38     | Create pending order      | As a user, I want to convert my cart into a pending order.   | 2                  | Neil Curipaco        | Done   |
+| US39          | Enter and Confirm Shipping Details                         | T39     | Enter shipping info       | As a user, I want to enter and confirm my shipping details.  | 3                  | Juan Carlos Alvarado | Done   |
+| US40          | Validate and Store Shipping Information in Order           | T40     | Validate shipping info    | As a user, I want my shipping info to be validated and stored. | 2                  | Renzo Luque          | Done   |
+| US41          | Display final order summary to the customer                | T41     | Show order summary        | As a user, I want to see a summary of my order before confirming. | 2                  | Brayan Ccarita       | Done   |
+| US42          | Place and Confirm Order                                    | T42     | Confirm order             | As a user, I want to place and confirm my order.             | 2                  | Jonatan Acuña        | Done   |
+| US43          | Display Order Confirmation                                 | T43     | Show order confirmation   | As a user, I want to see a confirmation after placing an order. | 2                  | Dante Aleman         | Done   |
+| US44          | Notify of New Purchase                                     | T44     | Notify purchase           | As a user, I want to receive a notification after a successful purchase. | 3                  | Fabrizio Contreras   | Done   |
+| US50          | Create secured route and render manufacturer-specific data | T50     | Secure manufacturer route | As a manufacturer, I want to access only my assigned data.   | 3                  | Neil Curipaco        | Done   |
+| US51          | View assigned orders in the manufacturer panel             | T51     | View assigned orders      | As a manufacturer, I want to see my assigned orders.         | 5                  | Juan Carlos Alvarado | Done   |
+| US52          | Update the production status of an order                   | T52     | Update production status  | As a manufacturer, I want to update the status of an order.  | 5                  | Renzo Luque          | Done   |
+| US53          | Upload Production Reports                                  | T53     | Upload production reports | As a manufacturer, I want to upload reports for completed orders. | 2                  | Brayan Ccarita       | Done   |
+| US54          | Filter manufacturer orders by status and date              | T54     | Filter orders             | As a manufacturer, I want to filter orders by status and date. | 5                  | Jonatan Acuña        | Done   |
+| US55          | Implement filtered queries                                 | T55     | Build filtered queries    | As a developer, I want to implement backend queries for filtering. | 2                  | Dante Aleman         | Done   |
+| US56          | Notification of new assigned orders                        | T56     | Notify new assignments    | As a manufacturer, I want to be notified when new orders are assigned. | 2                  | Fabrizio Contreras   | Done   |
+| US62          | Choose a payment method during checkout                    | T62     | Select payment method     | As a user, I want to choose how I pay during checkout.       | 5                  | Neil Curipaco        | Done   |
+| US59          | Bind language selector to i18n module                      | T59     | Connect language selector | As a user, I want the language selector to switch the app language. | 5                  | Juan Carlos Alvarado | Done   |
+
+#### 5.2.4.4 Development Evidence for Sprint Review
+
+Durante el Sprint 4 se avanzó en la implementación de la solución a través de múltiples commits en el repositorio principal quri-open-source/web-app y quri-open-source/service. A continuación se presenta una tabla detallada con cada cambio significativo, su rama de origen, identificador, mensaje y fecha de commiteo. Estos commits reflejan el progreso en los componentes Authentication, Order Fulfillment, Design Lab, Product Catalog, Manufacturer.
+
+**Web App**
+
+| **Repository**           | **Branch**                                                   | **Commit Id**                            | **Commit Message**     | **Author**  | **Committed on** |
+| ------------------------ | ------------------------------------------------------------ | ---------------------------------------- | ---------------------- | ----------- | ---------------- |
+| quri-open-source/web-app | refactor(home): improve code formatting and structure in HomeComponent | 52dd57712bb36db8b0bf513f58aee0b3520f3930 | Merge pull request #41 | JonatanFD   | Jul 6, 2025      |
+| quri-open-source/web-app | Release/2.0.0                                                | 7d3f6ff22dc62c2dbf8073d2023d2a4c8292b3c1 | Merge pull request #40 | JonatanFD   | Jul 6, 2025      |
+| quri-open-source/web-app | Feature/add api config                                       | 546cbe424c99d7b58407964c7ca1b8f1d506a879 | Merge pull request #39 | zGIKS       | Jul 6, 2025      |
+| quri-open-source/web-app | Feature/add manufacturer form                                | 70512e46f80a44b122bbbee53b3a452b15aec976 | Merge pull request #38 | JonatanFD   | Jul 6, 2025      |
+| quri-open-source/web-app | Feature/add order fulfillment                                | ada5617189547032e874e31118964240b9ea37a7 | Merge pull request #37 | JonatanFD   | Jul 6, 2025      |
+| quri-open-source/web-app | Feature/add stripe                                           | 74e9d39683eabdd04943bc70f17e5979f3196f7d | Merge pull request #36 | JonatanFD   | Jul 5, 2025      |
+| quri-open-source/web-app | Feature/fix design lab services                              | 106b814a6645278babafe341e48fa27b52913414 | Merge pull request #35 | JonatanFD   | Jul 5, 2025      |
+| quri-open-source/web-app | Feature/fix design lab                                       | ac4b91cce6e2d108ccf147f8a252d0ab423611fd | Merge pull request #34 | JonatanFD   | Jul 5, 2025      |
+| quri-open-source/web-app | Feature/add i18n                                             | bdca06062bfa3211356dbd90462541fafc609015 | Merge pull request #33 | JonatanFD   | Jul 4, 2025      |
+| quri-open-source/web-app | Feature/refactor canvas edit                                 | 7c123dff2e294b43c5dc6860f61e22d00bc7a72b | Merge pull request #32 | Neilicuri   | Jul 4, 2025      |
+| quri-open-source/web-app | Feature/refactor product catalog service                     | 20a2e99e5d2662cae7f48be634b15473a4fb640c | Merge pull request #31 | renzoluquem | Jul 4, 2025      |
+| quri-open-source/web-app | Feature/refactor shopping cart service                       | 0b80b11f968f0e343a8964acd3e23eff29b2bcba | Merge pull request #30 | renzoluquem | Jul 4, 2025      |
+| quri-open-source/web-app | Feature/refactor design lab service                          | bcd0f990004386423f8765c2d7b424ad7731a1be | Merge pull request #29 | Neilicuri   | Jul 3, 2025      |
+| quri-open-source/web-app | Feature/add profile view                                     | cc2cf99644fef8a26245f7ed40103c556611daab | Merge pull request #28 | JonatanFD   | Jul 3, 2025      |
+| quri-open-source/web-app | Feature/add authentication section                           | e8b095ba818032446abb13458f1cf94ac1b486d3 | Merge pull request #27 | Neilicuri   | Jul 2, 2025      |
+| quri-open-source/web-app | feat: Update project details and preview attributes for consistency a… | 2469450b7ebb7ed2de12c6d55cef5e767ce87b24 | Merge pull request #26 | JonatanFD   | Jul 1, 2025      |
+| quri-open-source/web-app | Merge pull request #24 from quri-open-source/release/3.0.0   | b92a0378ae3857b993aedea99edc3f85797ef08a | Merge pull request #25 | JonatanFD   | Jul 1, 2025      |
+| quri-open-source/web-app | Release/3.0.0                                                | ec8a86e6386d6c63dffb6030e18e0bf16d5bc891 | Merge pull request #24 | zGIKS       | Jun 19, 2025     |
+| quri-open-source/web-app | Feature/fix design lab schema                                | 7d2d43a45c1ed25b92e6fde75efd96c451e86c70 | Merge pull request #23 | zGIKS       | Jun 19, 2025     |
+| quri-open-source/web-app | Feature/refactor order processing                            | 1b52446276338093dec9adfc312257072fa648ed | Merge pull request #22 | fabriziocpa | Jun 19, 2025     |
+
+**Web Service**
+
+| **Repository**                | **Branch**                                                   | **Commit Id** | **Commit Message**                                           | **Author**  | **Committed on** |
+| ----------------------------- | ------------------------------------------------------------ | ------------- | ------------------------------------------------------------ | ----------- | ---------------- |
+| quri-open-source/web-services | Release/2.0.0                                                | f97ab7c       | Merge pull request #57 from quri-open-source/release/2.0.0   | JonatanFD   | Jul 6, 2025      |
+| quri-open-source/web-services | Feature/fix fulfillments items endpoints                     | e8754c6       | Merge pull request #56 from quri-open-source/feature/fix-fulfillments-items-endpoints | JonatanFD   | Jul 6, 2025      |
+| quri-open-source/web-services | Feature/add stripe service                                   | 2e75aa4       | Merge pull request #55 from quri-open-source/feature/add-stripe-service | JonatanFD   | Jul 6, 2025      |
+| quri-open-source/web-services | Feature/fix fulfillment controller                           | e8b8ca6       | Merge pull request #53 from quri-open-source/feature/fix-fulfillment-controller | hallzyx     | Jul 5, 2025      |
+| quri-open-source/web-services | fix: update authentication endpoint path for improved security | f6dc1e1       | update authentication endpoint path                          | JonatanFD   | Jul 5, 2025      |
+| quri-open-source/web-services | Feature/connect with angular                                 | 23652c1       | Merge pull request #51 from quri-open-source/feature/connect-with-angular | JonatanFD   | Jul 4, 2025      |
+| quri-open-source/web-services | Feature/refactor analytics                                   | 226cc29       | Merge pull request #50 from quri-open-source/feature/refactor-analytics | Neilcuri    | Jul 4, 2025      |
+| quri-open-source/web-services | Feature/add update products details                          | 90912a2       | Merge pull request #46 from quri-open-source/feature/add-update-products-details | Neilcuri    | Jul 4, 2025      |
+| quri-open-source/web-services | Feature/add refactor orders                                  | d3974f5       | Merge pull request #44 from quri-open-source/feature/add-refactor-orders | zGIKS       | Jul 3, 2025      |
+| quri-open-source/web-services | Feature/add new endpoints product catalog                    | 8b81edd       | Merge pull request #42 from quri-open-source/feature/add-new-endpoints-product-catalog | fabriziocpa | Jul 2, 2025      |
+| quri-open-source/web-services | Feature/add new endpoints fulfillment item                   | 81c7259       | Merge pull request #41 from quri-open-source/feature/add-new-endpoints-fulfillment-item | zGIKS       | Jul 2, 2025      |
+| quri-open-source/web-services | Feature/add refactor product catalog                         | b25c4bf       | refactor: Remove unused imports across multiple classes for cleaner code | zGIKS       | Jul 2, 2025      |
+| quri-open-source/web-services | Feature/upgrade error handling                               | f4bf55a       | Merge pull request #39 from quri-open-source/feature/upgrade-error-handling | JonatanFD   | Jul 2, 2025      |
+| quri-open-source/web-services | Feature/refactor order processing                            | c69aed1       | Merge pull request #38 from quri-open-source/feature/refactor-order-processing | Neilcuri    | Jul 2, 2025      |
+| quri-open-source/web-services | Feature/add error handling                                   | a35404e       | Merge pull request #37 from quri-open-source/feature/add-error-handling | JonatanFD   | Jul 2, 2025      |
+| quri-open-source/web-services | Feature/add rest api endpoints                               | 0019fa7       | Merge pull request #36 from quri-open-source/feature/add-rest-api-endpoints | zGIKS       | Jul 2, 2025      |
+| quri-open-source/web-services | Feature/add authentication                                   | 1333d8b       | Merge pull request #35 from quri-open-source/feature/add-authentication | JonatanFD   | Jul 1, 2025      |
+| quri-open-source/web-services | Feature/add shopping cart                                    | 9cc6bcd       | Merge pull request #34 from quri-open-source/feature/add-shopping-cart | Neilcuri    | Jul 1, 2025      |
+| quri-open-source/web-services | Feature/add cloudinary service                               | 398fe34       | Merge pull request #33 from quri-open-source/feature/add-cloudinary-service | JonatanFD   | Jul 1, 2025      |
+| quri-open-source/web-services | Feature/add mysql dependencies                               | 398fe34       | Merge pull request #32 from quri-open-source/feature/add-mysql-dependencies | zGIKS       | Jul 1, 2025      |
+| quri-open-source/web-services | Feature/add acl to design lab                                | 91d11bb       | Merge pull request #31 from quri-open-source/feature/add-acl-to-design-lab | JonatanFD   | Jun 30, 2025     |
+| quri-open-source/web-services | Feature/add order processing                                 | 0043b01       | Merge pull request #30 from quri-open-source/feature/add-order-processing | JonatanFD   | Jun 30, 2025     |
+| quri-open-source/web-services | feat: add Dockerfile for multi-stage build and application deployment | e8a93fc       | Merge pull request #28 from quri-open-source/hotfix/add-docker-file | zGIKS       | Jun 19, 2025     |
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+En este sprint, logramos avances significativos en la implementación y funcionalidad de varios endpoints clave, tanto en el Web Service (backend) como en la Web App (frontend), mejorando la seguridad, la gestión de pedidos y la experiencia de diseño de productos.
+
+Autenticación
+
+- **Web Service**: Se implementaron los endpoints de autenticación, permitiendo registros de usuarios seguros con validación de datos y cifrado de contraseñas, así como inicios de sesión que emiten JWTs con manejo de expiración. Esto asegura sesiones de usuario robustas y sin estado.
+- **Web App**: Se integró la funcionalidad para manejar el login y el registro de usuarios, consumiendo los endpoints del backend. Los usuarios ahora pueden crear cuentas y acceder a la plataforma de forma segura, además de contar con la opción de "mantenerse conectado" entre sesiones y una funcionalidad de cierre de sesión seguro que invalida tokens y limpia metadatos de sesión. También se implementó un flujo seguro para el restablecimiento de contraseñas con tokens temporales.
+
+Órdenes (Pedidos)
+
+- **Web Service:** Se desarrollaron endpoints para la gestión completa del ciclo de vida de los pedidos. Esto incluye la creación de pedidos pendientes a partir del carrito de compras, la validación y almacenamiento de la información de envío, la confirmación final de los pedidos, y la notificación automática a los fabricantes sobre nuevas compras.
+- **Web App:** Se habilitó el flujo de checkout completo para el cliente. Esto abarca la capacidad de añadir productos al carrito, proceder al checkout, ingresar y confirmar detalles de envío, visualizar un resumen final del pedido, y realizar y confirmar la compra. Tras la confirmación, el usuario ve una pantalla de confirmación de pedido con detalles y seguimiento estimado. Adicionalmente, los usuarios pueden ver su historial de pedidos con estados detallados y fechas de entrega estimadas.
+
+Design Lab y Catálogo de Productos
+
+- **Web Service:** La infraestructura de seguridad y autenticación, junto con la capacidad de filtrar consultas, son fundamentales para la operación segura y eficiente de estos módulos. Los endpoints existentes para diseño y proyectos, mencionados como completados en el sprint anterior, ahora se benefician de estas mejoras de seguridad.
+- **Web App:** Los usuarios ahora pueden añadir productos al carrito de compras, lo cual implica la interacción con el catálogo de productos. La integración de la funcionalidad de traducción de la aplicación también mejora la accesibilidad del catálogo y la experiencia en el Design Lab para usuarios de diferentes idiomas. Las nuevas características de pedidos permiten que los diseños creados o los productos del catálogo se conviertan en pedidos reales.
+
+Fabricante (Panel de Fabricante)
+
+- **Web Service:** Se crearon rutas seguras y se implementaron controles de acceso basados en roles para proteger el dashboard del fabricante. Se desarrollaron endpoints para ver y actualizar el estado de producción de pedidos asignados, así como para subir informes de producción. La capacidad de filtrar pedidos por estado y fecha también fue un avance clave.
+- **Web App:** Se habilitó el acceso al dashboard del fabricante, donde los fabricantes pueden ver todos los pedidos asignados, actualizar sus estados de producción, y subir informes o notas. La funcionalidad de filtro por estado y fecha también está disponible para mejorar la gestión. Además, se implementó un sistema de notificaciones para nuevos pedidos asignados, permitiendo a los fabricantes comenzar la producción de forma más rápida.
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfk6mYHieisxCyzzZIobrMzh_VwSdiOvx6DewMIckD9e1Tu1zQhz3vNBXGEBeyACpwrjWRimCD6CfxAXfezlTxwyPe6scNvN8k80RNlu6agwQdvltjsZc5CQ0u3CxMiEKJtQkXaHA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdKa_CEjC1ToDce0MCuz4O9J2dSyFCokwTjd-cmTPyIyOoOkCj6wrYRiNRvtFuniPk_x88GVFvYa8Qk1SWht_v2ptlFLJkp74plyuKGonL5nMvbI73xUQUwGsAVO-HhlO_peOMaEQ?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfQSV_lzRg81uaq0IAy6EkPK-SPE16cWag1p6KB8cKqRa7yrPD_MVBrjHZ9sSXs8ru1CyY7JICPN8WaF1mMiEeTvFYD7oEum2DbPGB-OvF0KdsSp40ECty12I815tGzubg88H8xWQ?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfp55jr8yuAFgS8SZuMkMzgjgPXltzNMWN4TYz9aL4JxWPa6EFUHmjoS-7zGfVbNsYJ06cK7pBAZopCddFXNN2JSkjgGHnFdZC1mUGAdemlmqUQyvtzKdh583sJ2zuGonVAE2_CfQ?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeniR426MXD6FQmsjKVuddK6-VE6-3zx_XK2ybUS4XqlAppe223qijSg0g5tr3OEJc0n8MSdnjlG33jmn6RQTJ-1W1-sUcpnxEVtaMQg0ffqR6DFIAoewNRdr51QURey8QPao3K_g?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe5JawCuQE5FsuoD7EKQhL2hkQ7GqdfurCQGwk2maoFjydy3fG27yLWr0K68SS12pAZZNtVs6-Pj4cTkswdiNpYdaI4lFZOmv5VIy1JN3tv2mGKYOCizRp9GPzwK7bskyFL69JcGw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcQB-80BSqPNPO-NvYyLHpmkSV8BeXDhNV2QjSsDRxUcuQ7zo8Qtynqo8HfFawKdKu0BeLZibBw2Hh_pvkHhjLEW8tokA9MWAPe342w53UQZWWKqLVQZP0xLf_MwQQdedVBpxhflg?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Link del video upc-pre-202510-1asi0729-4350-quri-about-the-team-sprint-4: https://acortar.link/lExAu7
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 4 del proyecto Quri TeeLab, se avanzó significativamente en la documentación de los servicios web mediante el estándar OpenAPI 3.1. Esta documentación permite asegurar la trazabilidad, comprensión técnica y correcta integración de los endpoints desarrollados, tanto para el equipo de frontend como para el backend. La documentación fue generada y validada utilizando Swagger UI, y cubre funcionalidades clave como autenticación, gestión de proyectos, manipulación de capas, procesamiento de pedidos, y flujos de producción.
+
+A continuación, se presenta una tabla con los endpoints documentados, las acciones implementadas, los métodos HTTP utilizados, los parámetros requeridos, ejemplos de respuesta, y los enlaces correspondientes a la documentación generada.
+
+**Endpoints de Autenticación** 
+
+| **Endpoint**         | **Acción**                                                   | **Verbo HTTP** | **Parámetros**                                               | **Commit** |
+| -------------------- | ------------------------------------------------------------ | -------------- | ------------------------------------------------------------ | ---------- |
+| /api/v1/auth/sign-up | El usuario ingresa sus credenciales para registrarse         | POST           | { "username": "string", "password": "string", "roles": [  "ROLE_USER" ]} | ac80137    |
+| /api/v1/auth/sign-in | El usuario ingresa su credenciales para ingresar a la pagina | POST           | { "username": "string", "password": "string"}                | ac80137    |
+
+Se incluyen a continuación capturas de pantalla que ilustran la interacción con la documentación generada mediante Swagger UI, utilizando datos de prueba para validar los endpoints descritos. Las imágenes muestran:
+
+El usuario se registra en la página web
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeT3nA7sK6vyjLTdFKgorLVJtCW2vWIN6gTz8fhRjwoaNEly6HvvKWLo6ynlkvKm9z6F7jt7gMOP7dtGGR2Ugax99glWN6u--G4iG9afE5CuMaJs2C0BtSRDUaqZfeoB2ASFcaI?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcD-cnUJfX5yBc29j_Tk3vK212yLn4-51CNOLv_aGNT8ST2ViuNbzkO0hDPKmbLtkY2UIkoVXL5EaYF5XHBoRggcJ5PqIf1qzUOZBajUXOARd0fqRHl3kMJNhSJ5lH98n7Te8d2?key=wLsuErVgqDz-qczrBI4kMctR)
+
+El usuario accede a la página web
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdJ2-t3Psal-7Xn4TtacuEP23W7xbNCpr7JuzYQIyG6f4org8Oi2LJtn9OUeaEHk44DkohAslfUywJhw3d7kw1Ea63xRj5Xx_qgla2Y5xB801EVeCSKlOODRQi2H64fvtoq7tKO?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeon3sbhNR2l7cwU96M7684ugdrH8VDh1L8bNhyZkOl87UPETlLXfEO7poJWQd2rnfAv5Boh8aKiaXM_HeiMh5GL-d7WUz5CVYi7cUe6lizbqT7gKcV5DFWoM4gLud6_10bq0z-hA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+**Endpoints de users**
+
+| **Endpoint**           | **Acción**                            | **Verbo HTTP** | **Parámetros** | **Commit** |
+| ---------------------- | ------------------------------------- | -------------- | -------------- | ---------- |
+| /api/v1/users          | Obtener detalles de todos lo usuarios | GET            | no parámetros  | ac80137    |
+| /api/v1/users/{userId} | Obtener detalles de un usuario        | GET            | userId         | ac80137    |
+
+Se incluyen a continuación capturas de pantalla que ilustran la interacción con la documentación generada mediante Swagger UI, utilizando datos de prueba para validar los endpoints descritos. Las imágenes muestran:
+
+Obtener detalles de un usuario ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXctQB4SafUdj7g0LWDyaK-d_nZlCAVZ3SI0rZqDeVQAfw1_iHD7TrbjVjRyoswIy2VLCcnGSw_afXeV6f71ormyoTUntmT7U7J7wJfhDZ5wnfJ5l5qRduk0aTizESW5Iwelp5fl?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXekUHkT2mf6v-ah-u1YVwwTbO7cfErH68mSvVifH7W65Iss4Yj3pK1_obGvbv_zMVRFzu7vI2As9YyjHqNx6l5H-2zI61vKFkdmYfCBl9LVMPbrurCXJbuTfisqhbrYpGTcsRLj?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Obtener detalles de un usuario 
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd7k6hv3xCilf0QZpReEOy05FSD8fnj0BVr0hTOUmQyUjPKkuJmLw5oeILBn4VMtUAk37GDoiL2ahQZT4CoDJ98eAHLSwCOuXgrl5kivaT7qmDuE3im7Xd5X-5BSBcyklasd_RU?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeEyn1NfMSuaDTRy3ZxOHS00PzTS7As9DqXsHe15i_m7abRjdDRsY_bHrqwmlWPyFjIjJMSlCzSnJW0-JYE4dCiGvmJzW1C6vjDRCGQZdtKBBHUWjiEkhMZEOcMW-C_NCaXaIth?key=wLsuErVgqDz-qczrBI4kMctR)
+
+**Enpoints de Product Catalog**
+
+| **Endpoint**                | **Acción**                              | **Verbo HTTP** | **Parámetros**                                               | **Commit** |
+| --------------------------- | --------------------------------------- | -------------- | ------------------------------------------------------------ | ---------- |
+| /api/v1/projects            | Obtener los proyectos de un usuario     | GET            | UserId                                                       | ac80137    |
+| /api/v1/projects            | Crear un nuevo proyecto                 | POST           | { "title": "string", "userId": "string", "garmentColor": "string", "garmentGender": "string", "garmentSize": "string"} | ac80137    |
+| api/v1/projects/{projectId} | Obtener un proyecto por id de proyecto  | GET            | projectId                                                    | ac80137    |
+| api/v1/projects/{projectId} | Eliminar un proyecto por id de proyecto | DELETE         | projectId                                                    | ac80137    |
+
+Se incluyen a continuación capturas de pantalla que ilustran la interacción con la documentación generada mediante Swagger UI, utilizando datos de prueba para validar los endpoints descritos. Las imágenes muestran:
+
+Crear un nuevo proyecto 
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdLHGWebQV36FHUQB6xzppq_gRSO-rqYk1IxFvz-tebYtAQdPlU6FNtYstX2oYwKdi0_kDq-hvQI7uSePydTapxNT23kBgFeRggzbF1D81zYNqOYc_LgRgQXPl-IjaNiUHaL3Ep_A?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdDAMouhZdsMq6QbXvzOm6psLC26Yq96Jl6jUrz7GlirUWTe5wUeT_9S56baaBhNryoxV-8BPS5ZAEy6oObppJTMGBWWCNqRnt0y7CnchwEhPZXqY_5sU9k2OIhmRZOqzqWjg3ddw?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Obtener un proyecto por el id del usuario
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdnXp3TC_yGJnXidKZDXSlT2bgTZqAD4uZnFrfJpSgMQQLojF-NEu2442Z_P55AVWhXq8mrpzTMH39eYDHfhZaLbS8L2KFAK6mrAsGerFUA3wUBJhMbtlABODeCMfOgEleL_jhGOA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdokrNH5r3olVU8kEvm3qoHvSeurnuww9Lym6tnqfZiDP-j1kGSTXNmRc2D63wiB_wldKgC9n1tCscFfgNRRIGN8obPKdjarIXZXdNi90IytRsV2MEKw6KtYnotDdl09frHmrEEuQ?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Obtener proyecto por el id del proyecto
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdV53XVeUGO8-YAMtJEEcjpmBqVurajuTgJU11RetB8zSivoQftjRehs1drbKPug_Tz-yCGYZaQmLl0IirlaDTSyPghoV5JprLCqduKGWrjTVmI4-Icl58lj-8U4BxieuwdKzU2?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcgzErHDAOGiXO7hP5l_sK1w3RF1GmxhF0wb2n08PGnEr123WdixSBT0BLhRELoNwGDB8EhTacWULjnaaEaLv8mpathDLvHbsw92WH1LNg8aE9dC2RoIohHtlsBuT9_ur5M88jQ?key=wLsuErVgqDz-qczrBI4kMctR)
+
+**Enpoints de Product Likes**
+
+| **Endpoint**                                | **Acción**                                   | **Verbo HTTP** | **Parámetros**    | **Commit** |
+| ------------------------------------------- | -------------------------------------------- | -------------- | ----------------- | ---------- |
+| /api/v1/products/{productId}/likes/{userId} | Obtener si el usuario dio like a un producto | GET            | productId, userId |            |
+| /api/v1/products/{productId}/likes/{userId} | Dar like a un producto                       | POST           | productId, userId |            |
+| /api/v1/products/{productId}/likes/{userId} | Eliminar el like dado a un producto          | DELETE         | productId, userId |            |
+| /api/v1/products/{productId}/likes/count    | Obtener el número de likes                   | GET            | productId         |            |
+
+No se envía un JSON en el body, solo se usan los path parameters para identificar el recurso (producto + usuario) sobre el que se actúa. Se incluyen a continuación capturas de pantalla
+
+**Obtener si el usuario likeo un producto**
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfq_NGuWPsaoJZ6PaSt-S5KXeK_A6PuWeymXiMQdyUk6DkblPgeteEqs4sHbeKlegGNcHqenSlWE1EVAw-jLG72opQgFYoGSjw6I0WBLSphNOGVJwdxmlzrMrAawIQFDfNQrlCf?key=wLsuErVgqDz-qczrBI4kMctR)
+
+**Dar like siendo usuario a un producto**
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXel2QhCIyhfD8MubBywW5R7BPhYdMCp2bFPoZp-KK3qQ8HI9F4pWIdFpZTuqs3SpPyB2rnfpaz0bHrfW1_g-vz3De61kCoWuQm6PAoSI8GEQ_QTrDDrIyskWrzs3u3fGQA2Mh30IQ?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Obtener el número de likes de un product
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc88e5NoaTsoBwcQvfzSJih5dkVE5VyhQBnESlgICZFOkuMC7hLH1ZUcrUZOG-ulQZOmXjmQXdfuF6KYM3QIuqWDYI3hdJkN4xHTjmjDuxQMeGKHLjzjrb6VA6WOb-zv4rfY238?key=wLsuErVgqDz-qczrBI4kMctR)
+
+positorio web service https://github.com/quri-open-source/web-services
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+Para el despliegue del Web Service, se utilizó Railway.app como plataforma de gestión y despliegue continuo. Esta herramienta permitió poner en producción el backend de manera sencilla, facilitando la administración del entorno, la ejecución de la aplicación y la disponibilidad del servicio de forma estable y escalable.
+
+Deployment del web server
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdXHNm5MVsGCEZRpkwe-P63JJOMjoEoaa-iSRMHYz2JPrZUUVLstPRSUSVhs3CLDItLblf2UKKsQXXq092Gs8NdPExRB6Bcx92BM-DOeY4rdz1qHDg63blk92nrKlhL3G6GYAbYHA?key=wLsuErVgqDz-qczrBI4kMctR)
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf9YDDLG8dheItp18C1vAbZi08-bszJD2o36FzsLKOaSnxmEyKtcKBCADIGoumH5tYPtM_q4Iw_M311Gkk6WZ0usc86Ya2FSksQdC5Tr48kdwpE2THdONFzdCmPPv9s21YFs1sHmQ?key=wLsuErVgqDz-qczrBI4kMctR)
+
+
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfwQJDSsMW9jKZ7OUdQTCJMLQxJEWOo7D6Dk4q1dwWF3ZcPlh8S3Je3fO__Mo8NwYQz7Y6o6pldtnUABw49qd8Qoh9uDwMa9QiA0yk5ybPwlaabnWr0ageJ2gnfbPpfn7x-AfayWg?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Link del deploy de web service : https://web-services-ydwf.onrender.com/swagger-ui/index.html#/
+
+Link del deploy de la web app: https://web-app-lc38.onrender.com/sign-in
+
+Link del deploy de la landing page: https://quri.netlify.app/
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+En este sprint, avanzamos significativamente tanto en la API del Servicio Web como en la Aplicación Web. Para la API, implementamos con éxito funciones cruciales de autenticación y seguridad, rutas seguras para el acceso de los fabricantes y consultas filtradas eficientes. En cuanto a la Aplicación Web, completamos el recorrido de compra del cliente, incluyendo la adición de productos al carrito, la gestión de los detalles de envío y la realización y confirmación de pedidos. También mejoramos la experiencia del fabricante con paneles dedicados para ver y actualizar los estados de producción, subir informes y recibir notificaciones de nuevas asignaciones. Finalmente, la aplicación ganó mayor accesibilidad gracias a las funciones de selección de idioma e internacionalización.
+
+Contribuciones Individuales:
+
+Jonatan Ariel Acuña Corahua
+
+- Tareas de Jira:
+  - QOS-26: Implementar autenticación segura con JWT y cifrado de contraseñas
+  - QOS-50: Crear ruta segura y renderizar datos específicos del fabricante
+  - QOS-55: Implementar consultas filtradas
+- Contribución: Jonatan fue un motor principal para el desarrollo del backend, implementando la autenticación central y rutas protegidas, configurando los pagos con Stripe, y contribuyendo a las vistas del fabricante. También gestionó los endpoints REST y coordinó los lanzamientos.
+
+Dante Mateo Aleman Romano
+
+- Tareas de Jira:
+  - QOS-25: Publicar diseño de producto como producto a la venta
+  - QOS-41: Mostrar resumen final del pedido al cliente
+  - QOS-59: Vincular selector de idioma al módulo i18n y activar cambio de idioma
+- Contribución: Dante se centró en el frontend y la experiencia de usuario, configurando APIs e internacionalización. Contribuyó a las vistas para ensambladores y fabricantes, y jugó un papel clave en la coordinación del lanzamiento 3.0.0, junto con la refactorización de la lógica de productos y pedidos.
+
+Fabrizio Alessandro Contreras Peralta
+
+- Tareas de Jira:
+  - QOS-38: Crear pedido pendiente desde el carrito
+  - QOS-40: Validar y almacenar información de envío en el pedido
+  - QOS-42: Realizar y confirmar pedido
+- Contribución: Fabrizio fue crucial para agilizar el flujo de compra, específicamente refactorizando los flujos de pedido, mejorando las validaciones en el checkout, y añadiendo nuevos endpoints para el procesamiento de pedidos.
+
+Neil Aldrin Wilhelm Curipaco Huayllani
+
+- Tareas de Jira:
+  - QOS-44: Notificar nueva compra
+  - QOS-62: Elegir método de pago durante el checkout (Esta US no fue proporcionada en la lista, por favor verifique si es correcta para este sprint)
+  - QOS-43: Mostrar confirmación de pedido
+- Contribución: Neil contribuyó a la refactorización del lienzo (canvas) y el diseño general, implementando funcionalidades de autenticación y carrito de compras, y mejorando la navegación y la presentación de la página de inicio. También trabajó en los módulos de backend para productos y pedidos.
+
+Juan Carlos Alvarado De La Cruz
+
+- Tareas de Jira:
+  - QOS-51: Ver pedidos asignados en el panel del fabricante
+  - QOS-52: Actualizar estado de producción de un pedido
+  - QOS-54: Filtrar pedidos del fabricante por estado y fecha
+- Contribución: No se encontraron commits directos para Juan Carlos en los repositorios durante el Sprint 4,
+
+Renzo Andres Luque Minaya
+
+- Tareas de Jira:
+  - QOS-53: Subir reportes de producción
+  - QOS-56: Notificación de nuevos pedidos asignados
+  - QOS-39: Ingresar y confirmar detalles de envío
+- Contribución: Renzo se centró en la carga de informes de producción, la implementación de notificaciones para nuevos pedidos asignados, y la gestión de la entrada y confirmación de los detalles de envío. También desempeñó un papel en la refactorización del catálogo de productos y la mejora del flujo de compra.
+
+Brayan Roberto Ccarita Cruz
+
+- Tareas de Jira:
+  - QOS-35: Añadir producto al carrito de compras
+  - QOS-42: Realizar y confirmar pedido (compartida con Fabrizio)
+  - QOS-43: Mostrar confirmación de pedido (compartida con Neil)
+- Contribución: Brayan brindó apoyo en las tareas de frontend y checkout, específicamente integrando correcciones en el módulo de cumplimiento y contribuyendo a las tareas de backend relacionadas con los pedidos.
+
+Evidencia de web app
+
+![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfPDKB8taBStPaOYnH0ZE5pmcLXBKaEeh0PZ8-PkGqfaeEYq1QOYC2RpYs-iowGzDauaqbMERlb4tD7wZE_XwwFIzpooHcl1FGciFqbXqImqdTNr_NxGBxlJc5vts5UQ8rTQBJ3?key=wLsuErVgqDz-qczrBI4kMctR)
+
+Evidencia de web service ![img](https://lh7-rt.googleusercontent.com/docsz/AD_4nXez6WnhlBbxWIbUyzpiIHsnlEXC7-DV_SHqHqmSo2_9KQZrVh_qFRxW5mqCVZr0xXj2xys6hvhDXMP0kovdmRz0GJ0K0I28Jj9wjVJ9HFkXDzLWYnZsuY0tRw5oE2_Of9n1tPUqoQ?key=wLsuErVgqDz-qczrBI4kMctR)
+
+
 
 ## 5.3. Validacion Interviews
 
@@ -4738,7 +4679,9 @@ Formulación de las preguntas:
 
 
 
-Link del video: [upc-pre-202510-1asi0729-4350-Quri-about-the-product-sprint-3.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b866_upc_edu_pe/EU6hCiQLOENJgNKha_AAiUEB2T9jFUASx1AuyvloX3KppA?e=hOeAXC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+Link del video: upc-pre-202510-1asi0729-4350-Quri-about-the-product-sprint-3
+
+https://shorturl.at/1jrUa
 
 | **Segmento objetivo #1:**                                    |                                       |
 | ------------------------------------------------------------ | ------------------------------------- |
@@ -4930,7 +4873,7 @@ SEGMENTO: MANUFACTURERS (Fabricantes / Vendedores)
 
 ## 5.4. Video About-the-Product
 
-Link del video: [upc-pre-202510-1asi0729-4350-Quri-about-the-product-sprint-3.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b866_upc_edu_pe/EZbJCAK8ZfVHm9rH083Mi4QB-NwnUhbJT0QH6-Syq9l1mQ?e=OPci0q&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+Link del video: upc-pre-202510-1asi0729-4350-Quri-about-the-product-sprint-3 https://short-link.me/16N2o
 
 El video tiene como propósito principal presentar, de manera clara y atractiva, el modelo de negocio y las funcionalidades clave de la plataforma TeeLab, orientada al diseño y compra de camisetas personalizadas.
 
@@ -4976,6 +4919,18 @@ Desde la perspectiva del fabricante, se evidenció la necesidad de mayor autonom
 
 En cuanto a la colaboración del equipo, se mantuvo una alta alineación con los objetivos del Sprint cumpliendo con los compromisos planificados. Se fortaleció la documentación técnica, se mejoraron las prácticas de revisión de código, y se incorporaron propuestas del Sprint anterior, como validaciones anticipadas y pruebas cruzadas en navegadores.
 
+# Video About-the-Team
+
+
+
+upc-pre-202510-1asi0729-4350-quri-about-the-team-sprint-4 https://youtu.be/59BUGmHUgRQ
+
+En el ámbito de la comunicación oral, el equipo demostró una sólida capacidad para discutir y resolver problemas de manera efectiva durante las reuniones de planificación, revisión y retrospectiva. Las explicaciones claras y concisas de los miembros sobre los nuevos sistemas de autenticación con JWT, los flujos completos de checkout desde el carrito hasta la confirmación, o el funcionamiento del panel de fabricante, fueron cruciales para asegurar un entendimiento compartido de los objetivos y desafíos técnicos. Esta fluidez en la comunicación verbal permitió una toma de decisiones ágil y la integración exitosa de la retroalimentación, traduciendo requisitos complejos en soluciones funcionales.
+
+En cuanto a la comunicación escrita, el equipo mantuvo un alto estándar de documentación a lo largo del sprint. Esto se evidenció en la precisión y claridad de los mensajes de commit, que facilitaron el seguimiento del progreso y la trazabilidad de los cambios. La descripción detallada de las tareas en Jira, abarcando la implementación de la autenticación segura, la gestión de pedidos, las funcionalidades del panel de fabricante y la traducción de la aplicación, fue fundamental para la coordinación y transparencia del proyecto. Además, la elaboración de documentación técnica robusta para los nuevos endpoints y funcionalidades asegura que el conocimiento sea accesible y comprensible para futuras iteraciones y para cualquier nuevo miembro del equipo.
+
+En síntesis, este Sprint ha sido un testimonio de la sinergia y la capacidad técnica del equipo, logrando implementar funcionalidades críticas que enriquecen significativamente la experiencia del usuario final y optimizan los procesos para los fabricantes. La seguridad, la eficiencia del flujo de compra y la gestión operativa fueron los pilares de nuestro trabajo, y todo ello fue posible gracias a una comunicación excepcional, tanto oral como escrita, que garantizó la cohesión y el avance continuo del proyecto.
+
 # Bibliografía:
 
 Adobe. (2022). The future of creativity: Personalization trends in consumer behavior. Adobe Creative Insights.
@@ -4988,11 +4943,11 @@ El Comercio. (2022). *Estudio de consumo responsable en Perú 2022*. https://elc
 
 Fletcher, K. (2014). Sustainable fashion and textiles: Design journeys (2nd ed.). Routledge.
 
-Fowler, M. (n.d.). *GivenWhenThen*. https://martinfowler.com/bliki/GivenWhenThen.html
+Fowler, M. (n.d.). *GivenWhenThen*. https://shorturl.at/bXlvd
 
 Google. (n.d.). *Firebase*. Retrieved from https://firebase.google.com/
 
-IBM Design. (n.d.). *To-Be Scenario Mapping Toolkit.* https://www.ibm.com/design/thinking/page/toolkit/activity/to-be-scenario-map
+IBM Design. (n.d.). *To-Be Scenario Mapping Toolkit.* https://shorturl.at/m54aI
 
 JetBrains. (n.d.). *WebStorm*. Retrieved from https://www.jetbrains.com/webstorm/
 
@@ -5002,7 +4957,7 @@ Kim, H., & Lee, Y. (2020). *The effect of mass customization on consumer satisfa
 
 Lucid Software Inc. (n.d.). Lucidchart. Retrieved from https://www.lucidchart.com/
 
-Mountaingoat Software. (n.d.). User Stories and Acceptance Criteria. https://www.mountaingoatsoftware.com/
+Mountaingoat Software. (n.d.). User Stories and Acceptance Criteria. https://shorturl.at/RipYm
 
 OpenJDK. (n.d.). *OpenJDK*. Retrieved from https://jdk.java.net/
 
@@ -5012,7 +4967,7 @@ Postman, Inc. (n.d.). *Postman*. Retrieved from https://www.postman.com/
 
 Shopify. (2023). *Print-on-demand: Market opportunities and business strategies*. Shopify Reports.
 
-Sindicode. (2018). *12 Software Architecture Quality Attributes*. https://syndicode.com/2018/05/03/12-software-architecture-quality-attributes/
+Sindicode. (2018). *12 Software Architecture Quality Attributes*.[ https://shorturl.at/u9YM1](https://shorturl.at/u9YM1)
 
 Spring. (n.d.). *Spring Boot*. Retrieved from https://spring.io/projects/spring-boot
 
@@ -5022,25 +4977,48 @@ Supabase. (n.d.). *Supabase*. Retrieved from https://supabase.com/
 
 Twilio. (2023). *Customer Engagement Report 2023*. https://www.twilio.com/
 
-UML Diagrams. (n.d.). *Use Case Diagrams Examples*. https://www.uml-diagrams.org/use-case-diagrams-examples.html
+UML Diagrams. (n.d.). *Use Case Diagrams Examples*.[ https://short-link.me/16N1B](https://short-link.me/16N1B)
 
-# Anexo
+# Anexos
 
 Anexo 1.
 
 Repositorio de la organización: https://github.com/quri-open-source
 
-Figma: https://www.figma.com/design/4jA9mIRWDtvp0XZKwGMG6V/Entrega---quri?node-id=17-51&t=CZKh8lt5YEdp3AkG-1 
+Figma:[ https://short-link.me/12zIq](https://short-link.me/12zIq)
 
-"Anexo: Diagrama de Lean UX Canvas" [https://drive.google.com/drive/folders/1ctYIYsZtXYcRKoBjgA4hCUx4Xmwf66EZ?usp=sharing
-](https://drive.google.com/drive/folders/1ctYIYsZtXYcRKoBjgA4hCUx4Xmwf66EZ?usp=sharing)“Anexo: Diagrama User Persona” [https://drive.google.com/drive/folders/1R8iOqc0ieVcnw8Vr9TyI9FlygRtZmc4k?usp=sharing
-](https://drive.google.com/drive/folders/1R8iOqc0ieVcnw8Vr9TyI9FlygRtZmc4k?usp=sharing)“Anexo: Diagrama Journey Mapping” https://drive.google.com/drive/folders/1h3zjZW7i1lTedkyJnTJQeXw4Y27kYPOY?usp=sharing
+"Anexo: Diagrama de Lean UX Canvas"[ https://short-link.me/16N1R
+](https://short-link.me/16N1R)“Anexo: Diagrama User Persona” [https://shorturl.at/Bz3gG
+](https://shorturl.at/Bz3gG)“Anexo: Diagrama Journey Mapping” https://shorturl.at/8df4u
 
-“Anexo: Diagrama Empathy Mapping”
+“Anexo: Diagrama Empathy Mapping” [https://shorturl.at/W61Dz
+](https://shorturl.at/W61Dz)“Anexo: Diagrama Scenario Mapping” https://acortar.link/c0uFoZ
 
-[https://drive.google.com/drive/folders/1SmotEHZv7R4b4g4NwnTeehjksSv_uQhR?usp=sharing
-](https://drive.google.com/drive/folders/1SmotEHZv7R4b4g4NwnTeehjksSv_uQhR?usp=sharing)“Anexo: Diagrama Scenario Mapping” 
+“Anexo: Impact Mapping” https://short-link.me/16Fhk
 
-https://acortar.link/c0uFoZ
+upc-pre-202510-1asi0729-4350-prototype-quri-navigation-sprint-1 [https://short-link.me/16FiI
 
-“Anexo: Impact Mapping” https://drive.google.com/drive/folders/1SmotEHZv7R4b4g4NwnTeehjksSv_uQhR?usp=sharing
+](https://short-link.me/16FiI)
+
+upc-pre-202510-1asi0729-4350-Quri-needfinding-sprint-1 https://shorturl.at/bDehN
+
+
+upc-pre-202510-1asi0730-4350-quri-product-navigation-sprint-1 : https://shorturl.at/ikk23
+
+upc-pre-202510-1asi0730-4350-quri-product-navigation-sprint-2:[ https://shorturl.at/IK79Y](https://shorturl.at/IK79Y)
+
+upc-pre-202510-1asi0729-4350-Quri-about-the-product-sprint-3 https://shorturl.at/1jrUa
+
+upc-pre-202510-1asi0729-4350-quri-about-the-team-sprint-4: https://acortar.link/lExAu7
+
+upc-pre-202510-1asi0729-4350-quri-about-the-team-sprint-4 https://youtu.be/59BUGmHUgRQ
+
+upc-pre-202510-1asi0729-4350-quri-about-the-team-sprint-4 expocion https://youtu.be/Lz2a7k1AEj0
+
+Link del repositorio web service https://github.com/quri-open-source/web-services
+
+Link del deploy de web service : https://web-services-ydwf.onrender.com/swagger-ui/index.html#/
+
+Link del deploy de la web app: https://web-app-lc38.onrender.com/sign-in
+
+Link del deploy de la landing page: https://quri.netlify.app/
